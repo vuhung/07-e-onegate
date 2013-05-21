@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 147
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/vimagegallery-portlet/docroot/WEB-INF/src/com/vportal/portlet/vimagegallery/service/http
+END
+TFImageJSONSerializer.java
+K 25
+svn:wc:ra_dav:version-url
+V 174
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/vimagegallery-portlet/docroot/WEB-INF/src/com/vportal/portlet/vimagegallery/service/http/TFImageJSONSerializer.java
+END
+TFImageServiceSoap.java
+K 25
+svn:wc:ra_dav:version-url
+V 171
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/vimagegallery-portlet/docroot/WEB-INF/src/com/vportal/portlet/vimagegallery/service/http/TFImageServiceSoap.java
+END
+TFCategoryJSONSerializer.java
+K 25
+svn:wc:ra_dav:version-url
+V 177
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/vimagegallery-portlet/docroot/WEB-INF/src/com/vportal/portlet/vimagegallery/service/http/TFCategoryJSONSerializer.java
+END
+TFCategoryServiceSoap.java
+K 25
+svn:wc:ra_dav:version-url
+V 174
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/vimagegallery-portlet/docroot/WEB-INF/src/com/vportal/portlet/vimagegallery/service/http/TFCategoryServiceSoap.java
+END

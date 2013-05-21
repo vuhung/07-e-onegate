@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" default-destroy-method="destroy" default-init-method="afterPropertiesSet" xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+	<bean id="com.vportal.portlet.vlegal.service.VLegalDocumentService" class="com.vportal.portlet.vlegal.service.impl.VLegalDocumentServiceImpl" />
+	<bean id="com.vportal.portlet.vlegal.service.VLegalDocumentServiceUtil" class="com.vportal.portlet.vlegal.service.VLegalDocumentServiceUtil">
+		<property name="service" ref="com.vportal.portlet.vlegal.service.VLegalDocumentService" />
+	</bean>
+	<bean id="com.vportal.portlet.vlegal.service.persistence.VLegalDocumentPersistence" class="com.vportal.portlet.vlegal.service.persistence.VLegalDocumentPersistenceImpl" parent="basePersistence" />
+	<bean id="com.vportal.portlet.vlegal.service.persistence.VLegalDocumentFinder" class="com.vportal.portlet.vlegal.service.persistence.VLegalDocumentFinderImpl" parent="basePersistence" />
+	<bean id="com.vportal.portlet.vlegal.service.VLegalFieldService" class="com.vportal.portlet.vlegal.service.impl.VLegalFieldServiceImpl" />
+	<bean id="com.vportal.portlet.vlegal.service.VLegalFieldServiceUtil" class="com.vportal.portlet.vlegal.service.VLegalFieldServiceUtil">
+		<property name="service" ref="com.vportal.portlet.vlegal.service.VLegalFieldService" />
+	</bean>
+	<bean id="com.vportal.portlet.vlegal.service.persistence.VLegalFieldPersistence" class="com.vportal.portlet.vlegal.service.persistence.VLegalFieldPersistenceImpl" parent="basePersistence" />
+	<bean id="com.vportal.portlet.vlegal.service.persistence.VLegalFieldFinder" class="com.vportal.portlet.vlegal.service.persistence.VLegalFieldFinderImpl" parent="basePersistence" />
+	<bean id="com.vportal.portlet.vlegal.service.VLegalTypeService" class="com.vportal.portlet.vlegal.service.impl.VLegalTypeServiceImpl" />
+	<bean id="com.vportal.portlet.vlegal.service.VLegalTypeServiceUtil" class="com.vportal.portlet.vlegal.service.VLegalTypeServiceUtil">
+		<property name="service" ref="com.vportal.portlet.vlegal.service.VLegalTypeService" />
+	</bean>
+	<bean id="com.vportal.portlet.vlegal.service.persistence.VLegalTypePersistence" class="com.vportal.portlet.vlegal.service.persistence.VLegalTypePersistenceImpl" parent="basePersistence" />
+	<bean id="com.vportal.portlet.vlegal.service.VLegalDraftDocumentService" class="com.vportal.portlet.vlegal.service.impl.VLegalDraftDocumentServiceImpl" />
+	<bean id="com.vportal.portlet.vlegal.service.VLegalDraftDocumentServiceUtil" class="com.vportal.portlet.vlegal.service.VLegalDraftDocumentServiceUtil">
+		<property name="service" ref="com.vportal.portlet.vlegal.service.VLegalDraftDocumentService" />
+	</bean>
+	<bean id="com.vportal.portlet.vlegal.service.persistence.VLegalDraftDocumentPersistence" class="com.vportal.portlet.vlegal.service.persistence.VLegalDraftDocumentPersistenceImpl" parent="basePersistence" />
+	<bean id="com.vportal.portlet.vlegal.service.persistence.VLegalDraftDocumentFinder" class="com.vportal.portlet.vlegal.service.persistence.VLegalDraftDocumentFinderImpl" parent="basePersistence" />
+	<bean id="com.vportal.portlet.vlegal.service.VLegalSuggestDocumentService" class="com.vportal.portlet.vlegal.service.impl.VLegalSuggestDocumentServiceImpl" />
+	<bean id="com.vportal.portlet.vlegal.service.VLegalSuggestDocumentServiceUtil" class="com.vportal.portlet.vlegal.service.VLegalSuggestDocumentServiceUtil">
+		<property name="service" ref="com.vportal.portlet.vlegal.service.VLegalSuggestDocumentService" />
+	</bean>
+	<bean id="com.vportal.portlet.vlegal.service.persistence.VLegalSuggestDocumentPersistence" class="com.vportal.portlet.vlegal.service.persistence.VLegalSuggestDocumentPersistenceImpl" parent="basePersistence" />
+	<bean id="com.vportal.portlet.vlegal.service.VLegalAttachedMessageService" class="com.vportal.portlet.vlegal.service.impl.VLegalAttachedMessageServiceImpl" />
+	<bean id="com.vportal.portlet.vlegal.service.VLegalAttachedMessageServiceUtil" class="com.vportal.portlet.vlegal.service.VLegalAttachedMessageServiceUtil">
+		<property name="service" ref="com.vportal.portlet.vlegal.service.VLegalAttachedMessageService" />
+	</bean>
+	<bean id="com.vportal.portlet.vlegal.service.persistence.VLegalAttachedMessagePersistence" class="com.vportal.portlet.vlegal.service.persistence.VLegalAttachedMessagePersistenceImpl" parent="basePersistence" />
+	<bean id="com.vportal.portlet.vlegal.service.VLegalOrgService" class="com.vportal.portlet.vlegal.service.impl.VLegalOrgServiceImpl" />
+	<bean id="com.vportal.portlet.vlegal.service.VLegalOrgServiceUtil" class="com.vportal.portlet.vlegal.service.VLegalOrgServiceUtil">
+		<property name="service" ref="com.vportal.portlet.vlegal.service.VLegalOrgService" />
+	</bean>
+	<bean id="com.vportal.portlet.vlegal.service.persistence.VLegalOrgPersistence" class="com.vportal.portlet.vlegal.service.persistence.VLegalOrgPersistenceImpl" parent="basePersistence" />
+	<bean id="com.vportal.portlet.vlegal.service.VLegalSignerService" class="com.vportal.portlet.vlegal.service.impl.VLegalSignerServiceImpl" />
+	<bean id="com.vportal.portlet.vlegal.service.VLegalSignerServiceUtil" class="com.vportal.portlet.vlegal.service.VLegalSignerServiceUtil">
+		<property name="service" ref="com.vportal.portlet.vlegal.service.VLegalSignerService" />
+	</bean>
+	<bean id="com.vportal.portlet.vlegal.service.persistence.VLegalSignerPersistence" class="com.vportal.portlet.vlegal.service.persistence.VLegalSignerPersistenceImpl" parent="basePersistence" />
+	<bean id="com.vportal.portlet.vlegal.service.VLegalTagsService" class="com.vportal.portlet.vlegal.service.impl.VLegalTagsServiceImpl" />
+	<bean id="com.vportal.portlet.vlegal.service.VLegalTagsServiceUtil" class="com.vportal.portlet.vlegal.service.VLegalTagsServiceUtil">
+		<property name="service" ref="com.vportal.portlet.vlegal.service.VLegalTagsService" />
+	</bean>
+	<bean id="com.vportal.portlet.vlegal.service.persistence.VLegalTagsPersistence" class="com.vportal.portlet.vlegal.service.persistence.VLegalTagsPersistenceImpl" parent="basePersistence" />
+	<bean id="com.vportal.portlet.vlegal.service.persistence.VLegalTagsFinder" class="com.vportal.portlet.vlegal.service.persistence.VLegalTagsFinderImpl" parent="basePersistence" />
+	<bean id="com.vportal.portlet.vlegal.service.VLegalFORelService" class="com.vportal.portlet.vlegal.service.impl.VLegalFORelServiceImpl" />
+	<bean id="com.vportal.portlet.vlegal.service.VLegalFORelServiceUtil" class="com.vportal.portlet.vlegal.service.VLegalFORelServiceUtil">
+		<property name="service" ref="com.vportal.portlet.vlegal.service.VLegalFORelService" />
+	</bean>
+	<bean id="com.vportal.portlet.vlegal.service.persistence.VLegalFORelPersistence" class="com.vportal.portlet.vlegal.service.persistence.VLegalFORelPersistenceImpl" parent="basePersistence" />
+	<bean id="com.vportal.portlet.vlegal.service.VLegalFTRelService" class="com.vportal.portlet.vlegal.service.impl.VLegalFTRelServiceImpl" />
+	<bean id="com.vportal.portlet.vlegal.service.VLegalFTRelServiceUtil" class="com.vportal.portlet.vlegal.service.VLegalFTRelServiceUtil">
+		<property name="service" ref="com.vportal.portlet.vlegal.service.VLegalFTRelService" />
+	</bean>
+	<bean id="com.vportal.portlet.vlegal.service.persistence.VLegalFTRelPersistence" class="com.vportal.portlet.vlegal.service.persistence.VLegalFTRelPersistenceImpl" parent="basePersistence" />
+	<bean id="com.vportal.portlet.vlegal.service.VLegalDFRelService" class="com.vportal.portlet.vlegal.service.impl.VLegalDFRelServiceImpl" />
+	<bean id="com.vportal.portlet.vlegal.service.VLegalDFRelServiceUtil" class="com.vportal.portlet.vlegal.service.VLegalDFRelServiceUtil">
+		<property name="service" ref="com.vportal.portlet.vlegal.service.VLegalDFRelService" />
+	</bean>
+	<bean id="com.vportal.portlet.vlegal.service.persistence.VLegalDFRelPersistence" class="com.vportal.portlet.vlegal.service.persistence.VLegalDFRelPersistenceImpl" parent="basePersistence" />
+	<bean id="com.vportal.portlet.vlegal.service.VLegalDDRelService" class="com.vportal.portlet.vlegal.service.impl.VLegalDDRelServiceImpl" />
+	<bean id="com.vportal.portlet.vlegal.service.VLegalDDRelServiceUtil" class="com.vportal.portlet.vlegal.service.VLegalDDRelServiceUtil">
+		<property name="service" ref="com.vportal.portlet.vlegal.service.VLegalDDRelService" />
+	</bean>
+	<bean id="com.vportal.portlet.vlegal.service.persistence.VLegalDDRelPersistence" class="com.vportal.portlet.vlegal.service.persistence.VLegalDDRelPersistenceImpl" parent="basePersistence" />
+	<bean id="com.vportal.portlet.vlegal.service.VLegalDURelService" class="com.vportal.portlet.vlegal.service.impl.VLegalDURelServiceImpl" />
+	<bean id="com.vportal.portlet.vlegal.service.VLegalDURelServiceUtil" class="com.vportal.portlet.vlegal.service.VLegalDURelServiceUtil">
+		<property name="service" ref="com.vportal.portlet.vlegal.service.VLegalDURelService" />
+	</bean>
+	<bean id="com.vportal.portlet.vlegal.service.persistence.VLegalDURelPersistence" class="com.vportal.portlet.vlegal.service.persistence.VLegalDURelPersistenceImpl" parent="basePersistence" />
+	<bean id="com.vportal.portlet.vlegal.service.VLegalDSRelService" class="com.vportal.portlet.vlegal.service.impl.VLegalDSRelServiceImpl" />
+	<bean id="com.vportal.portlet.vlegal.service.VLegalDSRelServiceUtil" class="com.vportal.portlet.vlegal.service.VLegalDSRelServiceUtil">
+		<property name="service" ref="com.vportal.portlet.vlegal.service.VLegalDSRelService" />
+	</bean>
+	<bean id="com.vportal.portlet.vlegal.service.persistence.VLegalDSRelPersistence" class="com.vportal.portlet.vlegal.service.persistence.VLegalDSRelPersistenceImpl" parent="basePersistence" />
+	<bean id="com.vportal.portlet.vlegal.service.VLegalTDRelService" class="com.vportal.portlet.vlegal.service.impl.VLegalTDRelServiceImpl" />
+	<bean id="com.vportal.portlet.vlegal.service.VLegalTDRelServiceUtil" class="com.vportal.portlet.vlegal.service.VLegalTDRelServiceUtil">
+		<property name="service" ref="com.vportal.portlet.vlegal.service.VLegalTDRelService" />
+	</bean>
+	<bean id="com.vportal.portlet.vlegal.service.persistence.VLegalTDRelPersistence" class="com.vportal.portlet.vlegal.service.persistence.VLegalTDRelPersistenceImpl" parent="basePersistence" />
+	<bean id="com.vportal.portlet.vlegal.service.VLegalLoggerService" class="com.vportal.portlet.vlegal.service.impl.VLegalLoggerServiceImpl" />
+	<bean id="com.vportal.portlet.vlegal.service.VLegalLoggerServiceUtil" class="com.vportal.portlet.vlegal.service.VLegalLoggerServiceUtil">
+		<property name="service" ref="com.vportal.portlet.vlegal.service.VLegalLoggerService" />
+	</bean>
+	<bean id="com.vportal.portlet.vlegal.service.persistence.VLegalLoggerPersistence" class="com.vportal.portlet.vlegal.service.persistence.VLegalLoggerPersistenceImpl" parent="basePersistence" />
+	<bean id="com.vportal.portlet.vlegal.service.persistence.VLegalLoggerFinder" class="com.vportal.portlet.vlegal.service.persistence.VLegalLoggerFinderImpl" parent="basePersistence" />
+</beans>

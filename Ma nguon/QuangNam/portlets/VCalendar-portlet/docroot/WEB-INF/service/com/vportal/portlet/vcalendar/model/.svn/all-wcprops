@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/VCalendar-portlet/docroot/WEB-INF/service/com/vportal/portlet/vcalendar/model
+END
+VCalClp.java
+K 25
+svn:wc:ra_dav:version-url
+V 149
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/VCalendar-portlet/docroot/WEB-INF/service/com/vportal/portlet/vcalendar/model/VCalClp.java
+END
+VFileClp.java
+K 25
+svn:wc:ra_dav:version-url
+V 150
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/VCalendar-portlet/docroot/WEB-INF/service/com/vportal/portlet/vcalendar/model/VFileClp.java
+END
+VCal.java
+K 25
+svn:wc:ra_dav:version-url
+V 146
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/VCalendar-portlet/docroot/WEB-INF/service/com/vportal/portlet/vcalendar/model/VCal.java
+END
+VFile.java
+K 25
+svn:wc:ra_dav:version-url
+V 147
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/VCalendar-portlet/docroot/WEB-INF/service/com/vportal/portlet/vcalendar/model/VFile.java
+END
+VCalModel.java
+K 25
+svn:wc:ra_dav:version-url
+V 151
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/VCalendar-portlet/docroot/WEB-INF/service/com/vportal/portlet/vcalendar/model/VCalModel.java
+END
+VCalWrapper.java
+K 25
+svn:wc:ra_dav:version-url
+V 153
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/VCalendar-portlet/docroot/WEB-INF/service/com/vportal/portlet/vcalendar/model/VCalWrapper.java
+END
+VFileModel.java
+K 25
+svn:wc:ra_dav:version-url
+V 152
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/VCalendar-portlet/docroot/WEB-INF/service/com/vportal/portlet/vcalendar/model/VFileModel.java
+END
+VFileWrapper.java
+K 25
+svn:wc:ra_dav:version-url
+V 154
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/VCalendar-portlet/docroot/WEB-INF/service/com/vportal/portlet/vcalendar/model/VFileWrapper.java
+END
+VCalSoap.java
+K 25
+svn:wc:ra_dav:version-url
+V 150
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/VCalendar-portlet/docroot/WEB-INF/service/com/vportal/portlet/vcalendar/model/VCalSoap.java
+END
+VFileSoap.java
+K 25
+svn:wc:ra_dav:version-url
+V 151
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/VCalendar-portlet/docroot/WEB-INF/service/com/vportal/portlet/vcalendar/model/VFileSoap.java
+END

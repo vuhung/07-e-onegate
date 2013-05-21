@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<model-hints>
+	<model name="com.vsi.advertisement.portlet.model.AdvType">
+		<field name="typeId" type="long" />
+		<field name="createDate" type="Date" />
+		<field name="modifiedDate" type="Date" />
+		<field name="groupId" type="long" />
+		<field name="companyId" type="long" />
+		<field name="name" type="String">
+			<hint name="max-length">200</hint>
+		</field>
+		<field name="description" type="String" />
+	</model>
+	<model name="com.vsi.advertisement.portlet.model.AdvItem">
+		<field name="itemId" type="long" />
+		<field name="createDate" type="Date" />
+		<field name="modifiedDate" type="Date" />
+		<field name="expriedDate" type="Date" />
+		<field name="groupId" type="long" />
+		<field name="companyId" type="long" />
+		<field name="name" type="String" />
+		<field name="description" type="String" />
+		<field name="url" type="String" />
+		<field name="isTargetBlank" type="boolean" />
+		<field name="txtMouseOver" type="String" />
+		<field name="folderId" type="long" />
+		<field name="status" type="boolean" />
+		<field name="typeId" type="long" />
+	</model>
+</model-hints>

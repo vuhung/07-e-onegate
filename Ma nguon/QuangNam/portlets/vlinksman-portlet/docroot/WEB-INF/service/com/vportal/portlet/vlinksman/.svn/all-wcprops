@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/vlinksman-portlet/docroot/WEB-INF/service/com/vportal/portlet/vlinksman
+END
+NoSuchLinksException.java
+K 25
+svn:wc:ra_dav:version-url
+V 156
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/vlinksman-portlet/docroot/WEB-INF/service/com/vportal/portlet/vlinksman/NoSuchLinksException.java
+END
+InvalidNameLinkGroupException.java
+K 25
+svn:wc:ra_dav:version-url
+V 165
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/vlinksman-portlet/docroot/WEB-INF/service/com/vportal/portlet/vlinksman/InvalidNameLinkGroupException.java
+END
+InvalidNameLinkException.java
+K 25
+svn:wc:ra_dav:version-url
+V 160
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/vlinksman-portlet/docroot/WEB-INF/service/com/vportal/portlet/vlinksman/InvalidNameLinkException.java
+END
+InvalidUrlLinkException.java
+K 25
+svn:wc:ra_dav:version-url
+V 159
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/vlinksman-portlet/docroot/WEB-INF/service/com/vportal/portlet/vlinksman/InvalidUrlLinkException.java
+END
+NoSuchLinkGroupException.java
+K 25
+svn:wc:ra_dav:version-url
+V 160
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/vlinksman-portlet/docroot/WEB-INF/service/com/vportal/portlet/vlinksman/NoSuchLinkGroupException.java
+END

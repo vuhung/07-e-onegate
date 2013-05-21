@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<model-hints>
+	<model name="com.vportal.portlet.vlegal.model.VLegalDocument">
+		<field name="docId" type="String" />
+		<field name="groupId" type="long" />
+		<field name="companyId" type="long" />
+		<field name="userId" type="long" />
+		<field name="createdByUser" type="long" />
+		<field name="createdDate" type="Date" />
+		<field name="modifiedByUser" type="long" />
+		<field name="modifiedDate" type="Date" />
+		<field name="approvedByUser" type="long" />
+		<field name="approvedDate" type="Date" />
+		<field name="forwardedByUser" type="long" />
+		<field name="forwardedDate" type="Date" />
+		<field name="publishedByUser" type="long" />
+		<field name="publishedDate" type="Date" />
+		<field name="symbol" type="String" />
+		<field name="num" type="String" />
+		<field name="promulDate" type="Date" />
+		<field name="effectivedDate" type="Date" />
+		<field name="expiredDate" type="Date" />
+		<field name="replaceDoc" type="String" />
+		<field name="summary" type="String">
+			<hint name="max-length">750</hint>
+		</field>
+		<field name="content" type="String">
+			<hint name="max-length">5000</hint>
+		</field>
+		<field name="language" type="String" />
+		<field name="userHit" type="int" />
+		<field name="statusDoc" type="int" />
+		<field name="hasAttachment" type="boolean" />
+		<field name="typeDocId" type="String" />
+		<field name="fieldId" type="String" />
+		<field name="orgId" type="String" />
+		<field name="orgRels" type="String" />
+		<field name="signerRels" type="String" />
+		<field name="fieldRels" type="String" />
+		<field name="numRels" type="String" />
+		<field name="docCode" type="String" />
+		<field name="departmentRels" type="String" />
+	</model>
+	<model name="com.vportal.portlet.vlegal.model.VLegalField">
+		<field name="fieldId" type="String" />
+		<field name="groupId" type="long" />
+		<field name="companyId" type="long" />
+		<field name="userId" type="long" />
+		<field name="createdDate" type="Date" />
+		<field name="modifiedDate" type="Date" />
+		<field name="createdByUser" type="long" />
+		<field name="modifiedByUser" type="long" />
+		<field name="name" type="String">
+			<hint name="max-length">500</hint>
+		</field>
+		<field name="description" type="String">
+			<hint name="max-length">2000</hint>
+		</field>
+		<field name="language" type="String" />
+		<field name="statusField" type="boolean" />
+		<field name="rssable" type="boolean" />
+	</model>
+	<model name="com.vportal.portlet.vlegal.model.VLegalType">
+		<field name="typeId" type="String" />
+		<field name="groupId" type="long" />
+		<field name="companyId" type="long" />
+		<field name="userId" type="long" />
+		<field name="createdDate" type="Date" />
+		<field name="modifiedDate" type="Date" />
+		<field name="createdByUser" type="long" />
+		<field name="modifiedByUser" type="long" />
+		<field name="name" type="String">
+			<hint name="max-length">500</hint>
+		</field>
+		<field name="description" type="String">
+			<hint name="max-length">2000</hint>
+		</field>
+		<field name="language" type="String" />
+		<field name="statusType" type="boolean" />
+		<field name="rssable" type="boolean" />
+		<field name="position" type="int" />
+	</model>
+	<model name="com.vportal.portlet.vlegal.model.VLegalDraftDocument">
+		<field name="draftId" type="String" />
+		<field name="groupId" type="long" />
+		<field name="companyId" type="long" />
+		<field name="userId" type="long" />
+		<field name="createdByUser" type="long" />
+		<field name="createdDate" type="Date" />
+		<field name="modifiedByUser" type="long" />
+		<field name="modifiedDate" type="Date" />
+		<field name="approvedByUser" type="long" />
+		<field name="approvedDate" type="Date" />
+		<field name="publishedByUser" type="long" />
+		<field name="publishedDate" type="Date" />
+		<field name="title" type="String" />
+		<field name="expiredDate" type="Date" />
+		<field name="language" type="String" />
+		<field name="content" type="String" />
+		<field name="typeId" type="String" />
+		<field name="fieldId" type="String" />
+		<field name="hasAttachment" type="boolean" />
+		<field name="draftLevel" type="int" />
+		<field name="docCode" type="String" />
+		<field name="statusDraft" type="int" />
+	</model>
+	<model name="com.vportal.portlet.vlegal.model.VLegalSuggestDocument">
+		<field name="sugId" type="String" />
+		<field name="groupId" type="long" />
+		<field name="companyId" type="long" />
+		<field name="userId" type="long" />
+		<field name="createdDate" type="Date" />
+		<field name="modifiedDate" type="Date" />
+		<field name="modifiedByUser" type="long" />
+		<field name="approved" type="boolean" />
+		<field name="approvedByUser" type="long" />
+		<field name="approvedDate" type="Date" />
+		<field name="title" type="String" />
+		<field name="content" type="String" />
+		<field name="language" type="String" />
+		<field name="visitorName" type="String" />
+		<field name="visitorEmail" type="String" />
+		<field name="visitorTel" type="String" />
+		<field name="visitorAddress" type="String" />
+		<field name="draftId" type="String" />
+		<field name="hasAttachment" type="boolean" />
+	</model>
+	<model name="com.vportal.portlet.vlegal.model.VLegalAttachedMessage">
+		<field name="messageId" type="String" />
+		<field name="groupId" type="long" />
+		<field name="companyId" type="long" />
+		<field name="userId" type="long" />
+		<field name="createdDate" type="Date" />
+		<field name="createdByUser" type="long" />
+		<field name="articleId" type="String" />
+		<field name="content" type="String" />
+		<field name="readMessage" type="boolean" />
+	</model>
+	<model name="com.vportal.portlet.vlegal.model.VLegalOrg">
+		<field name="orgId" type="String" />
+		<field name="groupId" type="long" />
+		<field name="companyId" type="long" />
+		<field name="userId" type="long" />
+		<field name="createdDate" type="Date" />
+		<field name="modifiedDate" type="Date" />
+		<field name="createdByUser" type="long" />
+		<field name="modifiedByUser" type="long" />
+		<field name="name" type="String">
+			<hint name="max-length">500</hint>
+		</field>
+		<field name="description" type="String">
+			<hint name="max-length">2000</hint>
+		</field>
+		<field name="parentId" type="String" />
+		<field name="language" type="String" />
+		<field name="statusOrg" type="boolean" />
+		<field name="rssable" type="boolean" />
+		<field name="position" type="int" />
+	</model>
+	<model name="com.vportal.portlet.vlegal.model.VLegalSigner">
+		<field name="sigId" type="String" />
+		<field name="groupId" type="long" />
+		<field name="companyId" type="long" />
+		<field name="userId" type="long" />
+		<field name="createdDate" type="Date" />
+		<field name="modifiedDate" type="Date" />
+		<field name="createdByUser" type="long" />
+		<field name="modifiedByUser" type="long" />
+		<field name="firstName" type="String">
+			<hint name="max-length">500</hint>
+		</field>
+		<field name="lastName" type="String">
+			<hint name="max-length">500</hint>
+		</field>
+		<field name="language" type="String" />
+		<field name="statusSigner" type="boolean" />
+	</model>
+	<model name="com.vportal.portlet.vlegal.model.VLegalTags">
+		<field name="tagId" type="String" />
+		<field name="groupId" type="long" />
+		<field name="companyId" type="long" />
+		<field name="userId" type="long" />
+		<field name="createdDate" type="Date" />
+		<field name="modifiedDate" type="Date" />
+		<field name="name" type="String" />
+		<field name="statusTags" type="boolean" />
+	</model>
+	<model name="com.vportal.portlet.vlegal.model.VLegalFORel">
+		<field name="fieldId" type="String" />
+		<field name="orgId" type="String" />
+	</model>
+	<model name="com.vportal.portlet.vlegal.model.VLegalFTRel">
+		<field name="fieldId" type="String" />
+		<field name="typeId" type="String" />
+	</model>
+	<model name="com.vportal.portlet.vlegal.model.VLegalDFRel">
+		<field name="fieldId" type="String" />
+		<field name="docId" type="String" />
+	</model>
+	<model name="com.vportal.portlet.vlegal.model.VLegalDDRel">
+		<field name="departmentId" type="long" />
+		<field name="docId" type="String" />
+	</model>
+	<model name="com.vportal.portlet.vlegal.model.VLegalDURel">
+		<field name="departmentId" type="long" />
+		<field name="userid" type="long" />
+	</model>
+	<model name="com.vportal.portlet.vlegal.model.VLegalDSRel">
+		<field name="sigId" type="String" />
+		<field name="docId" type="String" />
+	</model>
+	<model name="com.vportal.portlet.vlegal.model.VLegalTDRel">
+		<field name="docId" type="String" />
+		<field name="tagId" type="String" />
+	</model>
+	<model name="com.vportal.portlet.vlegal.model.VLegalLogger">
+		<field name="loggerId" type="String" />
+		<field name="groupId" type="long" />
+		<field name="companyId" type="long" />
+		<field name="userId" type="long" />
+		<field name="createdDate" type="Date" />
+		<field name="createdByUser" type="long" />
+		<field name="content" type="String">
+			<hint name="max-length">5000</hint>
+		</field>
+	</model>
+</model-hints>

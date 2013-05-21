@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 148
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/EDirectory-portlet/docroot/WEB-INF/classes/com/vsi/edirectory/portlet/service/persistence
+END
+EDEmployeePersistenceImpl.class
+K 25
+svn:wc:ra_dav:version-url
+V 180
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/EDirectory-portlet/docroot/WEB-INF/classes/com/vsi/edirectory/portlet/service/persistence/EDEmployeePersistenceImpl.class
+END
+EDEmployeeFinderImpl.class
+K 25
+svn:wc:ra_dav:version-url
+V 175
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/EDirectory-portlet/docroot/WEB-INF/classes/com/vsi/edirectory/portlet/service/persistence/EDEmployeeFinderImpl.class
+END
+EDDepartmentPersistenceImpl.class
+K 25
+svn:wc:ra_dav:version-url
+V 182
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/EDirectory-portlet/docroot/WEB-INF/classes/com/vsi/edirectory/portlet/service/persistence/EDDepartmentPersistenceImpl.class
+END
+EDFunctionEmployeePersistenceImpl.class
+K 25
+svn:wc:ra_dav:version-url
+V 188
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/EDirectory-portlet/docroot/WEB-INF/classes/com/vsi/edirectory/portlet/service/persistence/EDFunctionEmployeePersistenceImpl.class
+END
+EDFunctionPersistenceImpl.class
+K 25
+svn:wc:ra_dav:version-url
+V 180
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/EDirectory-portlet/docroot/WEB-INF/classes/com/vsi/edirectory/portlet/service/persistence/EDFunctionPersistenceImpl.class
+END
+EDFunctionDepartmentPersistenceImpl.class
+K 25
+svn:wc:ra_dav:version-url
+V 190
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/EDirectory-portlet/docroot/WEB-INF/classes/com/vsi/edirectory/portlet/service/persistence/EDFunctionDepartmentPersistenceImpl.class
+END

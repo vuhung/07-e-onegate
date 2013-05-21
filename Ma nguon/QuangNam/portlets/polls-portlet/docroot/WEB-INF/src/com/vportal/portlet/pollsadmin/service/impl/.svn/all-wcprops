@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/polls-portlet/docroot/WEB-INF/src/com/vportal/portlet/pollsadmin/service/impl
+END
+PollsQuestionLocalServiceImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 171
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/polls-portlet/docroot/WEB-INF/src/com/vportal/portlet/pollsadmin/service/impl/PollsQuestionLocalServiceImpl.java
+END
+PollsChoiceLocalServiceImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 169
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/polls-portlet/docroot/WEB-INF/src/com/vportal/portlet/pollsadmin/service/impl/PollsChoiceLocalServiceImpl.java
+END
+PollsQuestionServiceImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 166
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/polls-portlet/docroot/WEB-INF/src/com/vportal/portlet/pollsadmin/service/impl/PollsQuestionServiceImpl.java
+END
+PollsQuestionExtServiceImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 169
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/polls-portlet/docroot/WEB-INF/src/com/vportal/portlet/pollsadmin/service/impl/PollsQuestionExtServiceImpl.java
+END
+PollsVoteLocalServiceImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 167
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/polls-portlet/docroot/WEB-INF/src/com/vportal/portlet/pollsadmin/service/impl/PollsVoteLocalServiceImpl.java
+END
+PollsVoteServiceImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 162
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/polls-portlet/docroot/WEB-INF/src/com/vportal/portlet/pollsadmin/service/impl/PollsVoteServiceImpl.java
+END

@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<!DOCTYPE display PUBLIC "-//Liferay//DTD Display 6.0.0//EN" "http://www.liferay.com/dtd/liferay-display_6_0_0.dtd">
+
+<display>
+	
+	<category name="category.vsi">
+		<category name="van.ban.phap.quy">
+			<portlet id="vlegal"></portlet>
+			<portlet id="viewmenuaction"></portlet>
+			<portlet id="viewcontentaction"></portlet>
+			<portlet id="viewhotaction"></portlet>
+		</category>
+	</category>
+</display>

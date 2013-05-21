@@ -1,0 +1,128 @@
+##########################################################
+#		Quan ly danh ba 
+##########################################################
+danhba = Danh B&#7841;
+
+# Menu Tabs
+tab.danhba.canbo= C&#225;n b&#7897;
+tab.danhba.donvi= &#272;&#417;n v&#7883;
+tab.danhba.chucvu= Ch&#7913;c v&#7909;
+message.display.table = Kh&#244;ng c&#243; d&#7919; li&#7879;u
+
+# Can bo
+managecontacts.staff.view-select.agency= &#272;&#417;n v&#7883;
+managecontacts.staff.view-select.all-agency=T&#7845;t c&#7843; c&#225;c &#273;&#417;n v&#7883;
+managecontacts.staff.view-select.position= Ch&#7913;c v&#7909;
+managecontacts.staff.view-name.staff= H&#7885; v&#224; t&#234;n
+managecontacts.staff.view-button.search= T&#236;m ki&#7871;m
+managecontacts.staff.view-button.add.staff= Th&#234;m c&#225;n b&#7897;
+managecontacts.staff.view-button.delete.staff= X&#243;a
+managecontacts.staff.view-title.table.staff= C&#225;n b&#7897;
+managecontacts.staff.view-title.table.agency = &#272;&#417;n v&#7883;
+managecontacts.staff.view-title.table.level = V&#7883; tr&#237;
+managecontacts.staff.view-actions = T&#225;c v&#7909;
+managecontacts.staff.view-actions.edit= S&#7917;a
+managecontacts.staff.view-actions.delete= X&#243;a
+managecontacts.staff.view-actions.permissions= Ph&#226;n quy&#7873;n
+
+managecontacts.staff.add-appellation= Danh x&#432;ng:
+managecontacts.staff.add-appellation-mr= &#212;ng
+managecontacts.staff.add-appellation-mrs = B&#224;
+managecontacts.staff.add-name= H&#7885; t&#234;n:
+managecontacts.staff.add-birthday= Ng&#224;y sinh:
+managecontacts.staff.add-gender= Gi&#7899;i t&#237;nh:
+managecontacts.staff.add-gender.male = Nam
+managecontacts.staff.add-gender.female= N&#7919;
+managecontacts.staff.add-country= Qu&#234; qu&#225;n:
+managecontacts.staff.add-people= D&#226;n t&#7897;c:
+managecontacts.staff.add-diaspora= N&#417;i &#7903; hi&#7879;n nay:
+managecontacts.staff.add-home.phone = &#272;i&#7879;n tho&#7841;i nh&#224;:
+managecontacts.staff.add-agency.phone= &#272;i&#7879;n tho&#7841;i c&#417; quan:
+managecontacts.staff.add-mobile.phone= &#272;i&#7879;n tho&#7841;i di &#273;&#7897;ng:
+managecontacts.staff.add-email= Email:
+managecontacts.staff.add-position= Ch&#7913;c v&#7909;:
+managecontacts.staff.add-agency= &#272;&#417;n v&#7883;:
+managecontacts.staff.add-image= &#7842;nh ph&#243;ng to:
+managecontacts.staff.add-qualifications= Tr&#236;nh &#273;&#7897; chuy&#234;n m&#244;n:
+managecontacts.staff.add-political-theory= L&#253; lu&#7853;n ch&#237;nh tr&#7883;:
+managecontacts.staff.add-family= Th&#224;nh ph&#7847;n gia &#273;&#236;nh:
+managecontacts.staff.add-foreign-language= Ng&#244;n ng&#7919;:
+managecontacts.staff.add-date-join-party= Ng&#224;y v&#224;o &#272;&#7843;ng:
+managecontacts.staff.add-information= Th&#244;ng tin kh&#225;c:
+managecontacts.staff.add-display-in-tree-contacts= Hi&#7879;n trong c&#226;y danh b&#7841;:
+managecontacts.staff.add-display-in-tree-contacts.YES = C&#243;
+managecontacts.staff.add-display-in-tree-contacts.NO = Kh&#244;ng
+managecontacts.staff.add-level= V&#7883; tr&#237;:
+managecontacts.staff.add-button.save= Ghi l&#7841;i
+managecontacts.staff.add-button.cancel= H&#7911;y b&#7887;
+
+
+
+# Don Vi
+managecontacts.agency.view-button.addagency = Th&#234;m &#273;&#417;n v&#7883;
+managecontacts.agency.view-title.table.agency = Ph&#242;ng ban
+managecontacts.agency.view-title.table.date.create = Ng&#224;y t&#7841;o
+managecontacts.agency.view-title.table.level = V&#7883; tr&#237;
+managecontacts.agency.view-title.table.sub.agency = &#272;&#417;n v&#7883; c&#7845;p d&#432;&#7899;i
+managecontacts.agency.view-actions = T&#225;c v&#7909;
+managecontacts.agency.view-actions.edit = S&#7917;a
+managecontacts.agency.view-actions.delete = X&#243;a
+managecontacts.agency.view-actions.permissions = Ph&#226;n quy&#7873;n
+
+managecontacts.agency.add-agency = &#272;&#417;n v&#7883;
+managecontacts.agency.add-select.agency.parent = &#272;&#417;n v&#7883; c&#7845;p tr&#234;n
+managecontacts.agency.add-select.all.agency =  T&#7845;t c&#7843; c&#225;c &#273;&#417;n v&#7883;
+managecontacts.agency.add-level = V&#7883; tr&#237;
+managecontacts.agency.add-phone.number = S&#7889; &#273;i&#7879;n tho&#7841;i
+managecontacts.agency.add-fax = S&#7889; Fax
+managecontacts.agency.add-email= Email
+managecontacts.agency.add-website = Website
+managecontacts.agency.add-address = &#272;&#7883;a ch&#7881;
+managecontacts.agency.add-introduce = Gi&#7899;i thi&#7879;u
+managecontacts.agency.add-button.save = Ghi l&#7841;i
+managecontacts.agency.add-button.cancel = H&#7911;y b&#7887;
+managecontacts.agency.add-button.back = Quay l&#7841;i
+
+# Chuc Vu
+managecontacts.position.view-button.add.position = Th&#234;m ch&#7913;c v&#7909;
+managecontacts.position.view-title.table.position = Ch&#7913;c v&#7909;
+managecontacts.position.view-title.table.describe = M&#244; t&#7843;
+managecontacts.position.view-title.table.level = C&#7845;p &#273;&#7897;
+managecontacts.position.view-actions = T&#225;c v&#7909;
+managecontacts.position.view-actions.edit = S&#7917;a
+managecontacts.position.view-actions.delete = X&#243;a
+managecontacts.position.view-actions.permissions = Ph&#226;n quy&#7873;n
+
+managecontacts.position.add-position = T&#234;n ch&#7913;c v&#7909;
+managecontacts.position.add-level = V&#7883; tr&#237;
+managecontacts.position.add-introduce = Gi&#7899;i thi&#7879;u
+managecontacts.position.add-button.save = Ghi l&#7841;i
+managecontacts.position.add-button.cancel = H&#7911;y b&#7887;
+
+
+###############################################################
+# 		NOI DUNG DANH BA
+###############################################################
+content.contact.address = &#272;&#7883;a ch&#7881; :
+content.contact.phone = &#272;i&#7879;n tho&#7841;i :
+content.contact.agency = &#272;&#417;n v&#7883;:
+content.contact.all-agency = T&#7845;t c&#7843; c&#225;c &#273;&#417;n v&#7883;
+content.contact.position = Ch&#7913;c v&#7909; :
+content.contact.all-position = T&#7845;t c&#7843; c&#225;c &#273;&#417;n v&#7883;
+content.contact.name = H&#7885; t&#234;n :
+content.contact.button.search = T&#236;m ki&#7871;m
+content.contact.table.name = H&#7885; t&#234;n
+content.contact.table.position = Ch&#7913;c v&#7909;
+content.contact.table.agency = &#272;&#417;n v&#7883;
+content.contact.table.home.phone = &#272;i&#7879;n tho&#7841;i nh&#224;
+content.contact.table.mobile.phone = &#272;i&#7879;n tho&#7841;i di &#273;&#7897;ng
+content.contact.table.email = Email
+
+are-you-want-to-delete-staff = Are you sure want to delete employee ?
+you-must-select-log-to-delete = You must select employee before delete
+###############################################################
+# 		HIEN THI DANH SACH
+###############################################################
+portlet.vdoc.view.select-org = &#272;&#417;n V&#7883;
+portlet.vdoc.view.name-doc = H&#7885; T&#234;n
+portlet.vdoc.view.title = Danh S&#225;ch C&#225;n B&#7897;

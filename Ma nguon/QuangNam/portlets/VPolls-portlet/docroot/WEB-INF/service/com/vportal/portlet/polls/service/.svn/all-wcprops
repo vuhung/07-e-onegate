@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/VPolls-portlet/docroot/WEB-INF/service/com/vportal/portlet/polls/service
+END
+PollsQuestionExtServiceUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 164
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/VPolls-portlet/docroot/WEB-INF/service/com/vportal/portlet/polls/service/PollsQuestionExtServiceUtil.java
+END
+PollsQuestionExtServiceClp.java
+K 25
+svn:wc:ra_dav:version-url
+V 163
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/VPolls-portlet/docroot/WEB-INF/service/com/vportal/portlet/polls/service/PollsQuestionExtServiceClp.java
+END
+PollsQuestionExtService.java
+K 25
+svn:wc:ra_dav:version-url
+V 160
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/VPolls-portlet/docroot/WEB-INF/service/com/vportal/portlet/polls/service/PollsQuestionExtService.java
+END
+PollsQuestionExtServiceWrapper.java
+K 25
+svn:wc:ra_dav:version-url
+V 167
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/VPolls-portlet/docroot/WEB-INF/service/com/vportal/portlet/polls/service/PollsQuestionExtServiceWrapper.java
+END
+ClpSerializer.java
+K 25
+svn:wc:ra_dav:version-url
+V 150
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/VPolls-portlet/docroot/WEB-INF/service/com/vportal/portlet/polls/service/ClpSerializer.java
+END

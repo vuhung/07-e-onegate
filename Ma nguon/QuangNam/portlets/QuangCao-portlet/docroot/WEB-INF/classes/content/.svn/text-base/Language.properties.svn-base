@@ -1,0 +1,30 @@
+category.VAdvman         = Qu\u1EA3ng C\u00E1o
+
+VAdvman.form.Add             = T\u00EAn
+VAdvman.form.Edit            = Thay \u0111\u1ED5i
+VAdvman.form.cannotBlank     = Cannot Blank
+VAdvman.form.descriptionItem = Advertise description
+VAdvman.form.descriptionType = Description Type
+VAdvman.form.isTargetBlank   = Target Blank
+VAdvman.form.nameItem        = Advertise name
+VAdvman.form.nameType        = Name type
+VAdvman.form.status          = Status
+VAdvman.form.txtMouseOver    = Mouse Over
+VAdvman.form.typeId          = Advertise type
+VAdvman.form.url             = URL
+VAdvman.title.item           = Advertise
+VAdvman.title.type           = Advertise type
+
+portlet.vadvmanview.Item                                                                = Hi\u1EC3n th\u1ECB m\u1ED9t qu\u1EA3ng c\u00E1o
+portlet.vadvmanview.Items                                                               = Hi\u1EC3n th\u1ECB nhi\u1EC1u qu\u1EA3ng c\u00E1o
+portlet.vadvmanview.autoRepeat                                                          = T\u1EF1 \u0111\u1ED9ng ch\u1EA1y l\u1EA1i
+portlet.vadvmanview.autoStart                                                           = T\u1EF1 \u0111\u1ED9ng kh\u1EDFi \u0111\u1ED9ng
+portlet.vadvmanview.configDisplay                                                       = C\u1EA5u h\u00ECnh hi\u1EC3n th\u1ECB
+portlet.vadvmanview.configItem                                                          = C\u1EA5u h\u00ECnh cho qu\u1EA3ng c\u00E1o d\u1EA1ng Video & Flash
+portlet.vadvmanview.controlBar                                                          = Hi\u1EC3n th\u1ECB thanh \u0111i\u1EC1u khi\u1EC3n
+portlet.vadvmanview.defaultSize                                                         = Hi\u1EC3n th\u1ECB qu\u1EA3ng c\u00E1o v\u1EDBi k\u00EDch th\u01B0\u1EDBc m\u1EB7c \u0111\u1ECBnh
+portlet.vadvmanview.height                                                              = Chi\u1EC1u cao
+portlet.vadvmanview.noItem                                                              = Hi\u1EC7n ch\u01B0a c\u00F3 qu\u1EA3ng c\u00E1o n\u00E0o !
+portlet.vadvmanview.selectItem                                                          = Ch\u1ECDn qu\u1EA3ng c\u00E1o \u0111\u1EC3 hi\u1EC3n th\u1ECB
+portlet.vadvmanview.selectType                                                          = Ch\u1ECDn lo\u1EA1i qu\u1EA3ng c\u00E1o
+portlet.vadvmanview.width                                                               = Chi\u1EC1u r\u1ED9ng

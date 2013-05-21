@@ -1,0 +1,92 @@
+<%@page import="com.liferay.portal.service.permission.PortletPermissionUtil"%>
+<%@page import="com.vportal.portlet.vadvman.service.AdvTypeServiceUtil"%>
+<%
+	List listType = AdvTypeServiceUtil.getTypeByG(groupId);
+	
+	boolean showAddTypeButton = showButtons && PortletPermissionUtil
+		.contains(permissionChecker , plid.longValue() , PortletKeysExt.VADVMAN , ActionKeysExt.ADD_TYPE);
+
+%>
+<form name="<portlet:namespace />fm" action="<portlet:actionURL><portlet:param name="struts_action" value="/vadvman/type" /></portlet:actionURL>" method="POST">
+	<input name="<portlet:namespace />ids" type="hidden" value="">
+	<input name="<portlet:namespace />cmd" type="hidden" value="">
+	<input name="<portlet:namespace />redirect" type="hidden" value="<%= currentURL %>">
+	
+<%
+		PortletURL typeURL = renderResponse.createRenderURL();
+		typeURL.setWindowState(WindowState.MAXIMIZED);	
+		typeURL.setParameter("jspPage", "/vadvman/type");
+			
+		List headerNames = new ArrayList();
+		headerNames.add("VAdvman.form.nameType");
+		headerNames.add("VAdvman.form.descriptionType");
+		headerNames.add("VAdvman.form.numberItems");
+		headerNames.add("VAdvman.form.createdDate");		
+		headerNames.add(StringPool.BLANK);
+		
+		SearchContainer searchCtn = new SearchContainer(renderRequest, null, null, SearchContainer.DEFAULT_CUR_PARAM, 10, portletURL, headerNames, null);	
+		searchCtn.setEmptyResultsMessage("there-are-no-types");	
+
+		List results = new ArrayList();
+		
+		results = AdvTypeServiceUtil.getTypeByG(groupId, searchCtn.getStart(), searchCtn.getEnd());		
+		int total = AdvTypeServiceUtil.countTypeByG(groupId);
+		
+		searchCtn.setTotal(total);		
+		searchCtn.setResults(results);
+
+		List resultRows = searchCtn.getResultRows();
+		for (int i = 0; i < results.size(); i++) {
+			AdvType type = (AdvType)results.get(i);
+
+			ResultRow row = new ResultRow(type, type.getTypeId(), i);
+			PortletURL rowURL = renderResponse.createRenderURL();
+
+			rowURL.setWindowState(WindowState.MAXIMIZED);
+
+			rowURL.setParameter("jspPage", "/html/portlet/vadvman/vadvtype/edit_type.jsp");
+			rowURL.setParameter("redirect", currentURL);
+			rowURL.setParameter(Constants.CMD , "showupdate" );
+			rowURL.setParameter("typeId", Long.toString(type.getTypeId()));
+
+			//name
+			TextSearchEntry rowName =  new TextSearchEntry("left", SearchEntry.DEFAULT_VALIGN, type.getName());
+			row.addText(rowName);
+		
+			//description
+			TextSearchEntry rowDescription =  new TextSearchEntry(SearchEntry.DEFAULT_ALIGN, SearchEntry.DEFAULT_VALIGN, type.getDescription());
+			row.addText(rowDescription);
+			
+			//#item of typeAdv
+			int itemCount = AdvItemServiceUtil.countItemByG_T(groupId,type.getTypeId());		
+			TextSearchEntry rowItems = new TextSearchEntry(SearchEntry.DEFAULT_ALIGN,SearchEntry.DEFAULT_VALIGN,String.valueOf(itemCount));
+			row.addText(rowItems);
+			
+			//create date
+			TextSearchEntry rowUrl =  new TextSearchEntry(SearchEntry.DEFAULT_ALIGN, SearchEntry.DEFAULT_VALIGN, VAdvmanUtil.dateParser(type.getCreateDate()));
+			row.addText(rowUrl);
+			
+			//button
+			row.addJSP("right", SearchEntry.DEFAULT_VALIGN, "/html/portlet/vadvman/vadvtype/type_action.jsp",application,request,response);	
+			
+			resultRows.add(row);
+		}
+	%>
+	
+<c:if test="<%=showAddTypeButton%>" >
+	<div class="portlet-font" style="font-weight: bold; float: left; margin-right: 10px">	
+		<input type="button" value="<liferay-ui:message key="add" />"
+			onclick="javascript:document.location='<portlet:renderURL>
+			<portlet:param name="tabs1" value="VAdvman.title.type" />
+			<portlet:param name="jspPage" value="/html/portlet/vadvman/vadvtype/edit_type.jsp"/>			
+			<portlet:param name="redirect" value="<%= currentURL %>"/>
+			<portlet:param name="cmd" value="doadd" />
+			</portlet:renderURL>'">		
+	</div>
+</c:if>
+<br><br>
+	
+<liferay-ui:search-iterator searchContainer="<%= searchCtn %>" />
+
+<br>
+</form>

@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/EDirectory-portlet/docroot/WEB-INF/classes/com/vsi/edirectory/portlet/service/impl
+END
+EDEmployeeServiceImpl.class
+K 25
+svn:wc:ra_dav:version-url
+V 169
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/EDirectory-portlet/docroot/WEB-INF/classes/com/vsi/edirectory/portlet/service/impl/EDEmployeeServiceImpl.class
+END
+EDFunctionEmployeeLocalServiceImpl.class
+K 25
+svn:wc:ra_dav:version-url
+V 182
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/EDirectory-portlet/docroot/WEB-INF/classes/com/vsi/edirectory/portlet/service/impl/EDFunctionEmployeeLocalServiceImpl.class
+END
+EDFunctionLocalServiceImpl.class
+K 25
+svn:wc:ra_dav:version-url
+V 174
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/EDirectory-portlet/docroot/WEB-INF/classes/com/vsi/edirectory/portlet/service/impl/EDFunctionLocalServiceImpl.class
+END
+EDDepartmentServiceImpl.class
+K 25
+svn:wc:ra_dav:version-url
+V 171
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/EDirectory-portlet/docroot/WEB-INF/classes/com/vsi/edirectory/portlet/service/impl/EDDepartmentServiceImpl.class
+END
+EDFunctionDepartmentLocalServiceImpl.class
+K 25
+svn:wc:ra_dav:version-url
+V 184
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/EDirectory-portlet/docroot/WEB-INF/classes/com/vsi/edirectory/portlet/service/impl/EDFunctionDepartmentLocalServiceImpl.class
+END
+EDFunctionEmployeeServiceImpl.class
+K 25
+svn:wc:ra_dav:version-url
+V 177
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/EDirectory-portlet/docroot/WEB-INF/classes/com/vsi/edirectory/portlet/service/impl/EDFunctionEmployeeServiceImpl.class
+END
+EDFunctionServiceImpl.class
+K 25
+svn:wc:ra_dav:version-url
+V 169
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/EDirectory-portlet/docroot/WEB-INF/classes/com/vsi/edirectory/portlet/service/impl/EDFunctionServiceImpl.class
+END
+EDFunctionDepartmentServiceImpl.class
+K 25
+svn:wc:ra_dav:version-url
+V 179
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/EDirectory-portlet/docroot/WEB-INF/classes/com/vsi/edirectory/portlet/service/impl/EDFunctionDepartmentServiceImpl.class
+END
+EDEmployeeLocalServiceImpl.class
+K 25
+svn:wc:ra_dav:version-url
+V 174
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/EDirectory-portlet/docroot/WEB-INF/classes/com/vsi/edirectory/portlet/service/impl/EDEmployeeLocalServiceImpl.class
+END
+EDDepartmentLocalServiceImpl.class
+K 25
+svn:wc:ra_dav:version-url
+V 176
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/EDirectory-portlet/docroot/WEB-INF/classes/com/vsi/edirectory/portlet/service/impl/EDDepartmentLocalServiceImpl.class
+END

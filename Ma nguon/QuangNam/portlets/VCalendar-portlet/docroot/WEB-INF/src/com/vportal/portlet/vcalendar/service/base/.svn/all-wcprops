@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/VCalendar-portlet/docroot/WEB-INF/src/com/vportal/portlet/vcalendar/service/base
+END
+VCalServiceBaseImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 164
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/VCalendar-portlet/docroot/WEB-INF/src/com/vportal/portlet/vcalendar/service/base/VCalServiceBaseImpl.java
+END
+VFileServiceBaseImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 165
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/VCalendar-portlet/docroot/WEB-INF/src/com/vportal/portlet/vcalendar/service/base/VFileServiceBaseImpl.java
+END
+VCalLocalServiceBaseImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 169
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/VCalendar-portlet/docroot/WEB-INF/src/com/vportal/portlet/vcalendar/service/base/VCalLocalServiceBaseImpl.java
+END

@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping default-lazy="false" auto-import="false">
+	<import class="com.vportal.portlet.vlegal.model.VLegalDocument" />
+	<import class="com.vportal.portlet.vlegal.model.VLegalField" />
+	<import class="com.vportal.portlet.vlegal.model.VLegalType" />
+	<import class="com.vportal.portlet.vlegal.model.VLegalDraftDocument" />
+	<import class="com.vportal.portlet.vlegal.model.VLegalSuggestDocument" />
+	<import class="com.vportal.portlet.vlegal.model.VLegalAttachedMessage" />
+	<import class="com.vportal.portlet.vlegal.model.VLegalOrg" />
+	<import class="com.vportal.portlet.vlegal.model.VLegalSigner" />
+	<import class="com.vportal.portlet.vlegal.model.VLegalTags" />
+	<import class="com.vportal.portlet.vlegal.model.VLegalFORel" />
+	<import class="com.vportal.portlet.vlegal.model.VLegalFTRel" />
+	<import class="com.vportal.portlet.vlegal.model.VLegalDFRel" />
+	<import class="com.vportal.portlet.vlegal.model.VLegalDDRel" />
+	<import class="com.vportal.portlet.vlegal.model.VLegalDURel" />
+	<import class="com.vportal.portlet.vlegal.model.VLegalDSRel" />
+	<import class="com.vportal.portlet.vlegal.model.VLegalTDRel" />
+	<import class="com.vportal.portlet.vlegal.model.VLegalLogger" />
+	<class name="com.vportal.portlet.vlegal.model.impl.VLegalDocumentImpl" table="VLegalDocument">
+		<cache usage="read-write" />
+		<id name="docId" type="java.lang.String">
+			<generator class="assigned" />
+		</id>
+		<property name="groupId" type="com.liferay.portal.dao.orm.hibernate.LongType" />
+		<property name="companyId" type="com.liferay.portal.dao.orm.hibernate.LongType" />
+		<property name="userId" type="com.liferay.portal.dao.orm.hibernate.LongType" />
+		<property name="createdByUser" type="com.liferay.portal.dao.orm.hibernate.LongType" />
+		<property name="createdDate" type="org.hibernate.type.TimestampType" />
+		<property name="modifiedByUser" type="com.liferay.portal.dao.orm.hibernate.LongType" />
+		<property name="modifiedDate" type="org.hibernate.type.TimestampType" />
+		<property name="approvedByUser" type="com.liferay.portal.dao.orm.hibernate.LongType" />
+		<property name="approvedDate" type="org.hibernate.type.TimestampType" />
+		<property name="forwardedByUser" type="com.liferay.portal.dao.orm.hibernate.LongType" />
+		<property name="forwardedDate" type="org.hibernate.type.TimestampType" />
+		<property name="publishedByUser" type="com.liferay.portal.dao.orm.hibernate.LongType" />
+		<property name="publishedDate" type="org.hibernate.type.TimestampType" />
+		<property name="symbol" type="com.liferay.portal.dao.orm.hibernate.StringType" />
+		<property name="num" type="com.liferay.portal.dao.orm.hibernate.StringType" />
+		<property name="promulDate" type="org.hibernate.type.TimestampType" />
+		<property name="effectivedDate" type="org.hibernate.type.TimestampType" />
+		<property name="expiredDate" type="org.hibernate.type.TimestampType" />
+		<property name="replaceDoc" type="com.liferay.portal.dao.orm.hibernate.StringType" />
+		<property name="summary" type="com.liferay.portal.dao.orm.hibernate.StringType" />
+		<property name="content" type="com.liferay.portal.dao.orm.hibernate.StringType" />
+		<property name="language" type="com.liferay.portal.dao.orm.hibernate.StringType" />
+		<property name="userHit" type="com.liferay.portal.dao.orm.hibernate.IntegerType" />
+		<property name="statusDoc" type="com.liferay.portal.dao.orm.hibernate.IntegerType" />
+		<property name="hasAttachment" type="com.liferay.portal.dao.orm.hibernate.BooleanType" />
+		<property name="typeDocId" type="com.liferay.portal.dao.orm.hibernate.StringType" />
+		<property name="fieldId" type="com.liferay.portal.dao.orm.hibernate.StringType" />
+		<property name="orgId" type="com.liferay.portal.dao.orm.hibernate.StringType" />
+		<property name="orgRels" type="com.liferay.portal.dao.orm.hibernate.StringType" />
+		<property name="signerRels" type="com.liferay.portal.dao.orm.hibernate.StringType" />
+		<property name="fieldRels" type="com.liferay.portal.dao.orm.hibernate.StringType" />
+		<property name="numRels" type="com.liferay.portal.dao.orm.hibernate.StringType" />
+		<property name="docCode" type="com.liferay.portal.dao.orm.hibernate.StringType" />
+		<property name="departmentRels" type="com.liferay.portal.dao.orm.hibernate.StringType" />
+	</class>
+	<class name="com.vportal.portlet.vlegal.model.impl.VLegalFieldImpl" table="VLegalField">
+		<cache usage="read-write" />
+		<id name="fieldId" type="java.lang.String">
+			<generator class="assigned" />
+		</id>
+		<property name="groupId" type="com.liferay.portal.dao.orm.hibernate.LongType" />
+		<property name="companyId" type="com.liferay.portal.dao.orm.hibernate.LongType" />
+		<property name="userId" type="com.liferay.portal.dao.orm.hibernate.LongType" />
+		<property name="createdDate" type="org.hibernate.type.TimestampType" />
+		<property name="modifiedDate" type="org.hibernate.type.TimestampType" />
+		<property name="createdByUser" type="com.liferay.portal.dao.orm.hibernate.LongType" />
+		<property name="modifiedByUser" type="com.liferay.portal.dao.orm.hibernate.LongType" />
+		<property name="name" type="com.liferay.portal.dao.orm.hibernate.StringType" />
+		<property name="description" type="com.liferay.portal.dao.orm.hibernate.StringType" />
+		<property name="language" type="com.liferay.portal.dao.orm.hibernate.StringType" />
+		<property name="statusField" type="com.liferay.portal.dao.orm.hibernate.BooleanType" />
+		<property name="rssable" type="com.liferay.portal.dao.orm.hibernate.BooleanType" />
+	</class>
+	<class name="com.vportal.portlet.vlegal.model.impl.VLegalTypeImpl" table="VLegalType">
+		<cache usage="read-write" />
+		<id name="typeId" type="java.lang.String">
+			<generator class="assigned" />
+		</id>
+		<property name="groupId" type="com.liferay.portal.dao.orm.hibernate.LongType" />
+		<property name="companyId" type="com.liferay.portal.dao.orm.hibernate.LongType" />
+		<property name="userId" type="com.liferay.portal.dao.orm.hibernate.LongType" />
+		<property name="createdDate" type="org.hibernate.type.TimestampType" />
+		<property name="modifiedDate" type="org.hibernate.type.TimestampType" />
+		<property name="createdByUser" type="com.liferay.portal.dao.orm.hibernate.LongType" />
+		<property name="modifiedByUser" type="com.liferay.portal.dao.orm.hibernate.LongType" />
+		<property name="name" type="com.liferay.portal.dao.orm.hibernate.StringType" />
+		<property name="description" type="com.liferay.portal.dao.orm.hibernate.StringType" />
+		<property name="language" type="com.liferay.portal.dao.orm.hibernate.StringType" />
+		<property name="statusType" type="com.liferay.portal.dao.orm.hibernate.BooleanType" />
+		<property name="rssable" type="com.liferay.portal.dao.orm.hibernate.BooleanType" />
+		<property name="position" type="com.liferay.portal.dao.orm.hibernate.IntegerType" />
+	</class>
+	<class name="com.vportal.portlet.vlegal.model.impl.VLegalDraftDocumentImpl" table="VLegalDraftDocument">
+		<cache usage="read-write" />
+		<id name="draftId" type="java.lang.String">
+			<generator class="assigned" />
+		</id>
+		<property name="groupId" type="com.liferay.portal.dao.orm.hibernate.LongType" />
+		<property name="companyId" type="com.liferay.portal.dao.orm.hibernate.LongType" />
+		<property name="userId" type="com.liferay.portal.dao.orm.hibernate.LongType" />
+		<property name="createdByUser" type="com.liferay.portal.dao.orm.hibernate.LongType" />
+		<property name="createdDate" type="org.hibernate.type.TimestampType" />
+		<property name="modifiedByUser" type="com.liferay.portal.dao.orm.hibernate.LongType" />
+		<property name="modifiedDate" type="org.hibernate.type.TimestampType" />
+		<property name="approvedByUser" type="com.liferay.portal.dao.orm.hibernate.LongType" />
+		<property name="approvedDate" type="org.hibernate.type.TimestampType" />
+		<property name="publishedByUser" type="com.liferay.portal.dao.orm.hibernate.LongType" />
+		<property name="publishedDate" type="org.hibernate.type.TimestampType" />
+		<property name="title" type="com.liferay.portal.dao.orm.hibernate.StringType" />
+		<property name="expiredDate" type="org.hibernate.type.TimestampType" />
+		<property name="language" type="com.liferay.portal.dao.orm.hibernate.StringType" />
+		<property name="content" type="com.liferay.portal.dao.orm.hibernate.StringType" />
+		<property name="typeId" type="com.liferay.portal.dao.orm.hibernate.StringType" />
+		<property name="fieldId" type="com.liferay.portal.dao.orm.hibernate.StringType" />
+		<property name="hasAttachment" type="com.liferay.portal.dao.orm.hibernate.BooleanType" />
+		<property name="draftLevel" type="com.liferay.portal.dao.orm.hibernate.IntegerType" />
+		<property name="docCode" type="com.liferay.portal.dao.orm.hibernate.StringType" />
+		<property name="statusDraft" type="com.liferay.portal.dao.orm.hibernate.IntegerType" />
+	</class>
+	<class name="com.vportal.portlet.vlegal.model.impl.VLegalSuggestDocumentImpl" table="VLegalSuggestDocument">
+		<cache usage="read-write" />
+		<id name="sugId" type="java.lang.String">
+			<generator class="assigned" />
+		</id>
+		<property name="groupId" type="com.liferay.portal.dao.orm.hibernate.LongType" />
+		<property name="companyId" type="com.liferay.portal.dao.orm.hibernate.LongType" />
+		<property name="userId" type="com.liferay.portal.dao.orm.hibernate.LongType" />
+		<property name="createdDate" type="org.hibernate.type.TimestampType" />
+		<property name="modifiedDate" type="org.hibernate.type.TimestampType" />
+		<property name="modifiedByUser" type="com.liferay.portal.dao.orm.hibernate.LongType" />
+		<property name="approved" type="com.liferay.portal.dao.orm.hibernate.BooleanType" />
+		<property name="approvedByUser" type="com.liferay.portal.dao.orm.hibernate.LongType" />
+		<property name="approvedDate" type="org.hibernate.type.TimestampType" />
+		<property name="title" type="com.liferay.portal.dao.orm.hibernate.StringType" />
+		<property name="content" type="com.liferay.portal.dao.orm.hibernate.StringType" />
+		<property name="language" type="com.liferay.portal.dao.orm.hibernate.StringType" />
+		<property name="visitorName" type="com.liferay.portal.dao.orm.hibernate.StringType" />
+		<property name="visitorEmail" type="com.liferay.portal.dao.orm.hibernate.StringType" />
+		<property name="visitorTel" type="com.liferay.portal.dao.orm.hibernate.StringType" />
+		<property name="visitorAddress" type="com.liferay.portal.dao.orm.hibernate.StringType" />
+		<property name="draftId" type="com.liferay.portal.dao.orm.hibernate.StringType" />
+		<property name="hasAttachment" type="com.liferay.portal.dao.orm.hibernate.BooleanType" />
+	</class>
+	<class name="com.vportal.portlet.vlegal.model.impl.VLegalAttachedMessageImpl" table="VLegalAttachedMessage">
+		<cache usage="read-write" />
+		<id name="messageId" type="java.lang.String">
+			<generator class="assigned" />
+		</id>
+		<property name="groupId" type="com.liferay.portal.dao.orm.hibernate.LongType" />
+		<property name="companyId" type="com.liferay.portal.dao.orm.hibernate.LongType" />
+		<property name="userId" type="com.liferay.portal.dao.orm.hibernate.LongType" />
+		<property name="createdDate" type="org.hibernate.type.TimestampType" />
+		<property name="createdByUser" type="com.liferay.portal.dao.orm.hibernate.LongType" />
+		<property name="articleId" type="com.liferay.portal.dao.orm.hibernate.StringType" />
+		<property name="content" type="com.liferay.portal.dao.orm.hibernate.StringType" />
+		<property name="readMessage" type="com.liferay.portal.dao.orm.hibernate.BooleanType" />
+	</class>
+	<class name="com.vportal.portlet.vlegal.model.impl.VLegalOrgImpl" table="VLegalOrg">
+		<cache usage="read-write" />
+		<id name="orgId" type="java.lang.String">
+			<generator class="assigned" />
+		</id>
+		<property name="groupId" type="com.liferay.portal.dao.orm.hibernate.LongType" />
+		<property name="companyId" type="com.liferay.portal.dao.orm.hibernate.LongType" />
+		<property name="userId" type="com.liferay.portal.dao.orm.hibernate.LongType" />
+		<property name="createdDate" type="org.hibernate.type.TimestampType" />
+		<property name="modifiedDate" type="org.hibernate.type.TimestampType" />
+		<property name="createdByUser" type="com.liferay.portal.dao.orm.hibernate.LongType" />
+		<property name="modifiedByUser" type="com.liferay.portal.dao.orm.hibernate.LongType" />
+		<property name="name" type="com.liferay.portal.dao.orm.hibernate.StringType" />
+		<property name="description" type="com.liferay.portal.dao.orm.hibernate.StringType" />
+		<property name="parentId" type="com.liferay.portal.dao.orm.hibernate.StringType" />
+		<property name="language" type="com.liferay.portal.dao.orm.hibernate.StringType" />
+		<property name="statusOrg" type="com.liferay.portal.dao.orm.hibernate.BooleanType" />
+		<property name="rssable" type="com.liferay.portal.dao.orm.hibernate.BooleanType" />
+		<property name="position" type="com.liferay.portal.dao.orm.hibernate.IntegerType" />
+	</class>
+	<class name="com.vportal.portlet.vlegal.model.impl.VLegalSignerImpl" table="VLegalSigner">
+		<cache usage="read-write" />
+		<id name="sigId" type="java.lang.String">
+			<generator class="assigned" />
+		</id>
+		<property name="groupId" type="com.liferay.portal.dao.orm.hibernate.LongType" />
+		<property name="companyId" type="com.liferay.portal.dao.orm.hibernate.LongType" />
+		<property name="userId" type="com.liferay.portal.dao.orm.hibernate.LongType" />
+		<property name="createdDate" type="org.hibernate.type.TimestampType" />
+		<property name="modifiedDate" type="org.hibernate.type.TimestampType" />
+		<property name="createdByUser" type="com.liferay.portal.dao.orm.hibernate.LongType" />
+		<property name="modifiedByUser" type="com.liferay.portal.dao.orm.hibernate.LongType" />
+		<property name="firstName" type="com.liferay.portal.dao.orm.hibernate.StringType" />
+		<property name="lastName" type="com.liferay.portal.dao.orm.hibernate.StringType" />
+		<property name="language" type="com.liferay.portal.dao.orm.hibernate.StringType" />
+		<property name="statusSigner" type="com.liferay.portal.dao.orm.hibernate.BooleanType" />
+	</class>
+	<class name="com.vportal.portlet.vlegal.model.impl.VLegalTagsImpl" table="VLegalTags">
+		<cache usage="read-write" />
+		<id name="tagId" type="java.lang.String">
+			<generator class="assigned" />
+		</id>
+		<property name="groupId" type="com.liferay.portal.dao.orm.hibernate.LongType" />
+		<property name="companyId" type="com.liferay.portal.dao.orm.hibernate.LongType" />
+		<property name="userId" type="com.liferay.portal.dao.orm.hibernate.LongType" />
+		<property name="createdDate" type="org.hibernate.type.TimestampType" />
+		<property name="modifiedDate" type="org.hibernate.type.TimestampType" />
+		<property name="name" type="com.liferay.portal.dao.orm.hibernate.StringType" />
+		<property name="statusTags" type="com.liferay.portal.dao.orm.hibernate.BooleanType" />
+	</class>
+	<class name="com.vportal.portlet.vlegal.model.impl.VLegalFORelImpl" table="VLegalFORel">
+		<cache usage="read-write" />
+		<composite-id name="primaryKey" class="com.vportal.portlet.vlegal.service.persistence.VLegalFORelPK">
+			<key-property name="fieldId" type="com.liferay.portal.dao.orm.hibernate.StringType" />
+			<key-property name="orgId" type="com.liferay.portal.dao.orm.hibernate.StringType" />
+		</composite-id>
+	</class>
+	<class name="com.vportal.portlet.vlegal.model.impl.VLegalFTRelImpl" table="VLegalFTRel">
+		<cache usage="read-write" />
+		<composite-id name="primaryKey" class="com.vportal.portlet.vlegal.service.persistence.VLegalFTRelPK">
+			<key-property name="fieldId" type="com.liferay.portal.dao.orm.hibernate.StringType" />
+			<key-property name="typeId" type="com.liferay.portal.dao.orm.hibernate.StringType" />
+		</composite-id>
+	</class>
+	<class name="com.vportal.portlet.vlegal.model.impl.VLegalDFRelImpl" table="VLegalDFRel">
+		<cache usage="read-write" />
+		<composite-id name="primaryKey" class="com.vportal.portlet.vlegal.service.persistence.VLegalDFRelPK">
+			<key-property name="fieldId" type="com.liferay.portal.dao.orm.hibernate.StringType" />
+			<key-property name="docId" type="com.liferay.portal.dao.orm.hibernate.StringType" />
+		</composite-id>
+	</class>
+	<class name="com.vportal.portlet.vlegal.model.impl.VLegalDDRelImpl" table="VLegalDDRel">
+		<cache usage="read-write" />
+		<composite-id name="primaryKey" class="com.vportal.portlet.vlegal.service.persistence.VLegalDDRelPK">
+			<key-property name="departmentId" type="com.liferay.portal.dao.orm.hibernate.LongType" />
+			<key-property name="docId" type="com.liferay.portal.dao.orm.hibernate.StringType" />
+		</composite-id>
+	</class>
+	<class name="com.vportal.portlet.vlegal.model.impl.VLegalDURelImpl" table="VLegalDURel">
+		<cache usage="read-write" />
+		<composite-id name="primaryKey" class="com.vportal.portlet.vlegal.service.persistence.VLegalDURelPK">
+			<key-property name="departmentId" type="com.liferay.portal.dao.orm.hibernate.LongType" />
+			<key-property name="userid" type="com.liferay.portal.dao.orm.hibernate.LongType" />
+		</composite-id>
+	</class>
+	<class name="com.vportal.portlet.vlegal.model.impl.VLegalDSRelImpl" table="VLegalDSRel">
+		<cache usage="read-write" />
+		<composite-id name="primaryKey" class="com.vportal.portlet.vlegal.service.persistence.VLegalDSRelPK">
+			<key-property name="sigId" type="com.liferay.portal.dao.orm.hibernate.StringType" />
+			<key-property name="docId" type="com.liferay.portal.dao.orm.hibernate.StringType" />
+		</composite-id>
+	</class>
+	<class name="com.vportal.portlet.vlegal.model.impl.VLegalTDRelImpl" table="VLegalTDRel">
+		<cache usage="read-write" />
+		<composite-id name="primaryKey" class="com.vportal.portlet.vlegal.service.persistence.VLegalTDRelPK">
+			<key-property name="docId" type="com.liferay.portal.dao.orm.hibernate.StringType" />
+			<key-property name="tagId" type="com.liferay.portal.dao.orm.hibernate.StringType" />
+		</composite-id>
+	</class>
+	<class name="com.vportal.portlet.vlegal.model.impl.VLegalLoggerImpl" table="VLegalLogger">
+		<cache usage="read-write" />
+		<id name="loggerId" type="java.lang.String">
+			<generator class="assigned" />
+		</id>
+		<property name="groupId" type="com.liferay.portal.dao.orm.hibernate.LongType" />
+		<property name="companyId" type="com.liferay.portal.dao.orm.hibernate.LongType" />
+		<property name="userId" type="com.liferay.portal.dao.orm.hibernate.LongType" />
+		<property name="createdDate" type="org.hibernate.type.TimestampType" />
+		<property name="createdByUser" type="com.liferay.portal.dao.orm.hibernate.LongType" />
+		<property name="content" type="com.liferay.portal.dao.orm.hibernate.StringType" />
+	</class>
+</hibernate-mapping>

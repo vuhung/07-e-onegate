@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/Advertisement-portlet/docroot/WEB-INF/lib
+END
+jai-core-1.1.3-alpha.jar
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/Advertisement-portlet/docroot/WEB-INF/lib/jai-core-1.1.3-alpha.jar
+END
+jstl.jar
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/Advertisement-portlet/docroot/WEB-INF/lib/jstl.jar
+END
+Advertisement-portlet-service.jar
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/Advertisement-portlet/docroot/WEB-INF/lib/Advertisement-portlet-service.jar
+END
+jai_codec.jar
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/Advertisement-portlet/docroot/WEB-INF/lib/jai_codec.jar
+END

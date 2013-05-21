@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/vsearch-portlet/docroot/WEB-INF/src/com/vportal/portal/util
+END
+PortalUtilExt.java
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/vsearch-portlet/docroot/WEB-INF/src/com/vportal/portal/util/PortalUtilExt.java
+END
+PropsUtilExt.java
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/vsearch-portlet/docroot/WEB-INF/src/com/vportal/portal/util/PropsUtilExt.java
+END
+PortletKeysExt.java
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/vsearch-portlet/docroot/WEB-INF/src/com/vportal/portal/util/PortletKeysExt.java
+END
+WebKeysExt.java
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/vsearch-portlet/docroot/WEB-INF/src/com/vportal/portal/util/WebKeysExt.java
+END

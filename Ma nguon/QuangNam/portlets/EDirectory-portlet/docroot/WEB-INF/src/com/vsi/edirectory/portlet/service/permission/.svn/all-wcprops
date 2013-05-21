@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/EDirectory-portlet/docroot/WEB-INF/src/com/vsi/edirectory/portlet/service/permission
+END
+EDEmployeePermission.java
+K 25
+svn:wc:ra_dav:version-url
+V 169
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/EDirectory-portlet/docroot/WEB-INF/src/com/vsi/edirectory/portlet/service/permission/EDEmployeePermission.java
+END
+EDDepartmentPermission.java
+K 25
+svn:wc:ra_dav:version-url
+V 171
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/EDirectory-portlet/docroot/WEB-INF/src/com/vsi/edirectory/portlet/service/permission/EDDepartmentPermission.java
+END
+EDEmployeePermission.class
+K 25
+svn:wc:ra_dav:version-url
+V 170
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/EDirectory-portlet/docroot/WEB-INF/src/com/vsi/edirectory/portlet/service/permission/EDEmployeePermission.class
+END
+EDFunctionPermission.java
+K 25
+svn:wc:ra_dav:version-url
+V 169
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/EDirectory-portlet/docroot/WEB-INF/src/com/vsi/edirectory/portlet/service/permission/EDFunctionPermission.java
+END
+EDDepartmentPermission.class
+K 25
+svn:wc:ra_dav:version-url
+V 172
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/EDirectory-portlet/docroot/WEB-INF/src/com/vsi/edirectory/portlet/service/permission/EDDepartmentPermission.class
+END
+EDFunctionPermission.class
+K 25
+svn:wc:ra_dav:version-url
+V 170
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/EDirectory-portlet/docroot/WEB-INF/src/com/vsi/edirectory/portlet/service/permission/EDFunctionPermission.class
+END

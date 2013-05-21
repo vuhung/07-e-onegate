@@ -1,0 +1,68 @@
+category.VAdvman         = Qu\u1EA3ng C\u00E1o
+
+quangcao = Qu&#7843;ng C&#225;o
+
+################################## MANAGE ADV ##################################
+######### TAB #########
+tab.adv.item = Qu&#7843;ng c&#225;o
+tab.adv.type = Ki&#7875;u qu&#7843;ng c&#225;o
+
+######### ACTIONS #########
+actions = T&#225;c v&#7909;
+actions.add = Th&#234;m
+actions.delete = X&#243;a
+actions.edit = S&#7917;a
+actions.permissions = Ph&#226;n quy&#7873;n
+actions.search = T&#236;m ki&#7871;m
+actions.save = L&#432;u
+actions.cancel = Tho&#225;t
+actions.searchAll = T&#7845;t c&#7843;
+actions.searchStatusNonExprired = C&#242;n h&#7841;n
+actions.searchStatusExpired = H&#7871;t h&#7841;n
+message.display.table.item = Ch&#432;a c&#243; qu&#7843;ng c&#225;o
+message.display.table.type = Ch&#432;a c&#243; ki&#7875;u qu&#7843;ng c&#225;o
+
+######### TAB ITEM #########
+item.keyword = T&#7915; kh&#243;a
+item.type = Ki&#7875;u qu&#7843;ng c&#225;o
+item.name = T&#234;n qu&#7843;ng c&#225;o
+item.description = M&#244; t&#7843;
+item.status = Tr&#7841;ng th&#225;i
+item.url = URL
+item.toolTip = Tooltip
+item.expriedDate = Ng&#224;y h&#7871;t hi&#7879;u l&#7921;c
+item.targetBlank = Li&#234;n k&#7871;t &#273;&#7871;n trang m&#7899;i
+item.infinite = V&#244; h&#7841;n
+
+######### TAB TYPE #########
+type.name = Ki&#7875;u qu&#7843;ng c&#225;o
+type.description = M&#244; t&#7843;
+type.numberItem = S&#7889; item thu&#7897;c ki&#7875;u
+type.createDate = Ng&#224;y t&#7841;o
+
+################################## VIEW ADV ##################################
+######### EDIT #########
+config.portlet = C&#7845;u h&#236;nh Portlet
+choose.type.adv = Ch&#7885;n lo&#7841;i qu&#7843;ng c&#225;o
+choose.item.adv = Ch&#7885;n qu&#7843;ng c&#225;o &#273;&#7875; hi&#7875;n th&#7883;:
+no.item.adv = Ch&#432;a c&#243; qu&#7843;ng c&#225;o !
+
+config.display = C&#7845;u h&#236;nh &#273;&#7875; hi&#7875;n th&#7883;
+choose.typeDisplay = Ch&#7885;n ki&#7875;u hi&#7875;n th&#7883; Portlet
+type.border = C&#243; vi&#7873;n
+type.nonBorder = Kh&#244;ng c&#243; vi&#7873;n
+type.alignLeft = C&#259;n l&#7873; tr&#225;i
+type.alignRight = C&#259;n l&#7873; ph&#7843;i
+
+display.adv.sizeDefault = Hi&#7875;n th&#7883; qu&#7843;ng c&#225;o v&#7899;i k&#237;ch th&#432;&#7899;c m&#7863;c &#273;&#7883;nh
+size.width = Chi&#7873;u r&#7897;ng
+size.height = Chi&#7873;u cao 
+
+config.adv.flash-clip = C&#7845;u h&#236;nh cho qu&#7843;ng c&#225;o Flash, Clip
+config.adv.flash-clip.auto-start = T&#7921; &#273;&#7897;ng kh&#7903;i &#273;&#7897;ng
+config.adv.flash-clip.auto-replay = T&#7921; &#273;&#7897;ng ch&#7841;y l&#7841;i
+title.portlet = T&#249;y bi&#7871;n ti&#234;u &#273;&#7873; PORTLET
+
+
+
+

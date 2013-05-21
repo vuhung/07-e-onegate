@@ -1,0 +1,113 @@
+
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+	<tr><td height="3"></td></tr>
+	<tr>	    			
+	<%
+	String catDefault="";
+	PortletURL catURL = PortletURLFactoryUtil.create(request,portletSelectId, plId, PortletRequest.RENDER_PHASE);
+	catURL.setParameter("struts_action", "/vcmsviewcontent/view");
+	for(int i=0;i<listCategory.length;i++){
+	  VcmsCategory category = (VcmsCategory)VcmsCategoryServiceUtil.getCategory(listCategory[i]);
+	  catURL.setParameter("categoryId", category.getCategoryId());
+	%>
+		<td valign="top" width="50%" bgcolor="#F3EEE5">
+			<table width="100%" border="0" cellspacing="0" cellpadding="0">
+				<tr>
+					<%
+						if(i == listCategory.length - 1){
+					%>									
+						<td class="bg_02">
+							<div class="title1" align="left"><a href="<%=catURL.toString()%>"><%= category.getName() %></a></div>										
+						</td>
+					<%
+						}
+						else{
+					%>
+						<td class="bg_02_1">
+							<div class="title1" align="left"><a href="<%=catURL.toString()%>"><%= category.getName() %></a></div>										
+						</td>
+					<%
+						}
+					%>
+				</tr >
+				<tr>
+					<%
+						if(i==0){
+					%>
+					<td height="10" class="text_04"></td>
+					<%
+						}else{
+					%>
+					<td height="10" class="text_04_1"></td>	
+					<%
+						}
+					%>
+					
+				</tr>
+				<tr><td height="8"></td></tr>			
+			<%
+				int sumAticles = numberArticlesNextInCat+numberArticlesInCat;
+				List articlesByCat = (List)VcmsArticleServiceUtil.getTopNewArticles(groupId , language , null, category.getCategoryId() , statusId , sumAticles);
+				int numberAricles =0;
+				if(articlesByCat.size()<numberArticlesInCat){
+				  numberAricles = articlesByCat.size();
+				}else{
+				  numberAricles =numberArticlesInCat ;
+				}						
+				for (int j = 0; j <numberAricles; j++) {
+					VcmsArticle article = (VcmsArticle)articlesByCat.get(j);
+					PortletURL articleURL= PortletURLFactoryUtil.create(request,portletSelectId, plId, PortletRequest.RENDER_PHASE);
+					articleURL.setParameter("struts_action", "/vcmsviewcontent/view");
+					articleURL.setParameter("articleId", article.getArticleId());
+					articleURL.setParameter("categoryId", category.getCategoryId());				
+				%>
+					<tr height="60">
+						<td style="padding: 5px 5px;" valign="top">
+							<div align="justify" style="float: left; width: 100%; min-height: 50px; vertical-align:top">								
+								<%
+									if(article.getHasImage()){
+								%>									
+									<a href="<%= articleURL %>"><img hspace="9" align="left" width="76" vspace="4" src="<%= themeDisplay.getPathImage() + "/images?img_id=" + article.getImage()  %>"/></a>
+									<a href="<%= articleURL %>"> <%= article.getTitle()%></a>
+								<%
+									}else{
+								%>
+									<div style="padding: 0 10px;" valign="top"><a href="<%= articleURL %>"> <%= article.getTitle()%></a></div>
+								<%
+									}
+								%>								
+							</div>
+						</td>
+					</tr>
+				<%
+					}
+				%>
+				<tr>
+					<td align="right">
+						<c:if test="<%=Validator.isNotNull(articlesByCat) && articlesByCat.size()>0%>">	
+                            <%	StringBuilder sb = new StringBuilder();			
+							sb.append(themeDisplay.getPathMain());
+							sb.append("/vcmsviewcontent/rss?");
+							sb.append("categoryId=" + category.getCategoryId());
+							sb.append("&p_l_id=" + Long.toString(plId));
+							sb.append("&portletSelectId=" + portletSelectId);
+							String rssURL = sb.toString();
+						%>		
+                        	<div class="detail">                        	                        	
+                        		<a href="<%=rssURL%>"><img hspace="10" height="10" width="37" align="left" src="<%= themeDisplay.getPathThemeImage() %>/HN_image/rss.gif"/></a>
+                        	
+                        		<a href="<%=catURL.toString()%>"><img  width="57" height="15" src="<%= themeDisplay.getPathThemeImage() %>/HN_image/tinthem.gif"/></a> &nbsp; &nbsp; 
+                        	</div>   
+                        	
+                        </c:if>	
+					</td>
+				</tr>
+				<tr><td height="5"></td></tr>
+			</table>									
+		</td>
+	<%
+	}
+   	%>
+ 		</tr>
+ 		<tr><td height="3"></td></tr>
+ </table>

@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/VFaq-portlet/docroot/WEB-INF/src/com/vportal/portlet/vfaq/util
+END
+QuestionOpenSearchImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 149
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/VFaq-portlet/docroot/WEB-INF/src/com/vportal/portlet/vfaq/util/QuestionOpenSearchImpl.java
+END
+FAQUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/VFaq-portlet/docroot/WEB-INF/src/com/vportal/portlet/vfaq/util/FAQUtil.java
+END
+WebKeysEDDepartment.java
+K 25
+svn:wc:ra_dav:version-url
+V 146
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/VFaq-portlet/docroot/WEB-INF/src/com/vportal/portlet/vfaq/util/WebKeysEDDepartment.java
+END
+ActionKeysExt.java
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/VFaq-portlet/docroot/WEB-INF/src/com/vportal/portlet/vfaq/util/ActionKeysExt.java
+END
+WebKeysExt.java
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/VFaq-portlet/docroot/WEB-INF/src/com/vportal/portlet/vfaq/util/WebKeysExt.java
+END
+SearchQuestionIndexer.java
+K 25
+svn:wc:ra_dav:version-url
+V 148
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/VFaq-portlet/docroot/WEB-INF/src/com/vportal/portlet/vfaq/util/SearchQuestionIndexer.java
+END

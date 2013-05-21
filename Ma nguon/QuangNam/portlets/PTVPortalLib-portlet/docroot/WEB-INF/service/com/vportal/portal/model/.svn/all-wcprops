@@ -1,0 +1,95 @@
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/PTVPortalLib-portlet/docroot/WEB-INF/service/com/vportal/portal/model
+END
+AccessCounterClp.java
+K 25
+svn:wc:ra_dav:version-url
+V 150
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/PTVPortalLib-portlet/docroot/WEB-INF/service/com/vportal/portal/model/AccessCounterClp.java
+END
+AccessCounter.java
+K 25
+svn:wc:ra_dav:version-url
+V 147
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/PTVPortalLib-portlet/docroot/WEB-INF/service/com/vportal/portal/model/AccessCounter.java
+END
+AccessCounterWrapper.java
+K 25
+svn:wc:ra_dav:version-url
+V 154
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/PTVPortalLib-portlet/docroot/WEB-INF/service/com/vportal/portal/model/AccessCounterWrapper.java
+END
+PortletFolderModel.java
+K 25
+svn:wc:ra_dav:version-url
+V 152
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/PTVPortalLib-portlet/docroot/WEB-INF/service/com/vportal/portal/model/PortletFolderModel.java
+END
+PortletFolderSoap.java
+K 25
+svn:wc:ra_dav:version-url
+V 151
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/PTVPortalLib-portlet/docroot/WEB-INF/service/com/vportal/portal/model/PortletFolderSoap.java
+END
+AttachmentModel.java
+K 25
+svn:wc:ra_dav:version-url
+V 149
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/PTVPortalLib-portlet/docroot/WEB-INF/service/com/vportal/portal/model/AttachmentModel.java
+END
+AttachmentSoap.java
+K 25
+svn:wc:ra_dav:version-url
+V 148
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/PTVPortalLib-portlet/docroot/WEB-INF/service/com/vportal/portal/model/AttachmentSoap.java
+END
+AccessCounterModel.java
+K 25
+svn:wc:ra_dav:version-url
+V 152
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/PTVPortalLib-portlet/docroot/WEB-INF/service/com/vportal/portal/model/AccessCounterModel.java
+END
+PortletFolderClp.java
+K 25
+svn:wc:ra_dav:version-url
+V 150
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/PTVPortalLib-portlet/docroot/WEB-INF/service/com/vportal/portal/model/PortletFolderClp.java
+END
+AccessCounterSoap.java
+K 25
+svn:wc:ra_dav:version-url
+V 151
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/PTVPortalLib-portlet/docroot/WEB-INF/service/com/vportal/portal/model/AccessCounterSoap.java
+END
+PortletFolder.java
+K 25
+svn:wc:ra_dav:version-url
+V 147
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/PTVPortalLib-portlet/docroot/WEB-INF/service/com/vportal/portal/model/PortletFolder.java
+END
+PortletFolderWrapper.java
+K 25
+svn:wc:ra_dav:version-url
+V 154
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/PTVPortalLib-portlet/docroot/WEB-INF/service/com/vportal/portal/model/PortletFolderWrapper.java
+END
+AttachmentClp.java
+K 25
+svn:wc:ra_dav:version-url
+V 147
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/PTVPortalLib-portlet/docroot/WEB-INF/service/com/vportal/portal/model/AttachmentClp.java
+END
+Attachment.java
+K 25
+svn:wc:ra_dav:version-url
+V 144
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/PTVPortalLib-portlet/docroot/WEB-INF/service/com/vportal/portal/model/Attachment.java
+END
+AttachmentWrapper.java
+K 25
+svn:wc:ra_dav:version-url
+V 151
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/PTVPortalLib-portlet/docroot/WEB-INF/service/com/vportal/portal/model/AttachmentWrapper.java
+END

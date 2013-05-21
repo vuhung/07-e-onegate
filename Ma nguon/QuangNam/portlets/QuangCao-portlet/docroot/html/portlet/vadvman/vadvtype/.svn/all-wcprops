@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/QuangCao-portlet/docroot/html/portlet/vadvman/vadvtype
+END
+edit_type.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/QuangCao-portlet/docroot/html/portlet/vadvman/vadvtype/edit_type.jsp
+END
+type_action.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/QuangCao-portlet/docroot/html/portlet/vadvman/vadvtype/type_action.jsp
+END
+view_type.jspf
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/QuangCao-portlet/docroot/html/portlet/vadvman/vadvtype/view_type.jspf
+END

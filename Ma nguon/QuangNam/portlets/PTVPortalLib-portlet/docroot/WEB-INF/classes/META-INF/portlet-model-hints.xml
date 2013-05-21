@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<model-hints>
+	<model name="com.vportal.portal.model.Attachment">
+		<field name="attachmentId" type="long" />
+		<field name="groupId" type="long" />
+		<field name="companyId" type="long" />
+		<field name="entryId" type="long" />
+		<field name="entryClass" type="String" />
+		<field name="fileEntryId" type="long" />
+		<field name="folderId" type="long" />
+		<field name="fileName" type="String" />
+		<field name="imageId" type="long" />
+		<field name="extension" type="String" />
+	</model>
+	<model name="com.vportal.portal.model.AccessCounter">
+		<field name="id" type="long" />
+		<field name="companyId" type="long" />
+		<field name="accessDate" type="Date" />
+		<field name="accessCount" type="int" />
+	</model>
+	<model name="com.vportal.portal.model.PortletFolder">
+		<field name="id" type="long" />
+		<field name="portletId" type="String" />
+		<field name="folderId" type="long" />
+		<field name="description" type="String" />
+	</model>
+</model-hints>

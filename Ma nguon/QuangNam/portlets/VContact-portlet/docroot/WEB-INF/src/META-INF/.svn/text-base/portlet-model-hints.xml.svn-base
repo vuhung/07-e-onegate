@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<model-hints>
+	<model name="com.vportal.portlet.vcontact.model.VContact">
+		<field name="id" type="long" />
+		<field name="groupId" type="long" />
+		<field name="companyId" type="long" />
+		<field name="createdDate" type="Date" />
+		<field name="modifiedDate" type="Date" />
+		<field name="guestName" type="String" />
+		<field name="email" type="String" />
+		<field name="title" type="String" />
+		<field name="address" type="String" />
+		<field name="phone" type="String" />
+		<field name="fax" type="String" />
+		<field name="content" type="String" />
+		<field name="hasAttach" type="boolean" />
+		<field name="status" type="int" />
+	</model>
+</model-hints>

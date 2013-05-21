@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/vimagegallery-portlet/docroot/html/portlet/vimagegallery/image
+END
+image_thumbnail.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/vimagegallery-portlet/docroot/html/portlet/vimagegallery/image/image_thumbnail.jsp
+END
+edit_image.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/vimagegallery-portlet/docroot/html/portlet/vimagegallery/image/edit_image.jsp
+END
+view_image.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/vimagegallery-portlet/docroot/html/portlet/vimagegallery/image/view_image.jsp
+END
+image_action.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/vimagegallery-portlet/docroot/html/portlet/vimagegallery/image/image_action.jsp
+END

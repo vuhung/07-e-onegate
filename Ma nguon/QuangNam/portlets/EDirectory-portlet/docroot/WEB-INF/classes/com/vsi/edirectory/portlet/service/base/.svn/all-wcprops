@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/EDirectory-portlet/docroot/WEB-INF/classes/com/vsi/edirectory/portlet/service/base
+END
+EDFunctionDepartmentLocalServiceBaseImpl.class
+K 25
+svn:wc:ra_dav:version-url
+V 188
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/EDirectory-portlet/docroot/WEB-INF/classes/com/vsi/edirectory/portlet/service/base/EDFunctionDepartmentLocalServiceBaseImpl.class
+END
+EDFunctionEmployeeServiceBaseImpl.class
+K 25
+svn:wc:ra_dav:version-url
+V 181
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/EDirectory-portlet/docroot/WEB-INF/classes/com/vsi/edirectory/portlet/service/base/EDFunctionEmployeeServiceBaseImpl.class
+END
+EDFunctionServiceBaseImpl.class
+K 25
+svn:wc:ra_dav:version-url
+V 173
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/EDirectory-portlet/docroot/WEB-INF/classes/com/vsi/edirectory/portlet/service/base/EDFunctionServiceBaseImpl.class
+END
+EDFunctionDepartmentServiceBaseImpl.class
+K 25
+svn:wc:ra_dav:version-url
+V 183
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/EDirectory-portlet/docroot/WEB-INF/classes/com/vsi/edirectory/portlet/service/base/EDFunctionDepartmentServiceBaseImpl.class
+END
+EDEmployeeLocalServiceBaseImpl.class
+K 25
+svn:wc:ra_dav:version-url
+V 178
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/EDirectory-portlet/docroot/WEB-INF/classes/com/vsi/edirectory/portlet/service/base/EDEmployeeLocalServiceBaseImpl.class
+END
+EDDepartmentLocalServiceBaseImpl.class
+K 25
+svn:wc:ra_dav:version-url
+V 180
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/EDirectory-portlet/docroot/WEB-INF/classes/com/vsi/edirectory/portlet/service/base/EDDepartmentLocalServiceBaseImpl.class
+END
+EDEmployeeServiceBaseImpl.class
+K 25
+svn:wc:ra_dav:version-url
+V 173
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/EDirectory-portlet/docroot/WEB-INF/classes/com/vsi/edirectory/portlet/service/base/EDEmployeeServiceBaseImpl.class
+END
+EDFunctionEmployeeLocalServiceBaseImpl.class
+K 25
+svn:wc:ra_dav:version-url
+V 186
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/EDirectory-portlet/docroot/WEB-INF/classes/com/vsi/edirectory/portlet/service/base/EDFunctionEmployeeLocalServiceBaseImpl.class
+END
+EDFunctionLocalServiceBaseImpl.class
+K 25
+svn:wc:ra_dav:version-url
+V 178
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/EDirectory-portlet/docroot/WEB-INF/classes/com/vsi/edirectory/portlet/service/base/EDFunctionLocalServiceBaseImpl.class
+END
+EDDepartmentServiceBaseImpl.class
+K 25
+svn:wc:ra_dav:version-url
+V 175
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/EDirectory-portlet/docroot/WEB-INF/classes/com/vsi/edirectory/portlet/service/base/EDDepartmentServiceBaseImpl.class
+END

@@ -1,0 +1,239 @@
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/VCMS-portlet/docroot/WEB-INF/service/com/vportal/portlet/vcms
+END
+InvalidDiscussionVisitorEmailException.java
+K 25
+svn:wc:ra_dav:version-url
+V 164
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/VCMS-portlet/docroot/WEB-INF/service/com/vportal/portlet/vcms/InvalidDiscussionVisitorEmailException.java
+END
+InvalidArticleContentException.java
+K 25
+svn:wc:ra_dav:version-url
+V 156
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/VCMS-portlet/docroot/WEB-INF/service/com/vportal/portlet/vcms/InvalidArticleContentException.java
+END
+InvalidCategoryNameException.java
+K 25
+svn:wc:ra_dav:version-url
+V 154
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/VCMS-portlet/docroot/WEB-INF/service/com/vportal/portlet/vcms/InvalidCategoryNameException.java
+END
+InvalidArticleRelationException.java
+K 25
+svn:wc:ra_dav:version-url
+V 157
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/VCMS-portlet/docroot/WEB-INF/service/com/vportal/portlet/vcms/InvalidArticleRelationException.java
+END
+NoSuchVcmsLoggerException.java
+K 25
+svn:wc:ra_dav:version-url
+V 151
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/VCMS-portlet/docroot/WEB-INF/service/com/vportal/portlet/vcms/NoSuchVcmsLoggerException.java
+END
+InvalidCategoryHrefException.java
+K 25
+svn:wc:ra_dav:version-url
+V 154
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/VCMS-portlet/docroot/WEB-INF/service/com/vportal/portlet/vcms/InvalidCategoryHrefException.java
+END
+NoSuchVcmsTypeException.java
+K 25
+svn:wc:ra_dav:version-url
+V 149
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/VCMS-portlet/docroot/WEB-INF/service/com/vportal/portlet/vcms/NoSuchVcmsTypeException.java
+END
+NoSuchVcmsDiscussionException.java
+K 25
+svn:wc:ra_dav:version-url
+V 155
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/VCMS-portlet/docroot/WEB-INF/service/com/vportal/portlet/vcms/NoSuchVcmsDiscussionException.java
+END
+InvalidPortionCodeException.java
+K 25
+svn:wc:ra_dav:version-url
+V 153
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/VCMS-portlet/docroot/WEB-INF/service/com/vportal/portlet/vcms/InvalidPortionCodeException.java
+END
+InvalidDiscussionTitleException.java
+K 25
+svn:wc:ra_dav:version-url
+V 157
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/VCMS-portlet/docroot/WEB-INF/service/com/vportal/portlet/vcms/InvalidDiscussionTitleException.java
+END
+NoSuchVcmsStatusException.java
+K 25
+svn:wc:ra_dav:version-url
+V 151
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/VCMS-portlet/docroot/WEB-INF/service/com/vportal/portlet/vcms/NoSuchVcmsStatusException.java
+END
+NoSuchVcmsArticleTypeException.java
+K 25
+svn:wc:ra_dav:version-url
+V 156
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/VCMS-portlet/docroot/WEB-INF/service/com/vportal/portlet/vcms/NoSuchVcmsArticleTypeException.java
+END
+NoSuchVcmsArticleStatusException.java
+K 25
+svn:wc:ra_dav:version-url
+V 158
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/VCMS-portlet/docroot/WEB-INF/service/com/vportal/portlet/vcms/NoSuchVcmsArticleStatusException.java
+END
+NoSuchVcmsArticleVersionException.java
+K 25
+svn:wc:ra_dav:version-url
+V 159
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/VCMS-portlet/docroot/WEB-INF/service/com/vportal/portlet/vcms/NoSuchVcmsArticleVersionException.java
+END
+InvalidPortionNameException.java
+K 25
+svn:wc:ra_dav:version-url
+V 153
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/VCMS-portlet/docroot/WEB-INF/service/com/vportal/portlet/vcms/InvalidPortionNameException.java
+END
+NoSuchVcmsPARelationException.java
+K 25
+svn:wc:ra_dav:version-url
+V 155
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/VCMS-portlet/docroot/WEB-INF/service/com/vportal/portlet/vcms/NoSuchVcmsPARelationException.java
+END
+DeleteTypeArticleException.java
+K 25
+svn:wc:ra_dav:version-url
+V 152
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/VCMS-portlet/docroot/WEB-INF/service/com/vportal/portlet/vcms/DeleteTypeArticleException.java
+END
+DeleteStatusArticleException.java
+K 25
+svn:wc:ra_dav:version-url
+V 154
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/VCMS-portlet/docroot/WEB-INF/service/com/vportal/portlet/vcms/DeleteStatusArticleException.java
+END
+InvalidDiscussionVisitorNameException.java
+K 25
+svn:wc:ra_dav:version-url
+V 163
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/VCMS-portlet/docroot/WEB-INF/service/com/vportal/portlet/vcms/InvalidDiscussionVisitorNameException.java
+END
+NoSuchVcmsTARelationException.java
+K 25
+svn:wc:ra_dav:version-url
+V 155
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/VCMS-portlet/docroot/WEB-INF/service/com/vportal/portlet/vcms/NoSuchVcmsTARelationException.java
+END
+InvalidThreadTitleException.java
+K 25
+svn:wc:ra_dav:version-url
+V 153
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/VCMS-portlet/docroot/WEB-INF/service/com/vportal/portlet/vcms/InvalidThreadTitleException.java
+END
+DuplicatePortionCodeException.java
+K 25
+svn:wc:ra_dav:version-url
+V 155
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/VCMS-portlet/docroot/WEB-INF/service/com/vportal/portlet/vcms/DuplicatePortionCodeException.java
+END
+NoSuchVcmsThreadException.java
+K 25
+svn:wc:ra_dav:version-url
+V 151
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/VCMS-portlet/docroot/WEB-INF/service/com/vportal/portlet/vcms/NoSuchVcmsThreadException.java
+END
+InvalidTypeCodeException.java
+K 25
+svn:wc:ra_dav:version-url
+V 150
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/VCMS-portlet/docroot/WEB-INF/service/com/vportal/portlet/vcms/InvalidTypeCodeException.java
+END
+InvalidDiscussionContentException.java
+K 25
+svn:wc:ra_dav:version-url
+V 159
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/VCMS-portlet/docroot/WEB-INF/service/com/vportal/portlet/vcms/InvalidDiscussionContentException.java
+END
+NoSuchVcmsCategoryException.java
+K 25
+svn:wc:ra_dav:version-url
+V 153
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/VCMS-portlet/docroot/WEB-INF/service/com/vportal/portlet/vcms/NoSuchVcmsCategoryException.java
+END
+InvalidTypeNameException.java
+K 25
+svn:wc:ra_dav:version-url
+V 150
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/VCMS-portlet/docroot/WEB-INF/service/com/vportal/portlet/vcms/InvalidTypeNameException.java
+END
+NoSuchVcmsCARelationException.java
+K 25
+svn:wc:ra_dav:version-url
+V 155
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/VCMS-portlet/docroot/WEB-INF/service/com/vportal/portlet/vcms/NoSuchVcmsCARelationException.java
+END
+NoSuchVcmsAttachedMessageException.java
+K 25
+svn:wc:ra_dav:version-url
+V 160
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/VCMS-portlet/docroot/WEB-INF/service/com/vportal/portlet/vcms/NoSuchVcmsAttachedMessageException.java
+END
+InvalidStatusNameException.java
+K 25
+svn:wc:ra_dav:version-url
+V 152
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/VCMS-portlet/docroot/WEB-INF/service/com/vportal/portlet/vcms/InvalidStatusNameException.java
+END
+InvalidArticleTitleException.java
+K 25
+svn:wc:ra_dav:version-url
+V 154
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/VCMS-portlet/docroot/WEB-INF/service/com/vportal/portlet/vcms/InvalidArticleTitleException.java
+END
+NoSuchVcmsArticleException.java
+K 25
+svn:wc:ra_dav:version-url
+V 152
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/VCMS-portlet/docroot/WEB-INF/service/com/vportal/portlet/vcms/NoSuchVcmsArticleException.java
+END
+InvalidArticleImageException.java
+K 25
+svn:wc:ra_dav:version-url
+V 154
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/VCMS-portlet/docroot/WEB-INF/service/com/vportal/portlet/vcms/InvalidArticleImageException.java
+END
+InvalidCategoryPortionException.java
+K 25
+svn:wc:ra_dav:version-url
+V 157
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/VCMS-portlet/docroot/WEB-INF/service/com/vportal/portlet/vcms/InvalidCategoryPortionException.java
+END
+DeleteCategoryException.java
+K 25
+svn:wc:ra_dav:version-url
+V 149
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/VCMS-portlet/docroot/WEB-INF/service/com/vportal/portlet/vcms/DeleteCategoryException.java
+END
+InvalidDiscussionAttachmentException.java
+K 25
+svn:wc:ra_dav:version-url
+V 162
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/VCMS-portlet/docroot/WEB-INF/service/com/vportal/portlet/vcms/InvalidDiscussionAttachmentException.java
+END
+NoSuchVcmsPortionException.java
+K 25
+svn:wc:ra_dav:version-url
+V 152
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/VCMS-portlet/docroot/WEB-INF/service/com/vportal/portlet/vcms/NoSuchVcmsPortionException.java
+END
+DuplicateTypeCodeException.java
+K 25
+svn:wc:ra_dav:version-url
+V 152
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/VCMS-portlet/docroot/WEB-INF/service/com/vportal/portlet/vcms/DuplicateTypeCodeException.java
+END
+DeletePortionException.java
+K 25
+svn:wc:ra_dav:version-url
+V 148
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/VCMS-portlet/docroot/WEB-INF/service/com/vportal/portlet/vcms/DeletePortionException.java
+END

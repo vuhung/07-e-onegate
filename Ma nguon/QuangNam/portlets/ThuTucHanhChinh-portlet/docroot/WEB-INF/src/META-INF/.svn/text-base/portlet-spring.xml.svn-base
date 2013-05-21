@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" default-destroy-method="destroy" default-init-method="afterPropertiesSet" xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+	<bean id="com.portlet.vdoc.service.vdocDocumentLocalService" class="com.portlet.vdoc.service.impl.vdocDocumentLocalServiceImpl" />
+	<bean id="com.portlet.vdoc.service.vdocDocumentLocalServiceUtil" class="com.portlet.vdoc.service.vdocDocumentLocalServiceUtil">
+		<property name="service" ref="com.portlet.vdoc.service.vdocDocumentLocalService" />
+	</bean>
+	<bean id="com.portlet.vdoc.service.vdocDocumentService" class="com.portlet.vdoc.service.impl.vdocDocumentServiceImpl" />
+	<bean id="com.portlet.vdoc.service.vdocDocumentServiceUtil" class="com.portlet.vdoc.service.vdocDocumentServiceUtil">
+		<property name="service" ref="com.portlet.vdoc.service.vdocDocumentService" />
+	</bean>
+	<bean id="com.portlet.vdoc.service.persistence.vdocDocumentPersistence" class="com.portlet.vdoc.service.persistence.vdocDocumentPersistenceImpl" parent="basePersistence" />
+	<bean id="com.portlet.vdoc.service.persistence.vdocDocumentFinder" class="com.portlet.vdoc.service.persistence.vdocDocumentFinderImpl" parent="basePersistence" />
+	<bean id="com.portlet.vdoc.service.vdocFieldLocalService" class="com.portlet.vdoc.service.impl.vdocFieldLocalServiceImpl" />
+	<bean id="com.portlet.vdoc.service.vdocFieldLocalServiceUtil" class="com.portlet.vdoc.service.vdocFieldLocalServiceUtil">
+		<property name="service" ref="com.portlet.vdoc.service.vdocFieldLocalService" />
+	</bean>
+	<bean id="com.portlet.vdoc.service.vdocFieldService" class="com.portlet.vdoc.service.impl.vdocFieldServiceImpl" />
+	<bean id="com.portlet.vdoc.service.vdocFieldServiceUtil" class="com.portlet.vdoc.service.vdocFieldServiceUtil">
+		<property name="service" ref="com.portlet.vdoc.service.vdocFieldService" />
+	</bean>
+	<bean id="com.portlet.vdoc.service.persistence.vdocFieldPersistence" class="com.portlet.vdoc.service.persistence.vdocFieldPersistenceImpl" parent="basePersistence" />
+	<bean id="com.portlet.vdoc.service.vdocOrgLocalService" class="com.portlet.vdoc.service.impl.vdocOrgLocalServiceImpl" />
+	<bean id="com.portlet.vdoc.service.vdocOrgLocalServiceUtil" class="com.portlet.vdoc.service.vdocOrgLocalServiceUtil">
+		<property name="service" ref="com.portlet.vdoc.service.vdocOrgLocalService" />
+	</bean>
+	<bean id="com.portlet.vdoc.service.vdocOrgService" class="com.portlet.vdoc.service.impl.vdocOrgServiceImpl" />
+	<bean id="com.portlet.vdoc.service.vdocOrgServiceUtil" class="com.portlet.vdoc.service.vdocOrgServiceUtil">
+		<property name="service" ref="com.portlet.vdoc.service.vdocOrgService" />
+	</bean>
+	<bean id="com.portlet.vdoc.service.persistence.vdocOrgPersistence" class="com.portlet.vdoc.service.persistence.vdocOrgPersistenceImpl" parent="basePersistence" />
+	<bean id="com.portlet.vdoc.service.vdocDORelLocalService" class="com.portlet.vdoc.service.impl.vdocDORelLocalServiceImpl" />
+	<bean id="com.portlet.vdoc.service.vdocDORelLocalServiceUtil" class="com.portlet.vdoc.service.vdocDORelLocalServiceUtil">
+		<property name="service" ref="com.portlet.vdoc.service.vdocDORelLocalService" />
+	</bean>
+	<bean id="com.portlet.vdoc.service.vdocDORelService" class="com.portlet.vdoc.service.impl.vdocDORelServiceImpl" />
+	<bean id="com.portlet.vdoc.service.vdocDORelServiceUtil" class="com.portlet.vdoc.service.vdocDORelServiceUtil">
+		<property name="service" ref="com.portlet.vdoc.service.vdocDORelService" />
+	</bean>
+	<bean id="com.portlet.vdoc.service.persistence.vdocDORelPersistence" class="com.portlet.vdoc.service.persistence.vdocDORelPersistenceImpl" parent="basePersistence" />
+	<bean id="com.portlet.vdoc.service.vdocLoggerLocalService" class="com.portlet.vdoc.service.impl.vdocLoggerLocalServiceImpl" />
+	<bean id="com.portlet.vdoc.service.vdocLoggerLocalServiceUtil" class="com.portlet.vdoc.service.vdocLoggerLocalServiceUtil">
+		<property name="service" ref="com.portlet.vdoc.service.vdocLoggerLocalService" />
+	</bean>
+	<bean id="com.portlet.vdoc.service.vdocLoggerService" class="com.portlet.vdoc.service.impl.vdocLoggerServiceImpl" />
+	<bean id="com.portlet.vdoc.service.vdocLoggerServiceUtil" class="com.portlet.vdoc.service.vdocLoggerServiceUtil">
+		<property name="service" ref="com.portlet.vdoc.service.vdocLoggerService" />
+	</bean>
+	<bean id="com.portlet.vdoc.service.persistence.vdocLoggerPersistence" class="com.portlet.vdoc.service.persistence.vdocLoggerPersistenceImpl" parent="basePersistence" />
+</beans>

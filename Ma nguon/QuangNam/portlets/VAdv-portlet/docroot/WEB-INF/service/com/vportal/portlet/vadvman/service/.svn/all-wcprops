@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/VAdv-portlet/docroot/WEB-INF/service/com/vportal/portlet/vadvman/service
+END
+AdvItemServiceUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 155
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/VAdv-portlet/docroot/WEB-INF/service/com/vportal/portlet/vadvman/service/AdvItemServiceUtil.java
+END
+ClpSerializer.java
+K 25
+svn:wc:ra_dav:version-url
+V 150
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/VAdv-portlet/docroot/WEB-INF/service/com/vportal/portlet/vadvman/service/ClpSerializer.java
+END
+AdvItemServiceClp.java
+K 25
+svn:wc:ra_dav:version-url
+V 154
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/VAdv-portlet/docroot/WEB-INF/service/com/vportal/portlet/vadvman/service/AdvItemServiceClp.java
+END
+AdvItemService.java
+K 25
+svn:wc:ra_dav:version-url
+V 151
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/VAdv-portlet/docroot/WEB-INF/service/com/vportal/portlet/vadvman/service/AdvItemService.java
+END
+AdvItemServiceWrapper.java
+K 25
+svn:wc:ra_dav:version-url
+V 158
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/VAdv-portlet/docroot/WEB-INF/service/com/vportal/portlet/vadvman/service/AdvItemServiceWrapper.java
+END
+AdvTypeServiceUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 155
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/VAdv-portlet/docroot/WEB-INF/service/com/vportal/portlet/vadvman/service/AdvTypeServiceUtil.java
+END
+AdvTypeServiceClp.java
+K 25
+svn:wc:ra_dav:version-url
+V 154
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/VAdv-portlet/docroot/WEB-INF/service/com/vportal/portlet/vadvman/service/AdvTypeServiceClp.java
+END
+AdvTypeService.java
+K 25
+svn:wc:ra_dav:version-url
+V 151
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/VAdv-portlet/docroot/WEB-INF/service/com/vportal/portlet/vadvman/service/AdvTypeService.java
+END
+AdvTypeServiceWrapper.java
+K 25
+svn:wc:ra_dav:version-url
+V 158
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/VAdv-portlet/docroot/WEB-INF/service/com/vportal/portlet/vadvman/service/AdvTypeServiceWrapper.java
+END

@@ -1,0 +1,788 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wsdl:definitions targetNamespace="urn:http.service.vimagegallery.portlet.vportal.com" xmlns:apachesoap="http://xml.apache.org/xml-soap" xmlns:impl="urn:http.service.vimagegallery.portlet.vportal.com" xmlns:intf="urn:http.service.vimagegallery.portlet.vportal.com" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tns2="http://model.vimagegallery.portlet.vportal.com" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:wsdlsoap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<!--WSDL created by Apache Axis version: 1.4
+Built on Apr 22, 2006 (06:55:48 PDT)-->
+ <wsdl:types>
+  <schema targetNamespace="http://model.vimagegallery.portlet.vportal.com" xmlns="http://www.w3.org/2001/XMLSchema">
+   <import namespace="urn:http.service.vimagegallery.portlet.vportal.com"/>
+   <import namespace="http://schemas.xmlsoap.org/soap/encoding/"/>
+   <complexType name="TFCategorySoap">
+    <sequence>
+     <element name="companyId" type="xsd:long"/>
+     <element name="createDate" nillable="true" type="xsd:dateTime"/>
+     <element name="description" nillable="true" type="xsd:string"/>
+     <element name="groupId" type="xsd:long"/>
+     <element name="id" type="xsd:long"/>
+     <element name="image" nillable="true" type="xsd:string"/>
+     <element name="modifiedDate" nillable="true" type="xsd:dateTime"/>
+     <element name="name" nillable="true" type="xsd:string"/>
+     <element name="primaryKey" type="xsd:long"/>
+     <element name="userId" type="xsd:long"/>
+    </sequence>
+   </complexType>
+  </schema>
+  <schema targetNamespace="urn:http.service.vimagegallery.portlet.vportal.com" xmlns="http://www.w3.org/2001/XMLSchema">
+   <import namespace="http://model.vimagegallery.portlet.vportal.com"/>
+   <import namespace="http://schemas.xmlsoap.org/soap/encoding/"/>
+   <complexType name="ArrayOf_tns2_TFCategorySoap">
+    <complexContent>
+     <restriction base="soapenc:Array">
+      <attribute ref="soapenc:arrayType" wsdl:arrayType="tns2:TFCategorySoap[]"/>
+     </restriction>
+    </complexContent>
+   </complexType>
+   <complexType name="ArrayOf_xsd_string">
+    <complexContent>
+     <restriction base="soapenc:Array">
+      <attribute ref="soapenc:arrayType" wsdl:arrayType="xsd:string[]"/>
+     </restriction>
+    </complexContent>
+   </complexType>
+  </schema>
+ </wsdl:types>
+
+   <wsdl:message name="countByGroupIdResponse">
+
+      <wsdl:part name="countByGroupIdReturn" type="xsd:int">
+
+      </wsdl:part>
+
+   </wsdl:message>
+
+   <wsdl:message name="findCategoryResponse">
+
+      <wsdl:part name="findCategoryReturn" type="tns2:TFCategorySoap">
+
+      </wsdl:part>
+
+   </wsdl:message>
+
+   <wsdl:message name="getCategoryRequest">
+
+      <wsdl:part name="id" type="xsd:long">
+
+      </wsdl:part>
+
+   </wsdl:message>
+
+   <wsdl:message name="addTFCategoryResourcesResponse">
+
+   </wsdl:message>
+
+   <wsdl:message name="addCategoryResponse">
+
+      <wsdl:part name="addCategoryReturn" type="tns2:TFCategorySoap">
+
+      </wsdl:part>
+
+   </wsdl:message>
+
+   <wsdl:message name="deleteCategoryResponse">
+
+   </wsdl:message>
+
+   <wsdl:message name="updateCategoryRequest1">
+
+      <wsdl:part name="groupId" type="xsd:long">
+
+      </wsdl:part>
+
+      <wsdl:part name="companyId" type="xsd:long">
+
+      </wsdl:part>
+
+      <wsdl:part name="id" type="xsd:long">
+
+      </wsdl:part>
+
+      <wsdl:part name="name" type="xsd:string">
+
+      </wsdl:part>
+
+      <wsdl:part name="description" type="xsd:string">
+
+      </wsdl:part>
+
+      <wsdl:part name="image" type="xsd:string">
+
+      </wsdl:part>
+
+   </wsdl:message>
+
+   <wsdl:message name="updateCategoryRequest">
+
+      <wsdl:part name="category" type="tns2:TFCategory">
+
+      </wsdl:part>
+
+   </wsdl:message>
+
+   <wsdl:message name="addCategoryRequest">
+
+      <wsdl:part name="category" type="xsd:anyType">
+
+      </wsdl:part>
+
+   </wsdl:message>
+
+   <wsdl:message name="updateCategoryResponse1">
+
+      <wsdl:part name="updateCategoryReturn" type="tns2:TFCategorySoap">
+
+      </wsdl:part>
+
+   </wsdl:message>
+
+   <wsdl:message name="updateCategoryResponse">
+
+      <wsdl:part name="updateCategoryReturn" type="tns2:TFCategorySoap">
+
+      </wsdl:part>
+
+   </wsdl:message>
+
+   <wsdl:message name="findCategoryRequest">
+
+      <wsdl:part name="id" type="xsd:long">
+
+      </wsdl:part>
+
+   </wsdl:message>
+
+   <wsdl:message name="getByGroupIdResponse">
+
+      <wsdl:part name="getByGroupIdReturn" type="impl:ArrayOf_tns2_TFCategorySoap">
+
+      </wsdl:part>
+
+   </wsdl:message>
+
+   <wsdl:message name="addCategoryResponse1">
+
+      <wsdl:part name="addCategoryReturn" type="tns2:TFCategorySoap">
+
+      </wsdl:part>
+
+   </wsdl:message>
+
+   <wsdl:message name="addCategoryResponse2">
+
+      <wsdl:part name="addCategoryReturn" type="tns2:TFCategorySoap">
+
+      </wsdl:part>
+
+   </wsdl:message>
+
+   <wsdl:message name="getByGroupIdRequest">
+
+      <wsdl:part name="groupId" type="xsd:long">
+
+      </wsdl:part>
+
+   </wsdl:message>
+
+   <wsdl:message name="addTFCategoryResourcesResponse2">
+
+   </wsdl:message>
+
+   <wsdl:message name="addTFCategoryResourcesResponse1">
+
+   </wsdl:message>
+
+   <wsdl:message name="addTFCategoryResourcesResponse3">
+
+   </wsdl:message>
+
+   <wsdl:message name="deleteCategoryRequest">
+
+      <wsdl:part name="id" type="xsd:long">
+
+      </wsdl:part>
+
+   </wsdl:message>
+
+   <wsdl:message name="addTFCategoryResourcesRequest3">
+
+      <wsdl:part name="id" type="xsd:long">
+
+      </wsdl:part>
+
+      <wsdl:part name="addCommunityPermissions" type="xsd:boolean">
+
+      </wsdl:part>
+
+      <wsdl:part name="addGuestPermissions" type="xsd:boolean">
+
+      </wsdl:part>
+
+   </wsdl:message>
+
+   <wsdl:message name="getCategoryResponse">
+
+      <wsdl:part name="getCategoryReturn" type="tns2:TFCategorySoap">
+
+      </wsdl:part>
+
+   </wsdl:message>
+
+   <wsdl:message name="addTFCategoryResourcesRequest">
+
+      <wsdl:part name="tfCategory" type="tns2:TFCategory">
+
+      </wsdl:part>
+
+      <wsdl:part name="addCommunityPermissions" type="xsd:boolean">
+
+      </wsdl:part>
+
+      <wsdl:part name="addGuestPermissions" type="xsd:boolean">
+
+      </wsdl:part>
+
+   </wsdl:message>
+
+   <wsdl:message name="countByGroupIdRequest">
+
+      <wsdl:part name="groupId" type="xsd:long">
+
+      </wsdl:part>
+
+   </wsdl:message>
+
+   <wsdl:message name="addTFCategoryResourcesRequest2">
+
+      <wsdl:part name="tfCategory" type="tns2:TFCategory">
+
+      </wsdl:part>
+
+      <wsdl:part name="communityPermissions" type="impl:ArrayOf_xsd_string">
+
+      </wsdl:part>
+
+      <wsdl:part name="guestPermissions" type="impl:ArrayOf_xsd_string">
+
+      </wsdl:part>
+
+   </wsdl:message>
+
+   <wsdl:message name="addCategoryRequest2">
+
+      <wsdl:part name="groupId" type="xsd:long">
+
+      </wsdl:part>
+
+      <wsdl:part name="companyId" type="xsd:long">
+
+      </wsdl:part>
+
+      <wsdl:part name="plid" type="xsd:long">
+
+      </wsdl:part>
+
+      <wsdl:part name="name" type="xsd:string">
+
+      </wsdl:part>
+
+      <wsdl:part name="description" type="xsd:string">
+
+      </wsdl:part>
+
+      <wsdl:part name="image" type="xsd:string">
+
+      </wsdl:part>
+
+      <wsdl:part name="addCommunityPermissions" type="xsd:boolean">
+
+      </wsdl:part>
+
+      <wsdl:part name="addGuestPermissions" type="xsd:boolean">
+
+      </wsdl:part>
+
+   </wsdl:message>
+
+   <wsdl:message name="addTFCategoryResourcesRequest1">
+
+      <wsdl:part name="id" type="xsd:long">
+
+      </wsdl:part>
+
+      <wsdl:part name="communityPermissions" type="impl:ArrayOf_xsd_string">
+
+      </wsdl:part>
+
+      <wsdl:part name="guestPermissions" type="impl:ArrayOf_xsd_string">
+
+      </wsdl:part>
+
+   </wsdl:message>
+
+   <wsdl:message name="addCategoryRequest1">
+
+      <wsdl:part name="groupId" type="xsd:long">
+
+      </wsdl:part>
+
+      <wsdl:part name="companyId" type="xsd:long">
+
+      </wsdl:part>
+
+      <wsdl:part name="plid" type="xsd:long">
+
+      </wsdl:part>
+
+      <wsdl:part name="name" type="xsd:string">
+
+      </wsdl:part>
+
+      <wsdl:part name="description" type="xsd:string">
+
+      </wsdl:part>
+
+      <wsdl:part name="image" type="xsd:string">
+
+      </wsdl:part>
+
+   </wsdl:message>
+
+   <wsdl:portType name="TFCategoryServiceSoap">
+
+      <wsdl:operation name="getCategory" parameterOrder="id">
+
+         <wsdl:input message="impl:getCategoryRequest" name="getCategoryRequest">
+
+       </wsdl:input>
+
+         <wsdl:output message="impl:getCategoryResponse" name="getCategoryResponse">
+
+       </wsdl:output>
+
+      </wsdl:operation>
+
+      <wsdl:operation name="addCategory" parameterOrder="category">
+
+         <wsdl:input message="impl:addCategoryRequest" name="addCategoryRequest">
+
+       </wsdl:input>
+
+         <wsdl:output message="impl:addCategoryResponse" name="addCategoryResponse">
+
+       </wsdl:output>
+
+      </wsdl:operation>
+
+      <wsdl:operation name="addCategory" parameterOrder="groupId companyId plid name description image">
+
+         <wsdl:input message="impl:addCategoryRequest1" name="addCategoryRequest1">
+
+       </wsdl:input>
+
+         <wsdl:output message="impl:addCategoryResponse1" name="addCategoryResponse1">
+
+       </wsdl:output>
+
+      </wsdl:operation>
+
+      <wsdl:operation name="addCategory" parameterOrder="groupId companyId plid name description image addCommunityPermissions addGuestPermissions">
+
+         <wsdl:input message="impl:addCategoryRequest2" name="addCategoryRequest2">
+
+       </wsdl:input>
+
+         <wsdl:output message="impl:addCategoryResponse2" name="addCategoryResponse2">
+
+       </wsdl:output>
+
+      </wsdl:operation>
+
+      <wsdl:operation name="updateCategory" parameterOrder="category">
+
+         <wsdl:input message="impl:updateCategoryRequest" name="updateCategoryRequest">
+
+       </wsdl:input>
+
+         <wsdl:output message="impl:updateCategoryResponse" name="updateCategoryResponse">
+
+       </wsdl:output>
+
+      </wsdl:operation>
+
+      <wsdl:operation name="updateCategory" parameterOrder="groupId companyId id name description image">
+
+         <wsdl:input message="impl:updateCategoryRequest1" name="updateCategoryRequest1">
+
+       </wsdl:input>
+
+         <wsdl:output message="impl:updateCategoryResponse1" name="updateCategoryResponse1">
+
+       </wsdl:output>
+
+      </wsdl:operation>
+
+      <wsdl:operation name="deleteCategory" parameterOrder="id">
+
+         <wsdl:input message="impl:deleteCategoryRequest" name="deleteCategoryRequest">
+
+       </wsdl:input>
+
+         <wsdl:output message="impl:deleteCategoryResponse" name="deleteCategoryResponse">
+
+       </wsdl:output>
+
+      </wsdl:operation>
+
+      <wsdl:operation name="getByGroupId" parameterOrder="groupId">
+
+         <wsdl:input message="impl:getByGroupIdRequest" name="getByGroupIdRequest">
+
+       </wsdl:input>
+
+         <wsdl:output message="impl:getByGroupIdResponse" name="getByGroupIdResponse">
+
+       </wsdl:output>
+
+      </wsdl:operation>
+
+      <wsdl:operation name="countByGroupId" parameterOrder="groupId">
+
+         <wsdl:input message="impl:countByGroupIdRequest" name="countByGroupIdRequest">
+
+       </wsdl:input>
+
+         <wsdl:output message="impl:countByGroupIdResponse" name="countByGroupIdResponse">
+
+       </wsdl:output>
+
+      </wsdl:operation>
+
+      <wsdl:operation name="findCategory" parameterOrder="id">
+
+         <wsdl:input message="impl:findCategoryRequest" name="findCategoryRequest">
+
+       </wsdl:input>
+
+         <wsdl:output message="impl:findCategoryResponse" name="findCategoryResponse">
+
+       </wsdl:output>
+
+      </wsdl:operation>
+
+      <wsdl:operation name="addTFCategoryResources" parameterOrder="tfCategory addCommunityPermissions addGuestPermissions">
+
+         <wsdl:input message="impl:addTFCategoryResourcesRequest" name="addTFCategoryResourcesRequest">
+
+       </wsdl:input>
+
+         <wsdl:output message="impl:addTFCategoryResourcesResponse" name="addTFCategoryResourcesResponse">
+
+       </wsdl:output>
+
+      </wsdl:operation>
+
+      <wsdl:operation name="addTFCategoryResources" parameterOrder="id communityPermissions guestPermissions">
+
+         <wsdl:input message="impl:addTFCategoryResourcesRequest1" name="addTFCategoryResourcesRequest1">
+
+       </wsdl:input>
+
+         <wsdl:output message="impl:addTFCategoryResourcesResponse1" name="addTFCategoryResourcesResponse1">
+
+       </wsdl:output>
+
+      </wsdl:operation>
+
+      <wsdl:operation name="addTFCategoryResources" parameterOrder="tfCategory communityPermissions guestPermissions">
+
+         <wsdl:input message="impl:addTFCategoryResourcesRequest2" name="addTFCategoryResourcesRequest2">
+
+       </wsdl:input>
+
+         <wsdl:output message="impl:addTFCategoryResourcesResponse2" name="addTFCategoryResourcesResponse2">
+
+       </wsdl:output>
+
+      </wsdl:operation>
+
+      <wsdl:operation name="addTFCategoryResources" parameterOrder="id addCommunityPermissions addGuestPermissions">
+
+         <wsdl:input message="impl:addTFCategoryResourcesRequest3" name="addTFCategoryResourcesRequest3">
+
+       </wsdl:input>
+
+         <wsdl:output message="impl:addTFCategoryResourcesResponse3" name="addTFCategoryResourcesResponse3">
+
+       </wsdl:output>
+
+      </wsdl:operation>
+
+   </wsdl:portType>
+
+   <wsdl:binding name="Plugin_vimagegallery_TFCategoryServiceSoapBinding" type="impl:TFCategoryServiceSoap">
+
+      <wsdlsoap:binding style="rpc" transport="http://schemas.xmlsoap.org/soap/http"/>
+
+      <wsdl:operation name="getCategory">
+
+         <wsdlsoap:operation soapAction=""/>
+
+         <wsdl:input name="getCategoryRequest">
+
+            <wsdlsoap:body encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" namespace="urn:http.service.vimagegallery.portlet.vportal.com" use="encoded"/>
+
+         </wsdl:input>
+
+         <wsdl:output name="getCategoryResponse">
+
+            <wsdlsoap:body encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" namespace="urn:http.service.vimagegallery.portlet.vportal.com" use="encoded"/>
+
+         </wsdl:output>
+
+      </wsdl:operation>
+
+      <wsdl:operation name="addCategory">
+
+         <wsdlsoap:operation soapAction=""/>
+
+         <wsdl:input name="addCategoryRequest">
+
+            <wsdlsoap:body encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" namespace="urn:http.service.vimagegallery.portlet.vportal.com" use="encoded"/>
+
+         </wsdl:input>
+
+         <wsdl:output name="addCategoryResponse">
+
+            <wsdlsoap:body encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" namespace="urn:http.service.vimagegallery.portlet.vportal.com" use="encoded"/>
+
+         </wsdl:output>
+
+      </wsdl:operation>
+
+      <wsdl:operation name="addCategory">
+
+         <wsdlsoap:operation soapAction=""/>
+
+         <wsdl:input name="addCategoryRequest1">
+
+            <wsdlsoap:body encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" namespace="urn:http.service.vimagegallery.portlet.vportal.com" use="encoded"/>
+
+         </wsdl:input>
+
+         <wsdl:output name="addCategoryResponse1">
+
+            <wsdlsoap:body encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" namespace="urn:http.service.vimagegallery.portlet.vportal.com" use="encoded"/>
+
+         </wsdl:output>
+
+      </wsdl:operation>
+
+      <wsdl:operation name="addCategory">
+
+         <wsdlsoap:operation soapAction=""/>
+
+         <wsdl:input name="addCategoryRequest2">
+
+            <wsdlsoap:body encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" namespace="urn:http.service.vimagegallery.portlet.vportal.com" use="encoded"/>
+
+         </wsdl:input>
+
+         <wsdl:output name="addCategoryResponse2">
+
+            <wsdlsoap:body encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" namespace="urn:http.service.vimagegallery.portlet.vportal.com" use="encoded"/>
+
+         </wsdl:output>
+
+      </wsdl:operation>
+
+      <wsdl:operation name="updateCategory">
+
+         <wsdlsoap:operation soapAction=""/>
+
+         <wsdl:input name="updateCategoryRequest">
+
+            <wsdlsoap:body encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" namespace="urn:http.service.vimagegallery.portlet.vportal.com" use="encoded"/>
+
+         </wsdl:input>
+
+         <wsdl:output name="updateCategoryResponse">
+
+            <wsdlsoap:body encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" namespace="urn:http.service.vimagegallery.portlet.vportal.com" use="encoded"/>
+
+         </wsdl:output>
+
+      </wsdl:operation>
+
+      <wsdl:operation name="updateCategory">
+
+         <wsdlsoap:operation soapAction=""/>
+
+         <wsdl:input name="updateCategoryRequest1">
+
+            <wsdlsoap:body encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" namespace="urn:http.service.vimagegallery.portlet.vportal.com" use="encoded"/>
+
+         </wsdl:input>
+
+         <wsdl:output name="updateCategoryResponse1">
+
+            <wsdlsoap:body encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" namespace="urn:http.service.vimagegallery.portlet.vportal.com" use="encoded"/>
+
+         </wsdl:output>
+
+      </wsdl:operation>
+
+      <wsdl:operation name="deleteCategory">
+
+         <wsdlsoap:operation soapAction=""/>
+
+         <wsdl:input name="deleteCategoryRequest">
+
+            <wsdlsoap:body encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" namespace="urn:http.service.vimagegallery.portlet.vportal.com" use="encoded"/>
+
+         </wsdl:input>
+
+         <wsdl:output name="deleteCategoryResponse">
+
+            <wsdlsoap:body encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" namespace="urn:http.service.vimagegallery.portlet.vportal.com" use="encoded"/>
+
+         </wsdl:output>
+
+      </wsdl:operation>
+
+      <wsdl:operation name="getByGroupId">
+
+         <wsdlsoap:operation soapAction=""/>
+
+         <wsdl:input name="getByGroupIdRequest">
+
+            <wsdlsoap:body encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" namespace="urn:http.service.vimagegallery.portlet.vportal.com" use="encoded"/>
+
+         </wsdl:input>
+
+         <wsdl:output name="getByGroupIdResponse">
+
+            <wsdlsoap:body encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" namespace="urn:http.service.vimagegallery.portlet.vportal.com" use="encoded"/>
+
+         </wsdl:output>
+
+      </wsdl:operation>
+
+      <wsdl:operation name="countByGroupId">
+
+         <wsdlsoap:operation soapAction=""/>
+
+         <wsdl:input name="countByGroupIdRequest">
+
+            <wsdlsoap:body encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" namespace="urn:http.service.vimagegallery.portlet.vportal.com" use="encoded"/>
+
+         </wsdl:input>
+
+         <wsdl:output name="countByGroupIdResponse">
+
+            <wsdlsoap:body encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" namespace="urn:http.service.vimagegallery.portlet.vportal.com" use="encoded"/>
+
+         </wsdl:output>
+
+      </wsdl:operation>
+
+      <wsdl:operation name="findCategory">
+
+         <wsdlsoap:operation soapAction=""/>
+
+         <wsdl:input name="findCategoryRequest">
+
+            <wsdlsoap:body encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" namespace="urn:http.service.vimagegallery.portlet.vportal.com" use="encoded"/>
+
+         </wsdl:input>
+
+         <wsdl:output name="findCategoryResponse">
+
+            <wsdlsoap:body encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" namespace="urn:http.service.vimagegallery.portlet.vportal.com" use="encoded"/>
+
+         </wsdl:output>
+
+      </wsdl:operation>
+
+      <wsdl:operation name="addTFCategoryResources">
+
+         <wsdlsoap:operation soapAction=""/>
+
+         <wsdl:input name="addTFCategoryResourcesRequest">
+
+            <wsdlsoap:body encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" namespace="urn:http.service.vimagegallery.portlet.vportal.com" use="encoded"/>
+
+         </wsdl:input>
+
+         <wsdl:output name="addTFCategoryResourcesResponse">
+
+            <wsdlsoap:body encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" namespace="urn:http.service.vimagegallery.portlet.vportal.com" use="encoded"/>
+
+         </wsdl:output>
+
+      </wsdl:operation>
+
+      <wsdl:operation name="addTFCategoryResources">
+
+         <wsdlsoap:operation soapAction=""/>
+
+         <wsdl:input name="addTFCategoryResourcesRequest1">
+
+            <wsdlsoap:body encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" namespace="urn:http.service.vimagegallery.portlet.vportal.com" use="encoded"/>
+
+         </wsdl:input>
+
+         <wsdl:output name="addTFCategoryResourcesResponse1">
+
+            <wsdlsoap:body encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" namespace="urn:http.service.vimagegallery.portlet.vportal.com" use="encoded"/>
+
+         </wsdl:output>
+
+      </wsdl:operation>
+
+      <wsdl:operation name="addTFCategoryResources">
+
+         <wsdlsoap:operation soapAction=""/>
+
+         <wsdl:input name="addTFCategoryResourcesRequest2">
+
+            <wsdlsoap:body encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" namespace="urn:http.service.vimagegallery.portlet.vportal.com" use="encoded"/>
+
+         </wsdl:input>
+
+         <wsdl:output name="addTFCategoryResourcesResponse2">
+
+            <wsdlsoap:body encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" namespace="urn:http.service.vimagegallery.portlet.vportal.com" use="encoded"/>
+
+         </wsdl:output>
+
+      </wsdl:operation>
+
+      <wsdl:operation name="addTFCategoryResources">
+
+         <wsdlsoap:operation soapAction=""/>
+
+         <wsdl:input name="addTFCategoryResourcesRequest3">
+
+            <wsdlsoap:body encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" namespace="urn:http.service.vimagegallery.portlet.vportal.com" use="encoded"/>
+
+         </wsdl:input>
+
+         <wsdl:output name="addTFCategoryResourcesResponse3">
+
+            <wsdlsoap:body encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" namespace="urn:http.service.vimagegallery.portlet.vportal.com" use="encoded"/>
+
+         </wsdl:output>
+
+      </wsdl:operation>
+
+   </wsdl:binding>
+
+   <wsdl:service name="TFCategoryServiceSoapService">
+
+      <wsdl:port binding="impl:Plugin_vimagegallery_TFCategoryServiceSoapBinding" name="Plugin_vimagegallery_TFCategoryService">
+
+         <wsdlsoap:address location="http://localhost/services/Plugin_vimagegallery_TFCategoryService"/>
+
+      </wsdl:port>
+
+   </wsdl:service>
+
+</wsdl:definitions>

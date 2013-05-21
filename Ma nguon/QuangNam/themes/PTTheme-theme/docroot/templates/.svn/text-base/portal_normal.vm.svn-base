@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+
+#parse ($init)
+
+<html class="#language("lang.dir")" dir="#language("lang.dir")" lang="$w3c_language_id">
+
+<head>
+	<title>$the_title - $company_name</title>
+
+ 	<script type='text/javascript' src='$javascript_folder/jquery-1.4.2.min.js'></script>
+ 	
+	$theme.include($top_head_include)
+
+    <script type="text/javascript">
+        var imgs = [
+        'banner2.jpg',
+        'banner3.jpg',
+        'banner4.jpg',
+        'banner5.jpg',
+        'banner6.jpg',
+        'banner7.jpg'];
+        var cnt = imgs.length;
+
+        $(function() {
+            setInterval(Slider, 10000);
+        });
+
+		function Slider() {
+        $('#banner').fadeOut("slow", function() {
+           $('#banner').css('background-image', "url($images_folder" + "/phutho/" +imgs[(imgs.length++) % cnt  ] +")").fadeIn("slow");
+           $('#banner').css('background-repeat','no-repeat');
+        });
+        }
+	</script>
+</head>
+
+<body class="$css_class">
+
+#if($is_signed_in)
+	#dockbar()
+#end
+
+<div id="wrapper">
+
+	<header id="banner" role="banner">
+		
+
+		#if(!$is_signed_in)
+			<a href="$sign_in_url" id="sign-in" rel="nofollow">$sign_in_text</a>
+		#end
+
+		#if ($update_available_url)
+			<div class="popup-alert-notice">
+				<a class="update-available" href="$update_available_url">#language("updates-are-available-for-liferay")</a>
+			</div>
+		#end
+
+		
+	</header>
+	#if ($has_navigation)
+			#parse ("$full_templates_path/navigation.vm")
+		#end
+	<div id="content">
+
+		#if ($selectable)
+			$theme.include($content_include)
+		#else
+			$portletDisplay.recycle()
+
+			$portletDisplay.setTitle($the_title)
+
+			$theme.wrapPortlet("portlet.vm", $content_include)
+		#end
+	</div>
+
+	<footer id="footer" role="contentinfo">
+		<div id="menu_footer">
+			<div id="menu_text">
+				<ul>
+    				<li class="menu_01">
+       				 	<a href="#">Trang chủ</a>
+      			  </li>
+        			<li class="menu_01">
+        				<a href="#">Tin tức</a>
+       				 </li>
+      
+       				 <li class="menu_01">
+        				<a href="#">Hệ thống chính trị</a>
+        			</li>
+       				 <li class="menu_01">
+        				<a href="#">Công dân</a>
+       				 </li>
+       				 <li class="menu_01">
+        				<a href="#">Doanh nghiệp</a>
+       				 </li>
+       				 <li class="menu_01">
+        				<a href="#">Du khách</a>
+    			    </li>
+     			   <li class="menu_02">
+        			<a href="#">Giới thiệu</a>
+      			  </li>
+   				 </ul>
+    		</div>
+    	</div>
+		<div id="contac_footer">
+			<p>
+				Cổng giao tiếp điện tử tỉnh Phú Thọ - Cơ quan chủ quản: UBND Tỉnh Phú Thọ <br />
+				Số giấy phép: 15/GP-BC, cấp ngày: 06/10/2006<br />
+				Chịu trách nhiệm: Ông Phan Quang Thao - Giám đốc Sở TT&TT Phú Thọ<br />
+				Địa chỉ: đường Nguyễn Tất Thành, phường Tân Dân, TP. Việt Trì, Phú Thọ<br />
+				Điện thoại: 0210.3812494 Fax: 0210.3811485
+			</p>
+        </div>
+	</footer>
+</div>
+
+</body>
+
+$theme.include($bottom_include)
+
+</html>

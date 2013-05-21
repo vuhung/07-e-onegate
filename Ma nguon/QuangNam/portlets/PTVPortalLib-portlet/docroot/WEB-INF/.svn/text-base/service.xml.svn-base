@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE service-builder PUBLIC "-//Liferay//DTD Service Builder 6.0.0//EN" "http://www.liferay.com/dtd/liferay-service-builder_6_0_0.dtd">
+<service-builder package-path="com.vportal.portal">
+	<author>HOAN</author>
+	<namespace>Portal</namespace>
+<!-- Attachments
+		///
+	-->
+	<entity name="Attachment" local-service="true"
+		remote-service="true" table="Attachment">
+
+		<!-- Primary key fields -->
+		<column name="attachmentId" type="long" primary="true" />
+
+		<!-- Audit fields -->
+		<column name="groupId" type="long" />
+		<column name="companyId" type="long" />
+
+		<!-- Other fields -->
+		<column name="entryId" type="long" />
+		<column name="entryClass" type="String" />
+		<column name="fileEntryId" type="long" />
+		<column name="folderId" type="long" />
+		<column name="fileName" type="String" />
+		<column name="imageId" type="long" />
+		<column name="extension" type="String" />
+
+		<!-- Sorting -->
+
+		<!-- Finder methods -->
+		<finder name="Entry" return-type="Collection">
+			<finder-column name="entryId" />
+			<finder-column name="entryClass" />
+		</finder>
+
+		<finder name="C_F_N" return-type="Attachment">
+			<finder-column name="entryClass" />
+			<finder-column name="folderId" />
+			<finder-column name="fileName" />
+		</finder>
+
+	</entity>
+
+	<entity name="AccessCounter" local-service="false"
+		remote-service="true" table="AccessCounter">
+		<!-- Primary key fields -->
+		<column name="id" type="long" primary="true" />
+		<column name="companyId" type="long" />
+		<column name="accessDate" type="Date" />
+		<column name="accessCount" type="int" />
+
+		<!-- Sorting -->
+		<order by="desc">
+			<order-column name="accessDate" />
+		</order>
+
+		<finder name="AccessDate" return-type="AccessCounter">
+			<finder-column name="companyId" />
+			<finder-column name="accessDate" />
+		</finder>
+		<finder name="CompanyId" return-type="Collection">
+			<finder-column name="companyId" />
+		</finder>
+	</entity>
+	<entity name="PortletFolder" local-service="true"
+		remote-service="true" table="PortletFolder">
+		<!-- Primary key fields -->
+		<column name="id" type="long" primary="true" />
+
+		<!-- Other fields -->
+		<column name="portletId" type="String" />
+		<column name="folderId" type="long" />
+		<column name="description" type="String" />
+
+		<finder name="PortletId" return-type="Collection">
+			<finder-column name="portletId" />
+		</finder>
+
+		<finder name="FolderId" return-type="Collection">
+			<finder-column name="folderId" />
+		</finder>
+
+		<finder name="P_F" return-type="PortletFolder">
+			<finder-column name="portletId" />
+			<finder-column name="folderId" />
+		</finder>
+
+		<reference package-path="com.liferay.counter" entity="Counter" />
+	</entity>
+
+	<exceptions></exceptions>
+</service-builder>

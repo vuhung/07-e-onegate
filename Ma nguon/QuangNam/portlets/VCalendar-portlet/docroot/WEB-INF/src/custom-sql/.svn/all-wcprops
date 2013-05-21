@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/VCalendar-portlet/docroot/WEB-INF/src/custom-sql
+END
+default.xml
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/VCalendar-portlet/docroot/WEB-INF/src/custom-sql/default.xml
+END
+vcal.xml
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/VCalendar-portlet/docroot/WEB-INF/src/custom-sql/vcal.xml
+END

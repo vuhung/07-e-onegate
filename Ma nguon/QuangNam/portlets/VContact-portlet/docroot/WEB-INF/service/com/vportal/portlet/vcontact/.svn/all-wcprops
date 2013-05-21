@@ -1,0 +1,11 @@
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/VContact-portlet/docroot/WEB-INF/service/com/vportal/portlet/vcontact
+END
+NoSuchVContactException.java
+K 25
+svn:wc:ra_dav:version-url
+V 157
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/VContact-portlet/docroot/WEB-INF/service/com/vportal/portlet/vcontact/NoSuchVContactException.java
+END

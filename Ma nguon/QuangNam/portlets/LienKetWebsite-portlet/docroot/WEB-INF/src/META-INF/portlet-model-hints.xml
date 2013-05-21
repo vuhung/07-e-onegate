@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<model-hints>
+	<model name="com.vsi.lienketwebsite.model.LinkGroup">
+		<field name="linkgroupId" type="long" />
+		<field name="groupId" type="long" />
+		<field name="companyId" type="long" />
+		<field name="createdDate" type="Date" />
+		<field name="modifiedDate" type="Date" />
+		<field name="name" type="String" />
+		<field name="description" type="String" />
+	</model>
+	<model name="com.vsi.lienketwebsite.model.Links">
+		<field name="linkId" type="long" />
+		<field name="groupId" type="long" />
+		<field name="companyId" type="long" />
+		<field name="createdDate" type="Date" />
+		<field name="modifiedDate" type="Date" />
+		<field name="linkgroupId" type="long" />
+		<field name="name" type="String" />
+		<field name="description" type="String" />
+		<field name="url" type="String" />
+		<field name="position" type="int" />
+	</model>
+</model-hints>

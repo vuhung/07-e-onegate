@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+
+#parse ($init)
+
+<html class="#language("lang.dir")" dir="#language("lang.dir")" lang="$w3c_language_id">
+
+<head>
+	<title>$the_title - $company_name</title>
+
+ 	<script type='text/javascript' src='$javascript_folder/jquery-1.4.2.min.js'></script>
+ 	
+	$theme.include($top_head_include)
+
+   </head>
+
+<body class="$css_class">
+
+#if($is_signed_in)
+	#dockbar()
+#end
+
+<div id="wrapper">
+
+	<header id="banner" role="banner">
+		
+
+		#if(!$is_signed_in)
+			<a href="$sign_in_url" id="sign-in" rel="nofollow">$sign_in_text</a>
+		#end
+
+		#if ($update_available_url)
+			<div class="popup-alert-notice">
+				<a class="update-available" href="$update_available_url">#language("updates-are-available-for-liferay")</a>
+			</div>
+		#end
+
+		
+	</header>
+	#if ($has_navigation)
+			#parse ("$full_templates_path/navigation.vm")
+		#end
+	<div id="content">
+
+		#if ($selectable)
+			$theme.include($content_include)
+		#else
+			$portletDisplay.recycle()
+
+			$portletDisplay.setTitle($the_title)
+
+			$theme.wrapPortlet("portlet.vm", $content_include)
+		#end
+	</div>
+
+	<footer id="footer" role="contentinfo">
+		<div id="menu_footer">
+			<div id="menu_text">
+				<ul>
+    				<li class="menu_01">
+       				 	<a href="#">Trang chủ</a>
+      			  </li>
+        			<li class="menu_01">
+        				<a href="#">Tin tức</a>
+       				 </li>
+      
+       				 <li class="menu_01">
+        				<a href="#">Hệ thống chính trị</a>
+        			</li>
+       				 <li class="menu_01">
+        				<a href="#">Công dân</a>
+       				 </li>
+       				 <li class="menu_01">
+        				<a href="#">Doanh nghiệp</a>
+       				 </li>
+       				 <li class="menu_01">
+        				<a href="#">Du khách</a>
+    			    </li>
+     			   <li class="menu_02">
+        			<a href="#">Giới thiệu</a>
+      			  </li>
+   				 </ul>
+    		</div>
+    	</div>
+		<div id="contac_footer" style="align:center">
+			<p>
+				Portal Quảng Nam - Giấy phép số: 112/GP-TTĐT cấp ngày 27/5/2010.<br/>
+				Đơn vị quản lý: Sở Thông tin Truyền thông - Số 50 - Hùng Vương - Thành phố Tam Kỳ<br/>
+				Chịu trách nhiệm chính: Ông Hồ Quang Bửu - Giám đốc Sở Thông tin Truyền thông<br/>
+				Điện thoại:0510.3818333 - Fax:0510.3811759 - Email:cttdtqnam@gmail.com<br/>
+				Ghi rõ nguồn www.quangnam.gov.vn khi sử dụng thông tin trên website này. <br/>
+			</p>
+        </div>
+	</footer>
+</div>
+
+</body>
+
+$theme.include($bottom_include)
+
+</html>

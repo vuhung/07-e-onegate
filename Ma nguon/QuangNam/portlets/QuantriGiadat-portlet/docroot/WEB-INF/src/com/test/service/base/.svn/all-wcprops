@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/QuantriGiadat-portlet/docroot/WEB-INF/src/com/test/service/base
+END
+VlookuppriceServiceBaseImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 155
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/QuantriGiadat-portlet/docroot/WEB-INF/src/com/test/service/base/VlookuppriceServiceBaseImpl.java
+END
+VlookuppriceCategoryServiceBaseImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 163
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/QuantriGiadat-portlet/docroot/WEB-INF/src/com/test/service/base/VlookuppriceCategoryServiceBaseImpl.java
+END

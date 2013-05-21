@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/PTVPortalLib-portlet/docroot/WEB-INF/classes/com/vportal/portal/util
+END
+PortalUtilExt.class
+K 25
+svn:wc:ra_dav:version-url
+V 147
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/PTVPortalLib-portlet/docroot/WEB-INF/classes/com/vportal/portal/util/PortalUtilExt.class
+END
+PropsUtilExt.class
+K 25
+svn:wc:ra_dav:version-url
+V 146
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/PTVPortalLib-portlet/docroot/WEB-INF/classes/com/vportal/portal/util/PropsUtilExt.class
+END
+AttachmentUtil.class
+K 25
+svn:wc:ra_dav:version-url
+V 148
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/PTVPortalLib-portlet/docroot/WEB-INF/classes/com/vportal/portal/util/AttachmentUtil.class
+END
+PortletKeysExt.class
+K 25
+svn:wc:ra_dav:version-url
+V 148
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/PTVPortalLib-portlet/docroot/WEB-INF/classes/com/vportal/portal/util/PortletKeysExt.class
+END
+ValidatorExt.class
+K 25
+svn:wc:ra_dav:version-url
+V 146
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/PTVPortalLib-portlet/docroot/WEB-INF/classes/com/vportal/portal/util/ValidatorExt.class
+END
+WebKeysExt.class
+K 25
+svn:wc:ra_dav:version-url
+V 144
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/PTVPortalLib-portlet/docroot/WEB-INF/classes/com/vportal/portal/util/WebKeysExt.class
+END

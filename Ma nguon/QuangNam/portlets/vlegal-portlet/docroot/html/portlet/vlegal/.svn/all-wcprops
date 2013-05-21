@@ -1,0 +1,179 @@
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/vlegal-portlet/docroot/html/portlet/vlegal
+END
+org_action.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/vlegal-portlet/docroot/html/portlet/vlegal/org_action.jsp
+END
+signer_action.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/vlegal-portlet/docroot/html/portlet/vlegal/signer_action.jsp
+END
+general_manage.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/vlegal-portlet/docroot/html/portlet/vlegal/general_manage.jsp
+END
+type_edit.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/vlegal-portlet/docroot/html/portlet/vlegal/type_edit.jsp
+END
+field_edit.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/vlegal-portlet/docroot/html/portlet/vlegal/field_edit.jsp
+END
+draft_view.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/vlegal-portlet/docroot/html/portlet/vlegal/draft_view.jsp
+END
+statistics.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/vlegal-portlet/docroot/html/portlet/vlegal/statistics.jsp
+END
+org_edit.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/vlegal-portlet/docroot/html/portlet/vlegal/org_edit.jsp
+END
+signer_edit.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/vlegal-portlet/docroot/html/portlet/vlegal/signer_edit.jsp
+END
+draft_action.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/vlegal-portlet/docroot/html/portlet/vlegal/draft_action.jsp
+END
+document_detail.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/vlegal-portlet/docroot/html/portlet/vlegal/document_detail.jsp
+END
+document_forward.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/vlegal-portlet/docroot/html/portlet/vlegal/document_forward.jsp
+END
+cancel_ap_document.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/vlegal-portlet/docroot/html/portlet/vlegal/cancel_ap_document.jsp
+END
+init.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/vlegal-portlet/docroot/html/portlet/vlegal/init.jsp
+END
+draft_edit.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/vlegal-portlet/docroot/html/portlet/vlegal/draft_edit.jsp
+END
+configuration.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/vlegal-portlet/docroot/html/portlet/vlegal/configuration.jsp
+END
+document_view.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/vlegal-portlet/docroot/html/portlet/vlegal/document_view.jsp
+END
+document_search.jspf
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/vlegal-portlet/docroot/html/portlet/vlegal/document_search.jspf
+END
+view.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/vlegal-portlet/docroot/html/portlet/vlegal/view.jsp
+END
+document_action.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/vlegal-portlet/docroot/html/portlet/vlegal/document_action.jsp
+END
+log_view.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/vlegal-portlet/docroot/html/portlet/vlegal/log_view.jsp
+END
+type_view.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/vlegal-portlet/docroot/html/portlet/vlegal/type_view.jsp
+END
+field_view.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/vlegal-portlet/docroot/html/portlet/vlegal/field_view.jsp
+END
+log_action.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/vlegal-portlet/docroot/html/portlet/vlegal/log_action.jsp
+END
+type_action.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/vlegal-portlet/docroot/html/portlet/vlegal/type_action.jsp
+END
+field_action.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/vlegal-portlet/docroot/html/portlet/vlegal/field_action.jsp
+END
+org_view.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/vlegal-portlet/docroot/html/portlet/vlegal/org_view.jsp
+END
+signer_view.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/vlegal-portlet/docroot/html/portlet/vlegal/signer_view.jsp
+END
+document_edit.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/vlegal-portlet/docroot/html/portlet/vlegal/document_edit.jsp
+END

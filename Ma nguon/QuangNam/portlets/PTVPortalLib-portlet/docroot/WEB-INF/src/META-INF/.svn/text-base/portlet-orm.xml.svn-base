@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<entity-mappings xmlns="http://java.sun.com/xml/ns/persistence/orm" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" xsi:schemaLocation="http://java.sun.com/xml/ns/persistence/orm http://java.sun.com/xml/ns/persistence/orm_1_0.xsd">
+	<persistence-unit-metadata>
+		<xml-mapping-metadata-complete/>
+		<persistence-unit-defaults>
+			<access>PROPERTY</access>
+		</persistence-unit-defaults>
+	</persistence-unit-metadata>
+	<mapped-superclass class="com.vportal.portal.model.impl.AttachmentModelImpl">
+		<attributes>
+			<id name="attachmentId" />
+			<basic name="groupId" />
+			<basic name="companyId" />
+			<basic name="entryId" />
+			<basic name="entryClass" />
+			<basic name="fileEntryId" />
+			<basic name="folderId" />
+			<basic name="fileName" />
+			<basic name="imageId" />
+			<basic name="extension" />
+			<transient name="primaryKey" />
+		</attributes>
+	</mapped-superclass>
+	<mapped-superclass class="com.vportal.portal.model.impl.AccessCounterModelImpl">
+		<attributes>
+			<id name="id">
+				<column name="ID_" />
+			</id>
+			<basic name="companyId" />
+			<basic name="accessDate">
+				<temporal>TIMESTAMP</temporal>
+			</basic>
+			<basic name="accessCount" />
+			<transient name="primaryKey" />
+		</attributes>
+	</mapped-superclass>
+	<mapped-superclass class="com.vportal.portal.model.impl.PortletFolderModelImpl">
+		<attributes>
+			<id name="id">
+				<column name="ID_" />
+			</id>
+			<basic name="portletId" />
+			<basic name="folderId" />
+			<basic name="description" />
+			<transient name="primaryKey" />
+		</attributes>
+	</mapped-superclass>
+	<entity class="com.vportal.portal.model.impl.AttachmentImpl" name="Attachment">
+		<table name="Attachment" />
+		<attributes />
+	</entity>
+	<entity class="com.vportal.portal.model.impl.AccessCounterImpl" name="AccessCounter">
+		<table name="AccessCounter" />
+		<attributes />
+	</entity>
+	<entity class="com.vportal.portal.model.impl.PortletFolderImpl" name="PortletFolder">
+		<table name="PortletFolder" />
+		<attributes />
+	</entity>
+</entity-mappings>

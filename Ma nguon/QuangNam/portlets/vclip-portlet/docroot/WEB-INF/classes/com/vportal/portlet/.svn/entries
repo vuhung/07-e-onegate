@@ -1,0 +1,40 @@
+10
+
+dir
+48
+https://192.168.10.237/svn/liferay/phutho/branches/quangnam/portlets/vclip-portlet/docroot/WEB-INF/classes/com/vportal/portlet
+https://192.168.10.237/svn/liferay
+
+
+
+2012-12-19T12:22:29.430661Z
+36
+hungtq
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+19b11af1-506f-6b4f-959b-55542b116dd5
+
+vclipmenu
+dir
+
+vclipcontent
+dir
+
+viewvclip
+dir
+
+vclip
+dir
+

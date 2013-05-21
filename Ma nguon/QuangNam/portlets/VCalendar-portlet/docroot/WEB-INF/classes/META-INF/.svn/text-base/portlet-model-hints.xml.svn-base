@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<model-hints>
+	<model name="com.vportal.portlet.vcalendar.model.VCal">
+		<field name="calId" type="long" />
+		<field name="groupId" type="long" />
+		<field name="companyId" type="long" />
+		<field name="userId" type="long" />
+		<field name="userName" type="String" />
+		<field name="createDate" type="Date" />
+		<field name="modifiedDate" type="Date" />
+		<field name="languageId" type="String" />
+		<field name="fileId" type="long" />
+		<field name="title" type="String" />
+		<field name="description" type="String" />
+		<field name="guest" type="String" />
+		<field name="location" type="String" />
+		<field name="time" type="String" />
+		<field name="startDate" type="Date" />
+		<field name="endDate" type="Date" />
+		<field name="status" type="int" />
+	</model>
+	<model name="com.vportal.portlet.vcalendar.model.VFile">
+		<field name="fileId" type="long" />
+		<field name="fullname" type="String" />
+		<field name="phone" type="String" />
+		<field name="address" type="String" />
+		<field name="birthday" type="Date" />
+		<field name="position" type="String" />
+		<field name="status" type="int" />
+	</model>
+</model-hints>

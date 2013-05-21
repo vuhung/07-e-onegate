@@ -1,0 +1,131 @@
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/vlegal-portlet/docroot/WEB-INF/src/com/vportal/portlet/vlegal/util
+END
+PropsKeys.java
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/vlegal-portlet/docroot/WEB-INF/src/com/vportal/portlet/vlegal/util/PropsKeys.java
+END
+PropsUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/vlegal-portlet/docroot/WEB-INF/src/com/vportal/portlet/vlegal/util/PropsUtil.java
+END
+VLegalOpenSearchImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 151
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/vlegal-portlet/docroot/WEB-INF/src/com/vportal/portlet/vlegal/util/VLegalOpenSearchImpl.java
+END
+PortletKeysExt.java
+K 25
+svn:wc:ra_dav:version-url
+V 145
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/vlegal-portlet/docroot/WEB-INF/src/com/vportal/portlet/vlegal/util/PortletKeysExt.java
+END
+PortletUtilExt.java
+K 25
+svn:wc:ra_dav:version-url
+V 145
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/vlegal-portlet/docroot/WEB-INF/src/com/vportal/portlet/vlegal/util/PortletUtilExt.java
+END
+ContentUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 142
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/vlegal-portlet/docroot/WEB-INF/src/com/vportal/portlet/vlegal/util/ContentUtil.java
+END
+VLegalUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/vlegal-portlet/docroot/WEB-INF/src/com/vportal/portlet/vlegal/util/VLegalUtil.java
+END
+WebAppPool.java
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/vlegal-portlet/docroot/WEB-INF/src/com/vportal/portlet/vlegal/util/WebAppPool.java
+END
+WebKeys.java
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/vlegal-portlet/docroot/WEB-INF/src/com/vportal/portlet/vlegal/util/WebKeys.java
+END
+DLUtilExt.java
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/vlegal-portlet/docroot/WEB-INF/src/com/vportal/portlet/vlegal/util/DLUtilExt.java
+END
+PropsUtilExt.java
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/vlegal-portlet/docroot/WEB-INF/src/com/vportal/portlet/vlegal/util/PropsUtilExt.java
+END
+SearchIndexer.java
+K 25
+svn:wc:ra_dav:version-url
+V 144
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/vlegal-portlet/docroot/WEB-INF/src/com/vportal/portlet/vlegal/util/SearchIndexer.java
+END
+DocumentValidator.java
+K 25
+svn:wc:ra_dav:version-url
+V 148
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/vlegal-portlet/docroot/WEB-INF/src/com/vportal/portlet/vlegal/util/DocumentValidator.java
+END
+PropsFiles.java
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/vlegal-portlet/docroot/WEB-INF/src/com/vportal/portlet/vlegal/util/PropsFiles.java
+END
+TabsUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/vlegal-portlet/docroot/WEB-INF/src/com/vportal/portlet/vlegal/util/TabsUtil.java
+END
+TypeValidator.java
+K 25
+svn:wc:ra_dav:version-url
+V 144
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/vlegal-portlet/docroot/WEB-INF/src/com/vportal/portlet/vlegal/util/TypeValidator.java
+END
+FieldValidator.java
+K 25
+svn:wc:ra_dav:version-url
+V 145
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/vlegal-portlet/docroot/WEB-INF/src/com/vportal/portlet/vlegal/util/FieldValidator.java
+END
+WebkeysExt.java
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/vlegal-portlet/docroot/WEB-INF/src/com/vportal/portlet/vlegal/util/WebkeysExt.java
+END
+SignerValidator.java
+K 25
+svn:wc:ra_dav:version-url
+V 146
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/vlegal-portlet/docroot/WEB-INF/src/com/vportal/portlet/vlegal/util/SignerValidator.java
+END
+OrgValidator.java
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/vlegal-portlet/docroot/WEB-INF/src/com/vportal/portlet/vlegal/util/OrgValidator.java
+END
+PortletURLImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 145
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/vlegal-portlet/docroot/WEB-INF/src/com/vportal/portlet/vlegal/util/PortletURLImpl.java
+END

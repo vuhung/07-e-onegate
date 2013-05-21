@@ -1,0 +1,131 @@
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/VCMS-portlet/docroot/WEB-INF/classes/com/vportal/portlet/vcms/service/persistence
+END
+VcmsPARelationPersistenceImpl.class
+K 25
+svn:wc:ra_dav:version-url
+V 176
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/VCMS-portlet/docroot/WEB-INF/classes/com/vportal/portlet/vcms/service/persistence/VcmsPARelationPersistenceImpl.class
+END
+VcmsLoggerFinderImpl.class
+K 25
+svn:wc:ra_dav:version-url
+V 167
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/VCMS-portlet/docroot/WEB-INF/classes/com/vportal/portlet/vcms/service/persistence/VcmsLoggerFinderImpl.class
+END
+VcmsTARelationPersistenceImpl.class
+K 25
+svn:wc:ra_dav:version-url
+V 176
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/VCMS-portlet/docroot/WEB-INF/classes/com/vportal/portlet/vcms/service/persistence/VcmsTARelationPersistenceImpl.class
+END
+VcmsStatusFinderImpl.class
+K 25
+svn:wc:ra_dav:version-url
+V 167
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/VCMS-portlet/docroot/WEB-INF/classes/com/vportal/portlet/vcms/service/persistence/VcmsStatusFinderImpl.class
+END
+VcmsDiscussionFinderImpl.class
+K 25
+svn:wc:ra_dav:version-url
+V 171
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/VCMS-portlet/docroot/WEB-INF/classes/com/vportal/portlet/vcms/service/persistence/VcmsDiscussionFinderImpl.class
+END
+VcmsArticleFinderImpl.class
+K 25
+svn:wc:ra_dav:version-url
+V 168
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/VCMS-portlet/docroot/WEB-INF/classes/com/vportal/portlet/vcms/service/persistence/VcmsArticleFinderImpl.class
+END
+VcmsThreadPersistenceImpl.class
+K 25
+svn:wc:ra_dav:version-url
+V 172
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/VCMS-portlet/docroot/WEB-INF/classes/com/vportal/portlet/vcms/service/persistence/VcmsThreadPersistenceImpl.class
+END
+VcmsArticleStatusFinderImpl.class
+K 25
+svn:wc:ra_dav:version-url
+V 174
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/VCMS-portlet/docroot/WEB-INF/classes/com/vportal/portlet/vcms/service/persistence/VcmsArticleStatusFinderImpl.class
+END
+VcmsCategoryPersistenceImpl.class
+K 25
+svn:wc:ra_dav:version-url
+V 174
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/VCMS-portlet/docroot/WEB-INF/classes/com/vportal/portlet/vcms/service/persistence/VcmsCategoryPersistenceImpl.class
+END
+VcmsLoggerPersistenceImpl.class
+K 25
+svn:wc:ra_dav:version-url
+V 172
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/VCMS-portlet/docroot/WEB-INF/classes/com/vportal/portlet/vcms/service/persistence/VcmsLoggerPersistenceImpl.class
+END
+VcmsCARelationPersistenceImpl.class
+K 25
+svn:wc:ra_dav:version-url
+V 176
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/VCMS-portlet/docroot/WEB-INF/classes/com/vportal/portlet/vcms/service/persistence/VcmsCARelationPersistenceImpl.class
+END
+VcmsTypePersistenceImpl.class
+K 25
+svn:wc:ra_dav:version-url
+V 170
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/VCMS-portlet/docroot/WEB-INF/classes/com/vportal/portlet/vcms/service/persistence/VcmsTypePersistenceImpl.class
+END
+VcmsAttachedMessagePersistenceImpl.class
+K 25
+svn:wc:ra_dav:version-url
+V 181
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/VCMS-portlet/docroot/WEB-INF/classes/com/vportal/portlet/vcms/service/persistence/VcmsAttachedMessagePersistenceImpl.class
+END
+VcmsDiscussionPersistenceImpl.class
+K 25
+svn:wc:ra_dav:version-url
+V 176
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/VCMS-portlet/docroot/WEB-INF/classes/com/vportal/portlet/vcms/service/persistence/VcmsDiscussionPersistenceImpl.class
+END
+VcmsArticlePersistenceImpl.class
+K 25
+svn:wc:ra_dav:version-url
+V 173
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/VCMS-portlet/docroot/WEB-INF/classes/com/vportal/portlet/vcms/service/persistence/VcmsArticlePersistenceImpl.class
+END
+VcmsStatusPersistenceImpl.class
+K 25
+svn:wc:ra_dav:version-url
+V 172
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/VCMS-portlet/docroot/WEB-INF/classes/com/vportal/portlet/vcms/service/persistence/VcmsStatusPersistenceImpl.class
+END
+VcmsArticleTypePersistenceImpl.class
+K 25
+svn:wc:ra_dav:version-url
+V 177
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/VCMS-portlet/docroot/WEB-INF/classes/com/vportal/portlet/vcms/service/persistence/VcmsArticleTypePersistenceImpl.class
+END
+VcmsArticleStatusPersistenceImpl.class
+K 25
+svn:wc:ra_dav:version-url
+V 179
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/VCMS-portlet/docroot/WEB-INF/classes/com/vportal/portlet/vcms/service/persistence/VcmsArticleStatusPersistenceImpl.class
+END
+VcmsArticleVersionPersistenceImpl.class
+K 25
+svn:wc:ra_dav:version-url
+V 180
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/VCMS-portlet/docroot/WEB-INF/classes/com/vportal/portlet/vcms/service/persistence/VcmsArticleVersionPersistenceImpl.class
+END
+VcmsPortionPersistenceImpl.class
+K 25
+svn:wc:ra_dav:version-url
+V 173
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/VCMS-portlet/docroot/WEB-INF/classes/com/vportal/portlet/vcms/service/persistence/VcmsPortionPersistenceImpl.class
+END
+VcmsThreadFinderImpl.class
+K 25
+svn:wc:ra_dav:version-url
+V 167
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/VCMS-portlet/docroot/WEB-INF/classes/com/vportal/portlet/vcms/service/persistence/VcmsThreadFinderImpl.class
+END

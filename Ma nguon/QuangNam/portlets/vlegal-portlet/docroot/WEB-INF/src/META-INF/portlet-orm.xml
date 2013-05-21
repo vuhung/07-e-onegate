@@ -1,0 +1,406 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<entity-mappings xmlns="http://java.sun.com/xml/ns/persistence/orm" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" xsi:schemaLocation="http://java.sun.com/xml/ns/persistence/orm http://java.sun.com/xml/ns/persistence/orm_1_0.xsd">
+	<persistence-unit-metadata>
+		<xml-mapping-metadata-complete/>
+		<persistence-unit-defaults>
+			<access>PROPERTY</access>
+		</persistence-unit-defaults>
+	</persistence-unit-metadata>
+	<mapped-superclass class="com.vportal.portlet.vlegal.model.impl.VLegalDocumentModelImpl">
+		<attributes>
+			<id name="docId" />
+			<basic name="groupId" />
+			<basic name="companyId" />
+			<basic name="userId" />
+			<basic name="createdByUser" />
+			<basic name="createdDate">
+				<temporal>TIMESTAMP</temporal>
+			</basic>
+			<basic name="modifiedByUser" />
+			<basic name="modifiedDate">
+				<temporal>TIMESTAMP</temporal>
+			</basic>
+			<basic name="approvedByUser" />
+			<basic name="approvedDate">
+				<temporal>TIMESTAMP</temporal>
+			</basic>
+			<basic name="forwardedByUser" />
+			<basic name="forwardedDate">
+				<temporal>TIMESTAMP</temporal>
+			</basic>
+			<basic name="publishedByUser" />
+			<basic name="publishedDate">
+				<temporal>TIMESTAMP</temporal>
+			</basic>
+			<basic name="symbol" />
+			<basic name="num" />
+			<basic name="promulDate">
+				<temporal>TIMESTAMP</temporal>
+			</basic>
+			<basic name="effectivedDate">
+				<temporal>TIMESTAMP</temporal>
+			</basic>
+			<basic name="expiredDate">
+				<temporal>TIMESTAMP</temporal>
+			</basic>
+			<basic name="replaceDoc" />
+			<basic name="summary" />
+			<basic name="content" />
+			<basic name="language" />
+			<basic name="userHit" />
+			<basic name="statusDoc" />
+			<basic name="hasAttachment" />
+			<basic name="typeDocId" />
+			<basic name="fieldId" />
+			<basic name="orgId" />
+			<basic name="orgRels" />
+			<basic name="signerRels" />
+			<basic name="fieldRels" />
+			<basic name="numRels" />
+			<basic name="docCode" />
+			<basic name="departmentRels" />
+			<transient name="primaryKey" />
+			<transient name="userUuid" />
+		</attributes>
+	</mapped-superclass>
+	<mapped-superclass class="com.vportal.portlet.vlegal.model.impl.VLegalFieldModelImpl">
+		<attributes>
+			<id name="fieldId" />
+			<basic name="groupId" />
+			<basic name="companyId" />
+			<basic name="userId" />
+			<basic name="createdDate">
+				<temporal>TIMESTAMP</temporal>
+			</basic>
+			<basic name="modifiedDate">
+				<temporal>TIMESTAMP</temporal>
+			</basic>
+			<basic name="createdByUser" />
+			<basic name="modifiedByUser" />
+			<basic name="name" />
+			<basic name="description" />
+			<basic name="language" />
+			<basic name="statusField" />
+			<basic name="rssable" />
+			<transient name="primaryKey" />
+			<transient name="userUuid" />
+		</attributes>
+	</mapped-superclass>
+	<mapped-superclass class="com.vportal.portlet.vlegal.model.impl.VLegalTypeModelImpl">
+		<attributes>
+			<id name="typeId" />
+			<basic name="groupId" />
+			<basic name="companyId" />
+			<basic name="userId" />
+			<basic name="createdDate">
+				<temporal>TIMESTAMP</temporal>
+			</basic>
+			<basic name="modifiedDate">
+				<temporal>TIMESTAMP</temporal>
+			</basic>
+			<basic name="createdByUser" />
+			<basic name="modifiedByUser" />
+			<basic name="name" />
+			<basic name="description" />
+			<basic name="language" />
+			<basic name="statusType" />
+			<basic name="rssable" />
+			<basic name="position" />
+			<transient name="primaryKey" />
+			<transient name="userUuid" />
+		</attributes>
+	</mapped-superclass>
+	<mapped-superclass class="com.vportal.portlet.vlegal.model.impl.VLegalDraftDocumentModelImpl">
+		<attributes>
+			<id name="draftId" />
+			<basic name="groupId" />
+			<basic name="companyId" />
+			<basic name="userId" />
+			<basic name="createdByUser" />
+			<basic name="createdDate">
+				<temporal>TIMESTAMP</temporal>
+			</basic>
+			<basic name="modifiedByUser" />
+			<basic name="modifiedDate">
+				<temporal>TIMESTAMP</temporal>
+			</basic>
+			<basic name="approvedByUser" />
+			<basic name="approvedDate">
+				<temporal>TIMESTAMP</temporal>
+			</basic>
+			<basic name="publishedByUser" />
+			<basic name="publishedDate">
+				<temporal>TIMESTAMP</temporal>
+			</basic>
+			<basic name="title" />
+			<basic name="expiredDate">
+				<temporal>TIMESTAMP</temporal>
+			</basic>
+			<basic name="language" />
+			<basic name="content" />
+			<basic name="typeId" />
+			<basic name="fieldId" />
+			<basic name="hasAttachment" />
+			<basic name="draftLevel" />
+			<basic name="docCode" />
+			<basic name="statusDraft" />
+			<transient name="primaryKey" />
+			<transient name="userUuid" />
+		</attributes>
+	</mapped-superclass>
+	<mapped-superclass class="com.vportal.portlet.vlegal.model.impl.VLegalSuggestDocumentModelImpl">
+		<attributes>
+			<id name="sugId" />
+			<basic name="groupId" />
+			<basic name="companyId" />
+			<basic name="userId" />
+			<basic name="createdDate">
+				<temporal>TIMESTAMP</temporal>
+			</basic>
+			<basic name="modifiedDate">
+				<temporal>TIMESTAMP</temporal>
+			</basic>
+			<basic name="modifiedByUser" />
+			<basic name="approved" />
+			<basic name="approvedByUser" />
+			<basic name="approvedDate">
+				<temporal>TIMESTAMP</temporal>
+			</basic>
+			<basic name="title" />
+			<basic name="content" />
+			<basic name="language" />
+			<basic name="visitorName" />
+			<basic name="visitorEmail" />
+			<basic name="visitorTel" />
+			<basic name="visitorAddress" />
+			<basic name="draftId" />
+			<basic name="hasAttachment" />
+			<transient name="primaryKey" />
+			<transient name="userUuid" />
+		</attributes>
+	</mapped-superclass>
+	<mapped-superclass class="com.vportal.portlet.vlegal.model.impl.VLegalAttachedMessageModelImpl">
+		<attributes>
+			<id name="messageId" />
+			<basic name="groupId" />
+			<basic name="companyId" />
+			<basic name="userId" />
+			<basic name="createdDate">
+				<temporal>TIMESTAMP</temporal>
+			</basic>
+			<basic name="createdByUser" />
+			<basic name="articleId" />
+			<basic name="content" />
+			<basic name="readMessage" />
+			<transient name="primaryKey" />
+			<transient name="userUuid" />
+		</attributes>
+	</mapped-superclass>
+	<mapped-superclass class="com.vportal.portlet.vlegal.model.impl.VLegalOrgModelImpl">
+		<attributes>
+			<id name="orgId" />
+			<basic name="groupId" />
+			<basic name="companyId" />
+			<basic name="userId" />
+			<basic name="createdDate">
+				<temporal>TIMESTAMP</temporal>
+			</basic>
+			<basic name="modifiedDate">
+				<temporal>TIMESTAMP</temporal>
+			</basic>
+			<basic name="createdByUser" />
+			<basic name="modifiedByUser" />
+			<basic name="name" />
+			<basic name="description" />
+			<basic name="parentId" />
+			<basic name="language" />
+			<basic name="statusOrg" />
+			<basic name="rssable" />
+			<basic name="position" />
+			<transient name="primaryKey" />
+			<transient name="userUuid" />
+		</attributes>
+	</mapped-superclass>
+	<mapped-superclass class="com.vportal.portlet.vlegal.model.impl.VLegalSignerModelImpl">
+		<attributes>
+			<id name="sigId" />
+			<basic name="groupId" />
+			<basic name="companyId" />
+			<basic name="userId" />
+			<basic name="createdDate">
+				<temporal>TIMESTAMP</temporal>
+			</basic>
+			<basic name="modifiedDate">
+				<temporal>TIMESTAMP</temporal>
+			</basic>
+			<basic name="createdByUser" />
+			<basic name="modifiedByUser" />
+			<basic name="firstName" />
+			<basic name="lastName" />
+			<basic name="language" />
+			<basic name="statusSigner" />
+			<transient name="primaryKey" />
+			<transient name="userUuid" />
+		</attributes>
+	</mapped-superclass>
+	<mapped-superclass class="com.vportal.portlet.vlegal.model.impl.VLegalTagsModelImpl">
+		<attributes>
+			<id name="tagId" />
+			<basic name="groupId" />
+			<basic name="companyId" />
+			<basic name="userId" />
+			<basic name="createdDate">
+				<temporal>TIMESTAMP</temporal>
+			</basic>
+			<basic name="modifiedDate">
+				<temporal>TIMESTAMP</temporal>
+			</basic>
+			<basic name="name" />
+			<basic name="statusTags" />
+			<transient name="primaryKey" />
+			<transient name="userUuid" />
+		</attributes>
+	</mapped-superclass>
+	<mapped-superclass class="com.vportal.portlet.vlegal.model.impl.VLegalFORelModelImpl">
+		<id-class class="com.vportal.portlet.vlegal.service.persistence.VLegalFORelPK" />
+		<attributes>
+			<id name="fieldId" />
+			<id name="orgId" />
+			<transient name="primaryKey" />
+		</attributes>
+	</mapped-superclass>
+	<mapped-superclass class="com.vportal.portlet.vlegal.model.impl.VLegalFTRelModelImpl">
+		<id-class class="com.vportal.portlet.vlegal.service.persistence.VLegalFTRelPK" />
+		<attributes>
+			<id name="fieldId" />
+			<id name="typeId" />
+			<transient name="primaryKey" />
+		</attributes>
+	</mapped-superclass>
+	<mapped-superclass class="com.vportal.portlet.vlegal.model.impl.VLegalDFRelModelImpl">
+		<id-class class="com.vportal.portlet.vlegal.service.persistence.VLegalDFRelPK" />
+		<attributes>
+			<id name="fieldId" />
+			<id name="docId" />
+			<transient name="primaryKey" />
+		</attributes>
+	</mapped-superclass>
+	<mapped-superclass class="com.vportal.portlet.vlegal.model.impl.VLegalDDRelModelImpl">
+		<id-class class="com.vportal.portlet.vlegal.service.persistence.VLegalDDRelPK" />
+		<attributes>
+			<id name="departmentId" />
+			<id name="docId" />
+			<transient name="primaryKey" />
+		</attributes>
+	</mapped-superclass>
+	<mapped-superclass class="com.vportal.portlet.vlegal.model.impl.VLegalDURelModelImpl">
+		<id-class class="com.vportal.portlet.vlegal.service.persistence.VLegalDURelPK" />
+		<attributes>
+			<id name="departmentId" />
+			<id name="userid" />
+			<transient name="primaryKey" />
+		</attributes>
+	</mapped-superclass>
+	<mapped-superclass class="com.vportal.portlet.vlegal.model.impl.VLegalDSRelModelImpl">
+		<id-class class="com.vportal.portlet.vlegal.service.persistence.VLegalDSRelPK" />
+		<attributes>
+			<id name="sigId" />
+			<id name="docId" />
+			<transient name="primaryKey" />
+		</attributes>
+	</mapped-superclass>
+	<mapped-superclass class="com.vportal.portlet.vlegal.model.impl.VLegalTDRelModelImpl">
+		<id-class class="com.vportal.portlet.vlegal.service.persistence.VLegalTDRelPK" />
+		<attributes>
+			<id name="docId" />
+			<id name="tagId" />
+			<transient name="primaryKey" />
+		</attributes>
+	</mapped-superclass>
+	<mapped-superclass class="com.vportal.portlet.vlegal.model.impl.VLegalLoggerModelImpl">
+		<attributes>
+			<id name="loggerId" />
+			<basic name="groupId" />
+			<basic name="companyId" />
+			<basic name="userId" />
+			<basic name="createdDate">
+				<temporal>TIMESTAMP</temporal>
+			</basic>
+			<basic name="createdByUser" />
+			<basic name="content" />
+			<transient name="primaryKey" />
+			<transient name="userUuid" />
+		</attributes>
+	</mapped-superclass>
+	<entity class="com.vportal.portlet.vlegal.model.impl.VLegalDocumentImpl" name="VLegalDocument">
+		<table name="VLegalDocument" />
+		<attributes>
+			<transient name="vlegalDocumentIdString" />
+		</attributes>
+	</entity>
+	<entity class="com.vportal.portlet.vlegal.model.impl.VLegalFieldImpl" name="VLegalField">
+		<table name="VLegalField" />
+		<attributes />
+	</entity>
+	<entity class="com.vportal.portlet.vlegal.model.impl.VLegalTypeImpl" name="VLegalType">
+		<table name="VLegalType" />
+		<attributes />
+	</entity>
+	<entity class="com.vportal.portlet.vlegal.model.impl.VLegalDraftDocumentImpl" name="VLegalDraftDocument">
+		<table name="VLegalDraftDocument" />
+		<attributes />
+	</entity>
+	<entity class="com.vportal.portlet.vlegal.model.impl.VLegalSuggestDocumentImpl" name="VLegalSuggestDocument">
+		<table name="VLegalSuggestDocument" />
+		<attributes />
+	</entity>
+	<entity class="com.vportal.portlet.vlegal.model.impl.VLegalAttachedMessageImpl" name="VLegalAttachedMessage">
+		<table name="VLegalAttachedMessage" />
+		<attributes />
+	</entity>
+	<entity class="com.vportal.portlet.vlegal.model.impl.VLegalOrgImpl" name="VLegalOrg">
+		<table name="VLegalOrg" />
+		<attributes />
+	</entity>
+	<entity class="com.vportal.portlet.vlegal.model.impl.VLegalSignerImpl" name="VLegalSigner">
+		<table name="VLegalSigner" />
+		<attributes />
+	</entity>
+	<entity class="com.vportal.portlet.vlegal.model.impl.VLegalTagsImpl" name="VLegalTags">
+		<table name="VLegalTags" />
+		<attributes />
+	</entity>
+	<entity class="com.vportal.portlet.vlegal.model.impl.VLegalFORelImpl" name="VLegalFORel">
+		<table name="VLegalFORel" />
+		<attributes />
+	</entity>
+	<entity class="com.vportal.portlet.vlegal.model.impl.VLegalFTRelImpl" name="VLegalFTRel">
+		<table name="VLegalFTRel" />
+		<attributes />
+	</entity>
+	<entity class="com.vportal.portlet.vlegal.model.impl.VLegalDFRelImpl" name="VLegalDFRel">
+		<table name="VLegalDFRel" />
+		<attributes />
+	</entity>
+	<entity class="com.vportal.portlet.vlegal.model.impl.VLegalDDRelImpl" name="VLegalDDRel">
+		<table name="VLegalDDRel" />
+		<attributes />
+	</entity>
+	<entity class="com.vportal.portlet.vlegal.model.impl.VLegalDURelImpl" name="VLegalDURel">
+		<table name="VLegalDURel" />
+		<attributes />
+	</entity>
+	<entity class="com.vportal.portlet.vlegal.model.impl.VLegalDSRelImpl" name="VLegalDSRel">
+		<table name="VLegalDSRel" />
+		<attributes />
+	</entity>
+	<entity class="com.vportal.portlet.vlegal.model.impl.VLegalTDRelImpl" name="VLegalTDRel">
+		<table name="VLegalTDRel" />
+		<attributes />
+	</entity>
+	<entity class="com.vportal.portlet.vlegal.model.impl.VLegalLoggerImpl" name="VLegalLogger">
+		<table name="VLegalLogger" />
+		<attributes />
+	</entity>
+</entity-mappings>

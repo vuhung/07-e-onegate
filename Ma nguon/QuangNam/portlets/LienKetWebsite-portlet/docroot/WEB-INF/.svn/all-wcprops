@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/LienKetWebsite-portlet/docroot/WEB-INF
+END
+service.xml
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/LienKetWebsite-portlet/docroot/WEB-INF/service.xml
+END
+liferay-portlet.xml
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/LienKetWebsite-portlet/docroot/WEB-INF/liferay-portlet.xml
+END
+liferay-hook.xml
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/LienKetWebsite-portlet/docroot/WEB-INF/liferay-hook.xml
+END
+portlet.xml
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/LienKetWebsite-portlet/docroot/WEB-INF/portlet.xml
+END
+liferay-plugin-package.properties
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/LienKetWebsite-portlet/docroot/WEB-INF/liferay-plugin-package.properties
+END
+web.xml
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/LienKetWebsite-portlet/docroot/WEB-INF/web.xml
+END
+liferay-display.xml
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/LienKetWebsite-portlet/docroot/WEB-INF/liferay-display.xml
+END

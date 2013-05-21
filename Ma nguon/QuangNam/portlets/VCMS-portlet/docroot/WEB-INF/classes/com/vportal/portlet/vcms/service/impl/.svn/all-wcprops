@@ -1,0 +1,95 @@
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/VCMS-portlet/docroot/WEB-INF/classes/com/vportal/portlet/vcms/service/impl
+END
+VcmsLoggerServiceImpl.class
+K 25
+svn:wc:ra_dav:version-url
+V 161
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/VCMS-portlet/docroot/WEB-INF/classes/com/vportal/portlet/vcms/service/impl/VcmsLoggerServiceImpl.class
+END
+VcmsTypeServiceImpl.class
+K 25
+svn:wc:ra_dav:version-url
+V 159
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/VCMS-portlet/docroot/WEB-INF/classes/com/vportal/portlet/vcms/service/impl/VcmsTypeServiceImpl.class
+END
+VcmsCARelationServiceImpl.class
+K 25
+svn:wc:ra_dav:version-url
+V 165
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/VCMS-portlet/docroot/WEB-INF/classes/com/vportal/portlet/vcms/service/impl/VcmsCARelationServiceImpl.class
+END
+VcmsAttachedMessageServiceImpl.class
+K 25
+svn:wc:ra_dav:version-url
+V 170
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/VCMS-portlet/docroot/WEB-INF/classes/com/vportal/portlet/vcms/service/impl/VcmsAttachedMessageServiceImpl.class
+END
+VcmsDiscussionServiceImpl.class
+K 25
+svn:wc:ra_dav:version-url
+V 165
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/VCMS-portlet/docroot/WEB-INF/classes/com/vportal/portlet/vcms/service/impl/VcmsDiscussionServiceImpl.class
+END
+VcmsArticleServiceImpl.class
+K 25
+svn:wc:ra_dav:version-url
+V 162
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/VCMS-portlet/docroot/WEB-INF/classes/com/vportal/portlet/vcms/service/impl/VcmsArticleServiceImpl.class
+END
+VcmsArticleVersionServiceImpl.class
+K 25
+svn:wc:ra_dav:version-url
+V 169
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/VCMS-portlet/docroot/WEB-INF/classes/com/vportal/portlet/vcms/service/impl/VcmsArticleVersionServiceImpl.class
+END
+VcmsPortionServiceImpl.class
+K 25
+svn:wc:ra_dav:version-url
+V 162
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/VCMS-portlet/docroot/WEB-INF/classes/com/vportal/portlet/vcms/service/impl/VcmsPortionServiceImpl.class
+END
+VcmsStatusLocalServiceImpl.class
+K 25
+svn:wc:ra_dav:version-url
+V 166
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/VCMS-portlet/docroot/WEB-INF/classes/com/vportal/portlet/vcms/service/impl/VcmsStatusLocalServiceImpl.class
+END
+VcmsPARelationServiceImpl.class
+K 25
+svn:wc:ra_dav:version-url
+V 165
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/VCMS-portlet/docroot/WEB-INF/classes/com/vportal/portlet/vcms/service/impl/VcmsPARelationServiceImpl.class
+END
+VcmsArticleTypeLocalServiceImpl.class
+K 25
+svn:wc:ra_dav:version-url
+V 171
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/VCMS-portlet/docroot/WEB-INF/classes/com/vportal/portlet/vcms/service/impl/VcmsArticleTypeLocalServiceImpl.class
+END
+VcmsTARelationServiceImpl.class
+K 25
+svn:wc:ra_dav:version-url
+V 165
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/VCMS-portlet/docroot/WEB-INF/classes/com/vportal/portlet/vcms/service/impl/VcmsTARelationServiceImpl.class
+END
+VcmsArticleStatusLocalServiceImpl.class
+K 25
+svn:wc:ra_dav:version-url
+V 173
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/VCMS-portlet/docroot/WEB-INF/classes/com/vportal/portlet/vcms/service/impl/VcmsArticleStatusLocalServiceImpl.class
+END
+VcmsThreadServiceImpl.class
+K 25
+svn:wc:ra_dav:version-url
+V 161
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/VCMS-portlet/docroot/WEB-INF/classes/com/vportal/portlet/vcms/service/impl/VcmsThreadServiceImpl.class
+END
+VcmsCategoryServiceImpl.class
+K 25
+svn:wc:ra_dav:version-url
+V 163
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/VCMS-portlet/docroot/WEB-INF/classes/com/vportal/portlet/vcms/service/impl/VcmsCategoryServiceImpl.class
+END

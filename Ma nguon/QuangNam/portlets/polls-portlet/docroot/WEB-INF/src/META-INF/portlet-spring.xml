@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" default-destroy-method="destroy" default-init-method="afterPropertiesSet" xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+	<bean id="com.vportal.portlet.pollsadmin.service.PollsQuestionExtService" class="com.vportal.portlet.pollsadmin.service.impl.PollsQuestionExtServiceImpl" />
+	<bean id="com.vportal.portlet.pollsadmin.service.PollsQuestionExtServiceUtil" class="com.vportal.portlet.pollsadmin.service.PollsQuestionExtServiceUtil">
+		<property name="service" ref="com.vportal.portlet.pollsadmin.service.PollsQuestionExtService" />
+	</bean>
+	<bean id="com.vportal.portlet.pollsadmin.service.PollsChoiceLocalService" class="com.vportal.portlet.pollsadmin.service.impl.PollsChoiceLocalServiceImpl" />
+	<bean id="com.vportal.portlet.pollsadmin.service.PollsChoiceLocalServiceUtil" class="com.vportal.portlet.pollsadmin.service.PollsChoiceLocalServiceUtil">
+		<property name="service" ref="com.vportal.portlet.pollsadmin.service.PollsChoiceLocalService" />
+	</bean>
+	<bean id="com.vportal.portlet.pollsadmin.service.persistence.PollsChoicePersistence" class="com.vportal.portlet.pollsadmin.service.persistence.PollsChoicePersistenceImpl" parent="basePersistence" />
+	<bean id="com.vportal.portlet.pollsadmin.service.PollsQuestionLocalService" class="com.vportal.portlet.pollsadmin.service.impl.PollsQuestionLocalServiceImpl" />
+	<bean id="com.vportal.portlet.pollsadmin.service.PollsQuestionLocalServiceUtil" class="com.vportal.portlet.pollsadmin.service.PollsQuestionLocalServiceUtil">
+		<property name="service" ref="com.vportal.portlet.pollsadmin.service.PollsQuestionLocalService" />
+	</bean>
+	<bean id="com.vportal.portlet.pollsadmin.service.PollsQuestionService" class="com.vportal.portlet.pollsadmin.service.impl.PollsQuestionServiceImpl" />
+	<bean id="com.vportal.portlet.pollsadmin.service.PollsQuestionServiceUtil" class="com.vportal.portlet.pollsadmin.service.PollsQuestionServiceUtil">
+		<property name="service" ref="com.vportal.portlet.pollsadmin.service.PollsQuestionService" />
+	</bean>
+	<bean id="com.vportal.portlet.pollsadmin.service.persistence.PollsQuestionPersistence" class="com.vportal.portlet.pollsadmin.service.persistence.PollsQuestionPersistenceImpl" parent="basePersistence" />
+	<bean id="com.vportal.portlet.pollsadmin.service.PollsVoteLocalService" class="com.vportal.portlet.pollsadmin.service.impl.PollsVoteLocalServiceImpl" />
+	<bean id="com.vportal.portlet.pollsadmin.service.PollsVoteLocalServiceUtil" class="com.vportal.portlet.pollsadmin.service.PollsVoteLocalServiceUtil">
+		<property name="service" ref="com.vportal.portlet.pollsadmin.service.PollsVoteLocalService" />
+	</bean>
+	<bean id="com.vportal.portlet.pollsadmin.service.PollsVoteService" class="com.vportal.portlet.pollsadmin.service.impl.PollsVoteServiceImpl" />
+	<bean id="com.vportal.portlet.pollsadmin.service.PollsVoteServiceUtil" class="com.vportal.portlet.pollsadmin.service.PollsVoteServiceUtil">
+		<property name="service" ref="com.vportal.portlet.pollsadmin.service.PollsVoteService" />
+	</bean>
+	<bean id="com.vportal.portlet.pollsadmin.service.persistence.PollsVotePersistence" class="com.vportal.portlet.pollsadmin.service.persistence.PollsVotePersistenceImpl" parent="basePersistence" />
+</beans>

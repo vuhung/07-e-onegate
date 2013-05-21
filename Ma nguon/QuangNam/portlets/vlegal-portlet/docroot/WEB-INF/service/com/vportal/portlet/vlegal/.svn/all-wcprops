@@ -1,0 +1,317 @@
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/vlegal-portlet/docroot/WEB-INF/service/com/vportal/portlet/vlegal
+END
+InvalidSuggestVisAddressException.java
+K 25
+svn:wc:ra_dav:version-url
+V 163
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/vlegal-portlet/docroot/WEB-INF/service/com/vportal/portlet/vlegal/InvalidSuggestVisAddressException.java
+END
+InvalidSuggestVisEmailException.java
+K 25
+svn:wc:ra_dav:version-url
+V 161
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/vlegal-portlet/docroot/WEB-INF/service/com/vportal/portlet/vlegal/InvalidSuggestVisEmailException.java
+END
+NoSuchVLegalFORelException.java
+K 25
+svn:wc:ra_dav:version-url
+V 156
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/vlegal-portlet/docroot/WEB-INF/service/com/vportal/portlet/vlegal/NoSuchVLegalFORelException.java
+END
+InvalidDocOrgException.java
+K 25
+svn:wc:ra_dav:version-url
+V 152
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/vlegal-portlet/docroot/WEB-INF/service/com/vportal/portlet/vlegal/InvalidDocOrgException.java
+END
+NoSuchVLegalDSRelException.java
+K 25
+svn:wc:ra_dav:version-url
+V 156
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/vlegal-portlet/docroot/WEB-INF/service/com/vportal/portlet/vlegal/NoSuchVLegalDSRelException.java
+END
+InvalidTagsNameExceptionException.java
+K 25
+svn:wc:ra_dav:version-url
+V 163
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/vlegal-portlet/docroot/WEB-INF/service/com/vportal/portlet/vlegal/InvalidTagsNameExceptionException.java
+END
+NoSuchVLegalDURelException.java
+K 25
+svn:wc:ra_dav:version-url
+V 156
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/vlegal-portlet/docroot/WEB-INF/service/com/vportal/portlet/vlegal/NoSuchVLegalDURelException.java
+END
+InvalidDraftDocCodeException.java
+K 25
+svn:wc:ra_dav:version-url
+V 158
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/vlegal-portlet/docroot/WEB-INF/service/com/vportal/portlet/vlegal/InvalidDraftDocCodeException.java
+END
+InvalidSuggestTitleException.java
+K 25
+svn:wc:ra_dav:version-url
+V 158
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/vlegal-portlet/docroot/WEB-INF/service/com/vportal/portlet/vlegal/InvalidSuggestTitleException.java
+END
+NoSuchVLegalLoggerException.java
+K 25
+svn:wc:ra_dav:version-url
+V 157
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/vlegal-portlet/docroot/WEB-INF/service/com/vportal/portlet/vlegal/NoSuchVLegalLoggerException.java
+END
+NoSuchVLegalSuggestDocumentException.java
+K 25
+svn:wc:ra_dav:version-url
+V 166
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/vlegal-portlet/docroot/WEB-INF/service/com/vportal/portlet/vlegal/NoSuchVLegalSuggestDocumentException.java
+END
+NoSuchVLegalTypeException.java
+K 25
+svn:wc:ra_dav:version-url
+V 155
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/vlegal-portlet/docroot/WEB-INF/service/com/vportal/portlet/vlegal/NoSuchVLegalTypeException.java
+END
+NoSuchVLegalFieldException.java
+K 25
+svn:wc:ra_dav:version-url
+V 156
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/vlegal-portlet/docroot/WEB-INF/service/com/vportal/portlet/vlegal/NoSuchVLegalFieldException.java
+END
+DuplicateDocNumExceptionException.java
+K 25
+svn:wc:ra_dav:version-url
+V 163
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/vlegal-portlet/docroot/WEB-INF/service/com/vportal/portlet/vlegal/DuplicateDocNumExceptionException.java
+END
+NoSuchVLegalSuggestionException.java
+K 25
+svn:wc:ra_dav:version-url
+V 161
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/vlegal-portlet/docroot/WEB-INF/service/com/vportal/portlet/vlegal/NoSuchVLegalSuggestionException.java
+END
+DeleteTypeException.java
+K 25
+svn:wc:ra_dav:version-url
+V 149
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/vlegal-portlet/docroot/WEB-INF/service/com/vportal/portlet/vlegal/DeleteTypeException.java
+END
+InvalidExpiredDateException.java
+K 25
+svn:wc:ra_dav:version-url
+V 157
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/vlegal-portlet/docroot/WEB-INF/service/com/vportal/portlet/vlegal/InvalidExpiredDateException.java
+END
+NoSuchVLegalDDRelException.java
+K 25
+svn:wc:ra_dav:version-url
+V 156
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/vlegal-portlet/docroot/WEB-INF/service/com/vportal/portlet/vlegal/NoSuchVLegalDDRelException.java
+END
+DeleteFieldException.java
+K 25
+svn:wc:ra_dav:version-url
+V 150
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/vlegal-portlet/docroot/WEB-INF/service/com/vportal/portlet/vlegal/DeleteFieldException.java
+END
+NoSuchVLegalDFRelException.java
+K 25
+svn:wc:ra_dav:version-url
+V 156
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/vlegal-portlet/docroot/WEB-INF/service/com/vportal/portlet/vlegal/NoSuchVLegalDFRelException.java
+END
+InvalidEffectivedDateException.java
+K 25
+svn:wc:ra_dav:version-url
+V 160
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/vlegal-portlet/docroot/WEB-INF/service/com/vportal/portlet/vlegal/InvalidEffectivedDateException.java
+END
+DuplicateTagsNameExceptionException.java
+K 25
+svn:wc:ra_dav:version-url
+V 165
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/vlegal-portlet/docroot/WEB-INF/service/com/vportal/portlet/vlegal/DuplicateTagsNameExceptionException.java
+END
+InvalidDocSummaryExceptionException.java
+K 25
+svn:wc:ra_dav:version-url
+V 165
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/vlegal-portlet/docroot/WEB-INF/service/com/vportal/portlet/vlegal/InvalidDocSummaryExceptionException.java
+END
+InvalidDraftTitleException.java
+K 25
+svn:wc:ra_dav:version-url
+V 156
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/vlegal-portlet/docroot/WEB-INF/service/com/vportal/portlet/vlegal/InvalidDraftTitleException.java
+END
+NoSuchVLegalTagsException.java
+K 25
+svn:wc:ra_dav:version-url
+V 155
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/vlegal-portlet/docroot/WEB-INF/service/com/vportal/portlet/vlegal/NoSuchVLegalTagsException.java
+END
+InvalidFieldNameExceptionException.java
+K 25
+svn:wc:ra_dav:version-url
+V 164
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/vlegal-portlet/docroot/WEB-INF/service/com/vportal/portlet/vlegal/InvalidFieldNameExceptionException.java
+END
+InvalidSuggestVisNameException.java
+K 25
+svn:wc:ra_dav:version-url
+V 160
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/vlegal-portlet/docroot/WEB-INF/service/com/vportal/portlet/vlegal/InvalidSuggestVisNameException.java
+END
+InvalidDocTypeException.java
+K 25
+svn:wc:ra_dav:version-url
+V 153
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/vlegal-portlet/docroot/WEB-INF/service/com/vportal/portlet/vlegal/InvalidDocTypeException.java
+END
+InvalidSuggestVisTelException.java
+K 25
+svn:wc:ra_dav:version-url
+V 159
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/vlegal-portlet/docroot/WEB-INF/service/com/vportal/portlet/vlegal/InvalidSuggestVisTelException.java
+END
+InvalidDocSigException.java
+K 25
+svn:wc:ra_dav:version-url
+V 152
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/vlegal-portlet/docroot/WEB-INF/service/com/vportal/portlet/vlegal/InvalidDocSigException.java
+END
+InvalidDocFieldException.java
+K 25
+svn:wc:ra_dav:version-url
+V 154
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/vlegal-portlet/docroot/WEB-INF/service/com/vportal/portlet/vlegal/InvalidDocFieldException.java
+END
+InvalidOrgDescriptionExceptionException.java
+K 25
+svn:wc:ra_dav:version-url
+V 169
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/vlegal-portlet/docroot/WEB-INF/service/com/vportal/portlet/vlegal/InvalidOrgDescriptionExceptionException.java
+END
+InvalidDocSymbolExceptionException.java
+K 25
+svn:wc:ra_dav:version-url
+V 164
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/vlegal-portlet/docroot/WEB-INF/service/com/vportal/portlet/vlegal/InvalidDocSymbolExceptionException.java
+END
+InvalidSuggestContentException.java
+K 25
+svn:wc:ra_dav:version-url
+V 160
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/vlegal-portlet/docroot/WEB-INF/service/com/vportal/portlet/vlegal/InvalidSuggestContentException.java
+END
+InvalidPromulDateException.java
+K 25
+svn:wc:ra_dav:version-url
+V 156
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/vlegal-portlet/docroot/WEB-INF/service/com/vportal/portlet/vlegal/InvalidPromulDateException.java
+END
+NoSuchVLegalTDRelException.java
+K 25
+svn:wc:ra_dav:version-url
+V 156
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/vlegal-portlet/docroot/WEB-INF/service/com/vportal/portlet/vlegal/NoSuchVLegalTDRelException.java
+END
+InvalidSignerFirstNameExceptionException.java
+K 25
+svn:wc:ra_dav:version-url
+V 170
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/vlegal-portlet/docroot/WEB-INF/service/com/vportal/portlet/vlegal/InvalidSignerFirstNameExceptionException.java
+END
+NoSuchVLegalFTRelException.java
+K 25
+svn:wc:ra_dav:version-url
+V 156
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/vlegal-portlet/docroot/WEB-INF/service/com/vportal/portlet/vlegal/NoSuchVLegalFTRelException.java
+END
+InvalidTypeNameException.java
+K 25
+svn:wc:ra_dav:version-url
+V 154
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/vlegal-portlet/docroot/WEB-INF/service/com/vportal/portlet/vlegal/InvalidTypeNameException.java
+END
+NoSuchVLegalDocumentException.java
+K 25
+svn:wc:ra_dav:version-url
+V 159
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/vlegal-portlet/docroot/WEB-INF/service/com/vportal/portlet/vlegal/NoSuchVLegalDocumentException.java
+END
+InvalidTypeDescriptionException.java
+K 25
+svn:wc:ra_dav:version-url
+V 161
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/vlegal-portlet/docroot/WEB-INF/service/com/vportal/portlet/vlegal/InvalidTypeDescriptionException.java
+END
+NoSuchVLegalAttachedMessageException.java
+K 25
+svn:wc:ra_dav:version-url
+V 166
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/vlegal-portlet/docroot/WEB-INF/service/com/vportal/portlet/vlegal/NoSuchVLegalAttachedMessageException.java
+END
+InvalidSignerLastNameExceptionException.java
+K 25
+svn:wc:ra_dav:version-url
+V 169
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/vlegal-portlet/docroot/WEB-INF/service/com/vportal/portlet/vlegal/InvalidSignerLastNameExceptionException.java
+END
+InvalidDraftContentException.java
+K 25
+svn:wc:ra_dav:version-url
+V 158
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/vlegal-portlet/docroot/WEB-INF/service/com/vportal/portlet/vlegal/InvalidDraftContentException.java
+END
+NoSuchVLegalOrgException.java
+K 25
+svn:wc:ra_dav:version-url
+V 154
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/vlegal-portlet/docroot/WEB-INF/service/com/vportal/portlet/vlegal/NoSuchVLegalOrgException.java
+END
+NoSuchVLegalSignerException.java
+K 25
+svn:wc:ra_dav:version-url
+V 157
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/vlegal-portlet/docroot/WEB-INF/service/com/vportal/portlet/vlegal/NoSuchVLegalSignerException.java
+END
+DeleteOrgException.java
+K 25
+svn:wc:ra_dav:version-url
+V 148
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/vlegal-portlet/docroot/WEB-INF/service/com/vportal/portlet/vlegal/DeleteOrgException.java
+END
+DeleteSignerException.java
+K 25
+svn:wc:ra_dav:version-url
+V 151
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/vlegal-portlet/docroot/WEB-INF/service/com/vportal/portlet/vlegal/DeleteSignerException.java
+END
+NoSuchVLegalDraftDocumentException.java
+K 25
+svn:wc:ra_dav:version-url
+V 164
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/vlegal-portlet/docroot/WEB-INF/service/com/vportal/portlet/vlegal/NoSuchVLegalDraftDocumentException.java
+END
+InvalidDocNumExceptionException.java
+K 25
+svn:wc:ra_dav:version-url
+V 161
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/vlegal-portlet/docroot/WEB-INF/service/com/vportal/portlet/vlegal/InvalidDocNumExceptionException.java
+END
+InvalidFieldDescriptionExceptionException.java
+K 25
+svn:wc:ra_dav:version-url
+V 171
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/vlegal-portlet/docroot/WEB-INF/service/com/vportal/portlet/vlegal/InvalidFieldDescriptionExceptionException.java
+END
+InvalidOrgNameExceptionException.java
+K 25
+svn:wc:ra_dav:version-url
+V 162
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/vlegal-portlet/docroot/WEB-INF/service/com/vportal/portlet/vlegal/InvalidOrgNameExceptionException.java
+END

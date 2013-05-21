@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/vlegal-portlet/docroot/WEB-INF/lib
+END
+jstl.jar
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/vlegal-portlet/docroot/WEB-INF/lib/jstl.jar
+END
+vlegal-portlet-service.jar
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/vlegal-portlet/docroot/WEB-INF/lib/vlegal-portlet-service.jar
+END

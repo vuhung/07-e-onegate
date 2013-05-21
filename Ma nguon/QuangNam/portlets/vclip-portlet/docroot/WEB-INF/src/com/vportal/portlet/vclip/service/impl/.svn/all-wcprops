@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/vclip-portlet/docroot/WEB-INF/src/com/vportal/portlet/vclip/service/impl
+END
+ClipLocalServiceImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 157
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/vclip-portlet/docroot/WEB-INF/src/com/vportal/portlet/vclip/service/impl/ClipLocalServiceImpl.java
+END
+ClipTypeLocalServiceImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 161
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/vclip-portlet/docroot/WEB-INF/src/com/vportal/portlet/vclip/service/impl/ClipTypeLocalServiceImpl.java
+END
+ClipServiceImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 152
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/vclip-portlet/docroot/WEB-INF/src/com/vportal/portlet/vclip/service/impl/ClipServiceImpl.java
+END
+ClipTypeServiceImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 156
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/vclip-portlet/docroot/WEB-INF/src/com/vportal/portlet/vclip/service/impl/ClipTypeServiceImpl.java
+END

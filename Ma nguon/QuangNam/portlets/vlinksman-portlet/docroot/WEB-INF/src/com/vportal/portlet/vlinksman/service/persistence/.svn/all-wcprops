@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 146
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/vlinksman-portlet/docroot/WEB-INF/src/com/vportal/portlet/vlinksman/service/persistence
+END
+LinkGroupPersistenceImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 176
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/vlinksman-portlet/docroot/WEB-INF/src/com/vportal/portlet/vlinksman/service/persistence/LinkGroupPersistenceImpl.java
+END
+LinksPersistenceImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 172
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/vlinksman-portlet/docroot/WEB-INF/src/com/vportal/portlet/vlinksman/service/persistence/LinksPersistenceImpl.java
+END

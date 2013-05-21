@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" default-destroy-method="destroy" default-init-method="afterPropertiesSet" xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+	<bean id="com.vportal.portal.service.AttachmentLocalService" class="com.vportal.portal.service.impl.AttachmentLocalServiceImpl" />
+	<bean id="com.vportal.portal.service.AttachmentLocalServiceUtil" class="com.vportal.portal.service.AttachmentLocalServiceUtil">
+		<property name="service" ref="com.vportal.portal.service.AttachmentLocalService" />
+	</bean>
+	<bean id="com.vportal.portal.service.AttachmentService" class="com.vportal.portal.service.impl.AttachmentServiceImpl" />
+	<bean id="com.vportal.portal.service.AttachmentServiceUtil" class="com.vportal.portal.service.AttachmentServiceUtil">
+		<property name="service" ref="com.vportal.portal.service.AttachmentService" />
+	</bean>
+	<bean id="com.vportal.portal.service.persistence.AttachmentPersistence" class="com.vportal.portal.service.persistence.AttachmentPersistenceImpl" parent="basePersistence" />
+	<bean id="com.vportal.portal.service.persistence.AttachmentFinder" class="com.vportal.portal.service.persistence.AttachmentFinderImpl" parent="basePersistence" />
+	<bean id="com.vportal.portal.service.AccessCounterService" class="com.vportal.portal.service.impl.AccessCounterServiceImpl" />
+	<bean id="com.vportal.portal.service.AccessCounterServiceUtil" class="com.vportal.portal.service.AccessCounterServiceUtil">
+		<property name="service" ref="com.vportal.portal.service.AccessCounterService" />
+	</bean>
+	<bean id="com.vportal.portal.service.persistence.AccessCounterPersistence" class="com.vportal.portal.service.persistence.AccessCounterPersistenceImpl" parent="basePersistence" />
+	<bean id="com.vportal.portal.service.persistence.AccessCounterFinder" class="com.vportal.portal.service.persistence.AccessCounterFinderImpl" parent="basePersistence" />
+	<bean id="com.vportal.portal.service.PortletFolderLocalService" class="com.vportal.portal.service.impl.PortletFolderLocalServiceImpl" />
+	<bean id="com.vportal.portal.service.PortletFolderLocalServiceUtil" class="com.vportal.portal.service.PortletFolderLocalServiceUtil">
+		<property name="service" ref="com.vportal.portal.service.PortletFolderLocalService" />
+	</bean>
+	<bean id="com.vportal.portal.service.PortletFolderService" class="com.vportal.portal.service.impl.PortletFolderServiceImpl" />
+	<bean id="com.vportal.portal.service.PortletFolderServiceUtil" class="com.vportal.portal.service.PortletFolderServiceUtil">
+		<property name="service" ref="com.vportal.portal.service.PortletFolderService" />
+	</bean>
+	<bean id="com.vportal.portal.service.persistence.PortletFolderPersistence" class="com.vportal.portal.service.persistence.PortletFolderPersistenceImpl" parent="basePersistence" />
+	<bean id="com.vportal.portal.service.persistence.PortletFolderFinder" class="com.vportal.portal.service.persistence.PortletFolderFinderImpl" parent="basePersistence" />
+</beans>

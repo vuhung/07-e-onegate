@@ -1,0 +1,125 @@
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/VFaq-portlet/docroot/WEB-INF/service/com/vportal/portlet/vfaq
+END
+FAQAnswerContentException.java
+K 25
+svn:wc:ra_dav:version-url
+V 151
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/VFaq-portlet/docroot/WEB-INF/service/com/vportal/portlet/vfaq/FAQAnswerContentException.java
+END
+FAQCommentContentException.java
+K 25
+svn:wc:ra_dav:version-url
+V 152
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/VFaq-portlet/docroot/WEB-INF/service/com/vportal/portlet/vfaq/FAQCommentContentException.java
+END
+NoSuchFAQCategoryException.java
+K 25
+svn:wc:ra_dav:version-url
+V 152
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/VFaq-portlet/docroot/WEB-INF/service/com/vportal/portlet/vfaq/NoSuchFAQCategoryException.java
+END
+FAQAnswerSenderException.java
+K 25
+svn:wc:ra_dav:version-url
+V 150
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/VFaq-portlet/docroot/WEB-INF/service/com/vportal/portlet/vfaq/FAQAnswerSenderException.java
+END
+FAQCommentSenderException.java
+K 25
+svn:wc:ra_dav:version-url
+V 151
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/VFaq-portlet/docroot/WEB-INF/service/com/vportal/portlet/vfaq/FAQCommentSenderException.java
+END
+FAQQuestionCategoryException.java
+K 25
+svn:wc:ra_dav:version-url
+V 154
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/VFaq-portlet/docroot/WEB-INF/service/com/vportal/portlet/vfaq/FAQQuestionCategoryException.java
+END
+FAQStringLengthException.java
+K 25
+svn:wc:ra_dav:version-url
+V 150
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/VFaq-portlet/docroot/WEB-INF/service/com/vportal/portlet/vfaq/FAQStringLengthException.java
+END
+FAQQuestionSenderException.java
+K 25
+svn:wc:ra_dav:version-url
+V 152
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/VFaq-portlet/docroot/WEB-INF/service/com/vportal/portlet/vfaq/FAQQuestionSenderException.java
+END
+FAQQuestionTitleException.java
+K 25
+svn:wc:ra_dav:version-url
+V 151
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/VFaq-portlet/docroot/WEB-INF/service/com/vportal/portlet/vfaq/FAQQuestionTitleException.java
+END
+FAQCommentEmailException.java
+K 25
+svn:wc:ra_dav:version-url
+V 150
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/VFaq-portlet/docroot/WEB-INF/service/com/vportal/portlet/vfaq/FAQCommentEmailException.java
+END
+FAQQuestionDescriptionException.java
+K 25
+svn:wc:ra_dav:version-url
+V 157
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/VFaq-portlet/docroot/WEB-INF/service/com/vportal/portlet/vfaq/FAQQuestionDescriptionException.java
+END
+FAQCategoryNameException.java
+K 25
+svn:wc:ra_dav:version-url
+V 150
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/VFaq-portlet/docroot/WEB-INF/service/com/vportal/portlet/vfaq/FAQCategoryNameException.java
+END
+FAQAnswerApproverException.java
+K 25
+svn:wc:ra_dav:version-url
+V 152
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/VFaq-portlet/docroot/WEB-INF/service/com/vportal/portlet/vfaq/FAQAnswerApproverException.java
+END
+FAQQuestionEmailException.java
+K 25
+svn:wc:ra_dav:version-url
+V 151
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/VFaq-portlet/docroot/WEB-INF/service/com/vportal/portlet/vfaq/FAQQuestionEmailException.java
+END
+NoSuchFAQAnswerException.java
+K 25
+svn:wc:ra_dav:version-url
+V 150
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/VFaq-portlet/docroot/WEB-INF/service/com/vportal/portlet/vfaq/NoSuchFAQAnswerException.java
+END
+FAQCommentApproverException.java
+K 25
+svn:wc:ra_dav:version-url
+V 153
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/VFaq-portlet/docroot/WEB-INF/service/com/vportal/portlet/vfaq/FAQCommentApproverException.java
+END
+FAQCategoryDescriptionException.java
+K 25
+svn:wc:ra_dav:version-url
+V 157
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/VFaq-portlet/docroot/WEB-INF/service/com/vportal/portlet/vfaq/FAQCategoryDescriptionException.java
+END
+NoSuchFAQCommentException.java
+K 25
+svn:wc:ra_dav:version-url
+V 151
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/VFaq-portlet/docroot/WEB-INF/service/com/vportal/portlet/vfaq/NoSuchFAQCommentException.java
+END
+NoSuchFAQCategoryQuestionException.java
+K 25
+svn:wc:ra_dav:version-url
+V 160
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/VFaq-portlet/docroot/WEB-INF/service/com/vportal/portlet/vfaq/NoSuchFAQCategoryQuestionException.java
+END
+NoSuchFAQQuestionException.java
+K 25
+svn:wc:ra_dav:version-url
+V 152
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/VFaq-portlet/docroot/WEB-INF/service/com/vportal/portlet/vfaq/NoSuchFAQQuestionException.java
+END

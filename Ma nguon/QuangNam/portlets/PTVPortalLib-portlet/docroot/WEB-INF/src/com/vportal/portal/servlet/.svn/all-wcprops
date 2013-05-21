@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/PTVPortalLib-portlet/docroot/WEB-INF/src/com/vportal/portal/servlet
+END
+MainServlet.java
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/PTVPortalLib-portlet/docroot/WEB-INF/src/com/vportal/portal/servlet/MainServlet.java
+END
+PortalSessionListener.java
+K 25
+svn:wc:ra_dav:version-url
+V 153
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/PTVPortalLib-portlet/docroot/WEB-INF/src/com/vportal/portal/servlet/PortalSessionListener.java
+END

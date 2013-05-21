@@ -1,0 +1,1 @@
+Liferay.Service.register("Liferay.Service.VDoc", "com.portlet.vdoc.service");

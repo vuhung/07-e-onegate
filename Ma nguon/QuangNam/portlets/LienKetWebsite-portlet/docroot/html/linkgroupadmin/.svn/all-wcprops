@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/LienKetWebsite-portlet/docroot/html/linkgroupadmin
+END
+admin_actions.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/LienKetWebsite-portlet/docroot/html/linkgroupadmin/admin_actions.jsp
+END
+view_add_linkgroup.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/LienKetWebsite-portlet/docroot/html/linkgroupadmin/view_add_linkgroup.jsp
+END
+link_actions.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/LienKetWebsite-portlet/docroot/html/linkgroupadmin/link_actions.jsp
+END
+edit_linkGroup.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/LienKetWebsite-portlet/docroot/html/linkgroupadmin/edit_linkGroup.jsp
+END
+view_add_link.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/LienKetWebsite-portlet/docroot/html/linkgroupadmin/view_add_link.jsp
+END
+edit_link.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/LienKetWebsite-portlet/docroot/html/linkgroupadmin/edit_link.jsp
+END

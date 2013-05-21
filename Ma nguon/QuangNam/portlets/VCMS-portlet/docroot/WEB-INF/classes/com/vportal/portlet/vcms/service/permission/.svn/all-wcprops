@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/VCMS-portlet/docroot/WEB-INF/classes/com/vportal/portlet/vcms/service/permission
+END
+VcmsPortionPermission.class
+K 25
+svn:wc:ra_dav:version-url
+V 167
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/VCMS-portlet/docroot/WEB-INF/classes/com/vportal/portlet/vcms/service/permission/VcmsPortionPermission.class
+END
+VcmsCategoryPermission.class
+K 25
+svn:wc:ra_dav:version-url
+V 168
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/VCMS-portlet/docroot/WEB-INF/classes/com/vportal/portlet/vcms/service/permission/VcmsCategoryPermission.class
+END
+VcmsTypePermission.class
+K 25
+svn:wc:ra_dav:version-url
+V 164
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/VCMS-portlet/docroot/WEB-INF/classes/com/vportal/portlet/vcms/service/permission/VcmsTypePermission.class
+END
+VcmsArticlePermission.class
+K 25
+svn:wc:ra_dav:version-url
+V 167
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/VCMS-portlet/docroot/WEB-INF/classes/com/vportal/portlet/vcms/service/permission/VcmsArticlePermission.class
+END
+VcmsDiscussionPermission.class
+K 25
+svn:wc:ra_dav:version-url
+V 170
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/VCMS-portlet/docroot/WEB-INF/classes/com/vportal/portlet/vcms/service/permission/VcmsDiscussionPermission.class
+END
+VcmsStatusPermission.class
+K 25
+svn:wc:ra_dav:version-url
+V 166
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/VCMS-portlet/docroot/WEB-INF/classes/com/vportal/portlet/vcms/service/permission/VcmsStatusPermission.class
+END
+VcmsThreadPermission.class
+K 25
+svn:wc:ra_dav:version-url
+V 166
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/VCMS-portlet/docroot/WEB-INF/classes/com/vportal/portlet/vcms/service/permission/VcmsThreadPermission.class
+END

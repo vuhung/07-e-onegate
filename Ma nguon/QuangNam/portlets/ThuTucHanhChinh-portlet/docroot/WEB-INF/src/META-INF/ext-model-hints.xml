@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<model-hints>
+	<model name="com.portlet.vdoc.model.vdocDocument">
+		<field name="title" type="String">
+			<hint name="max-length">1000</hint>
+		</field>
+		<field name="content" type="String">
+			<hint name="max-length">4500</hint>
+		</field>
+		<field name="process" type="String">
+			<hint name="max-length">4500</hint>
+		</field>
+		<field name="base" type="String">
+			<hint name="max-length">4500</hint>
+		</field>
+		<field name="time" type="String">
+			<hint name="max-length">4500</hint>
+		</field>
+		<field name="cost" type="String">
+			<hint name="max-length">4500</hint>
+		</field>
+		<field name="require" type="String">
+			<hint name="max-length">4500</hint>
+		</field>
+		<field name="result" type="String">
+			<hint name="max-length">4500</hint>
+		</field>
+		<field name="objects" type="String">
+			<hint name="max-length">4500</hint>
+		</field>
+		<field name="style" type="String">
+			<hint name="max-length">4500</hint>
+		</field>
+		<field name="position" type="int" />
+		<field name="note" type="String">
+			<hint name="max-length">4500</hint>
+		</field>
+	</model>
+	
+	<model name="com.portlet.vdoc.model.vdocField">
+		<field name="name" type="String" >
+			<hint name="max-length">500</hint>
+		</field>
+		<field name="description" type="String" >
+			<hint name="max-length">1000</hint>
+		</field>
+	</model>
+	<model name="com.portlet.vdoc.model.vdocOrg">
+		<field name="name" type="String">
+			<hint name="max-length">500</hint>
+		</field>
+		<field name="description" type="String" >
+			<hint name="max-length">1000</hint>
+		</field>
+	</model>
+	<model name="com.portlet.vdoc.model.vdocDORel">
+		<field name="docId" type="String" />
+		<field name="orgId" type="String" />
+	</model>
+	<model name="com.portlet.vdoc.model.vdocLogger">
+		<field name="loggerId" type="String" />
+		<field name="groupId" type="long" />
+		<field name="companyId" type="long" />
+		<field name="userId" type="long" />
+		<field name="createdDate" type="Date" />
+		<field name="createdByUser" type="long" />
+		<field name="content" type="String" />
+	</model>
+</model-hints>

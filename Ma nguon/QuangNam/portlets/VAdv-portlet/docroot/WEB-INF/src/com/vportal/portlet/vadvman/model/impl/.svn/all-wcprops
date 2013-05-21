@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/VAdv-portlet/docroot/WEB-INF/src/com/vportal/portlet/vadvman/model/impl
+END
+AdvTypeModelImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 152
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/VAdv-portlet/docroot/WEB-INF/src/com/vportal/portlet/vadvman/model/impl/AdvTypeModelImpl.java
+END
+AdvItemImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 147
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/VAdv-portlet/docroot/WEB-INF/src/com/vportal/portlet/vadvman/model/impl/AdvItemImpl.java
+END
+AdvItemModelImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 152
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/VAdv-portlet/docroot/WEB-INF/src/com/vportal/portlet/vadvman/model/impl/AdvItemModelImpl.java
+END
+AdvTypeImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 147
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/VAdv-portlet/docroot/WEB-INF/src/com/vportal/portlet/vadvman/model/impl/AdvTypeImpl.java
+END

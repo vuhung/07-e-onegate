@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/vclip-portlet/docroot/WEB-INF/classes/com/vportal/portlet/vclip/service/http
+END
+ClipJSONSerializer.class
+K 25
+svn:wc:ra_dav:version-url
+V 160
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/vclip-portlet/docroot/WEB-INF/classes/com/vportal/portlet/vclip/service/http/ClipJSONSerializer.class
+END
+ClipServiceSoap.class
+K 25
+svn:wc:ra_dav:version-url
+V 157
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/vclip-portlet/docroot/WEB-INF/classes/com/vportal/portlet/vclip/service/http/ClipServiceSoap.class
+END
+ClipTypeJSONSerializer.class
+K 25
+svn:wc:ra_dav:version-url
+V 164
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/vclip-portlet/docroot/WEB-INF/classes/com/vportal/portlet/vclip/service/http/ClipTypeJSONSerializer.class
+END
+ClipTypeServiceSoap.class
+K 25
+svn:wc:ra_dav:version-url
+V 161
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/vclip-portlet/docroot/WEB-INF/classes/com/vportal/portlet/vclip/service/http/ClipTypeServiceSoap.class
+END

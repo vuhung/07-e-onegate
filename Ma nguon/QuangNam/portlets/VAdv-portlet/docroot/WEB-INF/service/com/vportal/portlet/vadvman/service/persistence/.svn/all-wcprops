@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/VAdv-portlet/docroot/WEB-INF/service/com/vportal/portlet/vadvman/service/persistence
+END
+AdvItemFinderUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 166
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/VAdv-portlet/docroot/WEB-INF/service/com/vportal/portlet/vadvman/service/persistence/AdvItemFinderUtil.java
+END
+AdvItemFinder.java
+K 25
+svn:wc:ra_dav:version-url
+V 162
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/VAdv-portlet/docroot/WEB-INF/service/com/vportal/portlet/vadvman/service/persistence/AdvItemFinder.java
+END
+AdvTypePersistence.java
+K 25
+svn:wc:ra_dav:version-url
+V 167
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/VAdv-portlet/docroot/WEB-INF/service/com/vportal/portlet/vadvman/service/persistence/AdvTypePersistence.java
+END
+AdvItemUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 160
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/VAdv-portlet/docroot/WEB-INF/service/com/vportal/portlet/vadvman/service/persistence/AdvItemUtil.java
+END
+AdvTypeUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 160
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/VAdv-portlet/docroot/WEB-INF/service/com/vportal/portlet/vadvman/service/persistence/AdvTypeUtil.java
+END
+AdvItemPersistence.java
+K 25
+svn:wc:ra_dav:version-url
+V 167
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/VAdv-portlet/docroot/WEB-INF/service/com/vportal/portlet/vadvman/service/persistence/AdvItemPersistence.java
+END

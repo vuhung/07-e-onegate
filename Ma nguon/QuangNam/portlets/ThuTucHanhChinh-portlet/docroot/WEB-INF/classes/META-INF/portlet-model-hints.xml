@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<model-hints>
+	<model name="com.portlet.vdoc.model.vdocDocument">
+		<field name="docId" type="String" />
+		<field name="groupId" type="long" />
+		<field name="language" type="String" />
+		<field name="companyId" type="long" />
+		<field name="userId" type="long" />
+		<field name="createdByUser" type="long" />
+		<field name="createdDate" type="Date" />
+		<field name="modifiedByUser" type="long" />
+		<field name="modifiedDate" type="Date" />
+		<field name="approvedByUser" type="long" />
+		<field name="approvedDate" type="Date" />
+		<field name="publishedByUser" type="long" />
+		<field name="publishedDate" type="Date" />
+		<field name="promulDate" type="Date" />
+		<field name="effectivedDate" type="Date" />
+		<field name="expiredDate" type="Date" />
+		<field name="replaceDoc" type="String" />
+		<field name="title" type="String" />
+		<field name="content" type="String" />
+		<field name="process" type="String" />
+		<field name="base" type="String" />
+		<field name="time" type="String" />
+		<field name="cost" type="String" />
+		<field name="require" type="String" />
+		<field name="result" type="String" />
+		<field name="objects" type="String" />
+		<field name="style" type="String" />
+		<field name="position" type="int" />
+		<field name="note" type="String" />
+		<field name="userHit" type="int" />
+		<field name="statusDoc" type="int" />
+		<field name="typeDoc" type="int" />
+		<field name="hasAttachment" type="boolean" />
+		<field name="fieldId" type="String" />
+		<field name="orgRels" type="String" />
+		<field name="fieldRels" type="String" />
+	</model>
+	<model name="com.portlet.vdoc.model.vdocField">
+		<field name="fieldId" type="String" />
+		<field name="groupId" type="long" />
+		<field name="companyId" type="long" />
+		<field name="userId" type="long" />
+		<field name="createdDate" type="Date" />
+		<field name="modifiedDate" type="Date" />
+		<field name="createdByUser" type="long" />
+		<field name="modifiedByUser" type="long" />
+		<field name="parentId" type="String" />
+		<field name="name" type="String" />
+		<field name="description" type="String" />
+		<field name="language" type="String" />
+		<field name="statusField" type="boolean" />
+		<field name="position" type="int" />
+		<field name="listparent" type="String" />
+	</model>
+	<model name="com.portlet.vdoc.model.vdocOrg">
+		<field name="orgId" type="String" />
+		<field name="groupId" type="long" />
+		<field name="companyId" type="long" />
+		<field name="userId" type="long" />
+		<field name="createdDate" type="Date" />
+		<field name="modifiedDate" type="Date" />
+		<field name="createdByUser" type="long" />
+		<field name="modifiedByUser" type="long" />
+		<field name="parentId" type="String" />
+		<field name="name" type="String" />
+		<field name="description" type="String" />
+		<field name="address" type="String" />
+		<field name="phone" type="String" />
+		<field name="fax" type="String" />
+		<field name="language" type="String" />
+		<field name="statusOrg" type="boolean" />
+		<field name="position" type="int" />
+		<field name="listparent" type="String" />
+	</model>
+	<model name="com.portlet.vdoc.model.vdocDORel">
+		<field name="docId" type="String" />
+		<field name="orgId" type="String" />
+	</model>
+	<model name="com.portlet.vdoc.model.vdocLogger">
+		<field name="loggerId" type="String" />
+		<field name="groupId" type="long" />
+		<field name="companyId" type="long" />
+		<field name="userId" type="long" />
+		<field name="createdDate" type="Date" />
+		<field name="createdByUser" type="long" />
+		<field name="content" type="String" />
+	</model>
+</model-hints>

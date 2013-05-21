@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/VCMS-portlet/docroot/WEB-INF/src/com/vportal/portlet/vcms/util
+END
+ExportUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/VCMS-portlet/docroot/WEB-INF/src/com/vportal/portlet/vcms/util/ExportUtil.java
+END
+VCMSOpenSearchImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 145
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/VCMS-portlet/docroot/WEB-INF/src/com/vportal/portlet/vcms/util/VCMSOpenSearchImpl.java
+END
+SearchIndexer.java
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/VCMS-portlet/docroot/WEB-INF/src/com/vportal/portlet/vcms/util/SearchIndexer.java
+END
+VCMSUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/VCMS-portlet/docroot/WEB-INF/src/com/vportal/portlet/vcms/util/VCMSUtil.java
+END
+ReportUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/VCMS-portlet/docroot/WEB-INF/src/com/vportal/portlet/vcms/util/ReportUtil.java
+END
+WebKeysExt.java
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/VCMS-portlet/docroot/WEB-INF/src/com/vportal/portlet/vcms/util/WebKeysExt.java
+END
+PortletKeysVCMS.java
+K 25
+svn:wc:ra_dav:version-url
+V 142
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/VCMS-portlet/docroot/WEB-INF/src/com/vportal/portlet/vcms/util/PortletKeysVCMS.java
+END

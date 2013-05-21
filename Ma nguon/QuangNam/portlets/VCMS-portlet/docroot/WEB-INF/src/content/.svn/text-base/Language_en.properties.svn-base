@@ -1,0 +1,9 @@
+action.widthdraw = widthdraw
+
+category.cms             = CMS
+javax.portlet.title.300                  = VCMS
+javax.portlet.title.vcms                 = VCMS Administrator
+javax.portlet.title.vcmsmenu             = VCMS Category
+javax.portlet.title.vcmsviewcontent      = VCMS Content
+
+portlet.vcms.tabs.portion.empty			 = Portion is empty

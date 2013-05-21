@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 146
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/VCalendar-portlet/docroot/WEB-INF/src/com/vportal/portlet/vcalendar/service/persistence
+END
+VCalFinderImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 166
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/VCalendar-portlet/docroot/WEB-INF/src/com/vportal/portlet/vcalendar/service/persistence/VCalFinderImpl.java
+END
+VCalPersistenceImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 171
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/VCalendar-portlet/docroot/WEB-INF/src/com/vportal/portlet/vcalendar/service/persistence/VCalPersistenceImpl.java
+END
+VFilePersistenceImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 172
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/VCalendar-portlet/docroot/WEB-INF/src/com/vportal/portlet/vcalendar/service/persistence/VFilePersistenceImpl.java
+END

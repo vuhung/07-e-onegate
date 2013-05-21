@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" default-destroy-method="destroy" default-init-method="afterPropertiesSet" xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+	<bean id="com.vsi.edirectory.portlet.service.EDEmployeeLocalService" class="com.vsi.edirectory.portlet.service.impl.EDEmployeeLocalServiceImpl" />
+	<bean id="com.vsi.edirectory.portlet.service.EDEmployeeLocalServiceUtil" class="com.vsi.edirectory.portlet.service.EDEmployeeLocalServiceUtil">
+		<property name="service" ref="com.vsi.edirectory.portlet.service.EDEmployeeLocalService" />
+	</bean>
+	<bean id="com.vsi.edirectory.portlet.service.EDEmployeeService" class="com.vsi.edirectory.portlet.service.impl.EDEmployeeServiceImpl" />
+	<bean id="com.vsi.edirectory.portlet.service.EDEmployeeServiceUtil" class="com.vsi.edirectory.portlet.service.EDEmployeeServiceUtil">
+		<property name="service" ref="com.vsi.edirectory.portlet.service.EDEmployeeService" />
+	</bean>
+	<bean id="com.vsi.edirectory.portlet.service.persistence.EDEmployeePersistence" class="com.vsi.edirectory.portlet.service.persistence.EDEmployeePersistenceImpl" parent="basePersistence" />
+	<bean id="com.vsi.edirectory.portlet.service.persistence.EDEmployeeFinder" class="com.vsi.edirectory.portlet.service.persistence.EDEmployeeFinderImpl" parent="basePersistence" />
+	<bean id="com.vsi.edirectory.portlet.service.EDDepartmentLocalService" class="com.vsi.edirectory.portlet.service.impl.EDDepartmentLocalServiceImpl" />
+	<bean id="com.vsi.edirectory.portlet.service.EDDepartmentLocalServiceUtil" class="com.vsi.edirectory.portlet.service.EDDepartmentLocalServiceUtil">
+		<property name="service" ref="com.vsi.edirectory.portlet.service.EDDepartmentLocalService" />
+	</bean>
+	<bean id="com.vsi.edirectory.portlet.service.EDDepartmentService" class="com.vsi.edirectory.portlet.service.impl.EDDepartmentServiceImpl" />
+	<bean id="com.vsi.edirectory.portlet.service.EDDepartmentServiceUtil" class="com.vsi.edirectory.portlet.service.EDDepartmentServiceUtil">
+		<property name="service" ref="com.vsi.edirectory.portlet.service.EDDepartmentService" />
+	</bean>
+	<bean id="com.vsi.edirectory.portlet.service.persistence.EDDepartmentPersistence" class="com.vsi.edirectory.portlet.service.persistence.EDDepartmentPersistenceImpl" parent="basePersistence" />
+	<bean id="com.vsi.edirectory.portlet.service.EDFunctionLocalService" class="com.vsi.edirectory.portlet.service.impl.EDFunctionLocalServiceImpl" />
+	<bean id="com.vsi.edirectory.portlet.service.EDFunctionLocalServiceUtil" class="com.vsi.edirectory.portlet.service.EDFunctionLocalServiceUtil">
+		<property name="service" ref="com.vsi.edirectory.portlet.service.EDFunctionLocalService" />
+	</bean>
+	<bean id="com.vsi.edirectory.portlet.service.EDFunctionService" class="com.vsi.edirectory.portlet.service.impl.EDFunctionServiceImpl" />
+	<bean id="com.vsi.edirectory.portlet.service.EDFunctionServiceUtil" class="com.vsi.edirectory.portlet.service.EDFunctionServiceUtil">
+		<property name="service" ref="com.vsi.edirectory.portlet.service.EDFunctionService" />
+	</bean>
+	<bean id="com.vsi.edirectory.portlet.service.persistence.EDFunctionPersistence" class="com.vsi.edirectory.portlet.service.persistence.EDFunctionPersistenceImpl" parent="basePersistence" />
+	<bean id="com.vsi.edirectory.portlet.service.EDFunctionDepartmentLocalService" class="com.vsi.edirectory.portlet.service.impl.EDFunctionDepartmentLocalServiceImpl" />
+	<bean id="com.vsi.edirectory.portlet.service.EDFunctionDepartmentLocalServiceUtil" class="com.vsi.edirectory.portlet.service.EDFunctionDepartmentLocalServiceUtil">
+		<property name="service" ref="com.vsi.edirectory.portlet.service.EDFunctionDepartmentLocalService" />
+	</bean>
+	<bean id="com.vsi.edirectory.portlet.service.EDFunctionDepartmentService" class="com.vsi.edirectory.portlet.service.impl.EDFunctionDepartmentServiceImpl" />
+	<bean id="com.vsi.edirectory.portlet.service.EDFunctionDepartmentServiceUtil" class="com.vsi.edirectory.portlet.service.EDFunctionDepartmentServiceUtil">
+		<property name="service" ref="com.vsi.edirectory.portlet.service.EDFunctionDepartmentService" />
+	</bean>
+	<bean id="com.vsi.edirectory.portlet.service.persistence.EDFunctionDepartmentPersistence" class="com.vsi.edirectory.portlet.service.persistence.EDFunctionDepartmentPersistenceImpl" parent="basePersistence" />
+	<bean id="com.vsi.edirectory.portlet.service.EDFunctionEmployeeLocalService" class="com.vsi.edirectory.portlet.service.impl.EDFunctionEmployeeLocalServiceImpl" />
+	<bean id="com.vsi.edirectory.portlet.service.EDFunctionEmployeeLocalServiceUtil" class="com.vsi.edirectory.portlet.service.EDFunctionEmployeeLocalServiceUtil">
+		<property name="service" ref="com.vsi.edirectory.portlet.service.EDFunctionEmployeeLocalService" />
+	</bean>
+	<bean id="com.vsi.edirectory.portlet.service.EDFunctionEmployeeService" class="com.vsi.edirectory.portlet.service.impl.EDFunctionEmployeeServiceImpl" />
+	<bean id="com.vsi.edirectory.portlet.service.EDFunctionEmployeeServiceUtil" class="com.vsi.edirectory.portlet.service.EDFunctionEmployeeServiceUtil">
+		<property name="service" ref="com.vsi.edirectory.portlet.service.EDFunctionEmployeeService" />
+	</bean>
+	<bean id="com.vsi.edirectory.portlet.service.persistence.EDFunctionEmployeePersistence" class="com.vsi.edirectory.portlet.service.persistence.EDFunctionEmployeePersistenceImpl" parent="basePersistence" />
+</beans>

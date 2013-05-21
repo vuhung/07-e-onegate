@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/PTVPortalLib-portlet/docroot/WEB-INF/src/com/vportal/portal/attachment
+END
+AttachmentManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 152
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/PTVPortalLib-portlet/docroot/WEB-INF/src/com/vportal/portal/attachment/AttachmentManager.java
+END
+FileAttachment.java
+K 25
+svn:wc:ra_dav:version-url
+V 149
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/PTVPortalLib-portlet/docroot/WEB-INF/src/com/vportal/portal/attachment/FileAttachment.java
+END
+ImageAttachment.java
+K 25
+svn:wc:ra_dav:version-url
+V 150
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/PTVPortalLib-portlet/docroot/WEB-INF/src/com/vportal/portal/attachment/ImageAttachment.java
+END
+GetFileAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 148
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/PTVPortalLib-portlet/docroot/WEB-INF/src/com/vportal/portal/attachment/GetFileAction.java
+END

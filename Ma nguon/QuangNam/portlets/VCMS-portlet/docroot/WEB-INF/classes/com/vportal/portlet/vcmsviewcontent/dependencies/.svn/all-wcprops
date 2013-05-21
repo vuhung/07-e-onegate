@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 144
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/VCMS-portlet/docroot/WEB-INF/classes/com/vportal/portlet/vcmsviewcontent/dependencies
+END
+discussion_email_subject.tmpl
+K 25
+svn:wc:ra_dav:version-url
+V 174
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/VCMS-portlet/docroot/WEB-INF/classes/com/vportal/portlet/vcmsviewcontent/dependencies/discussion_email_subject.tmpl
+END
+send_article_email_content.tmpl
+K 25
+svn:wc:ra_dav:version-url
+V 176
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/VCMS-portlet/docroot/WEB-INF/classes/com/vportal/portlet/vcmsviewcontent/dependencies/send_article_email_content.tmpl
+END

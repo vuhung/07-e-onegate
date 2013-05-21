@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/PTVPortalLib-portlet/docroot/WEB-INF/src/com/vportal/portal/service/impl
+END
+PortletFolderLocalServiceImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 166
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/PTVPortalLib-portlet/docroot/WEB-INF/src/com/vportal/portal/service/impl/PortletFolderLocalServiceImpl.java
+END
+AccessCounterServiceImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 161
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/PTVPortalLib-portlet/docroot/WEB-INF/src/com/vportal/portal/service/impl/AccessCounterServiceImpl.java
+END
+AttachmentLocalServiceImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 163
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/PTVPortalLib-portlet/docroot/WEB-INF/src/com/vportal/portal/service/impl/AttachmentLocalServiceImpl.java
+END
+PortletFolderServiceImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 161
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/PTVPortalLib-portlet/docroot/WEB-INF/src/com/vportal/portal/service/impl/PortletFolderServiceImpl.java
+END
+AttachmentServiceImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 158
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/PTVPortalLib-portlet/docroot/WEB-INF/src/com/vportal/portal/service/impl/AttachmentServiceImpl.java
+END

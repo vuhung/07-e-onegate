@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<model-hints>
+	<model name="com.vportal.portlet.vsearch.model.VConfigSearch">
+		<field name="confisearchId" type="long" />
+		<field name="groupId" type="long" />
+		<field name="companyId" type="long" />
+		<field name="userId" type="long" />
+		<field name="userName" type="String" />
+		<field name="createDate" type="Date" />
+		<field name="modifiedDate" type="Date" />
+		<field name="modifiedByUser" type="String" />
+		<field name="languageId" type="String" />
+		<field name="layoutId" type="long" />
+		<field name="portletId" type="String" />
+		<field name="portleturl" type="String" />
+	</model>
+</model-hints>

@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/Advertisement-portlet/docroot/WEB-INF/src/resource-actions
+END
+type.xml
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/Advertisement-portlet/docroot/WEB-INF/src/resource-actions/type.xml
+END
+default.xml
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/Advertisement-portlet/docroot/WEB-INF/src/resource-actions/default.xml
+END
+item.xml
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/Advertisement-portlet/docroot/WEB-INF/src/resource-actions/item.xml
+END

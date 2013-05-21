@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/vclip-portlet/docroot/WEB-INF/classes/com/vportal/portlet/vclip/model/impl
+END
+ClipTypeImpl.class
+K 25
+svn:wc:ra_dav:version-url
+V 152
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/vclip-portlet/docroot/WEB-INF/classes/com/vportal/portlet/vclip/model/impl/ClipTypeImpl.class
+END
+ClipTypeModelImpl.class
+K 25
+svn:wc:ra_dav:version-url
+V 157
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/vclip-portlet/docroot/WEB-INF/classes/com/vportal/portlet/vclip/model/impl/ClipTypeModelImpl.class
+END
+ClipImpl.class
+K 25
+svn:wc:ra_dav:version-url
+V 148
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/vclip-portlet/docroot/WEB-INF/classes/com/vportal/portlet/vclip/model/impl/ClipImpl.class
+END
+ClipModelImpl.class
+K 25
+svn:wc:ra_dav:version-url
+V 153
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/vclip-portlet/docroot/WEB-INF/classes/com/vportal/portlet/vclip/model/impl/ClipModelImpl.class
+END

@@ -1,0 +1,13 @@
+<%
+/**
+ * Copyright (c) 2000-2006 Liferay, Inc. All rights reserved.
+ */
+%>
+<%
+%>
+<liferay-ui:icon-menu>	
+	<%
+		String restoreURL = "javascript: " + renderResponse.getNamespace() + "restoreArticle('" + String.valueOf(articleversion.getArticleVersionId()) + "');";
+	%>
+	<liferay-ui:icon image="restore" url="<%= restoreURL %>" />
+</liferay-ui:icon-menu>

@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/EDirectory-portlet/docroot/WEB-INF/src/com/vsi/edirectory/portlet
+END
+ActionUtil.class
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/EDirectory-portlet/docroot/WEB-INF/src/com/vsi/edirectory/portlet/ActionUtil.class
+END
+ManageEDirectory.java
+K 25
+svn:wc:ra_dav:version-url
+V 146
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/EDirectory-portlet/docroot/WEB-INF/src/com/vsi/edirectory/portlet/ManageEDirectory.java
+END
+MenuEDirectory.class
+K 25
+svn:wc:ra_dav:version-url
+V 145
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/EDirectory-portlet/docroot/WEB-INF/src/com/vsi/edirectory/portlet/MenuEDirectory.class
+END
+menu-edirectory-friendly-url-routes.xml
+K 25
+svn:wc:ra_dav:version-url
+V 164
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/EDirectory-portlet/docroot/WEB-INF/src/com/vsi/edirectory/portlet/menu-edirectory-friendly-url-routes.xml
+END
+ContentEDirectory.java
+K 25
+svn:wc:ra_dav:version-url
+V 147
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/EDirectory-portlet/docroot/WEB-INF/src/com/vsi/edirectory/portlet/ContentEDirectory.java
+END
+ManageEDirectory.class
+K 25
+svn:wc:ra_dav:version-url
+V 147
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/EDirectory-portlet/docroot/WEB-INF/src/com/vsi/edirectory/portlet/ManageEDirectory.class
+END
+manage-edirectory-friendly-url-routes.xml
+K 25
+svn:wc:ra_dav:version-url
+V 166
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/EDirectory-portlet/docroot/WEB-INF/src/com/vsi/edirectory/portlet/manage-edirectory-friendly-url-routes.xml
+END
+ContentEDirectory.class
+K 25
+svn:wc:ra_dav:version-url
+V 148
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/EDirectory-portlet/docroot/WEB-INF/src/com/vsi/edirectory/portlet/ContentEDirectory.class
+END
+ActionUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/EDirectory-portlet/docroot/WEB-INF/src/com/vsi/edirectory/portlet/ActionUtil.java
+END
+MenuEDirectory.java
+K 25
+svn:wc:ra_dav:version-url
+V 144
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/EDirectory-portlet/docroot/WEB-INF/src/com/vsi/edirectory/portlet/MenuEDirectory.java
+END

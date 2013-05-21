@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/Advertisement-portlet/docroot/WEB-INF/src/com/vsi/advertisement/portlet/service/http
+END
+AdvTypeJSONSerializer.java
+K 25
+svn:wc:ra_dav:version-url
+V 170
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/Advertisement-portlet/docroot/WEB-INF/src/com/vsi/advertisement/portlet/service/http/AdvTypeJSONSerializer.java
+END
+AdvTypeServiceSoap.java
+K 25
+svn:wc:ra_dav:version-url
+V 167
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/Advertisement-portlet/docroot/WEB-INF/src/com/vsi/advertisement/portlet/service/http/AdvTypeServiceSoap.java
+END
+AdvItemJSONSerializer.java
+K 25
+svn:wc:ra_dav:version-url
+V 170
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/Advertisement-portlet/docroot/WEB-INF/src/com/vsi/advertisement/portlet/service/http/AdvItemJSONSerializer.java
+END
+AdvItemServiceSoap.java
+K 25
+svn:wc:ra_dav:version-url
+V 167
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/Advertisement-portlet/docroot/WEB-INF/src/com/vsi/advertisement/portlet/service/http/AdvItemServiceSoap.java
+END

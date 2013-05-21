@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 153
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/vimagegallery-portlet/docroot/WEB-INF/src/com/vportal/portlet/vimagegallery/service/permission
+END
+TFCategoryPermission.java
+K 25
+svn:wc:ra_dav:version-url
+V 179
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/vimagegallery-portlet/docroot/WEB-INF/src/com/vportal/portlet/vimagegallery/service/permission/TFCategoryPermission.java
+END
+TFImagePermission.java
+K 25
+svn:wc:ra_dav:version-url
+V 176
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/vimagegallery-portlet/docroot/WEB-INF/src/com/vportal/portlet/vimagegallery/service/permission/TFImagePermission.java
+END

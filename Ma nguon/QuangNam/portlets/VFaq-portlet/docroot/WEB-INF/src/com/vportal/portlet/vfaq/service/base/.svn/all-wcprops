@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/VFaq-portlet/docroot/WEB-INF/src/com/vportal/portlet/vfaq/service/base
+END
+FAQAnswerLocalServiceBaseImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 164
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/VFaq-portlet/docroot/WEB-INF/src/com/vportal/portlet/vfaq/service/base/FAQAnswerLocalServiceBaseImpl.java
+END
+FAQCategoryServiceBaseImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 161
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/VFaq-portlet/docroot/WEB-INF/src/com/vportal/portlet/vfaq/service/base/FAQCategoryServiceBaseImpl.java
+END
+FAQCommentLocalServiceBaseImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 165
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/VFaq-portlet/docroot/WEB-INF/src/com/vportal/portlet/vfaq/service/base/FAQCommentLocalServiceBaseImpl.java
+END
+FAQAnswerServiceBaseImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 159
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/VFaq-portlet/docroot/WEB-INF/src/com/vportal/portlet/vfaq/service/base/FAQAnswerServiceBaseImpl.java
+END
+FAQCategoryQuestionLocalServiceBaseImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 174
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/VFaq-portlet/docroot/WEB-INF/src/com/vportal/portlet/vfaq/service/base/FAQCategoryQuestionLocalServiceBaseImpl.java
+END
+FAQCommentServiceBaseImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 160
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/VFaq-portlet/docroot/WEB-INF/src/com/vportal/portlet/vfaq/service/base/FAQCommentServiceBaseImpl.java
+END
+FAQQuestionLocalServiceBaseImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 166
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/VFaq-portlet/docroot/WEB-INF/src/com/vportal/portlet/vfaq/service/base/FAQQuestionLocalServiceBaseImpl.java
+END
+FAQCategoryQuestionServiceBaseImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 169
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/VFaq-portlet/docroot/WEB-INF/src/com/vportal/portlet/vfaq/service/base/FAQCategoryQuestionServiceBaseImpl.java
+END
+FAQQuestionServiceBaseImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 161
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/VFaq-portlet/docroot/WEB-INF/src/com/vportal/portlet/vfaq/service/base/FAQQuestionServiceBaseImpl.java
+END
+FAQCategoryLocalServiceBaseImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 166
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/VFaq-portlet/docroot/WEB-INF/src/com/vportal/portlet/vfaq/service/base/FAQCategoryLocalServiceBaseImpl.java
+END

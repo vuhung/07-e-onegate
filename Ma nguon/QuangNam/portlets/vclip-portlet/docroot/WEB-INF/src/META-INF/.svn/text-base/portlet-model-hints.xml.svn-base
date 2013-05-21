@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<model-hints>
+	<model name="com.vportal.portlet.vclip.model.ClipType">
+		<field name="id" type="String" />
+		<field name="groupId" type="long" />
+		<field name="companyId" type="long" />
+		<field name="userId" type="long" />
+		<field name="createdDate" type="Date" />
+		<field name="modifiedDate" type="Date" />
+		<field name="title" type="String" />
+		<field name="name" type="String" />
+		<field name="description" type="String" />
+		<field name="active" type="boolean" />
+		<field name="language" type="String" />
+	</model>
+	<model name="com.vportal.portlet.vclip.model.Clip">
+		<field name="id" type="String" />
+		<field name="clipTypeId" type="String" />
+		<field name="groupId" type="long" />
+		<field name="companyId" type="long" />
+		<field name="userId" type="long" />
+		<field name="createdDate" type="Date" />
+		<field name="modifiedDate" type="Date" />
+		<field name="url" type="String" />
+		<field name="name" type="String" />
+		<field name="title" type="String" />
+		<field name="image" type="String" />
+		<field name="description" type="String" />
+		<field name="active" type="boolean" />
+		<field name="language" type="String" />
+		<field name="hitcount" type="int" />
+		<field name="hitcountview" type="int" />
+	</model>
+</model-hints>

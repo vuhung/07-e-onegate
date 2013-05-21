@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<model-hints>
+	<model name="com.vportal.portlet.vlegal.model.VLegalDocument">
+		<field name="summary" type="String">
+			<hint name="max-length">750</hint>
+		</field>
+		<field name="content" type="String">
+			<hint name="max-length">5000</hint>
+		</field>
+	</model>
+	<model name="com.vportal.portlet.vlegal.model.VLegalField">
+		<field name="name" type="String">
+			<hint name="max-length">500</hint>
+		</field>
+		<field name="description" type="String">
+			<hint name="max-length">2000</hint>
+		</field>
+	</model>
+	<model name="com.vportal.portlet.vlegal.model.VLegalType">
+		<field name="name" type="String">
+			<hint name="max-length">500</hint>
+		</field>
+		<field name="description" type="String">
+			<hint name="max-length">2000</hint>
+		</field>
+	</model>
+	<model name="com.vportal.portlet.vlegal.model.VLegalOrg">
+		<field name="name" type="String">
+			<hint name="max-length">500</hint>
+		</field>
+		<field name="description" type="String">
+			<hint name="max-length">2000</hint>
+		</field>
+	</model>
+	<model name="com.vportal.portlet.vlegal.model.VLegalSigner">
+		<field name="firstName" type="String">
+			<hint name="max-length">500</hint>
+		</field>
+		<field name="lastName" type="String">
+			<hint name="max-length">500</hint>
+		</field>
+	</model>
+	<model name="com.vportal.portlet.vlegal.model.VLegalLogger">
+		<field name="content" type="String">
+			<hint name="max-length">5000</hint>
+		</field>
+	</model>
+</model-hints>
+

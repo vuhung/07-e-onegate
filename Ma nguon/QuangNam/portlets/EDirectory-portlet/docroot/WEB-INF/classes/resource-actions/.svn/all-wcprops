@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/EDirectory-portlet/docroot/WEB-INF/classes/resource-actions
+END
+default.xml
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/EDirectory-portlet/docroot/WEB-INF/classes/resource-actions/default.xml
+END
+quanlychucvu.xml
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/EDirectory-portlet/docroot/WEB-INF/classes/resource-actions/quanlychucvu.xml
+END
+edirectory.xml
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/EDirectory-portlet/docroot/WEB-INF/classes/resource-actions/edirectory.xml
+END
+quanlydonvi.xml
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/EDirectory-portlet/docroot/WEB-INF/classes/resource-actions/quanlydonvi.xml
+END
+quanlycanbo.xml
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/EDirectory-portlet/docroot/WEB-INF/classes/resource-actions/quanlycanbo.xml
+END

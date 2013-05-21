@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<entity-mappings xmlns="http://java.sun.com/xml/ns/persistence/orm" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" xsi:schemaLocation="http://java.sun.com/xml/ns/persistence/orm http://java.sun.com/xml/ns/persistence/orm_1_0.xsd">
+	<persistence-unit-metadata>
+		<xml-mapping-metadata-complete/>
+		<persistence-unit-defaults>
+			<access>PROPERTY</access>
+		</persistence-unit-defaults>
+	</persistence-unit-metadata>
+	<mapped-superclass class="com.test.model.impl.VlookuppriceCategoryModelImpl">
+		<attributes>
+			<id name="categoryId" />
+			<basic name="groupId" />
+			<basic name="companyId" />
+			<basic name="createdDate">
+				<temporal>TIMESTAMP</temporal>
+			</basic>
+			<basic name="createdByUser" />
+			<basic name="modifiedDate">
+				<temporal>TIMESTAMP</temporal>
+			</basic>
+			<basic name="modifiedByUser" />
+			<basic name="parentId" />
+			<basic name="name" />
+			<basic name="description" />
+			<basic name="language" />
+			<transient name="primaryKey" />
+		</attributes>
+	</mapped-superclass>
+	<mapped-superclass class="com.test.model.impl.VlookuppriceModelImpl">
+		<attributes>
+			<id name="lookuppriceId" />
+			<basic name="groupId" />
+			<basic name="companyId" />
+			<basic name="createdByUser" />
+			<basic name="createdDate">
+				<temporal>TIMESTAMP</temporal>
+			</basic>
+			<basic name="modifiedByUser" />
+			<basic name="modifiedDate">
+				<temporal>TIMESTAMP</temporal>
+			</basic>
+			<basic name="status" />
+			<basic name="price" />
+			<basic name="position1" />
+			<basic name="position2" />
+			<basic name="position3" />
+			<basic name="position4" />
+			<basic name="position5" />
+			<basic name="title" />
+			<basic name="content" />
+			<basic name="parentId" />
+			<basic name="language" />
+			<basic name="listParent" />
+			<transient name="primaryKey" />
+		</attributes>
+	</mapped-superclass>
+	<entity class="com.test.model.impl.VlookuppriceCategoryImpl" name="VlookuppriceCategory">
+		<table name="QuanTri_VlookuppriceCategory" />
+		<attributes />
+	</entity>
+	<entity class="com.test.model.impl.VlookuppriceImpl" name="Vlookupprice">
+		<table name="QuanTri_Vlookupprice" />
+		<attributes />
+	</entity>
+</entity-mappings>

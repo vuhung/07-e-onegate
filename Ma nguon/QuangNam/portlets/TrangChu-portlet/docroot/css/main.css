@@ -1,0 +1,294 @@
+#main_news{
+	width:100%;
+}
+#slide{
+	float:left;
+	width:63%;
+	height:266px;
+	margin-right:10px;
+}
+#list-news{
+	width:30%;
+	background:#f1f0f0;
+	border:1px solid #ccc;
+	float:left;
+}
+
+.tintuc_01{
+	width:100%;
+	margin-left:10px;
+	clear:both;
+}
+.tintuc_01_portlet{
+	padding:15px 0px;
+	border-bottom:1px solid #ccc; 
+	display: block;
+	width:100%;
+	float:left;
+}
+.img_tintuc_01_portlet{
+	margin-left:10px;
+}
+.img_tintuc_01_portlet a img{
+	width:230px;
+	height:156px;
+	float:left;
+}
+.tintuc_chuyenmuc{
+	 	float: left;
+    margin-left: 20px;
+    vertical-align: top !important;
+    width: 57%;
+}
+.tintuc_01_portlet a{
+	color:#4A7EAE;
+}
+.title_tintuc_01{
+	font-size:12px;
+	text-transform:uppercase;
+	color:#000;
+	padding-left:5px;
+	border-bottom:2px solid #4A7EAE;
+	line-height:40px;
+	font-weight: bold;;
+}
+
+.date_news{
+	width:100%;
+}
+.date_news p{
+	text-transform: uppercase;
+	font-size:14px;
+	color:#4A7EAE;
+	font-weight: bold;
+	float:left;
+	margin-right:10px;
+	line-height:30px;
+}
+/*--------------Tin tuc 02 (Tin chi tiet)------------------*/
+.tintuc_02_portlet{
+	width:100%;
+	display:block;
+	margin-top:10px;
+}
+.detail_content_portlet{
+	margin-left:10px;
+}
+.img_detail_content{
+	width:35%;
+	float:left;
+	margin-right:10px;
+}
+.img_detail_content img{
+	height:156px;
+}
+.intro_first{
+	color:#666;
+	font-weight:bold;
+	font-size:11px;
+}
+.detail_in_content_01{
+	font-size:12px;
+	text-align: justify;
+	line-height:16px;
+}
+.source_baiviet{
+	font-weight:bold;
+	float:right;
+	color:#000;
+}
+/*-------------------Tin tuc -----------------------*/
+.Tintuc_portal{
+	width:100%;
+}
+.intro_Tintuc_portal{
+	width:100%;
+	float:left;
+}
+.img_intro_Tintuc a img{
+	margin:15px 0px;
+	margin-left:10px;
+	padding-right:10px;
+	border-right:1px solid #ccc;
+	width:45%;
+	height:280px;
+	float:left;
+}
+.new_content_intro_Tintuc ul{
+	width:45%;
+	margin-left:10px;
+	float:left;
+}
+.new_content_intro_Tintuc li a.title_tintuc_01_portlet{
+	margin-bottom:5px;
+}
+/*--Box_Tintuc----*/
+.img_small_box_Tintuc{
+	padding:10px 0px;
+}
+.img_small_box_Tintuc li{
+	width:48%;
+	float:left;
+	margin-right:5px;
+	margin-bottom:10px;
+}
+.img_small_box_Tintuc li a img{
+	border:2px solid #ccc;
+	float:left;
+	margin-left:5px;
+	margin-right:5px;
+}
+.img_small_box_Tintuc li a.title_tintuc_01_portlet{
+	margin-left:5px;
+}
+.img_small_box_Tintuc li{
+	margin-left:0px!important;
+}
+.slide_img{
+	margin-top:10px;
+}
+.slide_img a.title_tintuc_01_portlet {
+	margin-left:15px!important;
+	margin-top:5px;
+}
+.carousel_slide{
+	float:left;
+	margin:20px 5px;
+}
+.carousel_slide ul li{
+	float:left;
+}
+.carousel_slide ul li a img{
+	border:1px solid #ccc;
+}
+.content_01_intro_Tintuc a img{
+	margin:10px;
+	float:left;
+}
+.title_tintuc_02_portlet .content_portlet{
+	margin:0px 10px;
+	text-align: justify;
+}
+/*----------Content1_home-----------------*/
+
+/*--------------GIỚI THIỆU - THƯ NGỎ ----------------*/
+.between_portlet{
+	width:100%;
+	float:left;
+}
+.content-between_portlet{
+	float:left;
+	margin:10px;
+}
+.district_content_between{
+	background:#f1f1f1;
+	float:left;
+	margin-bottom:10px;
+}
+.district_content_between a img{
+	border:3px solid #c3bfbe;
+	margin:10px;
+	width:135px;
+	height:103px;
+	float:left;
+}
+.letter_district_content{
+	width:70%;
+	float:left;
+	margin:10px 0px;
+}
+.letter_district_content a{
+	font-weight: bold;
+	text-transform: uppercase;
+	margin-left:0px!important;
+}
+/*---------------Danh sách dịch vụ công -------------*/
+.service_online_portlet{
+	width:100%;
+	float:left;
+}
+.list_service_online_portlet{
+	width:100%;
+	margin-top:1px;
+}
+.list_01{
+	float:left;
+	border-bottom:1px solid #fff;
+	background:#4f90c8;
+	height:30px;
+	width:100%;
+}
+.list_01 a{
+	color:#fff;
+	line-height: 30px;
+}
+/*--------------Hỏi đáp trực tuyến ----------------*/
+.hoidap_tructuyen{
+	width:100%;
+	background:#65a6e0;
+	height:35px;
+}
+.choose_01{
+	float:left;
+	line-height:35px;
+	width:50%;
+}
+.choose_01 span{
+	color:#fff;
+	margin-left:10px;
+}
+#button{
+	background:url(/TrangChu-portlet/images/search1.png);
+	margin-top:2px;
+}
+/*----------Doanh nghiệp -----------------*/
+.bussiness_content_between{
+	padding:10px 0px 30px 0px;
+	background:url(/TrangChu-portlet/images/bg-line.png) no-repeat bottom center;
+	float:left;
+	margin-bottom:10px;
+}
+.bussiness_content_between a img{
+	border:5px solid #ccc;
+	float:left;
+	height:195px;
+	width: 50%;
+	margin-right:10px;
+}
+.title_bussiness_01{
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size:13px;
+	margin-left:0px!important;
+	margin-bottom:10px;
+}
+.bussiness_01 .readmore_portlet{
+	float:left;
+	
+}
+.bussiness_01 .readmore_portlet a{
+	margin-left:0px!important;
+}
+/*------------------- Ban chấp hành ---------------------*/
+.ban_chap_hanh{
+	margin:10px;
+}
+.ban_chap_hanh p{
+	text-transform: uppercase;
+	text-align:center;
+}
+.people_first{
+	margin-left:30%;
+	margin-bottom:10px;
+	width:100%;
+}
+.people_first p{
+	margin-left:-45%;
+}
+.people_first_01{
+	float:left;
+	margin-left:10px;
+}
+.name_people{
+	font-weight:bold;
+}

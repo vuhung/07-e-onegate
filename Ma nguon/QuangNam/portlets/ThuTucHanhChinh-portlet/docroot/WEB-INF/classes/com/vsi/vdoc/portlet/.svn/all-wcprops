@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/ThuTucHanhChinh-portlet/docroot/WEB-INF/classes/com/vsi/vdoc/portlet
+END
+VDocMenu.java
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/ThuTucHanhChinh-portlet/docroot/WEB-INF/classes/com/vsi/vdoc/portlet/VDocMenu.java
+END
+VDocManage.java
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/ThuTucHanhChinh-portlet/docroot/WEB-INF/classes/com/vsi/vdoc/portlet/VDocManage.java
+END
+VDocMenu.class
+K 25
+svn:wc:ra_dav:version-url
+V 142
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/ThuTucHanhChinh-portlet/docroot/WEB-INF/classes/com/vsi/vdoc/portlet/VDocMenu.class
+END
+VDocContent.java
+K 25
+svn:wc:ra_dav:version-url
+V 144
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/ThuTucHanhChinh-portlet/docroot/WEB-INF/classes/com/vsi/vdoc/portlet/VDocContent.java
+END
+VDocManage.class
+K 25
+svn:wc:ra_dav:version-url
+V 144
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/ThuTucHanhChinh-portlet/docroot/WEB-INF/classes/com/vsi/vdoc/portlet/VDocManage.class
+END
+VDocContent.class
+K 25
+svn:wc:ra_dav:version-url
+V 145
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/ThuTucHanhChinh-portlet/docroot/WEB-INF/classes/com/vsi/vdoc/portlet/VDocContent.class
+END

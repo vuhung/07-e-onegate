@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<entity-mappings xmlns="http://java.sun.com/xml/ns/persistence/orm" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" xsi:schemaLocation="http://java.sun.com/xml/ns/persistence/orm http://java.sun.com/xml/ns/persistence/orm_1_0.xsd">
+	<persistence-unit-metadata>
+		<xml-mapping-metadata-complete/>
+		<persistence-unit-defaults>
+			<access>PROPERTY</access>
+		</persistence-unit-defaults>
+	</persistence-unit-metadata>
+	<mapped-superclass class="com.vsi.lienketwebsite.model.impl.LinkGroupModelImpl">
+		<attributes>
+			<id name="linkgroupId" />
+			<basic name="groupId" />
+			<basic name="companyId" />
+			<basic name="createdDate">
+				<temporal>TIMESTAMP</temporal>
+			</basic>
+			<basic name="modifiedDate">
+				<temporal>TIMESTAMP</temporal>
+			</basic>
+			<basic name="name" />
+			<basic name="description" />
+			<transient name="primaryKey" />
+		</attributes>
+	</mapped-superclass>
+	<mapped-superclass class="com.vsi.lienketwebsite.model.impl.LinksModelImpl">
+		<attributes>
+			<id name="linkId" />
+			<basic name="groupId" />
+			<basic name="companyId" />
+			<basic name="createdDate">
+				<temporal>TIMESTAMP</temporal>
+			</basic>
+			<basic name="modifiedDate">
+				<temporal>TIMESTAMP</temporal>
+			</basic>
+			<basic name="linkgroupId" />
+			<basic name="name" />
+			<basic name="description" />
+			<basic name="url" />
+			<basic name="position" />
+			<transient name="primaryKey" />
+		</attributes>
+	</mapped-superclass>
+	<entity class="com.vsi.lienketwebsite.model.impl.LinkGroupImpl" name="LinkGroup">
+		<table name="VS_LinkGroup" />
+		<attributes />
+	</entity>
+	<entity class="com.vsi.lienketwebsite.model.impl.LinksImpl" name="Links">
+		<table name="VS_Links" />
+		<attributes />
+	</entity>
+</entity-mappings>

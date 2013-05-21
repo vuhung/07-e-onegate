@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/vclip-portlet/docroot/WEB-INF/classes/com/vportal/portlet/vclip/service/permission
+END
+ClipPermission.class
+K 25
+svn:wc:ra_dav:version-url
+V 162
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/vclip-portlet/docroot/WEB-INF/classes/com/vportal/portlet/vclip/service/permission/ClipPermission.class
+END
+ClipTypePermission.class
+K 25
+svn:wc:ra_dav:version-url
+V 166
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/vclip-portlet/docroot/WEB-INF/classes/com/vportal/portlet/vclip/service/permission/ClipTypePermission.class
+END

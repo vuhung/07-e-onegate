@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<model-hints>
+	<model name="com.test.model.VlookuppriceCategory">
+		<field name="categoryId" type="String" />
+		<field name="groupId" type="long" />
+		<field name="companyId" type="long" />
+		<field name="createdDate" type="Date" />
+		<field name="createdByUser" type="String" />
+		<field name="modifiedDate" type="Date" />
+		<field name="modifiedByUser" type="String" />
+		<field name="parentId" type="String" />
+		<field name="name" type="String" />
+		<field name="description" type="String" />
+		<field name="language" type="String" />
+	</model>
+	<model name="com.test.model.Vlookupprice">
+		<field name="lookuppriceId" type="String" />
+		<field name="groupId" type="long" />
+		<field name="companyId" type="long" />
+		<field name="createdByUser" type="String" />
+		<field name="createdDate" type="Date" />
+		<field name="modifiedByUser" type="String" />
+		<field name="modifiedDate" type="Date" />
+		<field name="status" type="int" />
+		<field name="price" type="int" />
+		<field name="position1" type="String" />
+		<field name="position2" type="String" />
+		<field name="position3" type="String" />
+		<field name="position4" type="String" />
+		<field name="position5" type="String" />
+		<field name="title" type="String" />
+		<field name="content" type="String" />
+		<field name="parentId" type="String" />
+		<field name="language" type="String" />
+		<field name="listParent" type="String" />
+	</model>
+</model-hints>

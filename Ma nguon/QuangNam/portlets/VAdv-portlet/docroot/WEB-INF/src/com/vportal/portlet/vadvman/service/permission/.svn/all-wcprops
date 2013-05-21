@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/VAdv-portlet/docroot/WEB-INF/src/com/vportal/portlet/vadvman/service/permission
+END
+AdvItemPermission.java
+K 25
+svn:wc:ra_dav:version-url
+V 161
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/VAdv-portlet/docroot/WEB-INF/src/com/vportal/portlet/vadvman/service/permission/AdvItemPermission.java
+END
+AdvTypePermission.java
+K 25
+svn:wc:ra_dav:version-url
+V 161
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/VAdv-portlet/docroot/WEB-INF/src/com/vportal/portlet/vadvman/service/permission/AdvTypePermission.java
+END

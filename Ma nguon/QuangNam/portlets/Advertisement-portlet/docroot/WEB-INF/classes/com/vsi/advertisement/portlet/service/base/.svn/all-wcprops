@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 147
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/Advertisement-portlet/docroot/WEB-INF/classes/com/vsi/advertisement/portlet/service/base
+END
+AdvItemLocalServiceBaseImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 180
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/Advertisement-portlet/docroot/WEB-INF/classes/com/vsi/advertisement/portlet/service/base/AdvItemLocalServiceBaseImpl.java
+END
+AdvTypeLocalServiceBaseImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 180
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/Advertisement-portlet/docroot/WEB-INF/classes/com/vsi/advertisement/portlet/service/base/AdvTypeLocalServiceBaseImpl.java
+END
+AdvItemLocalServiceBaseImpl.class
+K 25
+svn:wc:ra_dav:version-url
+V 181
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/Advertisement-portlet/docroot/WEB-INF/classes/com/vsi/advertisement/portlet/service/base/AdvItemLocalServiceBaseImpl.class
+END
+AdvItemServiceBaseImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 175
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/Advertisement-portlet/docroot/WEB-INF/classes/com/vsi/advertisement/portlet/service/base/AdvItemServiceBaseImpl.java
+END
+AdvTypeLocalServiceBaseImpl.class
+K 25
+svn:wc:ra_dav:version-url
+V 181
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/Advertisement-portlet/docroot/WEB-INF/classes/com/vsi/advertisement/portlet/service/base/AdvTypeLocalServiceBaseImpl.class
+END
+AdvTypeServiceBaseImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 175
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/Advertisement-portlet/docroot/WEB-INF/classes/com/vsi/advertisement/portlet/service/base/AdvTypeServiceBaseImpl.java
+END
+AdvItemServiceBaseImpl.class
+K 25
+svn:wc:ra_dav:version-url
+V 176
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/Advertisement-portlet/docroot/WEB-INF/classes/com/vsi/advertisement/portlet/service/base/AdvItemServiceBaseImpl.class
+END
+AdvTypeServiceBaseImpl.class
+K 25
+svn:wc:ra_dav:version-url
+V 176
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/Advertisement-portlet/docroot/WEB-INF/classes/com/vsi/advertisement/portlet/service/base/AdvTypeServiceBaseImpl.class
+END

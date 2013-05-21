@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/PTVPortalLib-portlet/docroot/WEB-INF/classes/com/vportal/portal/model/impl
+END
+AttachmentModelImpl.class
+K 25
+svn:wc:ra_dav:version-url
+V 159
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/PTVPortalLib-portlet/docroot/WEB-INF/classes/com/vportal/portal/model/impl/AttachmentModelImpl.class
+END
+AccessCounterImpl.class
+K 25
+svn:wc:ra_dav:version-url
+V 157
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/PTVPortalLib-portlet/docroot/WEB-INF/classes/com/vportal/portal/model/impl/AccessCounterImpl.class
+END
+AccessCounterModelImpl.class
+K 25
+svn:wc:ra_dav:version-url
+V 162
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/PTVPortalLib-portlet/docroot/WEB-INF/classes/com/vportal/portal/model/impl/AccessCounterModelImpl.class
+END
+PortletFolderImpl.class
+K 25
+svn:wc:ra_dav:version-url
+V 157
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/PTVPortalLib-portlet/docroot/WEB-INF/classes/com/vportal/portal/model/impl/PortletFolderImpl.class
+END
+PortletFolderModelImpl.class
+K 25
+svn:wc:ra_dav:version-url
+V 162
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/PTVPortalLib-portlet/docroot/WEB-INF/classes/com/vportal/portal/model/impl/PortletFolderModelImpl.class
+END
+AttachmentImpl.class
+K 25
+svn:wc:ra_dav:version-url
+V 154
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/PTVPortalLib-portlet/docroot/WEB-INF/classes/com/vportal/portal/model/impl/AttachmentImpl.class
+END

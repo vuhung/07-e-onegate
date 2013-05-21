@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/VCMS-portlet/docroot/html/portlet/vcms/articles/discussions
+END
+discussions.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/VCMS-portlet/docroot/html/portlet/vcms/articles/discussions/discussions.jsp
+END
+edit_discussion.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/VCMS-portlet/docroot/html/portlet/vcms/articles/discussions/edit_discussion.jsp
+END
+discussions_search.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/VCMS-portlet/docroot/html/portlet/vcms/articles/discussions/discussions_search.jsp
+END
+list_discussion.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/VCMS-portlet/docroot/html/portlet/vcms/articles/discussions/list_discussion.jsp
+END
+discussion_action.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/VCMS-portlet/docroot/html/portlet/vcms/articles/discussions/discussion_action.jsp
+END

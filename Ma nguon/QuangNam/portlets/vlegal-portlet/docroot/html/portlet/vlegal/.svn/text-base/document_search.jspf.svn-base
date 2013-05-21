@@ -1,0 +1,128 @@
+<%@page import="com.liferay.portal.kernel.util.Validator"%>
+<%@page import="com.vportal.portlet.vlegal.model.VLegalSigner"%>
+<%@page import="com.vportal.portlet.vlegal.model.VLegalType"%>
+<%@page import="com.vportal.portlet.vlegal.model.VLegalOrg"%>
+<%@page import="com.liferay.portal.kernel.language.LanguageUtil"%>
+<table width="100%" border="0" cellspacing="2" cellpadding="2" style="border:1px solid <%= colorScheme.getPortletMenuBg() %>;"  class="portlet-section-alternate" >
+  <tr>
+    <td width="21%"><strong><%=LanguageUtil.get(pageContext, "portlet.vlegal.document.search.numsymbol")%> </strong></td>
+    <td width="18%"><strong><%=LanguageUtil.get(pageContext, "portlet.vlegal.document.search.organization")%> </strong></td>
+    <td width="18%"><strong><%=LanguageUtil.get(pageContext, "portlet.vlegal.document.search.type")%></strong></td>
+    <td width="14%"><strong><%=LanguageUtil.get(pageContext, "portlet.vlegal.document.search.signer")%> </strong></td>
+    <td rowspan="2"><input type="button" onclick="javascript:<portlet:namespace />doSearch()" class="portlet-form-button" style=" height:30px; width:100%" value="<%=LanguageUtil.get(pageContext, "portlet.vlegal.button.search")%>" /><br />
+	</td>
+  </tr>
+  <tr>
+    <td><input type="text" class="form-text" style="width: 50px" name="<portlet:namespace />num" value="<%=Validator.isNotNull(num) ? num : "" %>" /> / <input type="text" class="form-text" style="width: 70px" name="<portlet:namespace />symbol" value="<%=Validator.isNotNull(symbol) ? symbol : "" %>" /></td>
+    <td>
+		<select class="form-text" name="<portlet:namespace />orgid" style="width: 120px">
+			<option value="">*.*</option>
+			<%	for(int i=0; i<organizations.size(); i++) {		
+				VLegalOrg vOrg = (VLegalOrg) organizations.get(i);
+			%>
+			<option value="<%=vOrg.getOrgId()%>" <%=oId.equals(vOrg.getOrgId()) ? "selected=\"selected\"" : ""%> ><%=vOrg.getName()%></option>
+			<% } %>
+		</select>	</td>
+    <td>
+		<select class="form-text" name="<portlet:namespace />typeid" style="width: 120px">
+			<option value="">*.*</option>
+			<%	for(int i=0; i<types.size(); i++) {		
+				VLegalType vType = (VLegalType) types.get(i);
+			%>
+			<option value="<%=vType.getTypeId()%>" <%=tId.equals(vType.getTypeId()) ? "selected=\"selected\"" : ""%> ><%=vType.getName()%></option>
+			<% } %>
+		</select>	</td>
+    <td>
+		<select class="form-text" name="<portlet:namespace />sigid" style="width: 120px">
+			<option value="">*.*</option>
+			<%	for(int i=0; i<signers.size(); i++) {		
+				VLegalSigner vSig = (VLegalSigner) signers.get(i);
+			%>
+			<option value="<%=vSig.getSigId()%>" <%=sId.equals(vSig.getSigId()) ? "selected=\"selected\"" : ""%> ><%=vSig.getFirstName() + " " + vSig.getLastName() %></option>
+			<% } %>
+		</select>	</td>
+  </tr>
+  <tr>
+    <td colspan="2"><strong><%=LanguageUtil.get(pageContext, "portlet.vlegal.document.summary")%> :</strong>
+      <input type="text" class="form-text" style="width: 207px" name="&lt;portlet:namespace /&gt;summary" value="<%=Validator.isNotNull(summary) ? summary : "" %>" /></td>
+    <td><strong><%=LanguageUtil.get(pageContext, "portlet.vlegal.document.promul-date")%> </strong></td>
+    <td>&nbsp;</td>
+    <td><strong><%=LanguageUtil.get(pageContext, "portlet.vlegal.document.effective-date")%></strong></td>
+  </tr>
+  <tr>
+    <td colspan="2"><table width="100%" border="0" cellspacing="1" cellpadding="1">
+      <tr>
+        <td width="23%" valign="top"><strong><%=LanguageUtil.get(pageContext, "portlet.vlegal.document.search.content")%>: </strong></td>
+        <td width="77%"><textarea name="&lt;portlet:namespace /&gt;content" class="form-text" style="width: 207px"><%=Validator.isNotNull(content) ? content : "" %></textarea></td>
+      </tr>
+    </table></td>
+    <td colspan="3"><table width="100%" border="0" cellspacing="1" cellpadding="1">
+      <tr>
+        <td width="51%">
+			<liferay-ui:input-date
+				disableNamespace="<%= false %>"
+				formName='<%= renderResponse.getNamespace() + "fm" %>'
+				monthParam="proFromMonth"
+				monthValue="<%= proFromMonth %>"
+				dayParam="proFromDay"
+				dayValue="<%= proFromDay %>"
+				yearParam="proFromYear"
+				yearValue="<%=proFromYear %>"
+				yearRangeStart="<%= curYear-10 %>"
+				yearRangeEnd="<%= curYear+10 %>"
+				firstDayOfWeek="<%= currentDate.getFirstDayOfWeek() - 1 %>"
+				disabled="<%= false %>"
+			/>		
+		</td>
+        <td width="49%">
+			<liferay-ui:input-date
+				disableNamespace="<%= false %>"
+				formName='<%= renderResponse.getNamespace() + "fm" %>'
+				monthParam="expFromMonth"
+				monthValue="<%= expFromMonth %>"
+				dayParam="expFromDay"
+				dayValue="<%= expFromDay %>"
+				yearParam="expFromYear"
+				yearValue="<%=expFromYear %>"
+				yearRangeStart="<%= curYear-10 %>"
+				yearRangeEnd="<%= curYear+10 %>"
+				firstDayOfWeek="<%= currentDate.getFirstDayOfWeek() - 1 %>"
+				disabled="<%= false %>"
+			/>		</td>
+      </tr>
+      <tr>
+        <td>
+			<liferay-ui:input-date
+				disableNamespace="<%= false %>"
+				formName='<%= renderResponse.getNamespace() + "fm" %>'
+				monthParam="proToMonth"
+				monthValue="<%= proToMonth %>"
+				dayParam="proToDay"
+				dayValue="<%= proToDay %>"
+				yearParam="proToYear"
+				yearValue="<%=proToYear %>"
+				yearRangeStart="<%= curYear-10 %>"
+				yearRangeEnd="<%= curYear+10 %>"
+				firstDayOfWeek="<%= currentDate.getFirstDayOfWeek() - 1 %>"
+				disabled="<%= false %>"
+			/>		</td>
+        <td>
+
+			<liferay-ui:input-date
+				disableNamespace="<%= false %>"
+				formName='<%= renderResponse.getNamespace() + "fm" %>'
+				monthParam="expToMonth"
+				monthValue="<%= expToMonth %>"
+				dayParam="expToDay"
+				dayValue="<%= expToDay %>"
+				yearParam="expToYear"
+				yearValue="<%=expToYear %>"
+				yearRangeStart="<%= curYear-10 %>"
+				yearRangeEnd="<%= curYear+10 %>"
+				firstDayOfWeek="<%= currentDate.getFirstDayOfWeek() - 1 %>"
+				disabled="<%= false %>"
+			/>		</td>
+      </tr>
+    </table>	</td>
+  </tr>
+</table>

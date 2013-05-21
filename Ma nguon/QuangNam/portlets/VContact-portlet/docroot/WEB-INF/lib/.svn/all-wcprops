@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/VContact-portlet/docroot/WEB-INF/lib
+END
+VContact-portlet-service.jar
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/VContact-portlet/docroot/WEB-INF/lib/VContact-portlet-service.jar
+END
+jstl-impl.jar
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/VContact-portlet/docroot/WEB-INF/lib/jstl-impl.jar
+END
+EDirectory-portlet-service.jar
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/VContact-portlet/docroot/WEB-INF/lib/EDirectory-portlet-service.jar
+END
+QuangCao-portlet-service.jar
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/VContact-portlet/docroot/WEB-INF/lib/QuangCao-portlet-service.jar
+END
+jstl-api.jar
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/VContact-portlet/docroot/WEB-INF/lib/jstl-api.jar
+END

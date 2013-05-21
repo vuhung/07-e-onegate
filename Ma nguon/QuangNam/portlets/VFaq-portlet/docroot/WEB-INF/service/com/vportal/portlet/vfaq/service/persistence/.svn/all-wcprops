@@ -1,0 +1,113 @@
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/VFaq-portlet/docroot/WEB-INF/service/com/vportal/portlet/vfaq/service/persistence
+END
+FAQCommentPersistence.java
+K 25
+svn:wc:ra_dav:version-url
+V 167
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/VFaq-portlet/docroot/WEB-INF/service/com/vportal/portlet/vfaq/service/persistence/FAQCommentPersistence.java
+END
+FAQCategoryQuestionPersistence.java
+K 25
+svn:wc:ra_dav:version-url
+V 176
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/VFaq-portlet/docroot/WEB-INF/service/com/vportal/portlet/vfaq/service/persistence/FAQCategoryQuestionPersistence.java
+END
+FAQCategoryUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 161
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/VFaq-portlet/docroot/WEB-INF/service/com/vportal/portlet/vfaq/service/persistence/FAQCategoryUtil.java
+END
+FAQQuestionPersistence.java
+K 25
+svn:wc:ra_dav:version-url
+V 168
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/VFaq-portlet/docroot/WEB-INF/service/com/vportal/portlet/vfaq/service/persistence/FAQQuestionPersistence.java
+END
+FAQCategoryPersistence.java
+K 25
+svn:wc:ra_dav:version-url
+V 168
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/VFaq-portlet/docroot/WEB-INF/service/com/vportal/portlet/vfaq/service/persistence/FAQCategoryPersistence.java
+END
+FAQAnswerFinderUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 165
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/VFaq-portlet/docroot/WEB-INF/service/com/vportal/portlet/vfaq/service/persistence/FAQAnswerFinderUtil.java
+END
+FAQAnswerFinder.java
+K 25
+svn:wc:ra_dav:version-url
+V 161
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/VFaq-portlet/docroot/WEB-INF/service/com/vportal/portlet/vfaq/service/persistence/FAQAnswerFinder.java
+END
+FAQCommentFinderUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 166
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/VFaq-portlet/docroot/WEB-INF/service/com/vportal/portlet/vfaq/service/persistence/FAQCommentFinderUtil.java
+END
+FAQCommentFinder.java
+K 25
+svn:wc:ra_dav:version-url
+V 162
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/VFaq-portlet/docroot/WEB-INF/service/com/vportal/portlet/vfaq/service/persistence/FAQCommentFinder.java
+END
+FAQQuestionFinderUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 167
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/VFaq-portlet/docroot/WEB-INF/service/com/vportal/portlet/vfaq/service/persistence/FAQQuestionFinderUtil.java
+END
+FAQAnswerUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 159
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/VFaq-portlet/docroot/WEB-INF/service/com/vportal/portlet/vfaq/service/persistence/FAQAnswerUtil.java
+END
+FAQQuestionFinder.java
+K 25
+svn:wc:ra_dav:version-url
+V 163
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/VFaq-portlet/docroot/WEB-INF/service/com/vportal/portlet/vfaq/service/persistence/FAQQuestionFinder.java
+END
+FAQCommentUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 160
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/VFaq-portlet/docroot/WEB-INF/service/com/vportal/portlet/vfaq/service/persistence/FAQCommentUtil.java
+END
+FAQCategoryQuestionUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 169
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/VFaq-portlet/docroot/WEB-INF/service/com/vportal/portlet/vfaq/service/persistence/FAQCategoryQuestionUtil.java
+END
+FAQCategoryFinderUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 167
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/VFaq-portlet/docroot/WEB-INF/service/com/vportal/portlet/vfaq/service/persistence/FAQCategoryFinderUtil.java
+END
+FAQAnswerPersistence.java
+K 25
+svn:wc:ra_dav:version-url
+V 166
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/VFaq-portlet/docroot/WEB-INF/service/com/vportal/portlet/vfaq/service/persistence/FAQAnswerPersistence.java
+END
+FAQCategoryFinder.java
+K 25
+svn:wc:ra_dav:version-url
+V 163
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/VFaq-portlet/docroot/WEB-INF/service/com/vportal/portlet/vfaq/service/persistence/FAQCategoryFinder.java
+END
+FAQQuestionUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 161
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/VFaq-portlet/docroot/WEB-INF/service/com/vportal/portlet/vfaq/service/persistence/FAQQuestionUtil.java
+END

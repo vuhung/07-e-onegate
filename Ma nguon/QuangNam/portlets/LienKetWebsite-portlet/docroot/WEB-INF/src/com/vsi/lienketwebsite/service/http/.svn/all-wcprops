@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/LienKetWebsite-portlet/docroot/WEB-INF/src/com/vsi/lienketwebsite/service/http
+END
+LinksJSONSerializer.java
+K 25
+svn:wc:ra_dav:version-url
+V 162
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/LienKetWebsite-portlet/docroot/WEB-INF/src/com/vsi/lienketwebsite/service/http/LinksJSONSerializer.java
+END
+LinksServiceSoap.java
+K 25
+svn:wc:ra_dav:version-url
+V 159
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/LienKetWebsite-portlet/docroot/WEB-INF/src/com/vsi/lienketwebsite/service/http/LinksServiceSoap.java
+END
+LinkGroupJSONSerializer.java
+K 25
+svn:wc:ra_dav:version-url
+V 166
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/LienKetWebsite-portlet/docroot/WEB-INF/src/com/vsi/lienketwebsite/service/http/LinkGroupJSONSerializer.java
+END
+LinkGroupServiceSoap.java
+K 25
+svn:wc:ra_dav:version-url
+V 163
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/LienKetWebsite-portlet/docroot/WEB-INF/src/com/vsi/lienketwebsite/service/http/LinkGroupServiceSoap.java
+END

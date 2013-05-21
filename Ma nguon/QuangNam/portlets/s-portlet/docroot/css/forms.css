@@ -1,0 +1,314 @@
+/* This CSS sets the default styles for forms. */
+
+fieldset {
+	border: 1px solid #ccc;
+	padding: 0.7em;
+}
+
+.ie fieldset {
+	padding-top: 0;
+}
+
+legend {
+	font-weight: bold;
+	padding: 0 0.5em;
+}
+
+input[type="text"], input[type="password"], input[type="file"],input[type="submit"], input[type="button"], input[type="reset"], select, textarea, .textarea {	
+	border: 1px solid #6AC0F6;	
+	font: 1em 'Tahoma','Lucida Sans Unicode','Lucida Grande','Lucida',Arial,Verdana,sans-serif;
+	padding: 0.3em;
+}
+
+select {
+	padding: 0.3em;
+}
+
+input[type="image"] {
+	background: transparent none;
+	border: none;
+	padding: 0;
+}
+input[type="file"] {
+	background: transparent none;
+	border: none;
+	padding: 0;
+}
+
+input[type="submit"], input[type="button"], input[type="reset"] {
+	background: #FAFAFA url(../images/forms/15.gif) repeat-x;
+	border: 1px double #6BC4FB;
+	border-left-color: #6BC4FB;
+	border-top-color: #6BC4FB;	
+	font-weight: bold;
+	padding: 0.25em;	
+	color:#27429B;
+	font-family:Tahoma,Verdana,Arial,Helvetica,sans-serif;
+	font-size:11px;	
+	line-height:16px;	
+}
+
+/* ---------- IE6 chokes on attribute selectors in a chain, so we separate them into their own rule ---------- */
+
+.ie6 input.text, input.password, .ie6 input.submit, .ie6 input.file, .ie6 input.button {
+	background: #fff;	
+	border: 1px solid #6AC0F6;	
+	font: 1em 'Tahoma','Lucida Sans Unicode','Lucida Grande','Lucida',Arial,Verdana,sans-serif;
+	padding: 0.3em;
+}
+
+.ie6 input.submit, .ie6 input.button {
+	background: #FAFAFA url(../images/forms/15.gif) repeat-x;
+	border: 1px double #6BC4FB;
+	border-left-color: #6BC4FB;
+	border-top-color: #6BC4FB;	
+	font-weight: bold;
+	padding: 0.25em;	
+	color:#27429B;
+	font-family:Tahoma,Verdana,Arial,Helvetica,sans-serif;
+	font-size:11px;	
+	line-height:16px;	
+}
+
+input.focus, textarea.focus, .ie6 input.focus, .ie6 textarea.focus {
+	background: #FEF7ED;
+	border: 1px solid #FF9900;	
+}
+/* This CSS controls the column layout. It is not recommended that you change this file. */
+
+/* ---------- Wrapper ---------- */
+
+#content-wrapper #layout-grid {
+	border-collapse: collapse;
+	width: 100%;
+}
+
+#layout-grid .lfr-column {
+	padding: 4px;
+}
+
+.lfr-grid {
+	width: 100%;
+}
+
+/* ---------- Column widths ---------- */
+
+#layout-grid.dragging .lfr-column {
+	height: 100px;
+	min-height: 100px;
+}
+
+.lfr-column.ten {
+	width: 10%;
+}
+
+.lfr-column.twenty {
+	width: 20%;
+}
+
+.lfr-column.thirty {
+	width: 30%;
+}
+
+.lfr-column.forty {
+	width: 40%;
+}
+
+.lfr-column.fifty {
+	width: 50%;
+}
+
+.lfr-column.sixty {
+	width: 60%;
+}
+
+.lfr-column.seventy {
+	width: 70%;
+}
+
+.lfr-column.eighty {
+	width: 80%;
+}
+
+.lfr-column.ninety {
+	width: 90%;
+}
+
+/* ---------- 1 column ---------- */
+
+.columns-1 #column-1, .columns-max #column-1 {
+	display: table;
+	padding-left: 0;
+	padding-right: 0;
+	width: 100%;
+}
+/* ---------- 2 +columns ---------- */
+
+.+columns-2 #column-1 {
+	width: 30%;
+	float: left;
+	padding-left: 0;
+}
+
+.+columns-2 #column-2 {
+	width: 70%;
+	padding-right: 0;
+}
+
+/* ---------- 2 _columns ---------- */
+
+._columns-2 #column-1 {
+	width: 184px;
+	float: left;
+	padding-left: 0;
+}
+
+._columns-2 #column-2 {
+	width: 404px;
+}
+
+._columns-2 #column-3 {
+	padding-left: 0;
+}
+
+._columns-2 #column-4 {
+	padding-right: 0;
+}
+
+._columns-2 #column-5 {
+	width: 198px;
+}
+
+._columns-2 #column-6 {
+	width: 180px;
+	padding-right: 0;
+}
+
+/* ---------- 2 columns ---------- */
+
+.columns-2 #column-1 {
+	width: 184px;
+	float: left;
+	padding-left: 0;
+}
+
+.columns-2 #column-2 {
+	padding-left: 0;
+	width: 615px;
+}
+
+.columns-2 #column-3 {
+	padding-left: 0;
+}
+
+.columns-2 #column-4 {
+	padding-right: 0;
+}
+
+.columns-2 #column-5 {
+}
+
+.columns-2 #column-6 {
+	width: 180px;
+	padding-right: 0;
+}
+
+/* ---------- 40 columns ---------- */
+
+.columns-40 #column-10 {
+	width : 184px;
+	padding-left: 0;
+}
+
+.columns-40 #column-20 {
+	width : 585px;
+}
+
+.columns-40 #column-30 {
+	width : 201px;
+	padding-right: 0;
+}
+/* ---------- 50 columns ---------- */
+
+.columns-50 #column-51 {
+	width : 184px;
+	padding-left: 0;
+}
+
+.columns-50 #column-52 {
+	width : 505px;
+}
+
+.columns-50 #column-53 {
+	width : 280px;
+	padding-right: 0;
+}
+
+
+/* ---------- 3 columns ---------- */
+
+.columns-3 #column-1 {
+	padding-left: 0;
+}
+
+.columns-3 #column-2 {
+}
+
+.columns-3 #column-3 {
+}
+
+.columns-3 #column-4 {
+	padding-right: 0;
+}
+
+.columns-3 #column-5 {
+	padding-left: 0;
+}
+
+.columns-3 #column-6 {
+	padding-left: 0;
+	width : 202px;
+}
+.columns-3 #column-7 {
+	padding-left: 0;
+}
+
+.columns-3 #column-8 {
+	padding-right: 0;
+	width : 280px;
+}
+
+/* ---------- 1/2/1 ---------- */
+
+.columns-1-2-1 #column-1, .columns-1-2-1 #column-4 {
+	padding-left: 0;
+	padding-right: 0;
+}
+
+.columns-1-2-1 #column-2 {
+	padding-left: 0;
+}
+
+.columns-1-2-1 #column-3 {
+	padding-right: 0;
+}
+
+/* ---------- 2/2 ---------- */
+
+.columns-2-2 #column-1, .columns-2-2 #column-2 {
+	padding-left: 0;
+}
+
+.columns-2-2 #column-4 {
+	padding-right: 0;
+}
+
+/* ---------- Freeform ---------- */
+
+.freeform .lfr-column {
+	position: relative;
+}
+
+.columns-2-2 #column-4 {
+	padding-right: 0;
+}

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE service-builder PUBLIC "-//Liferay//DTD Service Builder 6.0.0//EN" "http://www.liferay.com/dtd/liferay-service-builder_6_0_0.dtd">
+<service-builder package-path="com.vportal.portlet.vsearch">
+	<author>Ba</author>
+	<namespace>VConfigSearch</namespace>
+	
+	<entity name="VConfigSearch" local-service="true" remote-service="true">
+
+		<!-- PK fields -->
+
+		<column name="confisearchId" type="long" primary="true" />
+
+		<!-- Group instance -->
+
+		<column name="groupId" type="long" />
+
+		<!-- Audit fields -->
+
+		<column name="companyId" type="long" />
+		<column name="userId" type="long" />
+		<column name="userName" type="String" />
+		<column name="createDate" type="Date" />
+		<column name="modifiedDate" type="Date" />
+		<column name="modifiedByUser" type="String" />
+        <column name="languageId" type="String" />
+		<!-- Other fields -->
+
+		<column name="layoutId" type="long" />
+		<column name="portletId" type="String" />
+		<column name="portleturl" type="String" />
+
+		<!-- Order -->
+
+		<order by="asc">
+			<order-column name="portletId" case-sensitive="false" />
+		</order>
+
+		<!-- Finder methods -->
+
+		<finder name="PortletId" return-type="VConfigSearch">
+			<finder-column name="portletId" />
+			<finder-column name="groupId" />
+		</finder>
+		<finder name="Portlet" return-type="Collection">
+			<finder-column name="portletId" />
+			<finder-column name="groupId" />
+		</finder>
+		<!-- References -->
+
+		<reference package-path="com.liferay.counter" entity="Counter" />
+		<reference package-path="com.liferay.mail" entity="Mail" />
+		<reference package-path="com.liferay.portal" entity="Company" />
+		<reference package-path="com.liferay.portal" entity="PortletPreferences" />
+		<reference package-path="com.liferay.portal" entity="Resource" />
+		<reference package-path="com.liferay.portal" entity="User" />
+	</entity>
+	<exceptions>
+		<exception>portletId</exception>
+	</exceptions>
+</service-builder>

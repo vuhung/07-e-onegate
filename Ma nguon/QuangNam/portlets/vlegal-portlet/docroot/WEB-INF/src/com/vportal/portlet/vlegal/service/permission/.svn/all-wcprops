@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/vlegal-portlet/docroot/WEB-INF/src/com/vportal/portlet/vlegal/service/permission
+END
+VLegalDocumentPermission.java
+K 25
+svn:wc:ra_dav:version-url
+V 169
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/vlegal-portlet/docroot/WEB-INF/src/com/vportal/portlet/vlegal/service/permission/VLegalDocumentPermission.java
+END
+VLegalDraftPermission.java
+K 25
+svn:wc:ra_dav:version-url
+V 166
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/vlegal-portlet/docroot/WEB-INF/src/com/vportal/portlet/vlegal/service/permission/VLegalDraftPermission.java
+END
+VLegalSuggestPermission.java
+K 25
+svn:wc:ra_dav:version-url
+V 168
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/vlegal-portlet/docroot/WEB-INF/src/com/vportal/portlet/vlegal/service/permission/VLegalSuggestPermission.java
+END
+VLegalTypePermission.java
+K 25
+svn:wc:ra_dav:version-url
+V 165
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/vlegal-portlet/docroot/WEB-INF/src/com/vportal/portlet/vlegal/service/permission/VLegalTypePermission.java
+END
+VLegalFieldPermission.java
+K 25
+svn:wc:ra_dav:version-url
+V 166
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/vlegal-portlet/docroot/WEB-INF/src/com/vportal/portlet/vlegal/service/permission/VLegalFieldPermission.java
+END
+VLegalOrgPermission.java
+K 25
+svn:wc:ra_dav:version-url
+V 164
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/vlegal-portlet/docroot/WEB-INF/src/com/vportal/portlet/vlegal/service/permission/VLegalOrgPermission.java
+END
+VLegalSignerPermission.java
+K 25
+svn:wc:ra_dav:version-url
+V 167
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/vlegal-portlet/docroot/WEB-INF/src/com/vportal/portlet/vlegal/service/permission/VLegalSignerPermission.java
+END

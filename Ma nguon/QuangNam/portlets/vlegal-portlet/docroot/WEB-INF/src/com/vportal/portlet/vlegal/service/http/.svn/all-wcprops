@@ -1,0 +1,209 @@
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/vlegal-portlet/docroot/WEB-INF/src/com/vportal/portlet/vlegal/service/http
+END
+VLegalTypeJSONSerializer.java
+K 25
+svn:wc:ra_dav:version-url
+V 163
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/vlegal-portlet/docroot/WEB-INF/src/com/vportal/portlet/vlegal/service/http/VLegalTypeJSONSerializer.java
+END
+VLegalAttachedMessageJSONSerializer.java
+K 25
+svn:wc:ra_dav:version-url
+V 174
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/vlegal-portlet/docroot/WEB-INF/src/com/vportal/portlet/vlegal/service/http/VLegalAttachedMessageJSONSerializer.java
+END
+VLegalFieldJSONSerializer.java
+K 25
+svn:wc:ra_dav:version-url
+V 164
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/vlegal-portlet/docroot/WEB-INF/src/com/vportal/portlet/vlegal/service/http/VLegalFieldJSONSerializer.java
+END
+VLegalFORelServiceSoap.java
+K 25
+svn:wc:ra_dav:version-url
+V 161
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/vlegal-portlet/docroot/WEB-INF/src/com/vportal/portlet/vlegal/service/http/VLegalFORelServiceSoap.java
+END
+VLegalDSRelServiceSoap.java
+K 25
+svn:wc:ra_dav:version-url
+V 161
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/vlegal-portlet/docroot/WEB-INF/src/com/vportal/portlet/vlegal/service/http/VLegalDSRelServiceSoap.java
+END
+VLegalDURelServiceSoap.java
+K 25
+svn:wc:ra_dav:version-url
+V 161
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/vlegal-portlet/docroot/WEB-INF/src/com/vportal/portlet/vlegal/service/http/VLegalDURelServiceSoap.java
+END
+VLegalLoggerServiceSoap.java
+K 25
+svn:wc:ra_dav:version-url
+V 162
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/vlegal-portlet/docroot/WEB-INF/src/com/vportal/portlet/vlegal/service/http/VLegalLoggerServiceSoap.java
+END
+VLegalSuggestDocumentServiceSoap.java
+K 25
+svn:wc:ra_dav:version-url
+V 171
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/vlegal-portlet/docroot/WEB-INF/src/com/vportal/portlet/vlegal/service/http/VLegalSuggestDocumentServiceSoap.java
+END
+VLegalTypeServiceSoap.java
+K 25
+svn:wc:ra_dav:version-url
+V 160
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/vlegal-portlet/docroot/WEB-INF/src/com/vportal/portlet/vlegal/service/http/VLegalTypeServiceSoap.java
+END
+VLegalFieldServiceSoap.java
+K 25
+svn:wc:ra_dav:version-url
+V 161
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/vlegal-portlet/docroot/WEB-INF/src/com/vportal/portlet/vlegal/service/http/VLegalFieldServiceSoap.java
+END
+VLegalDDRelServiceSoap.java
+K 25
+svn:wc:ra_dav:version-url
+V 161
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/vlegal-portlet/docroot/WEB-INF/src/com/vportal/portlet/vlegal/service/http/VLegalDDRelServiceSoap.java
+END
+VLegalDFRelServiceSoap.java
+K 25
+svn:wc:ra_dav:version-url
+V 161
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/vlegal-portlet/docroot/WEB-INF/src/com/vportal/portlet/vlegal/service/http/VLegalDFRelServiceSoap.java
+END
+VLegalTagsServiceSoap.java
+K 25
+svn:wc:ra_dav:version-url
+V 160
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/vlegal-portlet/docroot/WEB-INF/src/com/vportal/portlet/vlegal/service/http/VLegalTagsServiceSoap.java
+END
+VLegalSuggestDocumentJSONSerializer.java
+K 25
+svn:wc:ra_dav:version-url
+V 174
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/vlegal-portlet/docroot/WEB-INF/src/com/vportal/portlet/vlegal/service/http/VLegalSuggestDocumentJSONSerializer.java
+END
+VLegalSignerJSONSerializer.java
+K 25
+svn:wc:ra_dav:version-url
+V 165
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/vlegal-portlet/docroot/WEB-INF/src/com/vportal/portlet/vlegal/service/http/VLegalSignerJSONSerializer.java
+END
+VLegalOrgJSONSerializer.java
+K 25
+svn:wc:ra_dav:version-url
+V 162
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/vlegal-portlet/docroot/WEB-INF/src/com/vportal/portlet/vlegal/service/http/VLegalOrgJSONSerializer.java
+END
+VLegalTDRelServiceSoap.java
+K 25
+svn:wc:ra_dav:version-url
+V 161
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/vlegal-portlet/docroot/WEB-INF/src/com/vportal/portlet/vlegal/service/http/VLegalTDRelServiceSoap.java
+END
+VLegalDDRelJSONSerializer.java
+K 25
+svn:wc:ra_dav:version-url
+V 164
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/vlegal-portlet/docroot/WEB-INF/src/com/vportal/portlet/vlegal/service/http/VLegalDDRelJSONSerializer.java
+END
+VLegalFTRelServiceSoap.java
+K 25
+svn:wc:ra_dav:version-url
+V 161
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/vlegal-portlet/docroot/WEB-INF/src/com/vportal/portlet/vlegal/service/http/VLegalFTRelServiceSoap.java
+END
+VLegalDFRelJSONSerializer.java
+K 25
+svn:wc:ra_dav:version-url
+V 164
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/vlegal-portlet/docroot/WEB-INF/src/com/vportal/portlet/vlegal/service/http/VLegalDFRelJSONSerializer.java
+END
+VLegalTagsJSONSerializer.java
+K 25
+svn:wc:ra_dav:version-url
+V 163
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/vlegal-portlet/docroot/WEB-INF/src/com/vportal/portlet/vlegal/service/http/VLegalTagsJSONSerializer.java
+END
+VLegalDocumentServiceSoap.java
+K 25
+svn:wc:ra_dav:version-url
+V 164
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/vlegal-portlet/docroot/WEB-INF/src/com/vportal/portlet/vlegal/service/http/VLegalDocumentServiceSoap.java
+END
+VLegalDraftDocumentJSONSerializer.java
+K 25
+svn:wc:ra_dav:version-url
+V 172
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/vlegal-portlet/docroot/WEB-INF/src/com/vportal/portlet/vlegal/service/http/VLegalDraftDocumentJSONSerializer.java
+END
+VLegalAttachedMessageServiceSoap.java
+K 25
+svn:wc:ra_dav:version-url
+V 171
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/vlegal-portlet/docroot/WEB-INF/src/com/vportal/portlet/vlegal/service/http/VLegalAttachedMessageServiceSoap.java
+END
+VLegalSignerServiceSoap.java
+K 25
+svn:wc:ra_dav:version-url
+V 162
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/vlegal-portlet/docroot/WEB-INF/src/com/vportal/portlet/vlegal/service/http/VLegalSignerServiceSoap.java
+END
+VLegalOrgServiceSoap.java
+K 25
+svn:wc:ra_dav:version-url
+V 159
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/vlegal-portlet/docroot/WEB-INF/src/com/vportal/portlet/vlegal/service/http/VLegalOrgServiceSoap.java
+END
+VLegalFORelJSONSerializer.java
+K 25
+svn:wc:ra_dav:version-url
+V 164
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/vlegal-portlet/docroot/WEB-INF/src/com/vportal/portlet/vlegal/service/http/VLegalFORelJSONSerializer.java
+END
+VLegalDSRelJSONSerializer.java
+K 25
+svn:wc:ra_dav:version-url
+V 164
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/vlegal-portlet/docroot/WEB-INF/src/com/vportal/portlet/vlegal/service/http/VLegalDSRelJSONSerializer.java
+END
+VLegalTDRelJSONSerializer.java
+K 25
+svn:wc:ra_dav:version-url
+V 164
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/vlegal-portlet/docroot/WEB-INF/src/com/vportal/portlet/vlegal/service/http/VLegalTDRelJSONSerializer.java
+END
+VLegalDURelJSONSerializer.java
+K 25
+svn:wc:ra_dav:version-url
+V 164
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/vlegal-portlet/docroot/WEB-INF/src/com/vportal/portlet/vlegal/service/http/VLegalDURelJSONSerializer.java
+END
+VLegalFTRelJSONSerializer.java
+K 25
+svn:wc:ra_dav:version-url
+V 164
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/vlegal-portlet/docroot/WEB-INF/src/com/vportal/portlet/vlegal/service/http/VLegalFTRelJSONSerializer.java
+END
+VLegalDocumentJSONSerializer.java
+K 25
+svn:wc:ra_dav:version-url
+V 167
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/vlegal-portlet/docroot/WEB-INF/src/com/vportal/portlet/vlegal/service/http/VLegalDocumentJSONSerializer.java
+END
+VLegalLoggerJSONSerializer.java
+K 25
+svn:wc:ra_dav:version-url
+V 165
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/vlegal-portlet/docroot/WEB-INF/src/com/vportal/portlet/vlegal/service/http/VLegalLoggerJSONSerializer.java
+END
+VLegalDraftDocumentServiceSoap.java
+K 25
+svn:wc:ra_dav:version-url
+V 169
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/vlegal-portlet/docroot/WEB-INF/src/com/vportal/portlet/vlegal/service/http/VLegalDraftDocumentServiceSoap.java
+END

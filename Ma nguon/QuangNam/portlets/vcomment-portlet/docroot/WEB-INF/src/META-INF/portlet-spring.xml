@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" default-destroy-method="destroy" default-init-method="afterPropertiesSet" xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+	<bean id="com.vportal.portlet.vcomment.service.VCommentService" class="com.vportal.portlet.vcomment.service.impl.VCommentServiceImpl" />
+	<bean id="com.vportal.portlet.vcomment.service.VCommentServiceUtil" class="com.vportal.portlet.vcomment.service.VCommentServiceUtil">
+		<property name="service" ref="com.vportal.portlet.vcomment.service.VCommentService" />
+	</bean>
+	<bean id="com.vportal.portlet.vcomment.service.persistence.VCommentPersistence" class="com.vportal.portlet.vcomment.service.persistence.VCommentPersistenceImpl" parent="basePersistence" />
+</beans>

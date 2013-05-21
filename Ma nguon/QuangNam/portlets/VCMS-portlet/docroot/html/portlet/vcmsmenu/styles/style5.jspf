@@ -1,0 +1,64 @@
+<script type="text/javascript">
+	$(document).ready(function() {
+		$("#<portlet:namespace/>tree").treeview({
+			collapsed: true
+		});
+	});
+</script>
+        
+<div class="vcmsmenu-portlet treeview-menu">
+	<ul id="<portlet:namespace/>tree">
+	<%	
+	String strCategoryUrl = "";
+	String arrcategories[] = StringUtil.split(categories,StringPool.COMMA);			
+	String arrcategoriesStyle[] = StringUtil.split(categoriesStyle,StringPool.COMMA);
+
+	for(int i=0;i<arrcategories.length;i++){
+		String catStyle = arrcategoriesStyle[i];
+		VcmsCategory category = (VcmsCategory)VcmsCategoryServiceUtil.getCategory(arrcategories[i]);
+		if(category.getParentId().equals("0")){		
+			if(!category.getAnchored()) {
+				categoryURL.setParameter("categoryId",category.getCategoryId());
+				categoryURL.setParameter("cat_parent",category.getParentId());
+				categoryURL.setParameter("cat_style", catStyle);
+				categoryURL.setParameter("styleBorder",styleBorder);
+				
+				strCategoryUrl = categoryURL.toString();
+			} else {
+				strCategoryUrl = category.getHref();
+			}
+	%>								
+				<li>
+					<a href="<%= strCategoryUrl %>"><%=category.getName()%></a>
+				<%	
+				List subcategories = VcmsCategoryServiceUtil.getCategoriesByParent(groupId , category.getCategoryId() , language);
+					for(int count=0; count<subcategories.size(); count++){
+						VcmsCategory subcategory = (VcmsCategory)subcategories.get(count);
+							if(categories.indexOf(subcategory.getCategoryId())>0) {
+								if(!subcategory.getAnchored()) {
+									categoryURL.setParameter("categoryId",subcategory.getCategoryId());
+									categoryURL.setParameter("cat_parent",subcategory.getParentId());
+									categoryURL.setParameter("cat_style",catStyle);
+									categoryURL.setParameter("styleBorder",styleBorder);
+									
+									strCategoryUrl = categoryURL.toString();
+								} else {
+									strCategoryUrl = subcategory.getHref();
+								}
+						%>
+							<ul>
+								<li class="sub_menu">
+									<a href="<%= strCategoryUrl %>"><%=subcategory.getName()%></a>							
+								</li>
+							</ul>
+				<%
+						}
+					}
+				%>
+				</li>
+	<%
+		}
+    }
+	%>
+	</ul>
+</div>

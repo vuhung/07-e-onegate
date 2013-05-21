@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/vlegal-portlet/docroot/WEB-INF/tld
+END
+liferay-portlet-ext.tld
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/vlegal-portlet/docroot/WEB-INF/tld/liferay-portlet-ext.tld
+END
+liferay-security.tld
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/vlegal-portlet/docroot/WEB-INF/tld/liferay-security.tld
+END
+liferay-portlet.tld
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/vlegal-portlet/docroot/WEB-INF/tld/liferay-portlet.tld
+END
+c-rt.tld
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/vlegal-portlet/docroot/WEB-INF/tld/c-rt.tld
+END
+liferay-ui.tld
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/vlegal-portlet/docroot/WEB-INF/tld/liferay-ui.tld
+END
+liferay-util.tld
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/vlegal-portlet/docroot/WEB-INF/tld/liferay-util.tld
+END
+vportal.tld
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/vlegal-portlet/docroot/WEB-INF/tld/vportal.tld
+END
+liferay-theme.tld
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/vlegal-portlet/docroot/WEB-INF/tld/liferay-theme.tld
+END

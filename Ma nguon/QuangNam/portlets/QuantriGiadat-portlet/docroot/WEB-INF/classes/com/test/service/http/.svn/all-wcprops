@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/QuantriGiadat-portlet/docroot/WEB-INF/classes/com/test/service/http
+END
+VlookuppriceCategoryJSONSerializer.java
+K 25
+svn:wc:ra_dav:version-url
+V 166
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/QuantriGiadat-portlet/docroot/WEB-INF/classes/com/test/service/http/VlookuppriceCategoryJSONSerializer.java
+END
+VlookuppriceCategoryServiceSoap.java
+K 25
+svn:wc:ra_dav:version-url
+V 163
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/QuantriGiadat-portlet/docroot/WEB-INF/classes/com/test/service/http/VlookuppriceCategoryServiceSoap.java
+END
+VlookuppriceJSONSerializer.java
+K 25
+svn:wc:ra_dav:version-url
+V 158
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/QuantriGiadat-portlet/docroot/WEB-INF/classes/com/test/service/http/VlookuppriceJSONSerializer.java
+END
+VlookuppriceServiceSoap.java
+K 25
+svn:wc:ra_dav:version-url
+V 155
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/QuantriGiadat-portlet/docroot/WEB-INF/classes/com/test/service/http/VlookuppriceServiceSoap.java
+END
+VlookuppriceCategoryJSONSerializer.class
+K 25
+svn:wc:ra_dav:version-url
+V 167
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/QuantriGiadat-portlet/docroot/WEB-INF/classes/com/test/service/http/VlookuppriceCategoryJSONSerializer.class
+END
+VlookuppriceCategoryServiceSoap.class
+K 25
+svn:wc:ra_dav:version-url
+V 164
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/QuantriGiadat-portlet/docroot/WEB-INF/classes/com/test/service/http/VlookuppriceCategoryServiceSoap.class
+END
+VlookuppriceJSONSerializer.class
+K 25
+svn:wc:ra_dav:version-url
+V 159
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/QuantriGiadat-portlet/docroot/WEB-INF/classes/com/test/service/http/VlookuppriceJSONSerializer.class
+END
+VlookuppriceServiceSoap.class
+K 25
+svn:wc:ra_dav:version-url
+V 156
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/QuantriGiadat-portlet/docroot/WEB-INF/classes/com/test/service/http/VlookuppriceServiceSoap.class
+END

@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 145
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/vlinksman-portlet/docroot/WEB-INF/src/com/vportal/portlet/vlinksman/service/permission
+END
+LinkGroupPermission.java
+K 25
+svn:wc:ra_dav:version-url
+V 170
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/vlinksman-portlet/docroot/WEB-INF/src/com/vportal/portlet/vlinksman/service/permission/LinkGroupPermission.java
+END
+LinksPermission.java
+K 25
+svn:wc:ra_dav:version-url
+V 166
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/vlinksman-portlet/docroot/WEB-INF/src/com/vportal/portlet/vlinksman/service/permission/LinksPermission.java
+END
+VLinksmanPermission.java
+K 25
+svn:wc:ra_dav:version-url
+V 170
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/vlinksman-portlet/docroot/WEB-INF/src/com/vportal/portlet/vlinksman/service/permission/VLinksmanPermission.java
+END

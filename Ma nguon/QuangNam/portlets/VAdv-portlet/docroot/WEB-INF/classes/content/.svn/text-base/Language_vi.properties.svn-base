@@ -1,0 +1,43 @@
+#action
+action.VIEW_DETAIL = Xem chi ti\u1EBFt
+action.ADD_ITEM		= 
+#action
+are-you-sure-you-want-to-delete-the-selected-items = B\u1EA1n c\u00F3 th\u1EF1c s\u1EF1 mu\u1ED1n x\u00F3a qu\u1EA3ng c\u00E1o \u0111\u00E3 ch\u1ECDn ?
+you-must-select-a-item-to-delete = B\u1EA1n ph\u1EA3i ch\u1ECDn m\u1ED9t m\u1EE5c tr\u01B0\u1EDBc khi th\u1EF1c hi\u1EC7n thao t\u00E1c x\u00F3a.
+category.VAdvman         = Qu\u1EA3ng C\u00E1o
+
+VAdvman.form.Add             = T\u00EAn
+VAdvman.form.Edit            = Thay \u0111\u1ED5i
+VAdvman.form.cannotBlank     = Kh\u00F4ng \u0111\u01B0\u1EE3c b\u1ECF tr\u1ED1ng
+VAdvman.form.descriptionItem = M\u00F4 t\u1EA3
+VAdvman.form.descriptionType = M\u00F4 t\u1EA3
+VAdvman.form.expriedDate     = Ng\u00E0y h\u1EBFt h\u1EA1n
+VAdvman.form.createdDate	 = Ngày t\u1EA1o
+VAdvman.form.isTargetBlank   = Li\u00EAn k\u1EBFt t\u1EDBi trang m\u1EDBi
+VAdvman.form.nameItem        = T\u00EAn qu\u1EA3ng c\u00E1o
+VAdvman.form.nameType        = T\u00EAn ki\u1EC3u qu\u1EA3ng c\u00E1o
+VAdvman.form.status          = Tr\u1EA1ng th\u00E1i
+VAdvman.form.txtMouseOver    = Tooltip
+VAdvman.form.typeId          = Ki\u1EC3u qu\u1EA3ng c\u00E1o
+VAdvman.form.url             = \u0110\u01B0\u1EDDng d\u1EABn
+VAdvman.form.keyword		 = T\u1EEB kh\u00F3a
+VAdvman.form.numberItems	 = S\u1ED1 qu\u1EA3ng c\u00E1o
+VAdvman.title.item           = Qu\u1EA3ng c\u00E1o
+VAdvman.title.type           = Ki\u1EC3u qu\u1EA3ng c\u00E1o
+
+portlet.vadvmanview.Item                                                                = Hi\u1EC3n th\u1ECB m\u1ED9t qu\u1EA3ng c\u00E1o
+portlet.vadvmanview.Items                                                               = Hi\u1EC3n th\u1ECB nhi\u1EC1u qu\u1EA3ng c\u00E1o
+portlet.vadvmanview.autoRepeat                                                          = T\u1EF1 \u0111\u1ED9ng ch\u1EA1y l\u1EA1i
+portlet.vadvmanview.autoStart                                                           = T\u1EF1 \u0111\u1ED9ng kh\u1EDFi \u0111\u1ED9ng
+portlet.vadvmanview.configDisplay                                                       = C\u1EA5u h\u00ECnh hi\u1EC3n th\u1ECB
+portlet.vadvmanview.configItem                                                          = C\u1EA5u h\u00ECnh cho qu\u1EA3ng c\u00E1o d\u1EA1ng Video & Flash
+portlet.vadvmanview.controlBar                                                          = Hi\u1EC3n th\u1ECB thanh \u0111i\u1EC1u khi\u1EC3n
+portlet.vadvmanview.defaultSize                                                         = Hi\u1EC3n th\u1ECB qu\u1EA3ng c\u00E1o v\u1EDBi k\u00EDch th\u01B0\u1EDBc m\u1EB7c \u0111\u1ECBnh
+portlet.vadvmanview.height                                                              = Chi\u1EC1u cao
+portlet.vadvmanview.noItem                                                              = Hi\u1EC7n ch\u01B0a c\u00F3 qu\u1EA3ng c\u00E1o n\u00E0o !
+portlet.vadvmanview.selectItem                                                          = Ch\u1ECDn qu\u1EA3ng c\u00E1o \u0111\u1EC3 hi\u1EC3n th\u1ECB
+portlet.vadvmanview.selectType                                                          = Ch\u1ECDn lo\u1EA1i qu\u1EA3ng c\u00E1o
+portlet.vadvmanview.width                                                               = Chi\u1EC1u r\u1ED9ng 
+
+javax.portlet.title.VAdvman                = Qu\u1EA3n l\u00FD qu\u1EA3ng c\u00E1o
+javax.portlet.title.VAdvmanview            = Qu\u1EA3ng c\u00E1o 

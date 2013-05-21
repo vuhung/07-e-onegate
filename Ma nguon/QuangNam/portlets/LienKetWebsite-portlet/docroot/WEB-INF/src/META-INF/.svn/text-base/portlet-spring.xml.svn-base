@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" default-destroy-method="destroy" default-init-method="afterPropertiesSet" xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+	<bean id="com.vsi.lienketwebsite.service.LinkGroupService" class="com.vsi.lienketwebsite.service.impl.LinkGroupServiceImpl" />
+	<bean id="com.vsi.lienketwebsite.service.LinkGroupServiceUtil" class="com.vsi.lienketwebsite.service.LinkGroupServiceUtil">
+		<property name="service" ref="com.vsi.lienketwebsite.service.LinkGroupService" />
+	</bean>
+	<bean id="com.vsi.lienketwebsite.service.persistence.LinkGroupPersistence" class="com.vsi.lienketwebsite.service.persistence.LinkGroupPersistenceImpl" parent="basePersistence" />
+	<bean id="com.vsi.lienketwebsite.service.LinksService" class="com.vsi.lienketwebsite.service.impl.LinksServiceImpl" />
+	<bean id="com.vsi.lienketwebsite.service.LinksServiceUtil" class="com.vsi.lienketwebsite.service.LinksServiceUtil">
+		<property name="service" ref="com.vsi.lienketwebsite.service.LinksService" />
+	</bean>
+	<bean id="com.vsi.lienketwebsite.service.persistence.LinksPersistence" class="com.vsi.lienketwebsite.service.persistence.LinksPersistenceImpl" parent="basePersistence" />
+</beans>

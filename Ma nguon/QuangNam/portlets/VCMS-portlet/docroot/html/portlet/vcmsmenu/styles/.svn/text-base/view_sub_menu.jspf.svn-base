@@ -1,0 +1,46 @@
+<%
+/**
+ * Copyright (c) 2000-2008 VSI, Inc. All rights reserved.
+ *
+**/
+%>
+<script language="javascript">	
+	function <portlet:namespace/>sendDataURL(catURL){
+		document.<portlet:namespace/>fm.action = catURL;
+		document.<portlet:namespace/>fm.submit();
+	}
+</script>
+<%
+	List subcategories = VcmsCategoryServiceUtil.getCategoriesByParent(groupId , parentId , language);
+	if(subcategories.size() > 0){
+%>
+<span>
+
+<%	
+	
+	for(int count=0; count<subcategories.size(); count++){		
+		VcmsCategory subcategory = (VcmsCategory)subcategories.get(count);
+			if(categories.indexOf(subcategory.getCategoryId())>0){			
+				categoryURL.setParameter("categoryId",subcategory.getCategoryId());
+				categoryURL.setParameter("cat_parent",subcategory.getParentId());
+						
+	%>
+			
+                <span height="24" class="text_detail" style="padding-left:15px;vertical-align: top;padding-top:0px;" align="left">
+					<c:if test="<%= (subcategory.getAnchored() == false)%>">
+						&deg; <a href="javascript:void(0);" onclick="javascript:<portlet:namespace/>sendDataURL('<%=categoryURL%>');"><%=subcategory.getName()%></a>							
+					</c:if>
+					<c:if test="<%= (subcategory.getAnchored() == true)%>">
+						<a href="<%=subcategory.getHref()%>" ><%=subcategory.getName()%></a>						
+					</c:if>
+				</span>
+          	
+	<%
+			}
+		}	
+	%>
+
+</span>
+<%
+	}
+%>

@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/VAdv-portlet/docroot/WEB-INF/service/com/vportal/portlet/vadvman/model
+END
+AdvTypeSoap.java
+K 25
+svn:wc:ra_dav:version-url
+V 146
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/VAdv-portlet/docroot/WEB-INF/service/com/vportal/portlet/vadvman/model/AdvTypeSoap.java
+END
+AdvItemClp.java
+K 25
+svn:wc:ra_dav:version-url
+V 145
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/VAdv-portlet/docroot/WEB-INF/service/com/vportal/portlet/vadvman/model/AdvItemClp.java
+END
+AdvItem.java
+K 25
+svn:wc:ra_dav:version-url
+V 142
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/VAdv-portlet/docroot/WEB-INF/service/com/vportal/portlet/vadvman/model/AdvItem.java
+END
+AdvItemModel.java
+K 25
+svn:wc:ra_dav:version-url
+V 147
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/VAdv-portlet/docroot/WEB-INF/service/com/vportal/portlet/vadvman/model/AdvItemModel.java
+END
+AdvItemWrapper.java
+K 25
+svn:wc:ra_dav:version-url
+V 149
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/VAdv-portlet/docroot/WEB-INF/service/com/vportal/portlet/vadvman/model/AdvItemWrapper.java
+END
+AdvTypeClp.java
+K 25
+svn:wc:ra_dav:version-url
+V 145
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/VAdv-portlet/docroot/WEB-INF/service/com/vportal/portlet/vadvman/model/AdvTypeClp.java
+END
+AdvItemSoap.java
+K 25
+svn:wc:ra_dav:version-url
+V 146
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/VAdv-portlet/docroot/WEB-INF/service/com/vportal/portlet/vadvman/model/AdvItemSoap.java
+END
+AdvType.java
+K 25
+svn:wc:ra_dav:version-url
+V 142
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/VAdv-portlet/docroot/WEB-INF/service/com/vportal/portlet/vadvman/model/AdvType.java
+END
+AdvTypeModel.java
+K 25
+svn:wc:ra_dav:version-url
+V 147
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/VAdv-portlet/docroot/WEB-INF/service/com/vportal/portlet/vadvman/model/AdvTypeModel.java
+END
+AdvTypeWrapper.java
+K 25
+svn:wc:ra_dav:version-url
+V 149
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/VAdv-portlet/docroot/WEB-INF/service/com/vportal/portlet/vadvman/model/AdvTypeWrapper.java
+END

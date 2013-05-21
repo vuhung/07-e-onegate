@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping default-lazy="false" auto-import="false">
+	<import class="com.vportal.portal.model.Attachment" />
+	<import class="com.vportal.portal.model.AccessCounter" />
+	<import class="com.vportal.portal.model.PortletFolder" />
+	<class name="com.vportal.portal.model.impl.AttachmentImpl" table="Attachment">
+		<cache usage="read-write" />
+		<id name="attachmentId" type="long">
+			<generator class="assigned" />
+		</id>
+		<property name="groupId" type="com.liferay.portal.dao.orm.hibernate.LongType" />
+		<property name="companyId" type="com.liferay.portal.dao.orm.hibernate.LongType" />
+		<property name="entryId" type="com.liferay.portal.dao.orm.hibernate.LongType" />
+		<property name="entryClass" type="com.liferay.portal.dao.orm.hibernate.StringType" />
+		<property name="fileEntryId" type="com.liferay.portal.dao.orm.hibernate.LongType" />
+		<property name="folderId" type="com.liferay.portal.dao.orm.hibernate.LongType" />
+		<property name="fileName" type="com.liferay.portal.dao.orm.hibernate.StringType" />
+		<property name="imageId" type="com.liferay.portal.dao.orm.hibernate.LongType" />
+		<property name="extension" type="com.liferay.portal.dao.orm.hibernate.StringType" />
+	</class>
+	<class name="com.vportal.portal.model.impl.AccessCounterImpl" table="AccessCounter">
+		<cache usage="read-write" />
+		<id name="id" column="id_" type="long">
+			<generator class="assigned" />
+		</id>
+		<property name="companyId" type="com.liferay.portal.dao.orm.hibernate.LongType" />
+		<property name="accessDate" type="org.hibernate.type.TimestampType" />
+		<property name="accessCount" type="com.liferay.portal.dao.orm.hibernate.IntegerType" />
+	</class>
+	<class name="com.vportal.portal.model.impl.PortletFolderImpl" table="PortletFolder">
+		<cache usage="read-write" />
+		<id name="id" column="id_" type="long">
+			<generator class="assigned" />
+		</id>
+		<property name="portletId" type="com.liferay.portal.dao.orm.hibernate.StringType" />
+		<property name="folderId" type="com.liferay.portal.dao.orm.hibernate.LongType" />
+		<property name="description" type="com.liferay.portal.dao.orm.hibernate.StringType" />
+	</class>
+</hibernate-mapping>

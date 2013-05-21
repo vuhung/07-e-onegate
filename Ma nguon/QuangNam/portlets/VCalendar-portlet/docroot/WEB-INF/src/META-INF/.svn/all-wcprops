@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/VCalendar-portlet/docroot/WEB-INF/src/META-INF
+END
+infrastructure-spring.xml
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/VCalendar-portlet/docroot/WEB-INF/src/META-INF/infrastructure-spring.xml
+END
+cluster-spring.xml
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/VCalendar-portlet/docroot/WEB-INF/src/META-INF/cluster-spring.xml
+END
+hibernate-spring.xml
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/VCalendar-portlet/docroot/WEB-INF/src/META-INF/hibernate-spring.xml
+END
+portlet-orm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/VCalendar-portlet/docroot/WEB-INF/src/META-INF/portlet-orm.xml
+END
+shard-data-source-spring.xml
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/VCalendar-portlet/docroot/WEB-INF/src/META-INF/shard-data-source-spring.xml
+END
+dynamic-data-source-spring.xml
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/VCalendar-portlet/docroot/WEB-INF/src/META-INF/dynamic-data-source-spring.xml
+END
+portlet-spring.xml
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/VCalendar-portlet/docroot/WEB-INF/src/META-INF/portlet-spring.xml
+END
+base-spring.xml
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/VCalendar-portlet/docroot/WEB-INF/src/META-INF/base-spring.xml
+END
+portlet-model-hints.xml
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/VCalendar-portlet/docroot/WEB-INF/src/META-INF/portlet-model-hints.xml
+END
+portlet-hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/VCalendar-portlet/docroot/WEB-INF/src/META-INF/portlet-hbm.xml
+END

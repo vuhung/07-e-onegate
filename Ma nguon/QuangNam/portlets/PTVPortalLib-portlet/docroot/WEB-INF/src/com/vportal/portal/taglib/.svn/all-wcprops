@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/PTVPortalLib-portlet/docroot/WEB-INF/src/com/vportal/portal/taglib
+END
+FileUploadTag.java
+K 25
+svn:wc:ra_dav:version-url
+V 144
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/PTVPortalLib-portlet/docroot/WEB-INF/src/com/vportal/portal/taglib/FileUploadTag.java
+END
+FileUploadAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 147
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/PTVPortalLib-portlet/docroot/WEB-INF/src/com/vportal/portal/taglib/FileUploadAction.java
+END
+FileUploadUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 145
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/PTVPortalLib-portlet/docroot/WEB-INF/src/com/vportal/portal/taglib/FileUploadUtil.java
+END
+InputEditorTag.java
+K 25
+svn:wc:ra_dav:version-url
+V 145
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/PTVPortalLib-portlet/docroot/WEB-INF/src/com/vportal/portal/taglib/InputEditorTag.java
+END
+FileDownloadTag.java
+K 25
+svn:wc:ra_dav:version-url
+V 146
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/PTVPortalLib-portlet/docroot/WEB-INF/src/com/vportal/portal/taglib/FileDownloadTag.java
+END
+ImageUploadTag.java
+K 25
+svn:wc:ra_dav:version-url
+V 145
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/PTVPortalLib-portlet/docroot/WEB-INF/src/com/vportal/portal/taglib/ImageUploadTag.java
+END
+TabsTag.java
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/PTVPortalLib-portlet/docroot/WEB-INF/src/com/vportal/portal/taglib/TabsTag.java
+END
+FileBrowserServer.java
+K 25
+svn:wc:ra_dav:version-url
+V 148
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/PTVPortalLib-portlet/docroot/WEB-INF/src/com/vportal/portal/taglib/FileBrowserServer.java
+END

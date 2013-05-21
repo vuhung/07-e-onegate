@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/EDirectory-portlet/docroot/WEB-INF/classes/com/vsi/edirectory/portlet
+END
+ActionUtil.class
+K 25
+svn:wc:ra_dav:version-url
+V 145
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/EDirectory-portlet/docroot/WEB-INF/classes/com/vsi/edirectory/portlet/ActionUtil.class
+END
+MenuEDirectory.class
+K 25
+svn:wc:ra_dav:version-url
+V 149
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/EDirectory-portlet/docroot/WEB-INF/classes/com/vsi/edirectory/portlet/MenuEDirectory.class
+END
+menu-edirectory-friendly-url-routes.xml
+K 25
+svn:wc:ra_dav:version-url
+V 168
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/EDirectory-portlet/docroot/WEB-INF/classes/com/vsi/edirectory/portlet/menu-edirectory-friendly-url-routes.xml
+END
+ManageEDirectory.class
+K 25
+svn:wc:ra_dav:version-url
+V 151
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/EDirectory-portlet/docroot/WEB-INF/classes/com/vsi/edirectory/portlet/ManageEDirectory.class
+END
+manage-edirectory-friendly-url-routes.xml
+K 25
+svn:wc:ra_dav:version-url
+V 170
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/EDirectory-portlet/docroot/WEB-INF/classes/com/vsi/edirectory/portlet/manage-edirectory-friendly-url-routes.xml
+END
+ContentEDirectory.class
+K 25
+svn:wc:ra_dav:version-url
+V 152
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/EDirectory-portlet/docroot/WEB-INF/classes/com/vsi/edirectory/portlet/ContentEDirectory.class
+END

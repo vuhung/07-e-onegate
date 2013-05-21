@@ -1,0 +1,11 @@
+K 25
+svn:wc:ra_dav:version-url
+V 148
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/VCalendar-portlet/docroot/WEB-INF/service/com/vportal/portlet/vcalendar/service/messaging
+END
+ClpMessageListener.java
+K 25
+svn:wc:ra_dav:version-url
+V 172
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/VCalendar-portlet/docroot/WEB-INF/service/com/vportal/portlet/vcalendar/service/messaging/ClpMessageListener.java
+END

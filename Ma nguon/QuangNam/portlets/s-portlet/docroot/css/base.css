@@ -1,0 +1,956 @@
+/* This CSS sets the default styles for the base components. */
+
+/* ---------- Browser normalization ---------- */
+
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, textarea, p, blockquote, th, td {
+	margin: 0;
+	padding: 0;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+fieldset, img {
+	border: 0;
+}
+
+address, caption, cite, code, dfn, em, strong, th, var {
+	font-style: normal;
+	font-weight: normal;
+}
+
+ol, ul {
+	list-style: none;
+}
+
+caption, th {
+	text-align: left;
+}
+
+q:before, q:after {
+	content: '';
+}
+
+abbr, acronym {
+	border: 0;
+}
+
+body {
+	background-color: #fff;
+	margin: 0px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	text-decoration:none;
+}
+
+html, body {
+	height: 100%;
+}
+
+body.portal-popup {
+	padding: 10px;
+}
+
+table {
+	clear: both;
+}
+
+abbr, acronym {
+	border-bottom: 1px dotted #000;
+	cursor: help;
+}
+
+blockquote, ul, ol, dl {
+	margin: 1em;
+}
+
+ol, ul, dl {
+	margin-left: 2em;
+}
+
+ol li, ul ol li {
+	list-style: decimal outside;
+}
+
+ul li, ol ul li {
+	list-style: disc outside;
+}
+
+ul ul li {
+	list-style-type: circle;
+}
+
+ol ol li {
+	list-style-type: upper-roman;
+}
+
+dl dd {
+	margin-left: 1em;
+}
+
+th {
+	font-weight: bold;
+}
+
+caption {
+	margin-bottom: 0.5em;
+	text-align: center;
+}
+
+p {
+	margin-bottom: 1em;
+}
+
+/* ---------- Links ---------- */
+
+a {
+	color:#000000;
+	text-decoration:none;
+	
+}
+/* ---------- Headers ---------- */
+
+h1 {
+	font-size: 1.8em;
+}
+
+h2 {
+	font-size: 1.6em;
+}
+
+h3 {
+	font-size: 1.4em;
+}
+
+h1, h2, h3 {
+	margin: 1em 0;
+}
+
+h1, h2, h3, h4, h5, h6, strong {
+	font-weight: bold;
+}
+
+/* ---------- Text formatting ---------- */
+
+b, strong {
+	font-weight: bold;
+}
+
+i, em {
+	font-style: italic;
+}
+
+code, pre {
+	font-family: "Courier New",Courier,monospace;
+	white-space: pre;
+}
+
+.important {
+	font-weight: bold;
+}
+
+/* ---------- Staging area ---------- */
+
+body.staging {
+	border: 10px solid #c00;
+}
+
+/* ---------- Main content body ---------- */
+
+#wrapper {	
+	width: 986px;
+	text-align:left;
+	margin:0 auto;
+	padding:0 3px;
+}
+
+/* ---------- Banner ---------- */
+
+#banner_trang_chu {
+	background: transparent url(../images/DB_image/banner.jpg) no-repeat;
+	height: 133px;
+	vertical-align: top;
+}
+#banner_doanh_nghiep {
+	background: transparent url(../images/DB_image/banner_dn.jpg) no-repeat;
+	height: 133px;
+	vertical-align: top;
+}
+#banner_du_khach {
+	background: transparent url(../images/DB_image/banner_dk.jpg) no-repeat;
+	height: 133px;
+	vertical-align: top;
+}
+#banner_nguoi_dan {
+	background: transparent url(../images/DB_image/banner_nd.jpg) no-repeat;
+	height: 133px;
+	vertical-align: top;
+}
+
+#flashId{
+	float: right;
+	z-index: 10;	
+}
+.ie6 #flashId{
+	float: right;
+	margin-bottom: 3px;
+}
+#hr_image{
+	background: transparent url(../images/common/banner.jpg) no-repeat scroll 100% 10%;		 
+	height : 2px;
+}
+.ie #hr_image{
+	background: transparent url(../images/common/banner1.jpg) no-repeat scroll 100% 10%;		 
+	height : 2px;
+}
+#hr_banner{	
+	background: url(../images/common/i_01.gif) scroll repeat-x top right;
+	height: 14px;
+}
+
+#footer{
+	 background-image: url(../images/DB_image/bg_02.jpg);
+	 background-repeat: repeat-y;
+	 background-position: left top;
+	 border-top:1px solid #1E5893;
+	 float: left;
+	 width: 966px;
+	 margin-top:5px;
+	 padding: 10px;
+	 color: #1E5893;
+	 font-size:10px;
+	 text-align: right;
+}
+
+#banner .logo {
+	background: transparent url(../images/common/banner_bg.png) no-repeat scroll 0 100%;
+	display: block;
+	float: left;
+	font-size: 2em;
+	margin: 0;
+	padding: 1.25em 0.6em 1.45em;
+}
+
+#banner .logo a {
+	text-decoration: none;
+}
+
+.ie6 #banner .logo {
+	zoom: 1;
+}
+
+/* ---------- Drag Indicators ---------- */
+
+#content-wrapper #layout-grid.dragging {
+	border-collapse: separate;
+}
+
+#content-wrapper #layout-grid.dragging .lfr-column {
+	border: 3px double #ACBED5;
+}
+
+.drag-indicator {
+	border: 2px dashed #036;
+	cursor: move;
+	font-size: 0;
+	position: relative;
+}
+
+.drop-area {
+	background-color: #000;
+	font-size: 0;
+	opacity: .10;
+}
+
+.ie .drop-area {
+	filter: alpha(opacity=10);
+}
+
+.drop-position-top {
+	background: url(../images/arrows/03_up.png) scroll repeat-x top left;
+}
+
+.drop-position-bottom {
+	background: url(../images/arrows/03_down.png) scroll repeat-x bottom left;
+}
+
+/* ---------- Alerts and popups ---------- */
+
+.alert-background {
+	background: #000;
+}
+
+.popup {
+	background: #fff;
+	border: 1px solid #777;
+	padding: 0.4em;
+	position: absolute;
+}
+
+.popup-header {
+	background: #EEF0F1 none repeat scroll 0%;
+	border-bottom: 1px solid #aaa;
+	color: #333;
+	cursor: move;
+	padding: 5px;
+	position: relative;
+}
+
+.popup-title {
+	font-size: 1.5em;
+	font-weight: bold;
+	min-height: 1em;
+	white-space: nowrap;
+	width: 90%;
+}
+
+.ie6 .popup-title {
+	height: 1em;
+}
+
+.popup-close {
+	cursor: pointer;
+	position: absolute;
+	right: 0.5em;
+}
+
+.popup-message {
+	padding: 5px;
+}
+
+.popup-alert-notice {
+	background-color: #ffc;
+	border-bottom-color: #fc0;
+}
+
+.popup-alert-warning {
+	background-color: #fcc;
+	border-bottom-color: #f00;
+}
+
+/* ---------- Portal add content ---------- */
+
+.portal-add-content {
+	background: #fff;
+	padding: 8px 4px 0;
+	text-align: left;
+	z-index: 20;
+}
+
+.portal-add-content a {
+	text-decoration: none;
+}
+
+/* ---------- Portal tool tips ---------- */
+
+.portal-tool-tip {
+	background: #DCDCDC;
+	border: 1px solid #BFBFBF;
+	color: #333;
+	font-weight: bold;
+	max-width: 200px;
+	padding: 0.5em 0.3em;
+}
+
+/* ---------- Autocomplete styles ---------- */
+
+.autocomplete-box {
+	background: #E2ECF2;
+	border: 1px solid #ABC6D7;
+	color: #333;
+	min-width: 200px;
+	padding: 0;
+}
+
+.ie6 .autocomplete-box {
+	width: 200px;
+}
+
+.autocomplete-selected {
+	background: #C0D5E3;
+	border-bottom: 1px solid #ABC6D7;
+	border-top: 1px solid #ABC6D7;
+	color: #333;
+	font-weight: bold;
+	padding: 0.5em 0.3em;
+}
+
+/* ---------- Loading animation ---------- */
+
+.loading-animation {
+	background: url(../images/progress_bar/loading_animation.gif) no-repeat top center;
+	margin-top: 10px;
+	padding-top: 40px;
+	text-align: left;
+}
+
+/* ---------- Separator ---------- */
+
+hr, .separator {
+	border: 1px dotted #CCC;
+}
+
+/* ---------- Update Manager ---------- */
+
+.update-available {
+	margin-top: 10px;
+	padding: 2px;
+	text-align: left;
+}
+
+/* ---------- Text highlighting ---------- */
+
+.highlight {
+	background: #ffc;
+	font-weight: bold;
+	padding: 0 1px;
+}
+/* This file allows you to override default styles in one central location for easier upgrade and maintenance. */
+
+.title3 {
+	 font-family: Verdana, Arial, Helvetica, sans-serif;
+	 font-size: 11px;
+	 font-weight: bold;
+	 color: #27429b;
+	 text-decoration: none;
+	 height: 22px;
+	 background-color: #FFFFFF;
+	 margin-left: 5px;
+}
+.bg_dotline {
+	background-image: url(../images/DB_image/i_11.gif);
+	background-repeat: repeat-x;
+	background-position: bottom;
+}
+
+bg_02 {
+	background-image: url(../images/bg_02.gif);
+	background-repeat: no-repeat;
+	background-position: right bottom;
+}
+.bg_03 {
+	background-image: url(../images/DB_image/i_13.gif);
+	background-repeat: repeat-x;
+	background-position: left top;
+}
+.bg_04 {
+	background-image: url(../images/DB_image/i_15.gif);
+	background-repeat: repeat-x;
+	background-position: left top;
+}
+.bg_05 {
+	background-image: url(../images/DB_image/i_14.gif);
+	background-repeat: repeat-x;
+	background-position: left top;
+}
+.bg_06 {
+	background-image: url(../images/DB_image/i_16.gif);
+	background-repeat: repeat-y;
+	background-position: right top;
+}
+.bg_07 {
+	background-image: url(../images/DB_image/i_17.gif);
+	background-repeat: repeat-y;
+	background-position: left bottom;
+}
+.bg_08 {
+	background-image: url(../images/DB_image/bg_03.jpg);
+	background-repeat: no-repeat;
+	background-position: center top;
+}.bg_09 {
+	background-image: url(../images/DB_image/i_29.gif);
+	background-repeat: no-repeat;
+	background-position: right center;
+	height: 18px;
+	float:none;
+	margin-top:11px
+}
+.bg_09 a {
+	background-image: url(../images/DB_image/i_30.gif);
+	background-repeat: no-repeat;
+	background-position: left center;
+	height: 18px;
+	padding-top: 2px;
+	padding-right: 0px;
+	padding-bottom: 5px;
+	float:left;
+}
+.bg_10 {
+	background-image: url(../images/DB_image/i_30.gif);
+	background-repeat: no-repeat;
+	background-position: left center;
+	height: 18px;
+	width:8px;
+	padding-left: 10px;
+	height: 18px;
+	padding-top: 4px;
+	padding-right: 0px;
+	padding-bottom: 5px;
+}
+
+.text_none1 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: normal;
+	color: #060606;
+	text-decoration: none;
+	line-height: 16px;
+}
+
+.menu_left1 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	color: #060606;
+	text-decoration: none;
+	height: 22px;
+	background-image: url(../images/DB_image/i_18.gif);
+	background-repeat: no-repeat;
+	background-position: left center;
+	padding-left: 10px;
+	padding-top: 5px;
+	padding-bottom: 0px;
+}
+
+.text3 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: normal;
+	color: #4191c0;
+	text-decoration: none;
+	line-height: 16px;
+	font-style: normal;
+	padding-top: 7px;
+	padding-bottom: 7px;
+}
+.text_red {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: normal;
+	color: #FF0000;
+	text-decoration: none;
+	line-height: 16px;
+	font-style: normal;
+	padding-top: 7px;
+	padding-bottom: 7px;
+}
+
+.bt_right {
+	background-image: url(../images/DB_image/bt_right.gif);
+	background-repeat: no-repeat;
+	background-position: right top;
+	height: 22px;
+	padding-right: 9px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	color: #FFFFFF;
+	float:left;
+	/*margin-bottom:5px;*/
+	text-decoration: none;
+	padding-top: 0px;
+	padding-bottom: 5px;
+	padding-left: 9px;
+}
+.bt_right a{
+	background-image: url(../images/DB_image/bt_left.gif);
+	height: 22px;
+	padding-top: 2px;
+	padding-right: 0px;
+	padding-bottom: 5px;
+	padding-left: 9px;
+}
+
+.more {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: normal;
+	color: #4191c0;
+	text-decoration: underline;
+	line-height: 16px;
+	font-style: italic;
+	background-image: url(../images/DB_image/i_11.gif);
+	background-repeat: repeat-x;
+	background-position: bottom;
+	padding-top: 7px;
+	padding-bottom: 7px;
+}
+.menu_top {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	color: #27429b;
+	text-decoration: none;
+}
+
+.text_news {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: normal;
+	color: #060606;
+	text-decoration: none;
+	background-image: url(../images/DB_image/i_11.gif);
+	background-repeat: repeat-x;
+	background-position: bottom;
+	width: 198px;
+	padding-top: 7px;
+	padding-bottom: 7px;
+	margin-right: 7px;
+	margin-left: 7px;
+}
+
+
+
+
+
+/*----------Banner-------------*/
+.B1{
+	background-image:url(../images/DB_image/bg_02.gif);
+	background-repeat:no-repeat;
+	background-position:right bottom;
+}
+.B2{
+	color:#686868;
+	font-family:Verdana,Arial,Helvetica,sans-serif;
+	font-size:11px;
+	font-weight:normal;
+	padding-bottom:10px;
+	padding-top:13px;
+	text-decoration:none;
+}
+.B3{
+	background-image:url(../images/DB_image/bg_03.jpg);
+	background-repeat:no-repeat;
+	background-position:center top;
+}
+
+
+/*----------Bottom-------------*/
+.menu_bottom{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: normal;
+	color: #686868;
+	text-decoration: none;
+	padding-top: 13px;
+	padding-bottom: 10px;	
+}
+.text_none_bottom{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: normal;
+	color: #060606;
+	text-decoration: none;
+	line-height: 19px;	
+}
+
+/*----------Search-------------*/
+.search{overflow:hidden;}
+.fl {float:left;}
+.fr {}
+
+.txtsearch {width:129px; height:13px; font:11px arial; color:#9196a2; padding:4px 5px; border:0; border-right: #858585; background: url(../images/DB_image/center.png) center top repeat-x;}
+
+.img-search {border:0;}
+
+
+/*----------portlet-------------*/
+
+#table-portlet{
+	width : 100%;
+
+}
+#tr-portlet{
+	background:url(../images/DB_image/i_04_1.gif) repeat-x scroll;
+	vertical-align:top;
+		
+	width : 100%;
+}
+
+#span11{
+	vertical-align:top;
+	height : 31px;
+}
+
+#span12{
+	height : 0px;	
+		
+}
+#span13{
+	background:url(../images/portlet/i_06.gif) no-repeat;
+	vertical-align:top;
+	width : 5px;
+	height : 31px;
+}
+
+#span21{
+	background: transparent url(../images/DB_image/Portlet_Left.gif) repeat-y scroll left center;
+	vertical-align:top;
+}
+#span22{
+	
+}
+#span23{
+	background: transparent url(../images/DB_image/Portlet_Right.gif) repeat-y scroll right center;
+	vertical-align:top;
+}
+
+#span31{
+	background:#AF0000 url(../images/DB_image/i_05.gif) repeat-y scroll left center;
+	width : 25px;
+	height : 4px;
+}
+#span32{
+	background-color: #AF0000;
+}
+
+#span33{
+	background:#AF0000 url(../images/DB_image/i_05_.gif) repeat-y scroll right center;
+	width : 4px;
+	height : 4px;
+}
+
+
+.title_center{
+	background-image:url(../images/DB_image/i_06.gif);
+	border-top:1px solid #6AC0F6;
+	color:#C52D37;
+	font-family:Tahoma,Verdana,Arial,Helvetica,sans-serif;
+	font-size:13px;
+	font-weight:bold;
+	padding-bottom:9px;
+	padding-left:15px;
+	padding-top:9px;
+	margin-left: -7px;
+	margin-right: -7px;
+	text-decoration:none;
+}
+.content_border{
+	border:1px solid #6AC0F6;
+	padding : 7px;
+	padding-top: 0px;
+}
+
+.text_none{
+	color:#000000;
+	font-family:Tahoma,Verdana,Arial,Helvetica,sans-serif;
+	font-size:11px;
+	font-weight:normal;
+	line-height:16px;
+	text-decoration:none;
+}
+.public_title{
+	color:#3175B9;
+	font-family:Tahoma,Verdana,Arial,Helvetica,sans-serif;
+	font-size:11px;
+	font-weight:bold;
+	line-height:16px;
+	margin-bottom:8px;	
+	text-decoration:none;
+}
+.menu_left td a{
+	color:#B20000;
+	
+}
+.icon_menu{
+	background-image:url(../images/DB_image/i_10.gif);	
+}
+
+@charset "utf-8";
+
+a:hover {
+
+	text-decoration: underline;
+
+	color: #FF9900;
+
+}
+
+a:active {
+
+	text-decoration: none;
+
+	color: #3175b9;
+
+}
+.top_menu {
+	font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	color: #02488c;
+	text-decoration: none;
+}
+.space {
+	font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: normal;
+	color: #02488c;
+	text-decoration: none;
+	padding-right: 5px;
+	padding-left: 5px;
+}
+.boder {
+	border: 0px #FFFFFF;
+}
+.text_none {
+	font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: normal;
+	color: #000000;
+	text-decoration: none;
+	line-height: 16px;
+}
+
+.title_left {
+	font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	color: #FFFFFF;
+	text-decoration: none;
+	padding-left: 2px;
+	text-transform: uppercase;
+	line-height: 18px;
+	padding-top: 1px;
+}
+.title2 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	color: #27429b;
+	text-decoration: none;
+	text-transform: uppercase;
+	background-image: url(../images/navigation/i_12.gif);
+	background-repeat: no-repeat;
+	background-position: left center;
+	padding-left: 20px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-right: 10px;
+}
+.text_2 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	color: #060606;
+	text-decoration: none;
+	padding-left: 20px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+.text_none2 {
+	font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	color: #3175b9;
+	text-decoration: none;
+	line-height: 16px;
+}
+.text_none3 {
+	font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: normal;
+	color: #3175b9;
+	text-decoration: none;
+	line-height: 16px;
+}
+.text_none4 {
+	font-family: Arial, Tahoma, Verdana, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: normal;
+	color: #FFFFFF;
+	text-decoration: none;
+	line-height: 16px;
+}
+.text_none5 {
+	font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	font-weight: bold;
+	color: #F6A305;
+	text-decoration: none;
+}
+.text_none6 {
+	font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	font-weight: bold;
+	color: #CC3300;
+	text-decoration: none;
+}
+.text_none7 {
+	font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: normal;
+	color: #999999;
+	text-decoration: none;
+	line-height: 16px;
+}
+.text_detail {
+	font-family: Arial;
+	font-size: 10pt;
+	font-weight: normal;
+	color: #3175b9;
+	text-decoration: none;
+	line-height: normal;
+	padding-top: 10px;
+	text-align: justify;
+}
+.bg_search {
+	background-color: #1d95f0;
+	background-image: url(../images/i_15.gif);
+	background-repeat: repeat-x;
+}
+
+.dot_menu_left {
+	width: 20px;
+}
+
+
+.menu_left  {
+	font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	color: #b20000;
+	text-decoration: none;
+	line-height:25px;
+	border: 1px solid #ffd483;
+	background-image: url(../images/DB_image/i_09.gif);
+}
+.menu_left a:link,.menu_left,.menu_left a:active  {
+	COLOR: #b20000; TEXT-DECORATION: none}
+	
+.menu_left a:hover {
+	COLOR: #ff9900; TEXT-DECORATION: underline}
+	
+.menuwith {
+	width: 169px;
+}
+.text_download {
+	font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: normal;
+	color: #3e874f;
+	text-decoration: none;
+	line-height: normal;
+}
+/*icon title vpolls*/
+.tit_l{
+	background:url(../images/DB_image/i_08.gif) no-repeat;
+	height:23px;
+	padding:7px 0 0 25px;		
+	font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	color: #FFFFFF;
+	text-decoration: none;	
+	text-transform: uppercase;
+	line-height: 15px;	
+	background-color: #FEB222;
+}
+.logo {
+	background:url(../images/DB_image/logo.gif) 0 0 no-repeat;
+	width:182px;
+	height:77px;
+	display:block;
+}

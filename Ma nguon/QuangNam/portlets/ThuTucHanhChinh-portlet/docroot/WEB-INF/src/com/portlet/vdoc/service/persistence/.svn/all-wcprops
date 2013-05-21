@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/ThuTucHanhChinh-portlet/docroot/WEB-INF/src/com/portlet/vdoc/service/persistence
+END
+vdocDocumentPersistenceImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 172
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/ThuTucHanhChinh-portlet/docroot/WEB-INF/src/com/portlet/vdoc/service/persistence/vdocDocumentPersistenceImpl.java
+END
+vdocLoggerPersistenceImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 170
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/ThuTucHanhChinh-portlet/docroot/WEB-INF/src/com/portlet/vdoc/service/persistence/vdocLoggerPersistenceImpl.java
+END
+vdocDocumentFinderImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 167
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/ThuTucHanhChinh-portlet/docroot/WEB-INF/src/com/portlet/vdoc/service/persistence/vdocDocumentFinderImpl.java
+END
+vdocFieldPersistenceImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 169
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/ThuTucHanhChinh-portlet/docroot/WEB-INF/src/com/portlet/vdoc/service/persistence/vdocFieldPersistenceImpl.java
+END
+vdocDORelPersistenceImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 169
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/ThuTucHanhChinh-portlet/docroot/WEB-INF/src/com/portlet/vdoc/service/persistence/vdocDORelPersistenceImpl.java
+END
+vdocOrgPersistenceImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 167
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/ThuTucHanhChinh-portlet/docroot/WEB-INF/src/com/portlet/vdoc/service/persistence/vdocOrgPersistenceImpl.java
+END

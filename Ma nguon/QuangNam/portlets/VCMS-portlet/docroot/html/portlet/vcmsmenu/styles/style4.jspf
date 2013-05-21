@@ -1,0 +1,38 @@
+<%
+/**
+ * Copyright (c) 2000-2008 VSI, Inc. All rights reserved.
+ *
+**/
+%>
+<script language="javascript">	
+	function <portlet:namespace/>sendDataURL(catURL){
+		document.<portlet:namespace/>fm.action = catURL;
+		document.<portlet:namespace/>fm.submit();
+	}
+</script>
+
+<div class="box_l">
+	<div class="tit_l bold">B&#7843;n Tin</div>
+	<p class="bg_l">
+	<%
+			String[] arrcategories = StringUtil.split(categories,StringPool.COMMA);			
+			if(arrcategories.length>0){
+				for(int i=0;i<arrcategories.length;i++){
+					String catId = arrcategories[i];
+						VcmsCategory category = (VcmsCategory)VcmsCategoryServiceUtil.getCategory(catId);
+							if(category.getParentId().equals("0")){								
+								categoryURL.setParameter("categoryId",category.getCategoryId());
+								categoryURL.setParameter("cat_parent",category.getCategoryId());
+	%>
+						 			<a class="icon_news" href="javascript:void(0);" onclick="javascript:<portlet:namespace/>sendDataURL('<%=categoryURL%>');" ><%=category.getName()%></a>
+									<%if(i < (arrcategories.length - 1)){%>
+									<a class="line_l"></a>
+									<%}%>	
+	<%
+							
+			}
+	  	}
+	}
+	%>
+	</p>
+</div>

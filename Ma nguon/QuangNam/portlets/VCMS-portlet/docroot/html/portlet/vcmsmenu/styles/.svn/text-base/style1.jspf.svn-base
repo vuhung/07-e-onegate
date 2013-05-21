@@ -1,0 +1,57 @@
+<%
+/**
+ * Copyright (c) 2000-2008 VSI, Inc. All rights reserved.
+ *
+**/
+%>
+<script language="javascript">	
+	function <portlet:namespace/>sendDataURL(catURL){
+		document.<portlet:namespace/>fm.action = catURL;
+		document.<portlet:namespace/>fm.submit();
+	}
+</script>
+<table width="100%" border="0" cellspacing="0" cellpadding="0"> 
+	<%
+			String arrcategories[] = StringUtil.split(categories,StringPool.COMMA);			
+			String arrcategoriesStyle[] = StringUtil.split(categoriesStyle,StringPool.COMMA);
+			if(arrcategories.length>0){
+				for(int i=0;i<arrcategories.length;i++){
+					VcmsCategory category = (VcmsCategory)VcmsCategoryServiceUtil.getCategory(arrcategories[i]);
+					if(category.getParentId().equals("0")){		
+						categoryURL.setParameter("categoryId",category.getCategoryId());
+						categoryURL.setParameter("cat_parent",category.getCategoryId());
+						categoryURL.setParameter("cat_style",arrcategoriesStyle[i]);
+	%>
+	            <tr>
+				<td class="menu_left">
+				   <table width="100%" border="0" cellspacing="0" cellpadding="0">
+					  <tr>
+						<td background="<%= themeDisplay.getPathThemeImage()%>/khcn_image/i_10.gif" width="21" height="23">
+						 </td>
+						 <td>
+						    <c:if test="<%= (category.getAnchored() == false)%>">
+					 			<td><a href="javascript:void(0);" onclick="javascript:<portlet:namespace/>sendDataURL('<%=categoryURL%>');" class="me_fu bold"><%=category.getName()%></a>
+							</c:if>
+							<c:if test="<%= (category.getAnchored() == true)%>">
+								<a href="<%=category.getHref()%>"><%=category.getName()%></a>
+							</c:if>
+						 </td>
+					  </tr>
+					</table>
+				</td>
+				</tr>
+ 	            <tr>
+                	<td background="<%= themeDisplay.getPathThemeImage() %>/khcn_image/0.gif" width="1" height="1">
+					</td>
+              	</tr>
+			     <c:if test="<%=Validator.isNotNull(categoryId) && category.getCategoryId().equals(parentId)%>">
+					<%@ include file="/html/portlet/vcmsmenu/styles/view_sub_menu.jspf" %>
+				</c:if>
+
+	<%
+			}
+	  	}
+	}
+	%>
+
+ </table>

@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/s-portlet/docroot/WEB-INF/src/com/test/service/persistence
+END
+AdvItemPersistenceImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 145
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/s-portlet/docroot/WEB-INF/src/com/test/service/persistence/AdvItemPersistenceImpl.java
+END
+AdvItemFinderImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/s-portlet/docroot/WEB-INF/src/com/test/service/persistence/AdvItemFinderImpl.java
+END
+AdvTypePersistenceImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 145
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/s-portlet/docroot/WEB-INF/src/com/test/service/persistence/AdvTypePersistenceImpl.java
+END

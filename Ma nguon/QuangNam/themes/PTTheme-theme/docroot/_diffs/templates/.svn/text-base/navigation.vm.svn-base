@@ -1,0 +1,71 @@
+<script type="text/javascript">
+    var childContainer;
+    var htmlChild = '';
+
+    $(document).ready(function () {
+        childContainer = $(".menu-lv2 ul");
+
+        $(".menu-lv1 li").mouseover(function () {
+			$(".menu-lv1 li.selected").addClass("hidden");
+            $(".menu-lv1 li").removeClass("selected");
+            $(this).addClass("selected");
+            htmlChild = $(this).find("ul").html();
+            childContainer.html(htmlChild);
+        });
+		/*
+        $(".menu-lv1 li").mouseout(function () {
+            $(this).removeClass("selected");
+			var a = $(".menu-lv1 li.hidden");
+			$(".menu-lv1 li.hidden").addClass("selected");
+            htmlChild = a.find("ul").html();
+            childContainer.html(htmlChild);
+        });*/
+        selectedMenu();
+		
+    });
+
+    function selectedMenu() {
+
+        htmlChild = $(".menu-lv1 li.selected").find("ul").html();
+        childContainer.html(htmlChild);	
+    }
+</script>
+
+<nav class="sort-pages modify-pages" id="navigation">
+	<div class="menu-lv1">
+		<ul id="sup_menu">
+			#foreach ($nav_item in $nav_items)
+				#if ($nav_item.isSelected())
+					<li class="selected" >
+				#else
+					<li>
+				#end
+
+					<a href="$nav_item.getURL()" $nav_item.getTarget()><span>$nav_item.icon() $htmlUtil.escape($nav_item.getName())</span></a>
+
+					#if ($nav_item.hasChildren())
+						<ul class="child-menu">
+							#foreach ($nav_child in $nav_item.getChildren())
+								#if ($nav_child.isSelected())
+									<li class="selected">
+								#else
+									<li>
+								#end
+									<a href="$nav_child.getURL()" $nav_child.getTarget()>$nav_child.getName()</a>
+								</li>
+							#end
+						</ul>
+					#else
+						<ul class="no-child-menu">
+								
+						</ul>	
+					#end
+				</li>
+			#end
+		</ul>
+	</div>
+	<div class="menu-lv2">
+		<ul></ul>
+	</div>
+</nav>
+

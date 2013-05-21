@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" default-destroy-method="destroy" default-init-method="afterPropertiesSet" xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+	<bean id="com.vportal.portlet.vsearch.service.VConfigSearchLocalService" class="com.vportal.portlet.vsearch.service.impl.VConfigSearchLocalServiceImpl" />
+	<bean id="com.vportal.portlet.vsearch.service.VConfigSearchLocalServiceUtil" class="com.vportal.portlet.vsearch.service.VConfigSearchLocalServiceUtil">
+		<property name="service" ref="com.vportal.portlet.vsearch.service.VConfigSearchLocalService" />
+	</bean>
+	<bean id="com.vportal.portlet.vsearch.service.VConfigSearchService" class="com.vportal.portlet.vsearch.service.impl.VConfigSearchServiceImpl" />
+	<bean id="com.vportal.portlet.vsearch.service.VConfigSearchServiceUtil" class="com.vportal.portlet.vsearch.service.VConfigSearchServiceUtil">
+		<property name="service" ref="com.vportal.portlet.vsearch.service.VConfigSearchService" />
+	</bean>
+	<bean id="com.vportal.portlet.vsearch.service.persistence.VConfigSearchPersistence" class="com.vportal.portlet.vsearch.service.persistence.VConfigSearchPersistenceImpl" parent="basePersistence" />
+</beans>

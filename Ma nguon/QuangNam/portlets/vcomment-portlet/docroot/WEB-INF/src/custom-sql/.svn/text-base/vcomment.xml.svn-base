@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+
+<custom-sql>
+	<sql id="com.vportal.portlet.vcontact.service.persistence.VContactFinder.findItem">
+		<![CDATA[
+			SELECT
+				*
+			FROM 
+			    VContact
+		]]>
+	</sql>
+	<sql id="com.vportal.portlet.vcontact.service.persistence.VContactFinder.countItem">
+		<![CDATA[
+			SELECT
+				COUNT(*) as total
+			FROM 
+			    VContact
+		]]>
+	</sql>
+</custom-sql>

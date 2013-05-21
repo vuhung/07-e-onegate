@@ -1,0 +1,171 @@
+<?xml version="1.0"?>
+
+<custom-sql>
+	<sql id="com.vportal.portlet.vlegal.service.persistence.VLegalDocumentFinder.findDocument">
+		<![CDATA[
+			SELECT
+				*
+			FROM 
+			    VLegalDocument
+		]]>
+	</sql>
+	<sql id="com.vportal.portlet.vlegal.service.persistence.VLegalDocumentFinder.countDocument">
+		<![CDATA[
+			SELECT
+				COUNT(*) as total
+			FROM 
+			    VLegalDocument
+		]]>
+	</sql>
+	<sql id="com.vportal.portlet.vlegal.service.persistence.VLegalTagsFinder.findVLegalTagsByName">
+		<![CDATA[
+			SELECT
+				*
+			FROM 
+			    VLegalTags
+		]]>
+	</sql>
+	<sql id="com.vportal.portlet.vlegal.service.persistence.VLegalLoggerFinder.findByUser">
+		<![CDATA[
+			SELECT
+				*
+			FROM 
+			    VcmsLogger
+			WHERE
+				(VcmsLogger.createdByUser IS NULL) AND
+				(VcmsLogger.createdByUser = ?)    
+			ORDER BY
+				VcmsLogger.createdDate DESC	
+		]]>
+	</sql>
+	<sql id="com.vportal.portlet.vlegal.service.persistence.VLegalDraftDocumentFinder.findByDraftsExpiredDateByP_L_S">
+		<![CDATA[
+			SELECT
+				*
+			FROM 
+			    VLegalDraftDocument
+			WHERE
+				(VLegalDraftDocument.expiredDate <= ?) AND
+				(VLegalDraftDocument.groupId = ?) AND    
+				(VLegalDraftDocument.language = ?) AND
+				(VLegalDraftDocument.statusDraft = ?)
+			ORDER BY
+				VLegalDraftDocument.expiredDate DESC
+		]]>
+	</sql>
+	<sql id="com.vportal.portlet.vlegal.service.persistence.VLegalDraftDocumentFinder.countByDraftsExpiredDateByP_L_S">
+		<![CDATA[
+			SELECT
+				COUNT(*) as total
+			FROM 
+			    VLegalDraftDocument
+			WHERE
+				(VLegalDraftDocument.expiredDate <= ?) AND
+				(VLegalDraftDocument.groupId = ?) AND    
+				(VLegalDraftDocument.language = ?) AND
+				(VLegalDraftDocument.statusDraft = ?)
+		]]>
+	</sql>
+	<sql id="com.vportal.portlet.vlegal.service.persistence.VLegalDraftDocumentFinder.findDraftsByP_L_S_E">
+		<![CDATA[
+			SELECT
+				*
+			FROM 
+			    VLegalDraftDocument
+			WHERE
+				(VLegalDraftDocument.expiredDate > ?) AND
+				(VLegalDraftDocument.groupId = ?) AND    
+				(VLegalDraftDocument.language = ?) AND
+				(VLegalDraftDocument.statusDraft = ?)
+			ORDER BY
+				VLegalDraftDocument.expiredDate DESC
+		]]>
+	</sql>
+	
+	<sql id="com.vportal.portlet.vlegal.service.persistence.VLegalDraftDocumentFinder.countDraftsByP_L_S_E">
+		<![CDATA[
+			SELECT
+				COUNT(*) as total
+			FROM 
+			    VLegalDraftDocument
+			WHERE
+				(VLegalDraftDocument.expiredDate > ?) AND
+				(VLegalDraftDocument.groupId = ?) AND    
+				(VLegalDraftDocument.language = ?) AND
+				(VLegalDraftDocument.statusDraft = ?)			
+		]]>
+	</sql>
+	<sql id="com.vportal.portlet.vlegal.service.persistence.VLegalDraftDocumentFinder.findByP_L_S">
+		<![CDATA[
+			SELECT
+				*
+			FROM 
+			    VLegalDraftDocument
+			WHERE
+				(VLegalDraftDocument.groupId = ?) AND
+				(VLegalDraftDocument.language = ?) AND    
+				(VLegalDraftDocument.statusDraft = ?) 
+			ORDER BY
+				VLegalDraftDocument.publishedDate DESC
+		]]>
+	</sql>
+	<sql id="com.vportal.portlet.vlegal.service.persistence.VLegalDraftDocumentFinder.findByF_P_L_S">
+		<![CDATA[
+			SELECT
+				*
+			FROM 
+			    VLegalDraftDocument
+			WHERE
+				(VLegalDraftDocument.fieldId = ?) AND
+				(VLegalDraftDocument.groupId = ?) AND    
+				(VLegalDraftDocument.language = ?) AND
+				(VLegalDraftDocument.statusDraft = ?) 
+			ORDER BY
+				VLegalDraftDocument.publishedDate DESC
+		]]>
+	</sql>
+	<sql id="com.vportal.portlet.vlegal.service.persistence.VLegalDraftDocumentFinder.findByAfterD_G_L_S">
+		<![CDATA[
+			SELECT
+				*
+			FROM 
+			    VLegalDraftDocument
+			WHERE
+				(VLegalDraftDocument.fieldId = ?) AND
+				(VLegalDraftDocument.groupId = ?) AND    
+				(VLegalDraftDocument.language = ?) AND
+				(VLegalDraftDocument.statusDraft = ?) AND
+				(VLegalDraftDocument.publishedDate < ?) 
+			ORDER BY
+				VLegalDraftDocument.publishedDate DESC
+		]]>
+	</sql>
+	<sql id="com.vportal.portlet.vlegal.service.persistence.VLegalFieldFinder.findField">
+		<![CDATA[
+			SELECT
+				*
+			FROM 
+			    VLegalField
+		]]>
+	</sql>
+	
+	<sql id="com.vportal.portlet.vlegal.service.persistence.VLegalDraftDocumentFinder.findByParam">
+		<![CDATA[
+			SELECT
+				*
+			FROM 
+			    VLegalDraftDocument					
+
+		]]>
+	</sql>
+	
+	<sql id="com.vportal.portlet.vlegal.service.persistence.VLegalDraftDocumentFinder.countByParam">
+		<![CDATA[
+			SELECT
+				COUNT(*) as total
+			FROM 
+			    VLegalDraftDocument				
+			
+		]]>
+	</sql>
+</custom-sql>

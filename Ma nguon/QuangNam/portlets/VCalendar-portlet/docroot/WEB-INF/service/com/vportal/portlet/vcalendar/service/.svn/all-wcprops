@@ -1,0 +1,83 @@
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/VCalendar-portlet/docroot/WEB-INF/service/com/vportal/portlet/vcalendar/service
+END
+VCalLocalServiceUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 164
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/VCalendar-portlet/docroot/WEB-INF/service/com/vportal/portlet/vcalendar/service/VCalLocalServiceUtil.java
+END
+VCalLocalServiceClp.java
+K 25
+svn:wc:ra_dav:version-url
+V 163
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/VCalendar-portlet/docroot/WEB-INF/service/com/vportal/portlet/vcalendar/service/VCalLocalServiceClp.java
+END
+VCalLocalService.java
+K 25
+svn:wc:ra_dav:version-url
+V 160
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/VCalendar-portlet/docroot/WEB-INF/service/com/vportal/portlet/vcalendar/service/VCalLocalService.java
+END
+VCalLocalServiceWrapper.java
+K 25
+svn:wc:ra_dav:version-url
+V 167
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/VCalendar-portlet/docroot/WEB-INF/service/com/vportal/portlet/vcalendar/service/VCalLocalServiceWrapper.java
+END
+VCalServiceUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 159
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/VCalendar-portlet/docroot/WEB-INF/service/com/vportal/portlet/vcalendar/service/VCalServiceUtil.java
+END
+VFileServiceUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 160
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/VCalendar-portlet/docroot/WEB-INF/service/com/vportal/portlet/vcalendar/service/VFileServiceUtil.java
+END
+VCalServiceClp.java
+K 25
+svn:wc:ra_dav:version-url
+V 158
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/VCalendar-portlet/docroot/WEB-INF/service/com/vportal/portlet/vcalendar/service/VCalServiceClp.java
+END
+VFileServiceClp.java
+K 25
+svn:wc:ra_dav:version-url
+V 159
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/VCalendar-portlet/docroot/WEB-INF/service/com/vportal/portlet/vcalendar/service/VFileServiceClp.java
+END
+VCalService.java
+K 25
+svn:wc:ra_dav:version-url
+V 155
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/VCalendar-portlet/docroot/WEB-INF/service/com/vportal/portlet/vcalendar/service/VCalService.java
+END
+VFileService.java
+K 25
+svn:wc:ra_dav:version-url
+V 156
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/VCalendar-portlet/docroot/WEB-INF/service/com/vportal/portlet/vcalendar/service/VFileService.java
+END
+VCalServiceWrapper.java
+K 25
+svn:wc:ra_dav:version-url
+V 162
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/VCalendar-portlet/docroot/WEB-INF/service/com/vportal/portlet/vcalendar/service/VCalServiceWrapper.java
+END
+VFileServiceWrapper.java
+K 25
+svn:wc:ra_dav:version-url
+V 163
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/VCalendar-portlet/docroot/WEB-INF/service/com/vportal/portlet/vcalendar/service/VFileServiceWrapper.java
+END
+ClpSerializer.java
+K 25
+svn:wc:ra_dav:version-url
+V 157
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/VCalendar-portlet/docroot/WEB-INF/service/com/vportal/portlet/vcalendar/service/ClpSerializer.java
+END

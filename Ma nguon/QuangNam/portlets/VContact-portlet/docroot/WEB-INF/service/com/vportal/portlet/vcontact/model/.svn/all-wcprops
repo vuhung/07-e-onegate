@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/VContact-portlet/docroot/WEB-INF/service/com/vportal/portlet/vcontact/model
+END
+VContactClp.java
+K 25
+svn:wc:ra_dav:version-url
+V 151
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/VContact-portlet/docroot/WEB-INF/service/com/vportal/portlet/vcontact/model/VContactClp.java
+END
+VContact.java
+K 25
+svn:wc:ra_dav:version-url
+V 148
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/VContact-portlet/docroot/WEB-INF/service/com/vportal/portlet/vcontact/model/VContact.java
+END
+VContactModel.java
+K 25
+svn:wc:ra_dav:version-url
+V 153
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/VContact-portlet/docroot/WEB-INF/service/com/vportal/portlet/vcontact/model/VContactModel.java
+END
+VContactWrapper.java
+K 25
+svn:wc:ra_dav:version-url
+V 155
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/VContact-portlet/docroot/WEB-INF/service/com/vportal/portlet/vcontact/model/VContactWrapper.java
+END
+VContactSoap.java
+K 25
+svn:wc:ra_dav:version-url
+V 152
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/VContact-portlet/docroot/WEB-INF/service/com/vportal/portlet/vcontact/model/VContactSoap.java
+END

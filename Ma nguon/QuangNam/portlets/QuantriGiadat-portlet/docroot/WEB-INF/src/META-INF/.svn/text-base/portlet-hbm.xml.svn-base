@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping default-lazy="false" auto-import="false">
+	<import class="com.test.model.VlookuppriceCategory" />
+	<import class="com.test.model.Vlookupprice" />
+	<class name="com.test.model.impl.VlookuppriceCategoryImpl" table="QuanTri_VlookuppriceCategory">
+		<cache usage="read-write" />
+		<id name="categoryId" type="java.lang.String">
+			<generator class="assigned" />
+		</id>
+		<property name="groupId" type="com.liferay.portal.dao.orm.hibernate.LongType" />
+		<property name="companyId" type="com.liferay.portal.dao.orm.hibernate.LongType" />
+		<property name="createdDate" type="org.hibernate.type.TimestampType" />
+		<property name="createdByUser" type="com.liferay.portal.dao.orm.hibernate.StringType" />
+		<property name="modifiedDate" type="org.hibernate.type.TimestampType" />
+		<property name="modifiedByUser" type="com.liferay.portal.dao.orm.hibernate.StringType" />
+		<property name="parentId" type="com.liferay.portal.dao.orm.hibernate.StringType" />
+		<property name="name" type="com.liferay.portal.dao.orm.hibernate.StringType" />
+		<property name="description" type="com.liferay.portal.dao.orm.hibernate.StringType" />
+		<property name="language" type="com.liferay.portal.dao.orm.hibernate.StringType" />
+	</class>
+	<class name="com.test.model.impl.VlookuppriceImpl" table="QuanTri_Vlookupprice">
+		<cache usage="read-write" />
+		<id name="lookuppriceId" type="java.lang.String">
+			<generator class="assigned" />
+		</id>
+		<property name="groupId" type="com.liferay.portal.dao.orm.hibernate.LongType" />
+		<property name="companyId" type="com.liferay.portal.dao.orm.hibernate.LongType" />
+		<property name="createdByUser" type="com.liferay.portal.dao.orm.hibernate.StringType" />
+		<property name="createdDate" type="org.hibernate.type.TimestampType" />
+		<property name="modifiedByUser" type="com.liferay.portal.dao.orm.hibernate.StringType" />
+		<property name="modifiedDate" type="org.hibernate.type.TimestampType" />
+		<property name="status" type="com.liferay.portal.dao.orm.hibernate.IntegerType" />
+		<property name="price" type="com.liferay.portal.dao.orm.hibernate.IntegerType" />
+		<property name="position1" type="com.liferay.portal.dao.orm.hibernate.StringType" />
+		<property name="position2" type="com.liferay.portal.dao.orm.hibernate.StringType" />
+		<property name="position3" type="com.liferay.portal.dao.orm.hibernate.StringType" />
+		<property name="position4" type="com.liferay.portal.dao.orm.hibernate.StringType" />
+		<property name="position5" type="com.liferay.portal.dao.orm.hibernate.StringType" />
+		<property name="title" type="com.liferay.portal.dao.orm.hibernate.StringType" />
+		<property name="content" type="com.liferay.portal.dao.orm.hibernate.StringType" />
+		<property name="parentId" type="com.liferay.portal.dao.orm.hibernate.StringType" />
+		<property name="language" type="com.liferay.portal.dao.orm.hibernate.StringType" />
+		<property name="listParent" type="com.liferay.portal.dao.orm.hibernate.StringType" />
+	</class>
+</hibernate-mapping>

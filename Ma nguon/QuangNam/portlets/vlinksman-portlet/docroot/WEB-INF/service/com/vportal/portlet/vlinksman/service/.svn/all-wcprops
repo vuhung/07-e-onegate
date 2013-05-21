@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/vlinksman-portlet/docroot/WEB-INF/service/com/vportal/portlet/vlinksman/service
+END
+LinksServiceUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 160
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/vlinksman-portlet/docroot/WEB-INF/service/com/vportal/portlet/vlinksman/service/LinksServiceUtil.java
+END
+LinksServiceClp.java
+K 25
+svn:wc:ra_dav:version-url
+V 159
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/vlinksman-portlet/docroot/WEB-INF/service/com/vportal/portlet/vlinksman/service/LinksServiceClp.java
+END
+LinksService.java
+K 25
+svn:wc:ra_dav:version-url
+V 156
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/vlinksman-portlet/docroot/WEB-INF/service/com/vportal/portlet/vlinksman/service/LinksService.java
+END
+LinksServiceWrapper.java
+K 25
+svn:wc:ra_dav:version-url
+V 163
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/vlinksman-portlet/docroot/WEB-INF/service/com/vportal/portlet/vlinksman/service/LinksServiceWrapper.java
+END
+ClpSerializer.java
+K 25
+svn:wc:ra_dav:version-url
+V 157
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/vlinksman-portlet/docroot/WEB-INF/service/com/vportal/portlet/vlinksman/service/ClpSerializer.java
+END
+LinkGroupServiceUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 164
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/vlinksman-portlet/docroot/WEB-INF/service/com/vportal/portlet/vlinksman/service/LinkGroupServiceUtil.java
+END
+LinkGroupServiceClp.java
+K 25
+svn:wc:ra_dav:version-url
+V 163
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/vlinksman-portlet/docroot/WEB-INF/service/com/vportal/portlet/vlinksman/service/LinkGroupServiceClp.java
+END
+LinkGroupService.java
+K 25
+svn:wc:ra_dav:version-url
+V 160
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/vlinksman-portlet/docroot/WEB-INF/service/com/vportal/portlet/vlinksman/service/LinkGroupService.java
+END
+LinkGroupServiceWrapper.java
+K 25
+svn:wc:ra_dav:version-url
+V 167
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/vlinksman-portlet/docroot/WEB-INF/service/com/vportal/portlet/vlinksman/service/LinkGroupServiceWrapper.java
+END

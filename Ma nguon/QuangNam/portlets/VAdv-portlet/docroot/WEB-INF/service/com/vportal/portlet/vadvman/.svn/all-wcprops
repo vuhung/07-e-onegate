@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/VAdv-portlet/docroot/WEB-INF/service/com/vportal/portlet/vadvman
+END
+InvalidSizeFileException.java
+K 25
+svn:wc:ra_dav:version-url
+V 153
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/VAdv-portlet/docroot/WEB-INF/service/com/vportal/portlet/vadvman/InvalidSizeFileException.java
+END
+DeleteTypeException.java
+K 25
+svn:wc:ra_dav:version-url
+V 148
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/VAdv-portlet/docroot/WEB-INF/service/com/vportal/portlet/vadvman/DeleteTypeException.java
+END
+InvalidItemNameException.java
+K 25
+svn:wc:ra_dav:version-url
+V 153
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/VAdv-portlet/docroot/WEB-INF/service/com/vportal/portlet/vadvman/InvalidItemNameException.java
+END
+InvalidItemDescriptionException.java
+K 25
+svn:wc:ra_dav:version-url
+V 160
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/VAdv-portlet/docroot/WEB-INF/service/com/vportal/portlet/vadvman/InvalidItemDescriptionException.java
+END
+InvalidTypeNameException.java
+K 25
+svn:wc:ra_dav:version-url
+V 153
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/VAdv-portlet/docroot/WEB-INF/service/com/vportal/portlet/vadvman/InvalidTypeNameException.java
+END
+InvalidUrlException.java
+K 25
+svn:wc:ra_dav:version-url
+V 148
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/VAdv-portlet/docroot/WEB-INF/service/com/vportal/portlet/vadvman/InvalidUrlException.java
+END
+NoSuchAdvItemException.java
+K 25
+svn:wc:ra_dav:version-url
+V 151
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/VAdv-portlet/docroot/WEB-INF/service/com/vportal/portlet/vadvman/NoSuchAdvItemException.java
+END
+NoSuchAdvTypeException.java
+K 25
+svn:wc:ra_dav:version-url
+V 151
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/VAdv-portlet/docroot/WEB-INF/service/com/vportal/portlet/vadvman/NoSuchAdvTypeException.java
+END
+ItemExpirationDateException.java
+K 25
+svn:wc:ra_dav:version-url
+V 156
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/VAdv-portlet/docroot/WEB-INF/service/com/vportal/portlet/vadvman/ItemExpirationDateException.java
+END

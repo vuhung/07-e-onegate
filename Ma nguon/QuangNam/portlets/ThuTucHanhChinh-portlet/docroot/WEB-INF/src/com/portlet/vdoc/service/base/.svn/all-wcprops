@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/ThuTucHanhChinh-portlet/docroot/WEB-INF/src/com/portlet/vdoc/service/base
+END
+vdocDORelServiceBaseImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 162
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/ThuTucHanhChinh-portlet/docroot/WEB-INF/src/com/portlet/vdoc/service/base/vdocDORelServiceBaseImpl.java
+END
+vdocOrgServiceBaseImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 160
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/ThuTucHanhChinh-portlet/docroot/WEB-INF/src/com/portlet/vdoc/service/base/vdocOrgServiceBaseImpl.java
+END
+vdocDocumentLocalServiceBaseImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 170
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/ThuTucHanhChinh-portlet/docroot/WEB-INF/src/com/portlet/vdoc/service/base/vdocDocumentLocalServiceBaseImpl.java
+END
+vdocLoggerLocalServiceBaseImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 168
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/ThuTucHanhChinh-portlet/docroot/WEB-INF/src/com/portlet/vdoc/service/base/vdocLoggerLocalServiceBaseImpl.java
+END
+vdocDocumentServiceBaseImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 165
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/ThuTucHanhChinh-portlet/docroot/WEB-INF/src/com/portlet/vdoc/service/base/vdocDocumentServiceBaseImpl.java
+END
+vdocFieldLocalServiceBaseImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 167
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/ThuTucHanhChinh-portlet/docroot/WEB-INF/src/com/portlet/vdoc/service/base/vdocFieldLocalServiceBaseImpl.java
+END
+vdocLoggerServiceBaseImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 163
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/ThuTucHanhChinh-portlet/docroot/WEB-INF/src/com/portlet/vdoc/service/base/vdocLoggerServiceBaseImpl.java
+END
+vdocDORelLocalServiceBaseImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 167
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/ThuTucHanhChinh-portlet/docroot/WEB-INF/src/com/portlet/vdoc/service/base/vdocDORelLocalServiceBaseImpl.java
+END
+vdocOrgLocalServiceBaseImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 165
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/ThuTucHanhChinh-portlet/docroot/WEB-INF/src/com/portlet/vdoc/service/base/vdocOrgLocalServiceBaseImpl.java
+END
+vdocFieldServiceBaseImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 162
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/ThuTucHanhChinh-portlet/docroot/WEB-INF/src/com/portlet/vdoc/service/base/vdocFieldServiceBaseImpl.java
+END

@@ -1,0 +1,29 @@
+.portlet-border{
+
+}
+
+.portlet-border.vcmsviewconent-portlet{
+	
+}
+
+.portlet-border.vcmsviewconent-portlet.default{
+	
+}
+
+.portlet-border.vcmsviewconent-portlet.default .style6 .top-article{
+	float:left;
+}
+
+.portlet-border.vcmsviewconent-portlet.default .style6 .top-article .imagetop{
+	width: 50%;
+	height: 50%;
+	padding-right: 10px;
+}
+
+.portlet-border.vcmsviewconent-portlet.default .style6 .relate-article{
+	float:left;
+}
+
+.portlet-border.vcmsviewconent-portlet.default .style6 .relate-article .list-relate-article{
+	margin-left: 15px;
+}

@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/vclip-portlet/docroot/WEB-INF/src/com/vportal/portlet/vclip/util
+END
+ImageUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/vclip-portlet/docroot/WEB-INF/src/com/vportal/portlet/vclip/util/ImageUtil.java
+END
+ActionKeysClipExt.java
+K 25
+svn:wc:ra_dav:version-url
+V 146
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/vclip-portlet/docroot/WEB-INF/src/com/vportal/portlet/vclip/util/ActionKeysClipExt.java
+END
+LayoutPortletUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 146
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/vclip-portlet/docroot/WEB-INF/src/com/vportal/portlet/vclip/util/LayoutPortletUtil.java
+END
+ImagesUtils.java
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/vclip-portlet/docroot/WEB-INF/src/com/vportal/portlet/vclip/util/ImagesUtils.java
+END
+WebKeysVClip.java
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/vclip-portlet/docroot/WEB-INF/src/com/vportal/portlet/vclip/util/WebKeysVClip.java
+END

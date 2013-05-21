@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/QuantriGiadat-portlet/docroot/WEB-INF/src/com/test/service/persistence
+END
+VlookuppriceCategoryPersistenceImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 170
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/QuantriGiadat-portlet/docroot/WEB-INF/src/com/test/service/persistence/VlookuppriceCategoryPersistenceImpl.java
+END
+VlookuppricePersistenceImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 162
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/QuantriGiadat-portlet/docroot/WEB-INF/src/com/test/service/persistence/VlookuppricePersistenceImpl.java
+END
+VlookuppriceFinderImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 157
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/QuantriGiadat-portlet/docroot/WEB-INF/src/com/test/service/persistence/VlookuppriceFinderImpl.java
+END

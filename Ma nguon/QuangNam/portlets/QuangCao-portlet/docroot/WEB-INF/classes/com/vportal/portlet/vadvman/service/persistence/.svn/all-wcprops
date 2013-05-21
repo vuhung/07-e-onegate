@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 147
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/QuangCao-portlet/docroot/WEB-INF/classes/com/vportal/portlet/vadvman/service/persistence
+END
+AdvItemPersistenceImpl.class
+K 25
+svn:wc:ra_dav:version-url
+V 176
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/QuangCao-portlet/docroot/WEB-INF/classes/com/vportal/portlet/vadvman/service/persistence/AdvItemPersistenceImpl.class
+END
+AdvItemFinderImpl.class
+K 25
+svn:wc:ra_dav:version-url
+V 171
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/QuangCao-portlet/docroot/WEB-INF/classes/com/vportal/portlet/vadvman/service/persistence/AdvItemFinderImpl.class
+END
+AdvTypePersistenceImpl.class
+K 25
+svn:wc:ra_dav:version-url
+V 176
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/QuangCao-portlet/docroot/WEB-INF/classes/com/vportal/portlet/vadvman/service/persistence/AdvTypePersistenceImpl.class
+END

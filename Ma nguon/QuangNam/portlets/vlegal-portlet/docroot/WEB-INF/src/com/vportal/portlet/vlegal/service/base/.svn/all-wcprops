@@ -1,0 +1,107 @@
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/vlegal-portlet/docroot/WEB-INF/src/com/vportal/portlet/vlegal/service/base
+END
+VLegalFORelServiceBaseImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 165
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/vlegal-portlet/docroot/WEB-INF/src/com/vportal/portlet/vlegal/service/base/VLegalFORelServiceBaseImpl.java
+END
+VLegalDSRelServiceBaseImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 165
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/vlegal-portlet/docroot/WEB-INF/src/com/vportal/portlet/vlegal/service/base/VLegalDSRelServiceBaseImpl.java
+END
+VLegalTDRelServiceBaseImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 165
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/vlegal-portlet/docroot/WEB-INF/src/com/vportal/portlet/vlegal/service/base/VLegalTDRelServiceBaseImpl.java
+END
+VLegalDURelServiceBaseImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 165
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/vlegal-portlet/docroot/WEB-INF/src/com/vportal/portlet/vlegal/service/base/VLegalDURelServiceBaseImpl.java
+END
+VLegalFTRelServiceBaseImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 165
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/vlegal-portlet/docroot/WEB-INF/src/com/vportal/portlet/vlegal/service/base/VLegalFTRelServiceBaseImpl.java
+END
+VLegalDocumentServiceBaseImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 168
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/vlegal-portlet/docroot/WEB-INF/src/com/vportal/portlet/vlegal/service/base/VLegalDocumentServiceBaseImpl.java
+END
+VLegalLoggerServiceBaseImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 166
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/vlegal-portlet/docroot/WEB-INF/src/com/vportal/portlet/vlegal/service/base/VLegalLoggerServiceBaseImpl.java
+END
+VLegalSuggestDocumentServiceBaseImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 175
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/vlegal-portlet/docroot/WEB-INF/src/com/vportal/portlet/vlegal/service/base/VLegalSuggestDocumentServiceBaseImpl.java
+END
+VLegalTypeServiceBaseImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 164
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/vlegal-portlet/docroot/WEB-INF/src/com/vportal/portlet/vlegal/service/base/VLegalTypeServiceBaseImpl.java
+END
+VLegalAttachedMessageServiceBaseImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 175
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/vlegal-portlet/docroot/WEB-INF/src/com/vportal/portlet/vlegal/service/base/VLegalAttachedMessageServiceBaseImpl.java
+END
+VLegalFieldServiceBaseImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 165
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/vlegal-portlet/docroot/WEB-INF/src/com/vportal/portlet/vlegal/service/base/VLegalFieldServiceBaseImpl.java
+END
+VLegalSignerServiceBaseImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 166
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/vlegal-portlet/docroot/WEB-INF/src/com/vportal/portlet/vlegal/service/base/VLegalSignerServiceBaseImpl.java
+END
+VLegalOrgServiceBaseImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 163
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/vlegal-portlet/docroot/WEB-INF/src/com/vportal/portlet/vlegal/service/base/VLegalOrgServiceBaseImpl.java
+END
+VLegalDDRelServiceBaseImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 165
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/vlegal-portlet/docroot/WEB-INF/src/com/vportal/portlet/vlegal/service/base/VLegalDDRelServiceBaseImpl.java
+END
+VLegalDFRelServiceBaseImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 165
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/vlegal-portlet/docroot/WEB-INF/src/com/vportal/portlet/vlegal/service/base/VLegalDFRelServiceBaseImpl.java
+END
+VLegalTagsServiceBaseImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 164
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/vlegal-portlet/docroot/WEB-INF/src/com/vportal/portlet/vlegal/service/base/VLegalTagsServiceBaseImpl.java
+END
+VLegalDraftDocumentServiceBaseImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 173
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/vlegal-portlet/docroot/WEB-INF/src/com/vportal/portlet/vlegal/service/base/VLegalDraftDocumentServiceBaseImpl.java
+END

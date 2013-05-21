@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/vclip-portlet/docroot/WEB-INF/src/com/vportal/portlet/vclip/service/persistence
+END
+ClipTypePersistenceImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 167
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/vclip-portlet/docroot/WEB-INF/src/com/vportal/portlet/vclip/service/persistence/ClipTypePersistenceImpl.java
+END
+ClipFinderImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 158
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/vclip-portlet/docroot/WEB-INF/src/com/vportal/portlet/vclip/service/persistence/ClipFinderImpl.java
+END
+ClipTypeFinderImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 162
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/vclip-portlet/docroot/WEB-INF/src/com/vportal/portlet/vclip/service/persistence/ClipTypeFinderImpl.java
+END
+ClipPersistenceImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 163
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/vclip-portlet/docroot/WEB-INF/src/com/vportal/portlet/vclip/service/persistence/ClipPersistenceImpl.java
+END

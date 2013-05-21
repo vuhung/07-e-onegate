@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+
+<custom-sql>
+	<sql id="com.vportal.portlet.vlegal.service.persistence.VLegalDocumentFinder.findDocument">
+		<![CDATA[
+			SELECT * FROM VLegalDocument		
+		]]>
+	</sql>
+	<sql id="com.vportal.portlet.vlegal.service.persistence.VLegalDocumentFinder.countDocument">
+		<![CDATA[
+			SELECT COUNT(*) AS TOTAL FROM VLegalDocument
+		]]>
+	</sql>
+	<sql id="com.vportal.portlet.vlegal.service.persistence.VLegalDocumentFinder.countDocPromul">
+		<![CDATA[
+			SELECT * FROM VLegalDocument WHERE YEAR(promuldate) = ?
+		]]>
+	</sql>
+</custom-sql>

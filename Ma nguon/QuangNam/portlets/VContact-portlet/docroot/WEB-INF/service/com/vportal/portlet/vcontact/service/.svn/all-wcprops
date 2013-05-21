@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/VContact-portlet/docroot/WEB-INF/service/com/vportal/portlet/vcontact/service
+END
+VContactServiceUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 161
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/VContact-portlet/docroot/WEB-INF/service/com/vportal/portlet/vcontact/service/VContactServiceUtil.java
+END
+VContactServiceClp.java
+K 25
+svn:wc:ra_dav:version-url
+V 160
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/VContact-portlet/docroot/WEB-INF/service/com/vportal/portlet/vcontact/service/VContactServiceClp.java
+END
+VContactService.java
+K 25
+svn:wc:ra_dav:version-url
+V 157
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/VContact-portlet/docroot/WEB-INF/service/com/vportal/portlet/vcontact/service/VContactService.java
+END
+VContactServiceWrapper.java
+K 25
+svn:wc:ra_dav:version-url
+V 164
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/VContact-portlet/docroot/WEB-INF/service/com/vportal/portlet/vcontact/service/VContactServiceWrapper.java
+END
+ClpSerializer.java
+K 25
+svn:wc:ra_dav:version-url
+V 155
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/VContact-portlet/docroot/WEB-INF/service/com/vportal/portlet/vcontact/service/ClpSerializer.java
+END

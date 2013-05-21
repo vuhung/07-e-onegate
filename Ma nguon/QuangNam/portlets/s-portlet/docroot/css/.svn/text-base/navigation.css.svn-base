@@ -1,0 +1,77 @@
+/* This CSS sets the default styles for the main navigation. */
+
+/* ---------- Main navigation ---------- */
+
+#navigation {
+	margin: 0;
+	padding:0;
+	width:100%;
+	overflow: hidden;	
+}
+
+#navigation ul {
+	margin:0;
+	padding:0;
+	width:100%;
+	float: none;
+	min-height: auto;
+}
+
+#navigation li {
+	list-style: none;
+	background-color:#FFFFFF;
+	border:1px none #FFFFFF;
+	background-image: url(../images/DB_image/nen.jpg);
+	float:left;
+	font-family:Arial,Helvetica,sans-serif;
+	font-size:11px;
+	margin-right:2px;
+	text-decoration:none;
+	width:auto;
+	padding-top: 0;
+}
+
+#navigation li a {
+	display: block;
+	padding-top: 25px;
+	float:left;
+	width:auto;
+	color:#000000;
+	text-decoration:none;
+}
+
+#navigation li a:hover {
+	color:#CC0000;
+	text-decoration:none;
+}
+
+#navigation li a span {	
+	float:left;
+	padding:5px 7px 4px;
+}
+
+#navigation li.selected {
+	background-color:#650C04;
+}
+
+#navigation li.selected a {
+	display: block;
+	padding-top: 25px;
+	color:#27429B;	
+	background-color:#650C04;
+}
+
+#navigation li.selected a span {
+	background-color:#650C04;
+	float:left;
+	padding:5px 7px 4px;
+	width: auto;
+	color:#FFF6CD;
+}
+
+#navigation li.selected a:hover {
+}
+
+#navigation .child-menu {
+	display: none;
+}

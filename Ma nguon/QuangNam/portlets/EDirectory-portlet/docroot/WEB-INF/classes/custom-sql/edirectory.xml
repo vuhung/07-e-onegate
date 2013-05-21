@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE resource-action-mapping PUBLIC "-//Liferay//DTD Resource Action Mapping 6.1.0//EN" "http://www.liferay.com/dtd/liferay-resource-action-mapping_6_1_0.dtd">
+
+<custom-sql>
+	<sql id="com.vsi.edirectory.portlet.service.persistence.EDEmployeeFinderImpl.findEmployee">
+		<![CDATA[
+			SELECT
+				{edir_EDEmployee.*}
+			FROM 
+			    edir_EDEmployee
+		]]>
+	</sql>
+	
+	<sql id="com.vsi.edirectory.portlet.service.persistence.EDEmployeeFinderImpl.countFunction">
+		<![CDATA[
+			SELECT
+				COUNT(*) as total
+			FROM 
+			    edir_EDFunction
+		]]>
+	</sql>
+	
+	<sql id="com.vsi.edirectory.portlet.service.persistence.EDEmployeeFinderImpl.findFunction">
+		<![CDATA[
+			SELECT
+				*
+			FROM 
+			    edir_EDFunction
+		]]>
+	</sql>
+	
+	<sql id="com.vsi.edirectory.portlet.service.persistence.EDEmployeeFinderImpl.countEmployee">
+		<![CDATA[
+			SELECT
+				COUNT(*) as total
+			FROM 
+			    edir_EDEmployee
+		]]>
+	</sql>
+	<sql id="com.vsi.edirectory.portlet.service.persistence.EDEmployeeFinderImpl.getEmployees">
+		<![CDATA[
+			SELECT
+				{edir_EDEmployee.*}
+			FROM
+				edir_EDEmployee
+			WHERE
+				(edir_EDEmployee.name like ?)
+		]]>
+	</sql>
+</custom-sql>

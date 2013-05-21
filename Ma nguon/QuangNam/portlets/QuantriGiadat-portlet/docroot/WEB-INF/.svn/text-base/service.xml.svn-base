@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE service-builder PUBLIC "-//Liferay//DTD Service Builder 6.0.0//EN" "http://www.liferay.com/dtd/liferay-service-builder_6_0_0.dtd">
+<service-builder package-path="com.test">
+	<author>Long</author>
+	<namespace>QuanTri</namespace>
+
+	<entity name="VlookuppriceCategory" local-service="false"
+		remote-service="true">
+
+		<!-- PK fields -->
+		<column name="categoryId" type="String" primary="true" />
+		
+		<!-- Group and Company instance -->
+
+		<column name="groupId" type="long" />
+		<column name="companyId" type="long" />
+		
+		<!-- Audit fields -->
+		<column name="createdDate" type="Date" />
+		<column name="createdByUser" type="String" />
+
+		<column name="modifiedDate" type="Date" />
+		<column name="modifiedByUser" type="String" />
+
+		<!-- Other fields -->
+		
+		<column name="parentId" type="String" />
+		<column name="name" type="String" />
+		<column name="description" type="String" />
+
+		<column name="language" type="String" />
+		<!-- Sorting -->
+		<order by="asc">
+			<order-column name="name" />
+		</order>
+
+		<!-- Finder methods -->
+		<finder name="P_P_L" return-type="Collection">
+			<finder-column name="groupId" />
+			<finder-column name="parentId" />
+			<finder-column name="language" />
+		</finder>
+
+		<!-- References -->
+		<reference package-path="com.liferay.portal" entity="Resource" />
+		<reference package-path="com.liferay.counter" entity="Counter" />
+	</entity>
+
+	<!-- Article:
+		///
+	-->
+
+	<entity name="Vlookupprice" local-service="false"
+		remote-service="true">
+
+		<!-- Primary key fields -->
+		<column name="lookuppriceId" type="String" primary="true" />
+
+		<!-- Group and Company instance -->
+
+		<column name="groupId" type="long" />
+		<column name="companyId" type="long" />
+
+		<!-- Audit fields -->
+		<column name="createdByUser" type="String" />
+		<column name="createdDate" type="Date" />
+
+		<column name="modifiedByUser" type="String" />
+		<column name="modifiedDate" type="Date" />
+
+		<column name="status" type="int" />
+       <column name="price" type="int" />
+       <column name="position1" type="String" />
+       <column name="position2" type="String" />
+       <column name="position3" type="String" />
+       <column name="position4" type="String" />
+       <column name="position5" type="String" />
+
+		<!-- Other fields -->
+		
+		<column name="title" type="String" />
+		<column name="content" type="String" />
+		<column name="parentId" type="String" />
+
+		<column name="language" type="String" />
+        <column name="listParent" type="String" />
+		<!-- Sorting -->
+		<order by="desc">
+			<order-column name="modifiedDate" />
+		</order>
+
+		<!-- Finder methods -->
+		<finder name="G_L_S_P" return-type="Collection">
+			<finder-column name="groupId" />
+			<finder-column name="language" />
+			<finder-column name="status" />
+			<finder-column name="parentId" />
+		</finder>
+
+
+		<!--  For lucense indexing engine -->
+		<finder name="S_P" return-type="Collection">
+			<finder-column name="status" />
+			<finder-column name="parentId" />
+		</finder>
+		<!-- References -->
+		<reference package-path="com.liferay.portal" entity="Resource" />
+		<reference package-path="com.liferay.counter" entity="Counter" />
+	</entity>
+
+
+	<!-- Application exceptions -->
+	<exceptions>
+		<exception>DeleteCategory</exception>
+		<exception>InvalidCategoryName</exception>
+		
+		<exception>DeletePrice</exception>
+		<exception>InvalidPriceTitle</exception>
+		<exception>InvalidPrice</exception>
+	</exceptions>
+</service-builder>

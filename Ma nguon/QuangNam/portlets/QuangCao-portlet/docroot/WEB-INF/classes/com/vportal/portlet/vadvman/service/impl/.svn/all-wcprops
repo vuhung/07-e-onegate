@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/QuangCao-portlet/docroot/WEB-INF/classes/com/vportal/portlet/vadvman/service/impl
+END
+AdvItemServiceImpl.class
+K 25
+svn:wc:ra_dav:version-url
+V 165
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/QuangCao-portlet/docroot/WEB-INF/classes/com/vportal/portlet/vadvman/service/impl/AdvItemServiceImpl.class
+END
+AdvTypeServiceImpl.class
+K 25
+svn:wc:ra_dav:version-url
+V 165
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/QuangCao-portlet/docroot/WEB-INF/classes/com/vportal/portlet/vadvman/service/impl/AdvTypeServiceImpl.class
+END

@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 144
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/LienKetWebsite-portlet/docroot/WEB-INF/src/com/vsi/lienketwebsite/service/persistence
+END
+LinkGroupPersistenceImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 174
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/LienKetWebsite-portlet/docroot/WEB-INF/src/com/vsi/lienketwebsite/service/persistence/LinkGroupPersistenceImpl.java
+END
+LinksPersistenceImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 170
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/LienKetWebsite-portlet/docroot/WEB-INF/src/com/vsi/lienketwebsite/service/persistence/LinksPersistenceImpl.java
+END

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" default-destroy-method="destroy" default-init-method="afterPropertiesSet" xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+	<bean id="com.vsi.advertisement.portlet.service.AdvTypeLocalService" class="com.vsi.advertisement.portlet.service.impl.AdvTypeLocalServiceImpl" />
+	<bean id="com.vsi.advertisement.portlet.service.AdvTypeLocalServiceUtil" class="com.vsi.advertisement.portlet.service.AdvTypeLocalServiceUtil">
+		<property name="service" ref="com.vsi.advertisement.portlet.service.AdvTypeLocalService" />
+	</bean>
+	<bean id="com.vsi.advertisement.portlet.service.AdvTypeService" class="com.vsi.advertisement.portlet.service.impl.AdvTypeServiceImpl" />
+	<bean id="com.vsi.advertisement.portlet.service.AdvTypeServiceUtil" class="com.vsi.advertisement.portlet.service.AdvTypeServiceUtil">
+		<property name="service" ref="com.vsi.advertisement.portlet.service.AdvTypeService" />
+	</bean>
+	<bean id="com.vsi.advertisement.portlet.service.persistence.AdvTypePersistence" class="com.vsi.advertisement.portlet.service.persistence.AdvTypePersistenceImpl" parent="basePersistence" />
+	<bean id="com.vsi.advertisement.portlet.service.AdvItemLocalService" class="com.vsi.advertisement.portlet.service.impl.AdvItemLocalServiceImpl" />
+	<bean id="com.vsi.advertisement.portlet.service.AdvItemLocalServiceUtil" class="com.vsi.advertisement.portlet.service.AdvItemLocalServiceUtil">
+		<property name="service" ref="com.vsi.advertisement.portlet.service.AdvItemLocalService" />
+	</bean>
+	<bean id="com.vsi.advertisement.portlet.service.AdvItemService" class="com.vsi.advertisement.portlet.service.impl.AdvItemServiceImpl" />
+	<bean id="com.vsi.advertisement.portlet.service.AdvItemServiceUtil" class="com.vsi.advertisement.portlet.service.AdvItemServiceUtil">
+		<property name="service" ref="com.vsi.advertisement.portlet.service.AdvItemService" />
+	</bean>
+	<bean id="com.vsi.advertisement.portlet.service.persistence.AdvItemPersistence" class="com.vsi.advertisement.portlet.service.persistence.AdvItemPersistenceImpl" parent="basePersistence" />
+</beans>

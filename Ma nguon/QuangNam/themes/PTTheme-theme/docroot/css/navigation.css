@@ -1,0 +1,191 @@
+/*------ Navigation portlet ------*/
+/**/
+#navigation
+{
+	float: left;
+	width: 100%;
+	margin-bottom: 10px;
+	margin-top: -7px;
+	background: url(../images/phutho/nav-menu.png)repeat-x 0 7px;
+}
+
+.menu-lv1, .menu-lv2 {
+	display: inline-block;
+	clear: both;
+	width: 100%;
+}
+.menu-lv2 {background-color: #ccc;margin-top: -10px; padding: 10px 0 5px 0;	float: left; height: 22px;
+}
+
+.menu-lv1 ul
+{
+	float: left;
+	font-size: 12px;
+	font-weight: bold;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	text-transform: uppercase;
+}
+
+.menu-lv1 li
+{
+	float: left;
+	/*
+	background: url("../images/phutho/border-menu.png") no-repeat scroll right center transparent;
+	padding-right: 5px;*/
+}
+
+.menu-lv1 a
+{
+	display: block;
+	color: #FFF;
+	outline: 0;
+	text-decoration: none;
+	padding-left: 14px;
+}
+.menu-lv1 a span
+{
+	display: block;
+	padding: 20px 16px 21px 2px;
+}
+
+.menu-lv1 .selected a,
+.menu-lv1 a:hover,
+.menu-lv1 a:active,
+.menu-lv1 a:focus
+{
+	background: url("../images/phutho/l-menu.png") no-repeat scroll left top transparent;
+	color: #181818;
+	z-index: 1000;
+}
+
+
+.menu-lv1 .selected a span , .menu-lv1 a:hover span {
+	background: url("../images/phutho/r-menu.png") no-repeat scroll right top transparent;
+	z-index: 1000;
+}
+
+.menu-lv1 .lastNode, .menu-lv1 .lastNode a
+{
+	background: url(../images/phutho/nav-menu.png)repeat-x scroll 0 0 transparent !important;
+}
+
+.ie6 .menu-lv1 li,
+.ie7 .menu-lv1 li,
+.ie8 .menu-lv1 li,
+.ie9 .menu-lv1 li,
+.ie6 .menu-lv1 a,
+.ie7 .menu-lv1 a,
+.ie8 .menu-lv1 a,
+.ie9 .menu-lv1 a
+{
+	display: inline;
+	zoom: 1;
+}
+
+.menu-lv1 ul ul{
+	display:none;
+}
+
+.menu-lv2 ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+.menu-lv2 li {
+	float:left;
+}
+.menu-lv2 ul li, .menu-lv2 ul a {
+	color: #333;
+}
+.menu-lv2 ul a {
+	padding: 5px 10px;
+	text-transform: normal;
+	font-weight: normal;
+	text-decoration: none;
+	line-height: 22px; 
+}
+
+.menu-lv2 ul li.selected a, .menu-lv2 ul li:hover a {
+	color: #f00000;
+}
+/*end menu da cap*/
+
+/* ---------- Page template selector ---------- */
+
+.aui-form-options {
+	border: 1px solid #AAA;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.aui-form-options input {
+	border-width: 0;
+	display: inline;
+	float: left;
+}
+
+.aui-form-triggers {
+	float: left;
+}
+
+.aui-form-trigger {
+	background: #C4C4C4 url(../images/application/button_bg.png) repeat-x 0 0;
+	border-left: 1px solid #BBB;
+	display: inline-block;
+	float: left;
+}
+
+.aui-form-trigger img {
+	background: url() no-repeat 50% 40%;
+	height: 25px;
+	padding: 0 3px;
+	vertical-align: middle;
+	width: 16px;
+}
+
+.aui-form-trigger:hover, .aui-form-trigger:focus {
+	background-color: #83B0CA;
+	background-image: url(../images/application/button_bg_over.png);
+}
+
+.aui-trigger-selected {
+	background-color: #EBEBEB;
+	background-image: url(../images/application/button_bg_selected.png);
+}
+
+.aui-trigger-selected:hover, .aui-trigger-selected:focus {
+	background-color: #B7DEF4;
+	background-image: url(../images/application/button_bg_selected_over.png);
+}
+
+.aui-options-trigger img {
+	background-image: url(../images/common/configuration.png);
+}
+
+.aui-save-trigger img {
+	background-image: url(../images/dock/my_place_current.png);
+}
+
+.navigation ul li:first-child{
+	position: relative;
+}
+
+/* ---------- Add/remove page ---------- */
+.modify-pages li {
+	/* position: relative; */
+}
+.modify-pages .delete-tab {
+	background: #333 url(../images/portlet/close_borderless.png) no-repeat 50%;
+	cursor: pointer;
+	display: block;
+	height: 8px;
+	margin-top: -7px;
+	padding: 3px;
+	position: absolute;
+	right: 1px;
+	text-indent: -9999em;
+	top: 50%;
+	width: 8px;
+}

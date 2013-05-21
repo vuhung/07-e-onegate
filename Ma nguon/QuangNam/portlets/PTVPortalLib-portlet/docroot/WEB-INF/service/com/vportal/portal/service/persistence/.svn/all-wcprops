@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 142
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/PTVPortalLib-portlet/docroot/WEB-INF/service/com/vportal/portal/service/persistence
+END
+AccessCounterUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 165
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/PTVPortalLib-portlet/docroot/WEB-INF/service/com/vportal/portal/service/persistence/AccessCounterUtil.java
+END
+AttachmentFinder.java
+K 25
+svn:wc:ra_dav:version-url
+V 164
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/PTVPortalLib-portlet/docroot/WEB-INF/service/com/vportal/portal/service/persistence/AttachmentFinder.java
+END
+PortletFolderUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 165
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/PTVPortalLib-portlet/docroot/WEB-INF/service/com/vportal/portal/service/persistence/PortletFolderUtil.java
+END
+AccessCounterPersistence.java
+K 25
+svn:wc:ra_dav:version-url
+V 172
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/PTVPortalLib-portlet/docroot/WEB-INF/service/com/vportal/portal/service/persistence/AccessCounterPersistence.java
+END
+AttachmentUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 162
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/PTVPortalLib-portlet/docroot/WEB-INF/service/com/vportal/portal/service/persistence/AttachmentUtil.java
+END
+AccessCounterFinderUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 171
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/PTVPortalLib-portlet/docroot/WEB-INF/service/com/vportal/portal/service/persistence/AccessCounterFinderUtil.java
+END
+AccessCounterFinder.java
+K 25
+svn:wc:ra_dav:version-url
+V 167
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/PTVPortalLib-portlet/docroot/WEB-INF/service/com/vportal/portal/service/persistence/AccessCounterFinder.java
+END
+PortletFolderPersistence.java
+K 25
+svn:wc:ra_dav:version-url
+V 172
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/PTVPortalLib-portlet/docroot/WEB-INF/service/com/vportal/portal/service/persistence/PortletFolderPersistence.java
+END
+PortletFolderFinderUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 171
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/PTVPortalLib-portlet/docroot/WEB-INF/service/com/vportal/portal/service/persistence/PortletFolderFinderUtil.java
+END
+AttachmentPersistence.java
+K 25
+svn:wc:ra_dav:version-url
+V 169
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/PTVPortalLib-portlet/docroot/WEB-INF/service/com/vportal/portal/service/persistence/AttachmentPersistence.java
+END
+PortletFolderFinder.java
+K 25
+svn:wc:ra_dav:version-url
+V 167
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/PTVPortalLib-portlet/docroot/WEB-INF/service/com/vportal/portal/service/persistence/PortletFolderFinder.java
+END
+AttachmentFinderUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 168
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/PTVPortalLib-portlet/docroot/WEB-INF/service/com/vportal/portal/service/persistence/AttachmentFinderUtil.java
+END

@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 154
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/vimagegallery-portlet/docroot/WEB-INF/src/com/vportal/portlet/vimagegallery/service/persistence
+END
+TFImagePersistenceImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 182
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/vimagegallery-portlet/docroot/WEB-INF/src/com/vportal/portlet/vimagegallery/service/persistence/TFImagePersistenceImpl.java
+END
+TFCategoryPersistenceImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 185
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/vimagegallery-portlet/docroot/WEB-INF/src/com/vportal/portlet/vimagegallery/service/persistence/TFCategoryPersistenceImpl.java
+END

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" default-destroy-method="destroy" default-init-method="afterPropertiesSet" xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+	<bean id="com.test.service.VlookuppriceCategoryService" class="com.test.service.impl.VlookuppriceCategoryServiceImpl" />
+	<bean id="com.test.service.VlookuppriceCategoryServiceUtil" class="com.test.service.VlookuppriceCategoryServiceUtil">
+		<property name="service" ref="com.test.service.VlookuppriceCategoryService" />
+	</bean>
+	<bean id="com.test.service.persistence.VlookuppriceCategoryPersistence" class="com.test.service.persistence.VlookuppriceCategoryPersistenceImpl" parent="basePersistence" />
+	<bean id="com.test.service.VlookuppriceService" class="com.test.service.impl.VlookuppriceServiceImpl" />
+	<bean id="com.test.service.VlookuppriceServiceUtil" class="com.test.service.VlookuppriceServiceUtil">
+		<property name="service" ref="com.test.service.VlookuppriceService" />
+	</bean>
+	<bean id="com.test.service.persistence.VlookuppricePersistence" class="com.test.service.persistence.VlookuppricePersistenceImpl" parent="basePersistence" />
+	<bean id="com.test.service.persistence.VlookuppriceFinder" class="com.test.service.persistence.VlookuppriceFinderImpl" parent="basePersistence" />
+</beans>

@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/QuantriGiadat-portlet/docroot/WEB-INF/src/com/test/service/http
+END
+VlookuppriceCategoryJSONSerializer.java
+K 25
+svn:wc:ra_dav:version-url
+V 162
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/QuantriGiadat-portlet/docroot/WEB-INF/src/com/test/service/http/VlookuppriceCategoryJSONSerializer.java
+END
+VlookuppriceCategoryServiceSoap.java
+K 25
+svn:wc:ra_dav:version-url
+V 159
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/QuantriGiadat-portlet/docroot/WEB-INF/src/com/test/service/http/VlookuppriceCategoryServiceSoap.java
+END
+VlookuppriceJSONSerializer.java
+K 25
+svn:wc:ra_dav:version-url
+V 154
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/QuantriGiadat-portlet/docroot/WEB-INF/src/com/test/service/http/VlookuppriceJSONSerializer.java
+END
+VlookuppriceServiceSoap.java
+K 25
+svn:wc:ra_dav:version-url
+V 151
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/QuantriGiadat-portlet/docroot/WEB-INF/src/com/test/service/http/VlookuppriceServiceSoap.java
+END

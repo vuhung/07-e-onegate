@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/VFaq-portlet/docroot/WEB-INF/src/com/vportal/portlet/vfaq/service/permission
+END
+FAQAnswerPermission.java
+K 25
+svn:wc:ra_dav:version-url
+V 160
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/VFaq-portlet/docroot/WEB-INF/src/com/vportal/portlet/vfaq/service/permission/FAQAnswerPermission.java
+END
+FAQCommentPermission.java
+K 25
+svn:wc:ra_dav:version-url
+V 161
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/VFaq-portlet/docroot/WEB-INF/src/com/vportal/portlet/vfaq/service/permission/FAQCommentPermission.java
+END
+FAQQuestionPermission.java
+K 25
+svn:wc:ra_dav:version-url
+V 162
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/VFaq-portlet/docroot/WEB-INF/src/com/vportal/portlet/vfaq/service/permission/FAQQuestionPermission.java
+END
+FAQCategoryPermission.java
+K 25
+svn:wc:ra_dav:version-url
+V 162
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/VFaq-portlet/docroot/WEB-INF/src/com/vportal/portlet/vfaq/service/permission/FAQCategoryPermission.java
+END

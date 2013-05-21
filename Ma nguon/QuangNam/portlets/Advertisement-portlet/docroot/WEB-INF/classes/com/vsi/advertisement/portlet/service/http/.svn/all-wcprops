@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 147
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/Advertisement-portlet/docroot/WEB-INF/classes/com/vsi/advertisement/portlet/service/http
+END
+AdvTypeJSONSerializer.java
+K 25
+svn:wc:ra_dav:version-url
+V 174
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/Advertisement-portlet/docroot/WEB-INF/classes/com/vsi/advertisement/portlet/service/http/AdvTypeJSONSerializer.java
+END
+AdvTypeServiceSoap.java
+K 25
+svn:wc:ra_dav:version-url
+V 171
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/Advertisement-portlet/docroot/WEB-INF/classes/com/vsi/advertisement/portlet/service/http/AdvTypeServiceSoap.java
+END
+AdvItemJSONSerializer.class
+K 25
+svn:wc:ra_dav:version-url
+V 175
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/Advertisement-portlet/docroot/WEB-INF/classes/com/vsi/advertisement/portlet/service/http/AdvItemJSONSerializer.class
+END
+AdvItemServiceSoap.class
+K 25
+svn:wc:ra_dav:version-url
+V 172
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/Advertisement-portlet/docroot/WEB-INF/classes/com/vsi/advertisement/portlet/service/http/AdvItemServiceSoap.class
+END
+AdvTypeJSONSerializer.class
+K 25
+svn:wc:ra_dav:version-url
+V 175
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/Advertisement-portlet/docroot/WEB-INF/classes/com/vsi/advertisement/portlet/service/http/AdvTypeJSONSerializer.class
+END
+AdvTypeServiceSoap.class
+K 25
+svn:wc:ra_dav:version-url
+V 172
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/Advertisement-portlet/docroot/WEB-INF/classes/com/vsi/advertisement/portlet/service/http/AdvTypeServiceSoap.class
+END
+AdvItemJSONSerializer.java
+K 25
+svn:wc:ra_dav:version-url
+V 174
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/Advertisement-portlet/docroot/WEB-INF/classes/com/vsi/advertisement/portlet/service/http/AdvItemJSONSerializer.java
+END
+AdvItemServiceSoap.java
+K 25
+svn:wc:ra_dav:version-url
+V 171
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/Advertisement-portlet/docroot/WEB-INF/classes/com/vsi/advertisement/portlet/service/http/AdvItemServiceSoap.java
+END

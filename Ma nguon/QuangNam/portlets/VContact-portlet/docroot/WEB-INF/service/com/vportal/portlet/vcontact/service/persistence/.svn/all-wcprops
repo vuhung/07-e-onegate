@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 148
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/VContact-portlet/docroot/WEB-INF/service/com/vportal/portlet/vcontact/service/persistence
+END
+VContactUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 166
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/VContact-portlet/docroot/WEB-INF/service/com/vportal/portlet/vcontact/service/persistence/VContactUtil.java
+END
+VContactPersistence.java
+K 25
+svn:wc:ra_dav:version-url
+V 173
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/VContact-portlet/docroot/WEB-INF/service/com/vportal/portlet/vcontact/service/persistence/VContactPersistence.java
+END

@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/VCalendar-portlet/docroot/WEB-INF/src/com/vportal/portlet/vcalendar/service/http
+END
+VCalJSONSerializer.java
+K 25
+svn:wc:ra_dav:version-url
+V 163
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/VCalendar-portlet/docroot/WEB-INF/src/com/vportal/portlet/vcalendar/service/http/VCalJSONSerializer.java
+END
+VCalServiceSoap.java
+K 25
+svn:wc:ra_dav:version-url
+V 160
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/VCalendar-portlet/docroot/WEB-INF/src/com/vportal/portlet/vcalendar/service/http/VCalServiceSoap.java
+END
+VFileJSONSerializer.java
+K 25
+svn:wc:ra_dav:version-url
+V 164
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/VCalendar-portlet/docroot/WEB-INF/src/com/vportal/portlet/vcalendar/service/http/VFileJSONSerializer.java
+END
+VFileServiceSoap.java
+K 25
+svn:wc:ra_dav:version-url
+V 161
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/VCalendar-portlet/docroot/WEB-INF/src/com/vportal/portlet/vcalendar/service/http/VFileServiceSoap.java
+END

@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/VCMS-portlet/docroot/WEB-INF/src/custom-sql
+END
+default.xml
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/VCMS-portlet/docroot/WEB-INF/src/custom-sql/default.xml
+END
+vcms.bak.xml
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/VCMS-portlet/docroot/WEB-INF/src/custom-sql/vcms.bak.xml
+END
+vcms.xml
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/VCMS-portlet/docroot/WEB-INF/src/custom-sql/vcms.xml
+END

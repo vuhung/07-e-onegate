@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/ext
+END
+ext.zip
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/ext/ext.zip
+END
+build-common-ext.xml
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/ext/build-common-ext.xml
+END
+create.bat
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/ext/create.bat
+END
+create.sh
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/ext/create.sh
+END
+build.xml
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/ext/build.xml
+END

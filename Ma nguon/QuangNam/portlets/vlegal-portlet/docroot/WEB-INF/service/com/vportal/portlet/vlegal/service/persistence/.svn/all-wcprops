@@ -1,0 +1,311 @@
+K 25
+svn:wc:ra_dav:version-url
+V 144
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/vlegal-portlet/docroot/WEB-INF/service/com/vportal/portlet/vlegal/service/persistence
+END
+VLegalDSRelPK.java
+K 25
+svn:wc:ra_dav:version-url
+V 163
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/vlegal-portlet/docroot/WEB-INF/service/com/vportal/portlet/vlegal/service/persistence/VLegalDSRelPK.java
+END
+VLegalTDRelPK.java
+K 25
+svn:wc:ra_dav:version-url
+V 163
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/vlegal-portlet/docroot/WEB-INF/service/com/vportal/portlet/vlegal/service/persistence/VLegalTDRelPK.java
+END
+VLegalDURelPK.java
+K 25
+svn:wc:ra_dav:version-url
+V 163
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/vlegal-portlet/docroot/WEB-INF/service/com/vportal/portlet/vlegal/service/persistence/VLegalDURelPK.java
+END
+VLegalDocumentFinder.java
+K 25
+svn:wc:ra_dav:version-url
+V 170
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/vlegal-portlet/docroot/WEB-INF/service/com/vportal/portlet/vlegal/service/persistence/VLegalDocumentFinder.java
+END
+VLegalFTRelPK.java
+K 25
+svn:wc:ra_dav:version-url
+V 163
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/vlegal-portlet/docroot/WEB-INF/service/com/vportal/portlet/vlegal/service/persistence/VLegalFTRelPK.java
+END
+VLegalLoggerFinder.java
+K 25
+svn:wc:ra_dav:version-url
+V 168
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/vlegal-portlet/docroot/WEB-INF/service/com/vportal/portlet/vlegal/service/persistence/VLegalLoggerFinder.java
+END
+VLegalFieldFinder.java
+K 25
+svn:wc:ra_dav:version-url
+V 167
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/vlegal-portlet/docroot/WEB-INF/service/com/vportal/portlet/vlegal/service/persistence/VLegalFieldFinder.java
+END
+VLegalSuggestDocumentUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 175
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/vlegal-portlet/docroot/WEB-INF/service/com/vportal/portlet/vlegal/service/persistence/VLegalSuggestDocumentUtil.java
+END
+VLegalTDRelPersistence.java
+K 25
+svn:wc:ra_dav:version-url
+V 172
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/vlegal-portlet/docroot/WEB-INF/service/com/vportal/portlet/vlegal/service/persistence/VLegalTDRelPersistence.java
+END
+VLegalFTRelPersistence.java
+K 25
+svn:wc:ra_dav:version-url
+V 172
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/vlegal-portlet/docroot/WEB-INF/service/com/vportal/portlet/vlegal/service/persistence/VLegalFTRelPersistence.java
+END
+VLegalDocumentPersistence.java
+K 25
+svn:wc:ra_dav:version-url
+V 175
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/vlegal-portlet/docroot/WEB-INF/service/com/vportal/portlet/vlegal/service/persistence/VLegalDocumentPersistence.java
+END
+VLegalTagsFinderUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 170
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/vlegal-portlet/docroot/WEB-INF/service/com/vportal/portlet/vlegal/service/persistence/VLegalTagsFinderUtil.java
+END
+VLegalDraftDocumentFinderUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 179
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/vlegal-portlet/docroot/WEB-INF/service/com/vportal/portlet/vlegal/service/persistence/VLegalDraftDocumentFinderUtil.java
+END
+VLegalOrgUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 163
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/vlegal-portlet/docroot/WEB-INF/service/com/vportal/portlet/vlegal/service/persistence/VLegalOrgUtil.java
+END
+VLegalSignerUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 166
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/vlegal-portlet/docroot/WEB-INF/service/com/vportal/portlet/vlegal/service/persistence/VLegalSignerUtil.java
+END
+VLegalAttachedMessagePersistence.java
+K 25
+svn:wc:ra_dav:version-url
+V 182
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/vlegal-portlet/docroot/WEB-INF/service/com/vportal/portlet/vlegal/service/persistence/VLegalAttachedMessagePersistence.java
+END
+VLegalDDRelUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 165
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/vlegal-portlet/docroot/WEB-INF/service/com/vportal/portlet/vlegal/service/persistence/VLegalDDRelUtil.java
+END
+VLegalDFRelUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 165
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/vlegal-portlet/docroot/WEB-INF/service/com/vportal/portlet/vlegal/service/persistence/VLegalDFRelUtil.java
+END
+VLegalOrgPersistence.java
+K 25
+svn:wc:ra_dav:version-url
+V 170
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/vlegal-portlet/docroot/WEB-INF/service/com/vportal/portlet/vlegal/service/persistence/VLegalOrgPersistence.java
+END
+VLegalSignerPersistence.java
+K 25
+svn:wc:ra_dav:version-url
+V 173
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/vlegal-portlet/docroot/WEB-INF/service/com/vportal/portlet/vlegal/service/persistence/VLegalSignerPersistence.java
+END
+VLegalTagsUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 164
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/vlegal-portlet/docroot/WEB-INF/service/com/vportal/portlet/vlegal/service/persistence/VLegalTagsUtil.java
+END
+VLegalDraftDocumentUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 173
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/vlegal-portlet/docroot/WEB-INF/service/com/vportal/portlet/vlegal/service/persistence/VLegalDraftDocumentUtil.java
+END
+VLegalDraftDocumentPersistence.java
+K 25
+svn:wc:ra_dav:version-url
+V 180
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/vlegal-portlet/docroot/WEB-INF/service/com/vportal/portlet/vlegal/service/persistence/VLegalDraftDocumentPersistence.java
+END
+VLegalDocumentFinderUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 174
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/vlegal-portlet/docroot/WEB-INF/service/com/vportal/portlet/vlegal/service/persistence/VLegalDocumentFinderUtil.java
+END
+VLegalFORelUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 165
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/vlegal-portlet/docroot/WEB-INF/service/com/vportal/portlet/vlegal/service/persistence/VLegalFORelUtil.java
+END
+VLegalLoggerFinderUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 172
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/vlegal-portlet/docroot/WEB-INF/service/com/vportal/portlet/vlegal/service/persistence/VLegalLoggerFinderUtil.java
+END
+VLegalDSRelUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 165
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/vlegal-portlet/docroot/WEB-INF/service/com/vportal/portlet/vlegal/service/persistence/VLegalDSRelUtil.java
+END
+VLegalTDRelUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 165
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/vlegal-portlet/docroot/WEB-INF/service/com/vportal/portlet/vlegal/service/persistence/VLegalTDRelUtil.java
+END
+VLegalFieldFinderUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 171
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/vlegal-portlet/docroot/WEB-INF/service/com/vportal/portlet/vlegal/service/persistence/VLegalFieldFinderUtil.java
+END
+VLegalDURelUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 165
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/vlegal-portlet/docroot/WEB-INF/service/com/vportal/portlet/vlegal/service/persistence/VLegalDURelUtil.java
+END
+VLegalFTRelUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 165
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/vlegal-portlet/docroot/WEB-INF/service/com/vportal/portlet/vlegal/service/persistence/VLegalFTRelUtil.java
+END
+VLegalFORelPersistence.java
+K 25
+svn:wc:ra_dav:version-url
+V 172
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/vlegal-portlet/docroot/WEB-INF/service/com/vportal/portlet/vlegal/service/persistence/VLegalFORelPersistence.java
+END
+VLegalDocumentUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 168
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/vlegal-portlet/docroot/WEB-INF/service/com/vportal/portlet/vlegal/service/persistence/VLegalDocumentUtil.java
+END
+VLegalLoggerUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 166
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/vlegal-portlet/docroot/WEB-INF/service/com/vportal/portlet/vlegal/service/persistence/VLegalLoggerUtil.java
+END
+VLegalDSRelPersistence.java
+K 25
+svn:wc:ra_dav:version-url
+V 172
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/vlegal-portlet/docroot/WEB-INF/service/com/vportal/portlet/vlegal/service/persistence/VLegalDSRelPersistence.java
+END
+VLegalTypeUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 164
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/vlegal-portlet/docroot/WEB-INF/service/com/vportal/portlet/vlegal/service/persistence/VLegalTypeUtil.java
+END
+VLegalAttachedMessageUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 175
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/vlegal-portlet/docroot/WEB-INF/service/com/vportal/portlet/vlegal/service/persistence/VLegalAttachedMessageUtil.java
+END
+VLegalDURelPersistence.java
+K 25
+svn:wc:ra_dav:version-url
+V 172
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/vlegal-portlet/docroot/WEB-INF/service/com/vportal/portlet/vlegal/service/persistence/VLegalDURelPersistence.java
+END
+VLegalFieldUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 165
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/vlegal-portlet/docroot/WEB-INF/service/com/vportal/portlet/vlegal/service/persistence/VLegalFieldUtil.java
+END
+VLegalLoggerPersistence.java
+K 25
+svn:wc:ra_dav:version-url
+V 173
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/vlegal-portlet/docroot/WEB-INF/service/com/vportal/portlet/vlegal/service/persistence/VLegalLoggerPersistence.java
+END
+VLegalDDRelPK.java
+K 25
+svn:wc:ra_dav:version-url
+V 163
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/vlegal-portlet/docroot/WEB-INF/service/com/vportal/portlet/vlegal/service/persistence/VLegalDDRelPK.java
+END
+VLegalSuggestDocumentPersistence.java
+K 25
+svn:wc:ra_dav:version-url
+V 182
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/vlegal-portlet/docroot/WEB-INF/service/com/vportal/portlet/vlegal/service/persistence/VLegalSuggestDocumentPersistence.java
+END
+VLegalTagsFinder.java
+K 25
+svn:wc:ra_dav:version-url
+V 166
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/vlegal-portlet/docroot/WEB-INF/service/com/vportal/portlet/vlegal/service/persistence/VLegalTagsFinder.java
+END
+VLegalTypePersistence.java
+K 25
+svn:wc:ra_dav:version-url
+V 171
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/vlegal-portlet/docroot/WEB-INF/service/com/vportal/portlet/vlegal/service/persistence/VLegalTypePersistence.java
+END
+VLegalDraftDocumentFinder.java
+K 25
+svn:wc:ra_dav:version-url
+V 175
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/vlegal-portlet/docroot/WEB-INF/service/com/vportal/portlet/vlegal/service/persistence/VLegalDraftDocumentFinder.java
+END
+VLegalDFRelPK.java
+K 25
+svn:wc:ra_dav:version-url
+V 163
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/vlegal-portlet/docroot/WEB-INF/service/com/vportal/portlet/vlegal/service/persistence/VLegalDFRelPK.java
+END
+VLegalFieldPersistence.java
+K 25
+svn:wc:ra_dav:version-url
+V 172
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/vlegal-portlet/docroot/WEB-INF/service/com/vportal/portlet/vlegal/service/persistence/VLegalFieldPersistence.java
+END
+VLegalDDRelPersistence.java
+K 25
+svn:wc:ra_dav:version-url
+V 172
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/vlegal-portlet/docroot/WEB-INF/service/com/vportal/portlet/vlegal/service/persistence/VLegalDDRelPersistence.java
+END
+VLegalDFRelPersistence.java
+K 25
+svn:wc:ra_dav:version-url
+V 172
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/vlegal-portlet/docroot/WEB-INF/service/com/vportal/portlet/vlegal/service/persistence/VLegalDFRelPersistence.java
+END
+VLegalFORelPK.java
+K 25
+svn:wc:ra_dav:version-url
+V 163
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/vlegal-portlet/docroot/WEB-INF/service/com/vportal/portlet/vlegal/service/persistence/VLegalFORelPK.java
+END
+VLegalTagsPersistence.java
+K 25
+svn:wc:ra_dav:version-url
+V 171
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/vlegal-portlet/docroot/WEB-INF/service/com/vportal/portlet/vlegal/service/persistence/VLegalTagsPersistence.java
+END

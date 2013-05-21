@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/WeatherPhuTho-portlet/docroot/WEB-INF/src/com/portlet/weather
+END
+weather.java
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/WeatherPhuTho-portlet/docroot/WEB-INF/src/com/portlet/weather/weather.java
+END
+WeatherUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/WeatherPhuTho-portlet/docroot/WEB-INF/src/com/portlet/weather/WeatherUtil.java
+END

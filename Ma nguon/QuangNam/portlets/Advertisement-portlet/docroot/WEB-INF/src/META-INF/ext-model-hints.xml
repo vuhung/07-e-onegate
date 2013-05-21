@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<model-hints>
+	<model name="com.vsi.advertisement.portlet.model.AdvType">
+		<field name="name" type="String" >
+			 <hint name="max-length">200</hint>
+		</field>
+	</model>
+	</model-hints>

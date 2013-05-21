@@ -1,0 +1,125 @@
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/ThuTucHanhChinh-portlet/docroot/WEB-INF/classes/com/portlet/vdoc/service/http
+END
+vdocLoggerServiceSoap.java
+K 25
+svn:wc:ra_dav:version-url
+V 163
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/ThuTucHanhChinh-portlet/docroot/WEB-INF/classes/com/portlet/vdoc/service/http/vdocLoggerServiceSoap.java
+END
+vdocDocumentJSONSerializer.class
+K 25
+svn:wc:ra_dav:version-url
+V 169
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/ThuTucHanhChinh-portlet/docroot/WEB-INF/classes/com/portlet/vdoc/service/http/vdocDocumentJSONSerializer.class
+END
+vdocLoggerJSONSerializer.class
+K 25
+svn:wc:ra_dav:version-url
+V 167
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/ThuTucHanhChinh-portlet/docroot/WEB-INF/classes/com/portlet/vdoc/service/http/vdocLoggerJSONSerializer.class
+END
+vdocFieldServiceSoap.java
+K 25
+svn:wc:ra_dav:version-url
+V 162
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/ThuTucHanhChinh-portlet/docroot/WEB-INF/classes/com/portlet/vdoc/service/http/vdocFieldServiceSoap.java
+END
+vdocDORelJSONSerializer.java
+K 25
+svn:wc:ra_dav:version-url
+V 165
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/ThuTucHanhChinh-portlet/docroot/WEB-INF/classes/com/portlet/vdoc/service/http/vdocDORelJSONSerializer.java
+END
+vdocFieldJSONSerializer.class
+K 25
+svn:wc:ra_dav:version-url
+V 166
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/ThuTucHanhChinh-portlet/docroot/WEB-INF/classes/com/portlet/vdoc/service/http/vdocFieldJSONSerializer.class
+END
+vdocOrgServiceSoap.java
+K 25
+svn:wc:ra_dav:version-url
+V 160
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/ThuTucHanhChinh-portlet/docroot/WEB-INF/classes/com/portlet/vdoc/service/http/vdocOrgServiceSoap.java
+END
+vdocDORelServiceSoap.class
+K 25
+svn:wc:ra_dav:version-url
+V 163
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/ThuTucHanhChinh-portlet/docroot/WEB-INF/classes/com/portlet/vdoc/service/http/vdocDORelServiceSoap.class
+END
+vdocOrgJSONSerializer.class
+K 25
+svn:wc:ra_dav:version-url
+V 164
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/ThuTucHanhChinh-portlet/docroot/WEB-INF/classes/com/portlet/vdoc/service/http/vdocOrgJSONSerializer.class
+END
+vdocDocumentJSONSerializer.java
+K 25
+svn:wc:ra_dav:version-url
+V 168
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/ThuTucHanhChinh-portlet/docroot/WEB-INF/classes/com/portlet/vdoc/service/http/vdocDocumentJSONSerializer.java
+END
+vdocLoggerJSONSerializer.java
+K 25
+svn:wc:ra_dav:version-url
+V 166
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/ThuTucHanhChinh-portlet/docroot/WEB-INF/classes/com/portlet/vdoc/service/http/vdocLoggerJSONSerializer.java
+END
+vdocDocumentServiceSoap.class
+K 25
+svn:wc:ra_dav:version-url
+V 166
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/ThuTucHanhChinh-portlet/docroot/WEB-INF/classes/com/portlet/vdoc/service/http/vdocDocumentServiceSoap.class
+END
+vdocLoggerServiceSoap.class
+K 25
+svn:wc:ra_dav:version-url
+V 164
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/ThuTucHanhChinh-portlet/docroot/WEB-INF/classes/com/portlet/vdoc/service/http/vdocLoggerServiceSoap.class
+END
+vdocFieldJSONSerializer.java
+K 25
+svn:wc:ra_dav:version-url
+V 165
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/ThuTucHanhChinh-portlet/docroot/WEB-INF/classes/com/portlet/vdoc/service/http/vdocFieldJSONSerializer.java
+END
+vdocDORelServiceSoap.java
+K 25
+svn:wc:ra_dav:version-url
+V 162
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/ThuTucHanhChinh-portlet/docroot/WEB-INF/classes/com/portlet/vdoc/service/http/vdocDORelServiceSoap.java
+END
+vdocFieldServiceSoap.class
+K 25
+svn:wc:ra_dav:version-url
+V 163
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/ThuTucHanhChinh-portlet/docroot/WEB-INF/classes/com/portlet/vdoc/service/http/vdocFieldServiceSoap.class
+END
+vdocOrgJSONSerializer.java
+K 25
+svn:wc:ra_dav:version-url
+V 163
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/ThuTucHanhChinh-portlet/docroot/WEB-INF/classes/com/portlet/vdoc/service/http/vdocOrgJSONSerializer.java
+END
+vdocDORelJSONSerializer.class
+K 25
+svn:wc:ra_dav:version-url
+V 166
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/ThuTucHanhChinh-portlet/docroot/WEB-INF/classes/com/portlet/vdoc/service/http/vdocDORelJSONSerializer.class
+END
+vdocOrgServiceSoap.class
+K 25
+svn:wc:ra_dav:version-url
+V 161
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/ThuTucHanhChinh-portlet/docroot/WEB-INF/classes/com/portlet/vdoc/service/http/vdocOrgServiceSoap.class
+END
+vdocDocumentServiceSoap.java
+K 25
+svn:wc:ra_dav:version-url
+V 165
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/ThuTucHanhChinh-portlet/docroot/WEB-INF/classes/com/portlet/vdoc/service/http/vdocDocumentServiceSoap.java
+END

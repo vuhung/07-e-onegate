@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/vlinksman-portlet/docroot/html/portlet/vlinksman/linkgroup
+END
+view_linkgroup.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/vlinksman-portlet/docroot/html/portlet/vlinksman/linkgroup/view_linkgroup.jsp
+END
+linkgroup_action.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/vlinksman-portlet/docroot/html/portlet/vlinksman/linkgroup/linkgroup_action.jsp
+END
+edit_linkgroup.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/vlinksman-portlet/docroot/html/portlet/vlinksman/linkgroup/edit_linkgroup.jsp
+END

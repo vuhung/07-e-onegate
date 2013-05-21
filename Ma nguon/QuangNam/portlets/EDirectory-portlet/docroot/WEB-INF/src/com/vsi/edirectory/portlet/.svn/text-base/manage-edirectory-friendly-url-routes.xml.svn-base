@@ -1,0 +1,48 @@
+<?xml version="1.0"?>
+<!DOCTYPE routes PUBLIC "-//Liferay//DTD Friendly URL Routes 6.0.0//EN" "http://www.liferay.com/dtd/liferay-friendly-url-routes_6_0_0.dtd">
+
+<routes>	
+	<route>
+		<pattern>/employee</pattern>
+		<implicit-parameter name="p_p_lifecycle">0</implicit-parameter>
+		<implicit-parameter name="jspPage">/html/manage_edirectory/employee/view_employee.jsp</implicit-parameter>
+	</route>
+	<route>
+		<pattern>/add_employee</pattern>
+		<implicit-parameter name="p_p_lifecycle">0</implicit-parameter>
+		<implicit-parameter name="jspPage">/html/manage_edirectory/employee/add_employee.jsp</implicit-parameter>
+	</route>
+	<route>
+		<pattern>/{resourcePrimKey:\d+}/edit_employee</pattern>
+		<implicit-parameter name="p_p_lifecycle">0</implicit-parameter>
+		<implicit-parameter name="jspPage">/html/manage_edirectory/employee/edit_employee.jsp</implicit-parameter>
+	</route>
+
+	<route>
+		<pattern>/add_function</pattern>
+		<implicit-parameter name="p_p_lifecycle">0</implicit-parameter>
+		<implicit-parameter name="jspPage">/html/manage_edirectory/function/add_function.jsp</implicit-parameter>
+	</route>
+	<route>
+		<pattern>/{resourcePrimKey:\d+}/edit_function</pattern>
+		<implicit-parameter name="p_p_lifecycle">0</implicit-parameter>
+		<implicit-parameter name="jspPage">/html/manage_edirectory/function/edit_function.jsp</implicit-parameter>
+	</route>
+	
+	<route>
+		<pattern>/add_department</pattern>
+		<implicit-parameter name="p_p_lifecycle">0</implicit-parameter>
+		<implicit-parameter name="jspPage">/html/manage_edirectory/department/add_department.jsp</implicit-parameter>
+	</route>
+	<route>
+		<pattern>/{resourcePrimKey:\d+}/edit_department</pattern>
+		<implicit-parameter name="p_p_lifecycle">0</implicit-parameter>
+		<implicit-parameter name="jspPage">/html/manage_edirectory/department/edit_department.jsp</implicit-parameter>
+	</route>
+	<route>
+		<pattern>/searchEmployee</pattern>
+		<implicit-parameter name="p_p_lifecycle">1</implicit-parameter>
+		<implicit-parameter name="javax.portlet.action">searchEmployee</implicit-parameter>
+	</route>
+	
+</routes>

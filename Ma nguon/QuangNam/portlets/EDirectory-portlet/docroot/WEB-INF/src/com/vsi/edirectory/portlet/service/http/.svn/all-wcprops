@@ -1,0 +1,125 @@
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/EDirectory-portlet/docroot/WEB-INF/src/com/vsi/edirectory/portlet/service/http
+END
+EDEmployeeJSONSerializer.class
+K 25
+svn:wc:ra_dav:version-url
+V 168
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/EDirectory-portlet/docroot/WEB-INF/src/com/vsi/edirectory/portlet/service/http/EDEmployeeJSONSerializer.class
+END
+EDDepartmentJSONSerializer.java
+K 25
+svn:wc:ra_dav:version-url
+V 169
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/EDirectory-portlet/docroot/WEB-INF/src/com/vsi/edirectory/portlet/service/http/EDDepartmentJSONSerializer.java
+END
+EDFunctionEmployeeServiceSoap.java
+K 25
+svn:wc:ra_dav:version-url
+V 172
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/EDirectory-portlet/docroot/WEB-INF/src/com/vsi/edirectory/portlet/service/http/EDFunctionEmployeeServiceSoap.java
+END
+EDFunctionServiceSoap.java
+K 25
+svn:wc:ra_dav:version-url
+V 164
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/EDirectory-portlet/docroot/WEB-INF/src/com/vsi/edirectory/portlet/service/http/EDFunctionServiceSoap.java
+END
+EDDepartmentServiceSoap.class
+K 25
+svn:wc:ra_dav:version-url
+V 167
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/EDirectory-portlet/docroot/WEB-INF/src/com/vsi/edirectory/portlet/service/http/EDDepartmentServiceSoap.class
+END
+EDFunctionEmployeeJSONSerializer.class
+K 25
+svn:wc:ra_dav:version-url
+V 176
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/EDirectory-portlet/docroot/WEB-INF/src/com/vsi/edirectory/portlet/service/http/EDFunctionEmployeeJSONSerializer.class
+END
+EDFunctionDepartmentJSONSerializer.java
+K 25
+svn:wc:ra_dav:version-url
+V 177
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/EDirectory-portlet/docroot/WEB-INF/src/com/vsi/edirectory/portlet/service/http/EDFunctionDepartmentJSONSerializer.java
+END
+EDFunctionJSONSerializer.class
+K 25
+svn:wc:ra_dav:version-url
+V 168
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/EDirectory-portlet/docroot/WEB-INF/src/com/vsi/edirectory/portlet/service/http/EDFunctionJSONSerializer.class
+END
+EDFunctionDepartmentServiceSoap.class
+K 25
+svn:wc:ra_dav:version-url
+V 175
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/EDirectory-portlet/docroot/WEB-INF/src/com/vsi/edirectory/portlet/service/http/EDFunctionDepartmentServiceSoap.class
+END
+EDEmployeeJSONSerializer.java
+K 25
+svn:wc:ra_dav:version-url
+V 167
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/EDirectory-portlet/docroot/WEB-INF/src/com/vsi/edirectory/portlet/service/http/EDEmployeeJSONSerializer.java
+END
+EDEmployeeServiceSoap.class
+K 25
+svn:wc:ra_dav:version-url
+V 165
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/EDirectory-portlet/docroot/WEB-INF/src/com/vsi/edirectory/portlet/service/http/EDEmployeeServiceSoap.class
+END
+EDDepartmentServiceSoap.java
+K 25
+svn:wc:ra_dav:version-url
+V 166
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/EDirectory-portlet/docroot/WEB-INF/src/com/vsi/edirectory/portlet/service/http/EDDepartmentServiceSoap.java
+END
+EDFunctionEmployeeJSONSerializer.java
+K 25
+svn:wc:ra_dav:version-url
+V 175
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/EDirectory-portlet/docroot/WEB-INF/src/com/vsi/edirectory/portlet/service/http/EDFunctionEmployeeJSONSerializer.java
+END
+EDFunctionJSONSerializer.java
+K 25
+svn:wc:ra_dav:version-url
+V 167
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/EDirectory-portlet/docroot/WEB-INF/src/com/vsi/edirectory/portlet/service/http/EDFunctionJSONSerializer.java
+END
+EDDepartmentJSONSerializer.class
+K 25
+svn:wc:ra_dav:version-url
+V 170
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/EDirectory-portlet/docroot/WEB-INF/src/com/vsi/edirectory/portlet/service/http/EDDepartmentJSONSerializer.class
+END
+EDFunctionEmployeeServiceSoap.class
+K 25
+svn:wc:ra_dav:version-url
+V 173
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/EDirectory-portlet/docroot/WEB-INF/src/com/vsi/edirectory/portlet/service/http/EDFunctionEmployeeServiceSoap.class
+END
+EDFunctionDepartmentServiceSoap.java
+K 25
+svn:wc:ra_dav:version-url
+V 174
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/EDirectory-portlet/docroot/WEB-INF/src/com/vsi/edirectory/portlet/service/http/EDFunctionDepartmentServiceSoap.java
+END
+EDFunctionServiceSoap.class
+K 25
+svn:wc:ra_dav:version-url
+V 165
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/EDirectory-portlet/docroot/WEB-INF/src/com/vsi/edirectory/portlet/service/http/EDFunctionServiceSoap.class
+END
+EDFunctionDepartmentJSONSerializer.class
+K 25
+svn:wc:ra_dav:version-url
+V 178
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/EDirectory-portlet/docroot/WEB-INF/src/com/vsi/edirectory/portlet/service/http/EDFunctionDepartmentJSONSerializer.class
+END
+EDEmployeeServiceSoap.java
+K 25
+svn:wc:ra_dav:version-url
+V 164
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/EDirectory-portlet/docroot/WEB-INF/src/com/vsi/edirectory/portlet/service/http/EDEmployeeServiceSoap.java
+END

@@ -1,0 +1,49 @@
+10
+
+dir
+48
+https://192.168.10.237/svn/liferay/phutho/branches/quangnam/themes/PTTheme-theme/docroot
+https://192.168.10.237/svn/liferay
+
+
+
+2012-12-17T07:15:21.529864Z
+19
+trungpq
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+19b11af1-506f-6b4f-959b-55542b116dd5
+
+images
+dir
+
+WEB-INF
+dir
+
+css
+dir
+
+_diffs
+dir
+
+js
+dir
+
+layouttpl
+dir
+
+templates
+dir
+

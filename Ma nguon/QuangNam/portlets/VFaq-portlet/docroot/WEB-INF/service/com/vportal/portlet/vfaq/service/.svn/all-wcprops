@@ -1,0 +1,251 @@
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/VFaq-portlet/docroot/WEB-INF/service/com/vportal/portlet/vfaq/service
+END
+FAQCategoryLocalServiceUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 161
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/VFaq-portlet/docroot/WEB-INF/service/com/vportal/portlet/vfaq/service/FAQCategoryLocalServiceUtil.java
+END
+FAQCategoryLocalServiceWrapper.java
+K 25
+svn:wc:ra_dav:version-url
+V 164
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/VFaq-portlet/docroot/WEB-INF/service/com/vportal/portlet/vfaq/service/FAQCategoryLocalServiceWrapper.java
+END
+FAQAnswerService.java
+K 25
+svn:wc:ra_dav:version-url
+V 150
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/VFaq-portlet/docroot/WEB-INF/service/com/vportal/portlet/vfaq/service/FAQAnswerService.java
+END
+FAQAnswerServiceWrapper.java
+K 25
+svn:wc:ra_dav:version-url
+V 157
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/VFaq-portlet/docroot/WEB-INF/service/com/vportal/portlet/vfaq/service/FAQAnswerServiceWrapper.java
+END
+FAQCommentServiceClp.java
+K 25
+svn:wc:ra_dav:version-url
+V 154
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/VFaq-portlet/docroot/WEB-INF/service/com/vportal/portlet/vfaq/service/FAQCommentServiceClp.java
+END
+FAQCommentService.java
+K 25
+svn:wc:ra_dav:version-url
+V 151
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/VFaq-portlet/docroot/WEB-INF/service/com/vportal/portlet/vfaq/service/FAQCommentService.java
+END
+FAQCategoryQuestionServiceUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 164
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/VFaq-portlet/docroot/WEB-INF/service/com/vportal/portlet/vfaq/service/FAQCategoryQuestionServiceUtil.java
+END
+FAQCategoryQuestionServiceClp.java
+K 25
+svn:wc:ra_dav:version-url
+V 163
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/VFaq-portlet/docroot/WEB-INF/service/com/vportal/portlet/vfaq/service/FAQCategoryQuestionServiceClp.java
+END
+FAQQuestionServiceUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 156
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/VFaq-portlet/docroot/WEB-INF/service/com/vportal/portlet/vfaq/service/FAQQuestionServiceUtil.java
+END
+FAQQuestionServiceClp.java
+K 25
+svn:wc:ra_dav:version-url
+V 155
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/VFaq-portlet/docroot/WEB-INF/service/com/vportal/portlet/vfaq/service/FAQQuestionServiceClp.java
+END
+FAQAnswerLocalServiceUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 159
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/VFaq-portlet/docroot/WEB-INF/service/com/vportal/portlet/vfaq/service/FAQAnswerLocalServiceUtil.java
+END
+FAQCategoryServiceUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 156
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/VFaq-portlet/docroot/WEB-INF/service/com/vportal/portlet/vfaq/service/FAQCategoryServiceUtil.java
+END
+FAQAnswerLocalServiceWrapper.java
+K 25
+svn:wc:ra_dav:version-url
+V 162
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/VFaq-portlet/docroot/WEB-INF/service/com/vportal/portlet/vfaq/service/FAQAnswerLocalServiceWrapper.java
+END
+FAQCategoryServiceClp.java
+K 25
+svn:wc:ra_dav:version-url
+V 155
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/VFaq-portlet/docroot/WEB-INF/service/com/vportal/portlet/vfaq/service/FAQCategoryServiceClp.java
+END
+FAQCommentLocalService.java
+K 25
+svn:wc:ra_dav:version-url
+V 156
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/VFaq-portlet/docroot/WEB-INF/service/com/vportal/portlet/vfaq/service/FAQCommentLocalService.java
+END
+FAQCommentLocalServiceWrapper.java
+K 25
+svn:wc:ra_dav:version-url
+V 163
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/VFaq-portlet/docroot/WEB-INF/service/com/vportal/portlet/vfaq/service/FAQCommentLocalServiceWrapper.java
+END
+FAQCategoryQuestionLocalServiceClp.java
+K 25
+svn:wc:ra_dav:version-url
+V 168
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/VFaq-portlet/docroot/WEB-INF/service/com/vportal/portlet/vfaq/service/FAQCategoryQuestionLocalServiceClp.java
+END
+FAQCategoryQuestionLocalService.java
+K 25
+svn:wc:ra_dav:version-url
+V 165
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/VFaq-portlet/docroot/WEB-INF/service/com/vportal/portlet/vfaq/service/FAQCategoryQuestionLocalService.java
+END
+FAQQuestionLocalServiceClp.java
+K 25
+svn:wc:ra_dav:version-url
+V 160
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/VFaq-portlet/docroot/WEB-INF/service/com/vportal/portlet/vfaq/service/FAQQuestionLocalServiceClp.java
+END
+FAQQuestionLocalService.java
+K 25
+svn:wc:ra_dav:version-url
+V 157
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/VFaq-portlet/docroot/WEB-INF/service/com/vportal/portlet/vfaq/service/FAQQuestionLocalService.java
+END
+FAQCategoryLocalServiceClp.java
+K 25
+svn:wc:ra_dav:version-url
+V 160
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/VFaq-portlet/docroot/WEB-INF/service/com/vportal/portlet/vfaq/service/FAQCategoryLocalServiceClp.java
+END
+FAQCategoryLocalService.java
+K 25
+svn:wc:ra_dav:version-url
+V 157
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/VFaq-portlet/docroot/WEB-INF/service/com/vportal/portlet/vfaq/service/FAQCategoryLocalService.java
+END
+FAQAnswerServiceUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 154
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/VFaq-portlet/docroot/WEB-INF/service/com/vportal/portlet/vfaq/service/FAQAnswerServiceUtil.java
+END
+FAQAnswerServiceClp.java
+K 25
+svn:wc:ra_dav:version-url
+V 153
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/VFaq-portlet/docroot/WEB-INF/service/com/vportal/portlet/vfaq/service/FAQAnswerServiceClp.java
+END
+ClpSerializer.java
+K 25
+svn:wc:ra_dav:version-url
+V 147
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/VFaq-portlet/docroot/WEB-INF/service/com/vportal/portlet/vfaq/service/ClpSerializer.java
+END
+FAQCommentServiceUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 155
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/VFaq-portlet/docroot/WEB-INF/service/com/vportal/portlet/vfaq/service/FAQCommentServiceUtil.java
+END
+FAQCommentServiceWrapper.java
+K 25
+svn:wc:ra_dav:version-url
+V 158
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/VFaq-portlet/docroot/WEB-INF/service/com/vportal/portlet/vfaq/service/FAQCommentServiceWrapper.java
+END
+FAQCategoryQuestionService.java
+K 25
+svn:wc:ra_dav:version-url
+V 160
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/VFaq-portlet/docroot/WEB-INF/service/com/vportal/portlet/vfaq/service/FAQCategoryQuestionService.java
+END
+FAQCategoryQuestionServiceWrapper.java
+K 25
+svn:wc:ra_dav:version-url
+V 167
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/VFaq-portlet/docroot/WEB-INF/service/com/vportal/portlet/vfaq/service/FAQCategoryQuestionServiceWrapper.java
+END
+FAQQuestionService.java
+K 25
+svn:wc:ra_dav:version-url
+V 152
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/VFaq-portlet/docroot/WEB-INF/service/com/vportal/portlet/vfaq/service/FAQQuestionService.java
+END
+FAQQuestionServiceWrapper.java
+K 25
+svn:wc:ra_dav:version-url
+V 159
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/VFaq-portlet/docroot/WEB-INF/service/com/vportal/portlet/vfaq/service/FAQQuestionServiceWrapper.java
+END
+FAQAnswerLocalServiceClp.java
+K 25
+svn:wc:ra_dav:version-url
+V 158
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/VFaq-portlet/docroot/WEB-INF/service/com/vportal/portlet/vfaq/service/FAQAnswerLocalServiceClp.java
+END
+FAQAnswerLocalService.java
+K 25
+svn:wc:ra_dav:version-url
+V 155
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/VFaq-portlet/docroot/WEB-INF/service/com/vportal/portlet/vfaq/service/FAQAnswerLocalService.java
+END
+FAQCommentLocalServiceUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 160
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/VFaq-portlet/docroot/WEB-INF/service/com/vportal/portlet/vfaq/service/FAQCommentLocalServiceUtil.java
+END
+FAQCommentLocalServiceClp.java
+K 25
+svn:wc:ra_dav:version-url
+V 159
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/VFaq-portlet/docroot/WEB-INF/service/com/vportal/portlet/vfaq/service/FAQCommentLocalServiceClp.java
+END
+FAQCategoryService.java
+K 25
+svn:wc:ra_dav:version-url
+V 152
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/VFaq-portlet/docroot/WEB-INF/service/com/vportal/portlet/vfaq/service/FAQCategoryService.java
+END
+FAQCategoryServiceWrapper.java
+K 25
+svn:wc:ra_dav:version-url
+V 159
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/VFaq-portlet/docroot/WEB-INF/service/com/vportal/portlet/vfaq/service/FAQCategoryServiceWrapper.java
+END
+FAQCategoryQuestionLocalServiceUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 169
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/VFaq-portlet/docroot/WEB-INF/service/com/vportal/portlet/vfaq/service/FAQCategoryQuestionLocalServiceUtil.java
+END
+FAQQuestionLocalServiceUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 161
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/VFaq-portlet/docroot/WEB-INF/service/com/vportal/portlet/vfaq/service/FAQQuestionLocalServiceUtil.java
+END
+FAQCategoryQuestionLocalServiceWrapper.java
+K 25
+svn:wc:ra_dav:version-url
+V 172
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/VFaq-portlet/docroot/WEB-INF/service/com/vportal/portlet/vfaq/service/FAQCategoryQuestionLocalServiceWrapper.java
+END
+FAQQuestionLocalServiceWrapper.java
+K 25
+svn:wc:ra_dav:version-url
+V 164
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/VFaq-portlet/docroot/WEB-INF/service/com/vportal/portlet/vfaq/service/FAQQuestionLocalServiceWrapper.java
+END

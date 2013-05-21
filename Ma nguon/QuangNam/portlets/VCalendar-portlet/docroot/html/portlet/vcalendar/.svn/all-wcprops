@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/VCalendar-portlet/docroot/html/portlet/vcalendar
+END
+edit_vcalendar.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/VCalendar-portlet/docroot/html/portlet/vcalendar/edit_vcalendar.jsp
+END
+select_person.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/VCalendar-portlet/docroot/html/portlet/vcalendar/select_person.jsp
+END
+personel.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/VCalendar-portlet/docroot/html/portlet/vcalendar/personel.jsp
+END
+tabs.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/VCalendar-portlet/docroot/html/portlet/vcalendar/tabs.jsp
+END
+button_persion.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/VCalendar-portlet/docroot/html/portlet/vcalendar/button_persion.jsp
+END
+event_iterator.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/VCalendar-portlet/docroot/html/portlet/vcalendar/event_iterator.jsp
+END
+view.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/VCalendar-portlet/docroot/html/portlet/vcalendar/view.jsp
+END
+button.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/VCalendar-portlet/docroot/html/portlet/vcalendar/button.jsp
+END
+leader.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/VCalendar-portlet/docroot/html/portlet/vcalendar/leader.jsp
+END
+update_vcalendar.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/VCalendar-portlet/docroot/html/portlet/vcalendar/update_vcalendar.jsp
+END
+edit_preference.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/VCalendar-portlet/docroot/html/portlet/vcalendar/edit_preference.jsp
+END
+init.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/VCalendar-portlet/docroot/html/portlet/vcalendar/init.jsp
+END

@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/QuangCao-portlet/docroot/WEB-INF/classes/com/vportal/portlet/vadvman/service/http
+END
+AdvItemJSONSerializer.class
+K 25
+svn:wc:ra_dav:version-url
+V 168
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/QuangCao-portlet/docroot/WEB-INF/classes/com/vportal/portlet/vadvman/service/http/AdvItemJSONSerializer.class
+END
+AdvItemServiceSoap.class
+K 25
+svn:wc:ra_dav:version-url
+V 165
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/QuangCao-portlet/docroot/WEB-INF/classes/com/vportal/portlet/vadvman/service/http/AdvItemServiceSoap.class
+END
+AdvTypeJSONSerializer.class
+K 25
+svn:wc:ra_dav:version-url
+V 168
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/QuangCao-portlet/docroot/WEB-INF/classes/com/vportal/portlet/vadvman/service/http/AdvTypeJSONSerializer.class
+END
+AdvTypeServiceSoap.class
+K 25
+svn:wc:ra_dav:version-url
+V 165
+/svn/liferay/!svn/ver/48/phutho/branches/quangnam/portlets/QuangCao-portlet/docroot/WEB-INF/classes/com/vportal/portlet/vadvman/service/http/AdvTypeServiceSoap.class
+END
